@@ -1,0 +1,44 @@
+name: Update literature radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub Actions cron uses UTC (02:00 UTC is 10:00 in Shanghai).
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Discover and update papers
+        run: python literature_radar.py --config config.yaml
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+
+      - name: Commit updated literature index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/papers.json data/papers.csv data/new_this_run.md
+          if git diff --cached --quiet; then
+            echo "No literature changes to commit."
+            exit 0
+          fi
+          git commit -m "Update literature radar"
+          git push

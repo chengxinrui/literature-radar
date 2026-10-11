@@ -1,0 +1,45 @@
+# 先把下面的示例关键词换成你自己的方向。检索词建议用英文；可同时放中文和英文关键词。
+# role 用于区分核心 / 邻接 / 探索性方向，帮助你避免信息流只围绕一个小领域。
+
+output_dir: data
+lookback_days: 30
+max_results_per_query: 25
+max_papers_in_feishu: 8
+request_timeout_seconds: 30
+status_recheck_interval_days: 30
+max_arxiv_status_checks_per_run: 100
+
+# “国内”默认按中国大陆机构（CN）判断。
+# 如希望把香港/澳门/台湾也纳入“国内”，可改为 [CN, HK, MO, TW]。
+domestic_country_codes: [CN]
+
+sources:
+  arxiv: true
+  crossref: true
+  openalex: true  # 需在环境变量/GitHub Secret 中设置 OPENALEX_API_KEY；没有 key 时会自动跳过
+
+feishu:
+  enabled: false  # 设为 true 后，还需设置 FEISHU_WEBHOOK_URL 环境变量
+
+topics:
+  - name: "核心方向（请替换）"
+    role: core
+    weight: 1.0
+    terms:
+      - "replace with your main research keyword"
+      - "replace with a closely related phrase"
+    arxiv_categories: []  # 可选，如 [cs.LG, cs.CL, stat.ML]
+
+  - name: "邻接方向（请替换）"
+    role: adjacent
+    weight: 0.7
+    terms:
+      - "replace with a neighboring research field"
+    arxiv_categories: []
+
+  - name: "跨学科探索（请替换）"
+    role: exploratory
+    weight: 0.4
+    terms:
+      - "replace with a method, population, dataset, or problem from another field"
+    arxiv_categories: []
