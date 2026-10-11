@@ -1,45 +1,78 @@
-# 先把下面的示例关键词换成你自己的方向。检索词建议用英文；可同时放中文和英文关键词。
-# role 用于区分核心 / 邻接 / 探索性方向，帮助你避免信息流只围绕一个小领域。
+# 按你给的论文标题整理的第一版检索配置。
+# 这是一个“两个主线 + 一个邻接方法群 + 一个交叉探索”的结构。
+# 搜索引擎主要依赖英文题录；可在 terms 中继续添加你自己的词。
 
 output_dir: data
 lookback_days: 30
-max_results_per_query: 25
+max_results_per_query: 10
 max_papers_in_feishu: 8
 request_timeout_seconds: 30
 status_recheck_interval_days: 30
 max_arxiv_status_checks_per_run: 100
 
-# “国内”默认按中国大陆机构（CN）判断。
-# 如希望把香港/澳门/台湾也纳入“国内”，可改为 [CN, HK, MO, TW]。
+# 暂按中国大陆为“国内”。若你希望按德国机构算国内，请改成 [DE]。
 domestic_country_codes: [CN]
 
 sources:
   arxiv: true
   crossref: true
-  openalex: true  # 需在环境变量/GitHub Secret 中设置 OPENALEX_API_KEY；没有 key 时会自动跳过
+  openalex: true  # 需设置 OPENALEX_API_KEY；未设置时脚本会跳过 OpenAlex
 
 feishu:
-  enabled: false  # 设为 true 后，还需设置 FEISHU_WEBHOOK_URL 环境变量
+  enabled: false  # 之后需要飞书提醒时再开启
 
 topics:
-  - name: "核心方向（请替换）"
+  - name: "主线A：World Models 与连续时间/潜变量动力学"
     role: core
     weight: 1.0
     terms:
-      - "replace with your main research keyword"
-      - "replace with a closely related phrase"
-    arxiv_categories: []  # 可选，如 [cs.LG, cs.CL, stat.ML]
+      - "world models"
+      - "action-conditioned world model"
+      - "latent dynamics"
+      - "continuous-time dynamics model"
+      - "latent evolution"
+      - "temporal frequency principle in world models"
+      - "model-based reinforcement learning"
+      - "ODE world model"
+    arxiv_categories: [cs.LG, cs.AI, cs.RO, stat.ML, eess.SY, math.DS, physics.comp-ph]
 
-  - name: "邻接方向（请替换）"
+  - name: "主线B：Neural Combinatorial Optimization 与神经搜索"
+    role: core
+    weight: 1.0
+    terms:
+      - "neural combinatorial optimization"
+      - "neural routing"
+      - "autoregressive combinatorial optimization"
+      - "diffusion combinatorial optimization"
+      - "iterative search combinatorial optimization"
+      - "reduce-then-solve combinatorial optimization"
+      - "reduction-based combinatorial optimization"
+      - "learning to optimize routing"
+    arxiv_categories: [cs.AI, cs.LG, cs.DS, math.OC, stat.ML]
+
+  - name: "邻接方法：PDE、Neural Operators、谱方法与最优控制"
     role: adjacent
-    weight: 0.7
+    weight: 0.8
     terms:
-      - "replace with a neighboring research field"
-    arxiv_categories: []
+      - "neural operator"
+      - "operator learning"
+      - "PDE-driven world model"
+      - "learning PDE dynamics"
+      - "adaptive spectral method"
+      - "neural spectral method"
+      - "PDE-constrained optimal control"
+      - "optimal control with neural operators"
+    arxiv_categories: [math.NA, math.DS, math.OC, physics.comp-ph, cs.LG, eess.SY]
 
-  - name: "跨学科探索（请替换）"
+  - name: "交叉探索：学到的动力学如何支持规划、控制与优化"
     role: exploratory
-    weight: 0.4
+    weight: 0.5
     terms:
-      - "replace with a method, population, dataset, or problem from another field"
-    arxiv_categories: []
+      - "planning with learned dynamics"
+      - "planning in world models"
+      - "model-based control with learned dynamics"
+      - "action-conditioned predictive model"
+      - "world models for optimization"
+      - "PDE-constrained optimization learning"
+      - "dynamics-aware combinatorial optimization"
+    arxiv_categories: [cs.LG, cs.AI, cs.RO, eess.SY, math.OC, math.NA, physics.comp-ph]
