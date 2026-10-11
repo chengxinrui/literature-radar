@@ -177,7 +177,12 @@ def citation_reference_date(paper: dict[str, Any], today: date) -> date | None:
     return event_date(paper, today)
 
 
-def primary_category(paper: dict[str, Any], topics: list[dict[str, Any]]) -> tuple[str, list[str]]:
+def topic_relevance(paper: dict[str, Any], relevance_policy: dict[str, Any] | None) -> tuple[list[str], list[str]]:
+    topics, anchors, _ = lr.topic_relevance(paper, relevance_policy)
+    return topics, anchors
+
+
+def primary_category(paper: dict[str, Any], topics: list[dict[str, Any]], candidates_override: list[str] | None = None) -> tuple[str, list[str]]:
     order = {lr.clean_text(t.get("name", "")): i for i, t in enumerate(topics) if isinstance(t, dict)}
     scores: dict[str, float] = defaultdict(float)
     counts: dict[str, int] = defaultdict(int)
@@ -191,7 +196,7 @@ def primary_category(paper: dict[str, Any], topics: list[dict[str, Any]]) -> tup
             except (TypeError, ValueError):
                 scores[name] += 1.0
             counts[name] += 1
-    candidates = lr.unique_strings((paper.get("topics") or []) + list(scores.keys()))
+    candidates = lr.unique_strings(candidates_override if candidates_override is not None else (paper.get("topics") or []) + list(scores.keys()))
     if not candidates:
         return "其他 / 待分类", []
     primary = max(candidates, key=lambda name: (scores.get(name, 0.0), counts.get(name, 0), -order.get(name, 999)))
@@ -208,16 +213,26 @@ def citation_stats(paper: dict[str, Any], today: date) -> tuple[int, float]:
     return count, count / age_months
 
 
-def annotate(paper: dict[str, Any], topics: list[dict[str, Any]], policy: dict[str, Any], today: date) -> dict[str, Any]:
+def annotate(
+    paper: dict[str, Any],
+    topics: list[dict[str, Any]],
+    policy: dict[str, Any],
+    today: date,
+    relevance_policy: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     copy = dict(paper)
     bucket, label = classify_venue(paper, policy)
+    relevant_topics, relevance_anchors = topic_relevance(paper, relevance_policy)
     copy["_bucket"] = bucket
     copy["_venue_label"] = label
+    copy["_relevance_topics"] = relevant_topics
+    copy["_relevance_anchors"] = relevance_anchors
+    copy["_topic_relevant"] = bool(relevant_topics)
     copy["_institution_matches"] = institution_matches(paper, policy)
     copy["_citation_count"], copy["_citations_per_month"] = citation_stats(paper, today)
     copy["_citation_data_available"] = paper.get("citation_count") is not None
     copy["_month"] = month_for(paper, today)
-    copy["_primary_category"], copy["_all_categories"] = primary_category(paper, topics)
+    copy["_primary_category"], copy["_all_categories"] = primary_category(paper, topics, relevant_topics)
     effective_date = event_date(paper, today)
     copy["_event_date"] = effective_date.isoformat() if effective_date else ""
     copy["_event_ordinal"] = effective_date.toordinal() if effective_date else 0
@@ -268,6 +283,7 @@ def markdown_card(paper: dict[str, Any], index: int) -> list[str]:
     inst_matches = paper.get("_institution_matches") or []
     inst_signal = "；优先机构信号：" + "、".join(inst_matches[:3]) if inst_matches else ""
     category_tags = "、".join(paper.get("_all_categories") or [])
+    relevance_signal = "、".join((paper.get("_relevance_anchors") or [])[:4]) or "未标注"
     metadata_sources = "、".join(lr.unique_strings(paper.get("source_names") or [])) or "未知"
     status_evidence = "；".join(lr.unique_strings(paper.get("status_evidence") or []))
     github_search = f"https://github.com/search?q={quote(title, safe='')}&type=repositories"
@@ -277,6 +293,7 @@ def markdown_card(paper: dict[str, Any], index: int) -> list[str]:
         f"- **状态依据：**{status_evidence or '当前来源未提供明确依据，建议人工核验'}",
         f"- **日期：**发表 {paper.get('publication_date') or '—'}；预印本首发 {paper.get('preprint_date') or '—'}；收录月份 {paper.get('_month', '未知')}",
         f"- **类别：**{category_tags or '未分类'}",
+        f"- **主题锚点：**{relevance_signal}",
         f"- **引用：**{citation_text}{inst_signal}",
         f"- **venue：**{paper.get('venue') or '—'}　**作者：**{authors or '未提供'}",
         f"- **机构：**{'；'.join(institutions) or '未提供/未识别'}",
@@ -294,9 +311,17 @@ def markdown_card(paper: dict[str, Any], index: int) -> list[str]:
     return lines + [""]
 
 
-def render_awesome(papers: list[dict[str, Any]], topics: list[dict[str, Any]], policy: dict[str, Any], today: date, cutoff: date) -> str:
-    annotated = [annotate(paper, topics, policy, today) for paper in papers if within_window(paper, cutoff, today)]
-    curated = [paper for paper in annotated if paper["_bucket"] in ("ccf_a", "field_top", "preprint")]
+def render_awesome(
+    papers: list[dict[str, Any]],
+    topics: list[dict[str, Any]],
+    policy: dict[str, Any],
+    today: date,
+    cutoff: date,
+    relevance_policy: dict[str, Any] | None = None,
+) -> str:
+    annotated = [annotate(paper, topics, policy, today, relevance_policy) for paper in papers if within_window(paper, cutoff, today)]
+    curated = [paper for paper in annotated if paper["_topic_relevant"] and paper["_bucket"] in ("ccf_a", "field_top", "preprint")]
+    relevance_excluded = sum(not paper["_topic_relevant"] for paper in annotated)
     months: dict[str, dict[str, list[dict[str, Any]]]] = defaultdict(lambda: defaultdict(list))
     for paper in curated:
         months[paper["_month"]][paper["_primary_category"]].append(paper)
@@ -308,12 +333,14 @@ def render_awesome(papers: list[dict[str, Any]], topics: list[dict[str, Any]], p
         "",
         f"更新日期：{today.isoformat()}（Asia/Shanghai）。滚动窗口：最近 {max(1, (today - cutoff).days)} 天。",
         f"共收录精选论文/预印本 {len(curated)} 篇；其中正式 venue 精选 {sum(p['_bucket'] != 'preprint' for p in curated)} 篇，预印本观察 {sum(p['_bucket'] == 'preprint' for p in curated)} 篇。",
-        "> 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。原始候选仍保存在 `papers.json`。",
+        f"滚动窗口内另有 {relevance_excluded} 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。",
+        "> 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。",
+        "> 主题类别还需命中 `relevance_policy` 中的标题/摘要锚点；单独命中宽泛检索词不够。偏高精度规则可能漏掉措辞不同的相关论文，可在配置中补充锚点。",
         "> 同一月份/类别内按引用量优先，并显示按论文年龄折算的月均引用；预印本优先展示机构信号，再参考引用与日期。引用量会滞后，不能单独代表质量。",
         "",
     ]
     if not curated:
-        lines.append("当前窗口没有满足精选规则的论文。可以检查 `quality_policy` venue 列表，或稍后增加领域 venue 白名单。")
+        lines.append("当前窗口没有同时满足主题相关性锚点和 venue 展示规则的论文。可以检查 `relevance_policy.rules` 或 `quality_policy` venue 列表。")
         return "\n".join(lines) + "\n"
 
     for month in sorted(months.keys(), reverse=True):
@@ -335,10 +362,18 @@ def render_awesome(papers: list[dict[str, Any]], topics: list[dict[str, Any]], p
     return "\n".join(lines).rstrip() + "\n"
 
 
-def make_daily_markdown(papers: list[dict[str, Any]], topics: list[dict[str, Any]], policy: dict[str, Any], today: date, cutoff: date) -> str:
+def make_daily_markdown(
+    papers: list[dict[str, Any]],
+    topics: list[dict[str, Any]],
+    policy: dict[str, Any],
+    today: date,
+    cutoff: date,
+    relevance_policy: dict[str, Any] | None = None,
+    metadata_today: date | None = None,
+) -> str:
     day_papers = [p for p in papers if lr.parse_date(p.get("first_seen")) == today.isoformat() and within_window(p, cutoff, today)]
-    annotated = [annotate(p, topics, policy, today) for p in day_papers]
-    visible = [p for p in annotated if p["_bucket"] in ("ccf_a", "field_top", "preprint")]
+    annotated = [annotate(p, topics, policy, metadata_today or today, relevance_policy) for p in day_papers]
+    visible = [p for p in annotated if p["_topic_relevant"] and p["_bucket"] in ("ccf_a", "field_top", "preprint")]
     visible.sort(key=lambda p: sort_key(p, preprint=p["_bucket"] == "preprint"))
     title = f"# {today.isoformat()}｜本轮首次收录的精选文献 {len(visible)} 篇"
     note = "本文件按本轮首次入库日期汇总；首次六个月回溯可能集中录入历史论文，请按论文发表/预印本日期理解，不代表它们都在今天发表。"
@@ -366,13 +401,36 @@ def main() -> int:
     cutoff = today - timedelta(days=lookback_days)
     topics = config.get("topics", []) or []
     policy = config.get("quality_policy", {}) or {}
+    relevance_policy = config.get("relevance_policy", {}) or {}
     output_dir.mkdir(parents=True, exist_ok=True)
-    (output_dir / "papers.md").write_text(render_awesome(papers, topics, policy, today, cutoff), encoding="utf-8")
-    daily_content = make_daily_markdown(papers, topics, policy, today, cutoff)
+    (output_dir / "papers.md").write_text(render_awesome(papers, topics, policy, today, cutoff, relevance_policy), encoding="utf-8")
+    daily_content = make_daily_markdown(papers, topics, policy, today, cutoff, relevance_policy)
+    daily_dir = output_dir / "daily"
     if any(lr.parse_date(p.get("first_seen")) == today.isoformat() and within_window(p, cutoff, today) for p in papers):
-        daily_dir = output_dir / "daily"
         daily_dir.mkdir(parents=True, exist_ok=True)
         (daily_dir / f"{today.isoformat()}.md").write_text(daily_content, encoding="utf-8")
+
+    # One-time migration: re-render legacy dated Markdown archives through the current
+    # relevance/venue rules so old keyword false positives do not remain visible.
+    migration_version = "topic-scope-v1"
+    marker = output_dir / ".daily-curation-version"
+    saved_version = marker.read_text(encoding="utf-8").strip() if marker.exists() else ""
+    if saved_version != migration_version:
+        if daily_dir.exists():
+            for daily_path in daily_dir.glob("*.md"):
+                archive_day_text = lr.parse_date(daily_path.stem)
+                if not archive_day_text:
+                    continue
+                archive_day = date.fromisoformat(archive_day_text)
+                if not any(lr.parse_date(p.get("first_seen")) == archive_day.isoformat() for p in papers):
+                    continue
+                archive_cutoff = archive_day - timedelta(days=lookback_days)
+                archive_content = make_daily_markdown(
+                    papers, topics, policy, archive_day, archive_cutoff, relevance_policy, metadata_today=today
+                )
+                daily_path.write_text(archive_content, encoding="utf-8")
+        marker.write_text(migration_version + "\n", encoding="utf-8")
+
     (output_dir / "new_this_run.md").write_text(daily_content, encoding="utf-8")
     print(f"Awesome-style Markdown updated: {output_dir / 'papers.md'}")
     return 0

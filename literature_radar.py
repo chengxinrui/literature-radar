@@ -199,6 +199,10 @@ def new_record() -> dict[str, Any]:
         "work_type": "",
         "citation_count": None,
         "topics": [],
+        "search_topics": [],
+        "relevance_status": "",
+        "relevance_anchors": [],
+        "relevance_exclusion_reasons": [],
         "categories": [],
         "topic_matches": [],
         "source_names": [],
@@ -221,6 +225,83 @@ def topic_match(topic: dict[str, Any], query_term: str) -> dict[str, Any]:
         "weight": float(topic.get("weight", 1.0)),
         "query_term": str(query_term),
     }
+
+
+def relevance_phrase_in_text(text: str, phrase: str) -> bool:
+    if phrase.isupper() and len(phrase) <= 4:
+        return bool(re.search(r"(?<![A-Za-z0-9])" + re.escape(phrase) + r"s?(?![A-Za-z0-9])", text, re.I))
+    phrase_norm = normalize_title(phrase)
+    return bool(phrase_norm and phrase_norm in normalize_title(text))
+
+
+def topic_relevance(record: dict[str, Any], policy: dict[str, Any] | None) -> tuple[list[str], list[str], list[str]]:
+    """Return relevant topics, matched anchors, and exclusion reasons for a record."""
+    policy = policy or {}
+    rules = policy.get("rules", []) or []
+    if not rules:
+        fallback_topics = unique_strings((record.get("topics") or []) + [
+            item.get("topic", "") for item in (record.get("topic_matches") or []) if isinstance(item, dict)
+        ])
+        return fallback_topics, (["未配置相关性锚点"] if fallback_topics else []), []
+
+    text = " ".join([clean_text(record.get("title", "")), clean_text(record.get("abstract", ""))])
+    global_exclusions = [clean_text(x) for x in policy.get("global_exclude_if_any", []) or [] if clean_text(x)]
+    global_hits = [phrase for phrase in global_exclusions if relevance_phrase_in_text(text, phrase)]
+    if global_hits:
+        return [], [], global_hits
+
+    relevant_topics: list[str] = []
+    matched_anchors: list[str] = []
+    for rule in rules:
+        if not isinstance(rule, dict):
+            continue
+        topic_name = clean_text(rule.get("topic", ""))
+        if not topic_name:
+            continue
+        exclusions = [clean_text(x) for x in rule.get("exclude_if_any", []) or [] if clean_text(x)]
+        if any(relevance_phrase_in_text(text, phrase) for phrase in exclusions):
+            continue
+
+        groups = rule.get("require_all_groups", []) or []
+        if groups:
+            group_hits: list[str] = []
+            all_groups_matched = True
+            for group in groups:
+                alternatives = group.get("any_of", []) if isinstance(group, dict) else group
+                alternatives = [clean_text(x) for x in (alternatives or []) if clean_text(x)]
+                hits = [phrase for phrase in alternatives if relevance_phrase_in_text(text, phrase)]
+                if not hits:
+                    all_groups_matched = False
+                    break
+                group_hits.extend(hits)
+            if all_groups_matched:
+                relevant_topics.append(topic_name)
+                matched_anchors.extend(group_hits)
+            continue
+
+        anchors = [clean_text(x) for x in rule.get("include_if_any", []) or [] if clean_text(x)]
+        hits = [phrase for phrase in anchors if relevance_phrase_in_text(text, phrase)]
+        if hits:
+            relevant_topics.append(topic_name)
+            matched_anchors.extend(hits)
+    return unique_strings(relevant_topics), unique_strings(matched_anchors), []
+
+
+def apply_topic_relevance(record: dict[str, Any], policy: dict[str, Any] | None) -> bool:
+    """Preserve retrieval provenance, then replace topic labels with anchor-checked labels."""
+    original_topics = record.get("search_topics") or record.get("topics") or []
+    if not record.get("search_topics"):
+        original_topics = list(original_topics)
+        original_topics.extend(
+            item.get("topic", "") for item in (record.get("topic_matches") or []) if isinstance(item, dict)
+        )
+        record["search_topics"] = unique_strings(original_topics)
+    relevant_topics, anchors, exclusions = topic_relevance(record, policy)
+    record["topics"] = relevant_topics
+    record["relevance_anchors"] = anchors
+    record["relevance_status"] = "in_scope" if relevant_topics else "out_of_scope"
+    record["relevance_exclusion_reasons"] = exclusions or ([] if relevant_topics else ["标题/摘要未命中当前主题锚点"])
+    return bool(relevant_topics)
 
 
 def make_affiliation(author: str, institution: str, source: str, country_code: str = "") -> dict[str, str]:
@@ -711,6 +792,8 @@ def merge_record(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str
     result["source_names"] = unique_strings((result.get("source_names") or []) + (incoming.get("source_names") or []))
     result["source_urls"] = unique_strings((result.get("source_urls") or []) + (incoming.get("source_urls") or []))
     result["topics"] = unique_strings((result.get("topics") or []) + (incoming.get("topics") or []))
+    result["search_topics"] = unique_strings((result.get("search_topics") or []) + (incoming.get("search_topics") or []))
+    result["relevance_anchors"] = unique_strings((result.get("relevance_anchors") or []) + (incoming.get("relevance_anchors") or []))
     result["topic_matches"] = merge_topic_matches(result.get("topic_matches", []), incoming.get("topic_matches", []))
     result["status_signals"] = merge_dict_signals(result.get("status_signals", []), incoming.get("status_signals", []))
     if incoming.get("paper_url") and (not result.get("paper_url") or (incoming.get("doi") and not is_arxiv_doi(incoming.get("doi", "")))):
@@ -1030,19 +1113,25 @@ def write_outputs(papers: list[dict[str, Any]], new_papers: list[dict[str, Any]]
         ("status_evidence", "状态依据"), ("publication_date", "出版日期"),
         ("preprint_date", "预印本首次提交日期"), ("preprint_updated_date", "预印本更新日期"),
         ("last_status_checked", "arXiv状态上次检查"), ("venue", "期刊/会议/来源"), ("doi", "DOI"), ("arxiv_id", "arXiv ID"),
-        ("topics", "主题"), ("categories", "arXiv 分类"), ("source_names", "元数据来源"), ("paper_url", "论文链接"),
+        ("topics", "复核后主题"), ("search_topics", "原始检索命中主题"),
+        ("relevance_status", "主题范围判断"), ("relevance_anchors", "相关性锚点"),
+        ("relevance_exclusion_reasons", "范围外原因"),
+        ("categories", "arXiv 分类"), ("source_names", "元数据来源"), ("paper_url", "论文链接"),
         ("open_access_url", "开放获取链接"), ("is_open_access", "开放获取标记"),
         ("citation_count", "引用数（OpenAlex）"), ("reading_status", "阅读状态（可手动维护）"),
         ("my_notes", "我的笔记（可手动维护）"), ("abstract", "摘要"),
     ]
+    # Keep the spreadsheet focused on in-scope papers; the complete audit trail,
+    # including legacy out-of-scope records, remains in papers.json.
+    csv_papers = [paper for paper in ordered if paper.get("relevance_status") != "out_of_scope"]
     with csv_path.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([label for _, label in columns])
-        for paper in ordered:
+        for paper in csv_papers:
             row: list[str] = []
             for key, _ in columns:
                 value = paper.get(key, "")
-                if key == "authors" or key in ("topics", "categories", "source_names", "institution_countries", "status_evidence"): 
+                if key == "authors" or key in ("topics", "search_topics", "relevance_anchors", "relevance_exclusion_reasons", "categories", "source_names", "institution_countries", "status_evidence"):
                     value = "；".join(str(x) for x in (value or []))
                 elif key == "institutions":
                     pieces = []
@@ -1153,6 +1242,7 @@ def run(config_path: Path) -> int:
     cutoff = today_local() - timedelta(days=lookback_days)
     sources = config.get("sources", {}) or {}
     topics = config.get("topics", []) or []
+    relevance_policy = config.get("relevance_policy", {}) or {}
     domestic_codes = {str(x).upper() for x in config.get("domestic_country_codes", ["CN"])}
     if not domestic_codes:
         domestic_codes = {"CN"}
@@ -1168,9 +1258,11 @@ def run(config_path: Path) -> int:
         if not paper.get("uid"):
             paper["uid"] = stable_uid(paper)
         finalize_record(paper, domestic_codes)
+        apply_topic_relevance(paper, relevance_policy)
     ids, titles = build_index(papers)
     new_uids: set[str] = set()
     attempted = 0
+    relevance_rejected = 0
 
     for topic in topics:
         if not isinstance(topic, dict):
@@ -1179,11 +1271,17 @@ def run(config_path: Path) -> int:
         if sources.get("arxiv", True):
             for incoming in fetch_arxiv(topic, limit, cutoff, timeout, headers):
                 attempted += 1
+                if not apply_topic_relevance(incoming, relevance_policy):
+                    relevance_rejected += 1
+                    continue
                 merge_incoming(incoming, papers, ids, titles, new_uids, domestic_codes)
         for term in terms:
             if sources.get("crossref", True):
                 for incoming in fetch_crossref(topic, term, limit, cutoff, timeout, mailto, headers):
                     attempted += 1
+                    if not apply_topic_relevance(incoming, relevance_policy):
+                        relevance_rejected += 1
+                        continue
                     merge_incoming(incoming, papers, ids, titles, new_uids, domestic_codes)
             if sources.get("openalex", True):
                 if not openalex_key:
@@ -1191,6 +1289,9 @@ def run(config_path: Path) -> int:
                     continue
                 for incoming in fetch_openalex(topic, term, limit, cutoff, timeout, openalex_key, headers):
                     attempted += 1
+                    if not apply_topic_relevance(incoming, relevance_policy):
+                        relevance_rejected += 1
+                        continue
                     merge_incoming(incoming, papers, ids, titles, new_uids, domestic_codes)
 
     # Periodically recheck known arXiv preprints: arXiv records may later gain a
@@ -1227,8 +1328,10 @@ def run(config_path: Path) -> int:
                 merge_incoming(incoming, papers, ids, titles, new_uids, domestic_codes)
                 refreshed_count += 1
 
-    # Recalculate derived status/country fields after all sources have been merged.
+    # Recalculate derived status/country/relevance fields after all sources have been merged.
     papers = [finalize_record(paper, domestic_codes) for paper in papers]
+    for paper in papers:
+        apply_topic_relevance(paper, relevance_policy)
     new_papers = [paper for paper in papers if paper.get("uid") in new_uids]
     new_papers.sort(key=lambda p: (p.get("publication_date") or p.get("preprint_date") or "", p.get("title", "")), reverse=True)
     write_outputs(papers, new_papers, output_dir, cutoff)
@@ -1241,7 +1344,7 @@ def run(config_path: Path) -> int:
     if webhook:
         send_feishu(webhook, new_papers, int(config.get("max_papers_in_feishu", 8)), timeout)
 
-    logging.info("检索完成：本轮取回 %s 条候选，刷新 arXiv 状态 %s 条，新增 %s 篇，累计 %s 篇。", attempted, refreshed_count, len(new_papers), len(papers))
+    logging.info("检索完成：本轮取回 %s 条候选，按主题锚点筛除 %s 条，刷新 arXiv 状态 %s 条，新增 %s 篇，累计 %s 篇。", attempted, relevance_rejected, refreshed_count, len(new_papers), len(papers))
     return 0
 
 
