@@ -917,11 +917,85 @@ def load_existing(path: Path) -> list[dict[str, Any]]:
         return []
 
 
+def markdown_paper_card(paper: dict[str, Any], number: int, abstract_limit: int = 500) -> list[str]:
+    title = clean_text(paper.get("title", "")) or "无标题"
+    link = clean_text(paper.get("paper_url", ""))
+    shown_title = f"[{title}]({link})" if link else title
+    authors = "、".join((paper.get("authors") or [])[:8])
+    if len(paper.get("authors") or []) > 8:
+        authors += " 等"
+    institutions = []
+    for inst in paper.get("institutions", []) or []:
+        if isinstance(inst, dict) and inst.get("name"):
+            code = clean_text(inst.get("country_code", ""))
+            label = clean_text(inst.get("name", ""))
+            institutions.append(f"{label} [{country_label(code)}]" if code else label)
+    abstract = clean_text(paper.get("abstract", ""))
+    if len(abstract) > abstract_limit:
+        abstract = abstract[:abstract_limit].rstrip() + "…"
+    evidence = "；".join(paper.get("status_evidence") or [])
+    if len(evidence) > 260:
+        evidence = evidence[:260].rstrip() + "…"
+    lines = [
+        f"### {number}. {shown_title}",
+        f"- **主题：**{'、'.join(paper.get('topics') or []) or '未分类'}　 **机构范围：**{paper.get('home_scope', '未知')}",
+        f"- **状态：**{paper.get('publication_status', '未知')}",
+        f"- **日期：**出版 {paper.get('publication_date') or '未知'}；预印本 {paper.get('preprint_date') or '—'}；预印本更新 {paper.get('preprint_updated_date') or '—'}",
+        f"- **作者：**{authors or '未提供'}",
+        f"- **机构：**{'；'.join(unique_strings(institutions)) or '未提供/未识别'}",
+        f"- **期刊/会议：**{paper.get('venue') or '—'}　 **DOI：**{paper.get('doi') or '—'}　 **arXiv：**{paper.get('arxiv_id') or '—'}",
+        f"- **来源：**{'、'.join(paper.get('source_names') or []) or '未知'}　 **引用数：**{paper.get('citation_count') if paper.get('citation_count') is not None else '—'}",
+    ]
+    if evidence:
+        lines.append(f"- **状态依据：**{evidence}")
+    if paper.get("open_access_url"):
+        lines.append(f"- **开放获取：**[查看链接]({paper['open_access_url']})")
+    if abstract:
+        lines.append(f"- **摘要：**{abstract}")
+    return lines + [""]
+
+
+def render_digest(papers: list[dict[str, Any]], title: str, empty_message: str, cutoff: date, note: str) -> str:
+    lines = [title, "", f"检索窗口：{cutoff.isoformat()} 起。生成日期：{today_local().isoformat()}（Asia/Shanghai）。", f"> {note}", ""]
+    if not papers:
+        lines.append(empty_message)
+    else:
+        for number, paper in enumerate(papers, 1):
+            lines.extend(markdown_paper_card(paper, number))
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_library(papers: list[dict[str, Any]]) -> str:
+    today = today_local().isoformat()
+    lines = [
+        f"# 文献库｜累计 {len(papers)} 篇",
+        "",
+        f"最后生成：{today}（Asia/Shanghai）。按出版/预印本日期倒序排列。",
+        "> 本文件是便于阅读的完整目录；`papers.json` 保存结构化数据，`daily/` 保存按日新增记录。",
+        "",
+    ]
+    if not papers:
+        lines.append("目前还没有收录文献。")
+        return "\n".join(lines) + "\n"
+    by_year: dict[str, list[dict[str, Any]]] = {}
+    for paper in papers:
+        date_value = paper.get("publication_date") or paper.get("preprint_date") or paper.get("first_seen") or ""
+        year = str(date_value)[:4] if str(date_value)[:4].isdigit() else "年份未知"
+        by_year.setdefault(year, []).append(paper)
+    for year in sorted(by_year, reverse=True):
+        lines.extend([f"## {year}", ""])
+        for number, paper in enumerate(by_year[year], 1):
+            lines.extend(markdown_paper_card(paper, number))
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def write_outputs(papers: list[dict[str, Any]], new_papers: list[dict[str, Any]], output_dir: Path, cutoff: date) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     json_path = output_dir / "papers.json"
     csv_path = output_dir / "papers.csv"
     digest_path = output_dir / "new_this_run.md"
+    library_path = output_dir / "papers.md"
+    daily_dir = output_dir / "daily"
 
     ordered = sorted(
         papers,
@@ -929,6 +1003,25 @@ def write_outputs(papers: list[dict[str, Any]], new_papers: list[dict[str, Any]]
         reverse=True,
     )
     json_path.write_text(json.dumps(ordered, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    library_path.write_text(render_library(ordered), encoding="utf-8")
+
+    # Keep one durable Markdown file per date with all records first discovered
+    # on that date. Re-running on the same date reconstructs the complete daily file.
+    today_str = today_local().isoformat()
+    today_papers = [p for p in ordered if str(p.get("first_seen", ""))[:10] == today_str]
+    if today_papers:
+        daily_dir.mkdir(parents=True, exist_ok=True)
+        daily_path = daily_dir / f"{today_str}.md"
+        daily_path.write_text(
+            render_digest(
+                today_papers,
+                f"# 文献雷达｜{today_str} 新增 {len(today_papers)} 篇",
+                "当天没有新增文献。",
+                cutoff,
+                "按首次收录日期保存；同一天重新运行会重建当天的完整摘要。",
+            ),
+            encoding="utf-8",
+        )
 
     columns = [
         ("uid", "记录ID"), ("title", "标题"), ("authors", "作者"),
@@ -970,13 +1063,14 @@ def write_outputs(papers: list[dict[str, Any]], new_papers: list[dict[str, Any]]
     if not new_papers:
         digest = (
             "# 文献雷达：本次检索未发现新增文献\n\n"
-            f"检索窗口：{cutoff.isoformat()} 起。已有文献保留在 `papers.json` 与 `papers.csv`。\n"
+            f"检索窗口：{cutoff.isoformat()} 起。累计目录见 `papers.md`；结构化数据见 `papers.json`。\n"
         )
     else:
         digest_lines = [
             f"# 文献雷达｜本次新增 {len(new_papers)} 篇",
             "",
             f"检索窗口：{cutoff.isoformat()} 起。生成日期：{today_local().isoformat()}（Asia/Shanghai）。",
+            "> 本文件每次运行都会覆盖，仅包含本轮新增；按天保留的历史摘要在 `daily/`，累计目录见 `papers.md`。",
             "",
         ]
         for number, paper in enumerate(new_papers, 1):
@@ -1028,7 +1122,7 @@ def send_feishu(webhook_url: str, new_papers: list[dict[str, Any]], limit: int, 
             lines.append("摘要：" + (abstract[:220].rstrip() + "…" if len(abstract) > 220 else abstract))
         lines.append("")
     if len(new_papers) > limit:
-        lines.append(f"另有 {len(new_papers) - limit} 篇，请查看 GitHub 仓库的 data/papers.csv。")
+        lines.append(f"另有 {len(new_papers) - limit} 篇，请查看 GitHub 仓库的 data/papers.md。")
     try:
         response = requests.post(
             webhook_url,

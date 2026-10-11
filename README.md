@@ -6,11 +6,11 @@
 
 ## 1. 先改检索方向
 
-编辑 `config.yaml`，把三个示例方向换成自己的关键词：
+当前 `config.yaml` 已按你的论文示例预填为四组：World Models 与连续时间/潜变量动力学、Neural Combinatorial Optimization、PDE/Neural Operators/谱方法与最优控制，以及学到的动力学与规划/控制/优化的交叉探索。你可以在 `terms` 中添加、删除或改写检索词：
 
-- `core`：你正在做的核心问题/对象；
-- `adjacent`：邻近领域、能借用方法或数据的领域；
-- `exploratory`：更远的跨学科探索，例如其他领域的方法、数据、群体或问题。
+- `core`：两条核心主线；
+- `adjacent`：邻近的方法群；
+- `exploratory`：用于发现跨领域联系的探索方向。
 
 建议关键词用英文（可同时加中文词），尽量用**问题/方法/对象**的具体短语，而不只是一个大领域名。arXiv 分类号可放入 `arxiv_categories`，比如 `cs.LG`、`cs.CL`、`stat.ML`。
 
@@ -52,9 +52,11 @@ OpenAlex 的 API key 可在 [OpenAlex API 设置页](https://openalex.org/settin
 
 工作流会提交以下文件的变化：
 
-- `data/papers.json`：完整文献库，适合后续程序处理；
-- `data/papers.csv`：可用 Excel / Numbers / WPS 打开；
-- `data/new_this_run.md`：本次新增论文摘要。
+- `data/papers.json`：完整文献库，适合程序处理；
+- `data/papers.md`：完整、可读的 Markdown 文献目录，按年份分组；
+- `data/daily/YYYY-MM-DD.md`：按首次收录日期保存的每日新增摘要；不同日期的文件会保留。当天重复运行时，会重建当天摘要并保留当天已收录的全部新论文；
+- `data/new_this_run.md`：仅显示本轮新增，每次运行都会覆盖；
+- `data/papers.csv`：完整文献库的表格导出，每次运行重建，不是只追加当天论文。
 
 如果 GitHub 仓库禁止 Actions 写入，请在仓库的 Actions/Workflow 权限中允许工作流写入内容。
 
