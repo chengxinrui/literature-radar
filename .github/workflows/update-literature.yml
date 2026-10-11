@@ -31,6 +31,9 @@ jobs:
           CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
 
+      - name: Generate Awesome-style Markdown
+        run: python awesome_view.py --config config.yaml
+
       - name: Commit updated literature index
         run: |
           git config user.name "github-actions[bot]"

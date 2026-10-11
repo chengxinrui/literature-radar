@@ -1,7 +1,9 @@
 # 文献雷达（Literature Radar）
 
-一个可配置的 Python 脚本：定期搜索 **arXiv、Crossref、OpenAlex** 的论文元数据，去重后整理成 JSON / CSV / Markdown；可选地推送到飞书。GitHub Actions 工作流可以每天自动运行并把新数据提交回仓库。
+一个可配置的 Python 脚本：定期搜索 **arXiv、Crossref、OpenAlex** 的论文元数据，去重后整理成 JSON / CSV / Awesome 风格 Markdown；可选地推送到飞书。GitHub Actions 工作流可以每天自动运行并把新数据提交回仓库。
 
+> 首次运行按最近 **183 天（约六个月）**回溯；之后工作流每日运行。`papers.md` 是最近六个月的滚动精选目录，按“月份 → 主题类别”组织。原始候选和 CSV 仍保留完整记录，不因精选规则而删除。
+>
 > 当前版本自动收集的是**题录、摘要、机构线索和论文/开放获取链接**，默认不下载 PDF。对有版权的版本不做绕过登录或批量抓取。
 
 ## 1. 先改检索方向
@@ -28,6 +30,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 python literature_radar.py --config config.yaml
+python awesome_view.py --config config.yaml
 ```
 
 即使没有 API key，arXiv 和 Crossref 也能运行。OpenAlex 需要 `OPENALEX_API_KEY`；把它放在环境变量中，不要写进 `config.yaml` 或提交到 GitHub：
@@ -48,15 +51,15 @@ OpenAlex 的 API key 可在 [OpenAlex API 设置页](https://openalex.org/settin
    - `OPENALEX_API_KEY`：推荐，机构/国家和文献元数据更完整；
    - `CROSSREF_MAILTO`：联系邮箱，建议设置；
    - `FEISHU_WEBHOOK_URL`：只有需要飞书通知时才设置。
-3. 在仓库 Actions 页面手动运行一次 `Update literature radar`；之后会按工作流中的 UTC 时间每天自动运行。
+3. 在仓库 Actions 页面手动运行一次 `Update literature radar`；首次会补齐最近六个月的候选，之后按工作流中的 UTC 时间每日增量运行。工作流会先检索/合并，再生成精选 Markdown。
 
 工作流会提交以下文件的变化：
 
-- `data/papers.json`：完整文献库，适合程序处理；
-- `data/papers.md`：完整、可读的 Markdown 文献目录，按年份分组；
-- `data/daily/YYYY-MM-DD.md`：按首次收录日期保存的每日新增摘要；不同日期的文件会保留。当天重复运行时，会重建当天摘要并保留当天已收录的全部新论文；
-- `data/new_this_run.md`：仅显示本轮新增，每次运行都会覆盖；
-- `data/papers.csv`：完整文献库的表格导出，每次运行重建，不是只追加当天论文。
+- `data/papers.json`：完整候选文献库，适合程序处理；未进入精选 Markdown 的记录也保留在这里；
+- `data/papers.md`：最近六个月的 Awesome 风格精选目录，按“月份 → 主题类别”分组；正式发表部分只展示 CCF-A 或配置的跨领域强 venue；
+- `data/daily/YYYY-MM-DD.md`：按首次收录日期保存的精选新增摘要；不同日期的文件会保留。当天重复运行时，会重建当天摘要并保留当天已收录的全部新论文；
+- `data/new_this_run.md`：仅显示最近一轮首次入库且符合精选/预印本展示规则的记录，每次运行都会覆盖；
+- `data/papers.csv`：完整候选库的表格导出，每次运行重建，不是只追加当天论文。
 
 如果 GitHub 仓库禁止 Actions 写入，请在仓库的 Actions/Workflow 权限中允许工作流写入内容。
 
@@ -72,6 +75,15 @@ OpenAlex 的 API key 可在 [OpenAlex API 设置页](https://openalex.org/settin
 ## 5. 字段和判断边界
 
 每条记录尽量保存：标题、作者、摘要、机构及国家/地区、国内/国外/合作范围、期刊/会议、DOI、arXiv ID、首次提交/更新/出版日期、元数据来源、开放获取链接、主题标签、引用数（OpenAlex）和手动阅读状态/笔记。对于尚未发现出版记录的 arXiv 论文，脚本默认每 30 天重查一次 arXiv 元数据，以发现后来新增的期刊引用/DOI（每次最多 100 条，可在配置中调整）。
+
+`papers.md` 的精选规则由 `config.yaml` 的 `quality_policy` 控制：
+
+- 正式发表论文只展示 CCF-A 和手工维护的跨领域强 venue；目前名单是可编辑的初始种子，不代表用户逐项背书。CCF 等级仅作为相应 CCF 学科的参考，不能替代 PDE、控制或运筹等领域自身的评价；
+- 已知 CCF-B/C 和不在强 venue 白名单里的正式发表记录不会进入精选 Markdown，但仍保留在完整 JSON/CSV 候选库；
+- arXiv 等预印本独立放入“前沿预印本”区，并明确标注尚未由正式 venue 验证；已明确标为已发表/已接收的记录不会仅因有 arXiv 版本而重新归入预印本区；
+- 排序展示 OpenAlex 总引用数、按论文首次公开日期折算的月均引用数及优先机构信号。机构名单只用于提示/排序，不是收录门槛；GitHub 代码条目提供的是标题搜索链接，不保证搜索结果就是官方仓库。
+
+其他字段边界：
 
 - `domestic_country_codes: [CN]` 默认按中国大陆机构分类；需要时可把 `HK`、`MO`、`TW` 加进来。
 - 机构与国家来自数据库的作者单位元数据。缺失或不明确时会显示“未知”，不会根据作者姓名猜国家。

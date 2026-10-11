@@ -1,28 +1,26 @@
-# 按你给的论文标题整理的第一版检索配置。
-# 这是一个“两个主线 + 一个邻接方法群 + 一个交叉探索”的结构。
-# 搜索引擎主要依赖英文题录；可在 terms 中继续添加你自己的词。
+# 文献雷达：按用户给出的论文示例配置的第一版。
+# 自动回溯最近 183 天（约 6 个月），之后由 GitHub Actions 每日增量检查。
 
 output_dir: data
-lookback_days: 30
+lookback_days: 183
 max_results_per_query: 10
 max_papers_in_feishu: 8
 request_timeout_seconds: 30
 status_recheck_interval_days: 30
 max_arxiv_status_checks_per_run: 100
 
-# 暂按中国大陆为“国内”。若你希望按德国机构算国内，请改成 [DE]。
-domestic_country_codes: [CN]
+domestic_country_codes: [CN]  # 若希望德国算“国内”，改成 [DE]
 
 sources:
   arxiv: true
   crossref: true
-  openalex: true  # 需设置 OPENALEX_API_KEY；未设置时脚本会跳过 OpenAlex
+  openalex: true  # 需设置 OPENALEX_API_KEY；没有 key 时自动跳过 OpenAlex
 
 feishu:
-  enabled: false  # 之后需要飞书提醒时再开启
+  enabled: false
 
 topics:
-  - name: "主线A：World Models 与连续时间/潜变量动力学"
+  - name: "World Models 与连续时间/潜变量动力学"
     role: core
     weight: 1.0
     terms:
@@ -36,7 +34,7 @@ topics:
       - "ODE world model"
     arxiv_categories: [cs.LG, cs.AI, cs.RO, stat.ML, eess.SY, math.DS, physics.comp-ph]
 
-  - name: "主线B：Neural Combinatorial Optimization 与神经搜索"
+  - name: "Neural Combinatorial Optimization 与神经搜索"
     role: core
     weight: 1.0
     terms:
@@ -50,7 +48,7 @@ topics:
       - "learning to optimize routing"
     arxiv_categories: [cs.AI, cs.LG, cs.DS, math.OC, stat.ML]
 
-  - name: "邻接方法：PDE、Neural Operators、谱方法与最优控制"
+  - name: "PDE、Neural Operators、谱方法与最优控制"
     role: adjacent
     weight: 0.8
     terms:
@@ -64,7 +62,7 @@ topics:
       - "optimal control with neural operators"
     arxiv_categories: [math.NA, math.DS, math.OC, physics.comp-ph, cs.LG, eess.SY]
 
-  - name: "交叉探索：学到的动力学如何支持规划、控制与优化"
+  - name: "交叉探索：学到的动力学支持规划、控制与优化"
     role: exploratory
     weight: 0.5
     terms:
@@ -76,3 +74,130 @@ topics:
       - "PDE-constrained optimization learning"
       - "dynamics-aware combinatorial optimization"
     arxiv_categories: [cs.LG, cs.AI, cs.RO, eess.SY, math.OC, math.NA, physics.comp-ph]
+
+# Awesome 风格目录的 venue 筛选规则。
+# CCF-A / CCF-B/C 是按 CCF 人工智能目录中相关会议和期刊维护的别名表。
+# 只展示 CCF-A 和下面手工列出的跨领域强 venue；已知 B/C 与未分级 venue 不进入精选 Markdown。
+quality_policy:
+  include_preprints: true
+  ccf_reference: "CCF 官方人工智能目录（venue 表应定期复核）"
+  ccf_a_venues:
+    - name: "NeurIPS"
+      aliases: ["NeurIPS", "Neural Information Processing Systems", "NIPS"]
+    - name: "ICML"
+      aliases: ["ICML", "International Conference on Machine Learning"]
+    - name: "AAAI"
+      aliases: ["AAAI", "AAAI Conference on Artificial Intelligence"]
+    - name: "IJCAI"
+      aliases: ["IJCAI", "International Joint Conference on Artificial Intelligence"]
+    - name: "ACL"
+      aliases: ["ACL", "Annual Meeting of the Association for Computational Linguistics"]
+    - name: "CVPR"
+      aliases: ["CVPR", "Computer Vision and Pattern Recognition"]
+    - name: "ICCV"
+      aliases: ["ICCV", "International Conference on Computer Vision"]
+    - name: "Artificial Intelligence"
+      aliases: ["Artificial Intelligence"]
+    - name: "TPAMI"
+      aliases: ["TPAMI", "Transactions on Pattern Analysis and Machine Intelligence"]
+    - name: "IJCV"
+      aliases: ["IJCV", "International Journal of Computer Vision"]
+    - name: "JMLR"
+      aliases: ["JMLR", "Journal of Machine Learning Research"]
+
+  ccf_bc_venues:
+    - name: "COLT"
+      aliases: ["COLT", "Computational Learning Theory"]
+    - name: "EMNLP"
+      aliases: ["EMNLP", "Empirical Methods in Natural Language Processing"]
+    - name: "ECCV"
+      aliases: ["ECCV", "European Conference on Computer Vision"]
+    - name: "ICRA"
+      aliases: ["ICRA", "International Conference on Robotics and Automation"]
+    - name: "ICAPS"
+      aliases: ["ICAPS", "International Conference on Automated Planning and Scheduling"]
+    - name: "UAI"
+      aliases: ["UAI", "Uncertainty in Artificial Intelligence"]
+    - name: "AAMAS"
+      aliases: ["AAMAS", "Autonomous Agents and Multiagent Systems"]
+    - name: "ECAI"
+      aliases: ["ECAI", "European Conference on Artificial Intelligence"]
+    - name: "AISTATS"
+      aliases: ["AISTATS", "Artificial Intelligence and Statistics"]
+    - name: "ACML"
+      aliases: ["ACML", "Asian Conference on Machine Learning"]
+    - name: "ACCV"
+      aliases: ["ACCV", "Asian Conference on Computer Vision"]
+    - name: "BMVC"
+      aliases: ["BMVC", "British Machine Vision Conference"]
+    - name: "NAACL"
+      aliases: ["NAACL", "North American Chapter of the Association for Computational Linguistics"]
+    - name: "COLING"
+      aliases: ["COLING", "International Conference on Computational Linguistics"]
+
+  field_top_venues:
+    # 顶尖 venue 中有一部分不在 CCF AI A/B/C 表中；这些作为独立的跨领域白名单。
+    - name: "ICLR"
+      aliases: ["ICLR", "International Conference on Learning Representations"]
+    - name: "Nature Machine Intelligence"
+      aliases: ["Nature Machine Intelligence"]
+    - name: "Nature Computational Science"
+      aliases: ["Nature Computational Science"]
+    - name: "Automatica"
+      aliases: ["Automatica"]
+    - name: "IEEE Transactions on Automatic Control"
+      aliases: ["IEEE Transactions on Automatic Control", "IEEE TAC"]
+    - name: "SIAM Journal on Control and Optimization"
+      aliases: ["SIAM Journal on Control and Optimization", "SICON"]
+    - name: "Mathematical Programming"
+      aliases: ["Mathematical Programming"]
+    - name: "Operations Research"
+      aliases: ["Operations Research"]
+    - name: "Management Science"
+      aliases: ["Management Science"]
+    - name: "INFORMS Journal on Computing"
+      aliases: ["INFORMS Journal on Computing"]
+    - name: "Transportation Science"
+      aliases: ["Transportation Science"]
+    - name: "SIAM Journal on Scientific Computing"
+      aliases: ["SIAM Journal on Scientific Computing", "SISC"]
+    - name: "SIAM Journal on Numerical Analysis"
+      aliases: ["SIAM Journal on Numerical Analysis", "SINUM"]
+    - name: "Journal of Computational Physics"
+      aliases: ["Journal of Computational Physics", "JCP"]
+    - name: "Computer Methods in Applied Mechanics and Engineering"
+      aliases: ["Computer Methods in Applied Mechanics and Engineering", "CMAME"]
+    - name: "SIAM Review"
+      aliases: ["SIAM Review"]
+
+  # 机构命中只是排序/标注信号，不是硬性门槛；名单可在这里增删。
+  priority_institutions:
+    - "Tsinghua University"
+    - "Peking University"
+    - "Shanghai Jiao Tong University"
+    - "Zhejiang University"
+    - "University of Science and Technology of China"
+    - "Fudan University"
+    - "Chinese Academy of Sciences"
+    - "University of Chinese Academy of Sciences"
+    - "Harbin Institute of Technology"
+    - "Massachusetts Institute of Technology"
+    - "Stanford University"
+    - "University of California, Berkeley"
+    - "Carnegie Mellon University"
+    - "Princeton University"
+    - "University of Oxford"
+    - "University of Cambridge"
+    - "ETH Zurich"
+    - "EPFL"
+    - "Max Planck"
+    - "INRIA"
+    - "CNRS"
+    - "Google DeepMind"
+    - "Google Research"
+    - "Microsoft Research"
+    - "Meta AI"
+    - "OpenAI"
+    - "NVIDIA Research"
+    - "Allen Institute for AI"
+    - "Mila - Quebec AI Institute"
