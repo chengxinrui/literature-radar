@@ -17027,6 +17027,79 @@
     ]
   },
   {
+    "uid": "arxiv:2610.13690",
+    "title": "Transformer-based In-Context Score Operator Learning for Diffusion Models",
+    "abstract": "Diffusion models typically learn the generative dynamics of a single target distribution or a family of distributions indexed by conditioning variables fixed during training. This limits their ability to adapt to a previously unseen distribution from only a small set of examples. We introduce an in-context solution operator learning framework for diffusion models, in which each target distribution is treated as a task drawn from a meta-distribution and is specified at inference time by an empirical context set. Our method learns an in-context score operator that maps the context samples, a noisy query point, and the diffusion time to the task-dependent score, enabling reverse-diffusion sampling on unseen tasks without retraining or parameter updates. A key observation is that the task-dependent score admits a Gaussian-kernel conditional-mean representation. Its empirical Nadaraya--Watson approximation can be represented exactly by a model in our constructed transformer class, providing a principled foundation for the proposed query-dependent attention architecture. The operator is trained through amortized denoising score matching across task distributions. We establish generalization-error bounds that quantify the effects of the context size, the numbers of training tasks and within-task samples, model complexity, and intrinsic and ambient dimensions. Numerically, we evaluate the method on a range of scientific and visual datasets, including Navier-Stokes, ERA5 climate data, QuickDraw sketches, and Food-101. The results show that the proposed method performs well on relatively simple task families, while its performance degrades as task complexity increases, thereby illustrating both the promise and the limitations of in-context learning for diffusion models.",
+    "authors": [
+      "Wuzhe Xu",
+      "Zhaiming Shen",
+      "Yulong Lu",
+      "Wenjing Liao",
+      "Rongjie Lai"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13690",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "operator learning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13690"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13690",
+    "open_access_url": "https://arxiv.org/pdf/2610.13690",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.3389/frsip.2026.1786202",
     "title": "Time-causal and time-recursive wavelets",
     "abstract": "This study presents a framework for time-causal wavelet analysis. It targets real-time processing of temporal signals, where data from the future are not available. The study builds upon temporal scale-space theory, originating from a complete classification of temporal smoothing kernels that guarantee non-creation of new structures from finer to coarser temporal scale levels. We construct temporal wavelets from the temporal derivatives of a special time-causal smoothing kernel, referred to as the “time-causal limit kernel”—arising from the classification of variation-diminishing smoothing transformations with the complementary requirement of temporal scale covariance—to guarantee self-similar handling of structures in the input signal at different temporal scales. This enables the decomposition of the signal into different components at different scales while adhering to temporal causality. The study establishes theoretical foundations for these time-causal wavelet representations and maps structural relationships to the non-causal Ricker/Mexican hat wavelets. We also describe how efficient discrete approximations of the theory presented can be performed in terms of first-order recursive filters coupled in cascade, enabling numerically well-conditioned real-time processing with low resource usage. We characterize and quantify how the continuous scaling properties transfer to the discrete implementation, demonstrating how the proposed time-causal wavelet representation can reflect the duration of locally dominant temporal structures in the input signal. We propose this notion of time-causal wavelet analysis as a generic multi-purpose tool for signal processing tasks, where streams of signals are to be processed in real time—specifically for signals that may contain local variations over a rich span of temporal scales or more generally for analyzing physical or biophysical temporal phenomena, where a fully time-causal analysis needs to be physically realistic, by not accessing data from the future, as is often done for prerecorded data.",
@@ -18953,6 +19026,78 @@
     ]
   },
   {
+    "uid": "arxiv:2610.12910",
+    "title": "Sampling-based Kinodynamic Planning with World Models",
+    "abstract": "Visual world models predict the consequences of actions from images, but planning with them is typically done by optimizers such as CEM and MPPI. However, these optimizers stall on long-horizon tasks where progress requires motion the objective does not reward, such as moving around a block before pushing it. This paper revisits kinodynamic sampling-based motion planning for world models, using the learned model as the propagator of a tree search in latent space. Our key insight is that the sampling strategies devised for high-dimensional search in configuration space apply directly to the latent space of a world model, where they rapidly expand through intermediate states that myopic optimizers never sample. We present two exploration strategies for the high-dimensional latent space, nearest-neighbor-guided RRT and projection-based KPIECE, with GPU-native batched expansion for efficient device utilization. We evaluate with an off-the-shelf DINO-WM on four simulated domains and a real-world block-pushing task. Our approaches match or exceed the success rate of CEM and MPPI at up to 13.8x lower planning time in simulation, and improve the success rate by 20% on the real robot.",
+    "authors": [
+      "Yitian Gao",
+      "Hanlan Yang",
+      "Zachary Kingston"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.12910",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.12910"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.12910",
+    "open_access_url": "https://arxiv.org/pdf/2610.12910",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1145/3857356",
     "title": "SWT: Self-Supervised Video Object Segmentation via Sliding, Wavelet and Transportation",
     "abstract": "Video Object Segmentation (VOS) aims to accurately segment target objects from consecutive video frames and track the changes of the objects in each frame of the video. Conventional VOS methods typically demand substantial quantities of pixel-level labeled video sequences for fully supervised learning, which limits the performance of the model in sparse video scenes, while existing VOS methods have limited adaptability to global changes in objects. Based on this observation, in this paper, we propose self-supervised VOS with Sliding window, Wavelet transform and optimal Transport (SWT), a self-supervised VOS framework entirely trained on static dataset using contrastive learning. Firstly, a rolling sample buffer reuses overlapping groups of independently sampled images across successive updates. Secondly, to address the long-distance modeling difficulty caused by simple convolutional structures, we introduce wavelet transform to expand the receptive field of convolutional kernels, thus improving the model's representational capability. Finally, we incorporate optimal transport to assist the model in finding the globally optimal match between the target across two frames, improving the model's ability to handle non-rigid deformations of objects. SWT only requires training on the COCO dataset once and achieves excellent results on five VOS datasets as well as an additional body part propagation dataset. The code will be released soon at https://github.com/machine928/SWT.git .",
@@ -19159,6 +19304,156 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "arxiv:2610.13317",
+    "title": "SBNO : Schrödinger Bridge Neural Operator for the Forward and Inverse Problems under Missing Information",
+    "abstract": "Partial differential equation (PDE) surrogate modeling often relies on either dense observations or access to governing equations/physics constraints. In practice, observations can be sparse and partial, and the underlying physics may be partially specified or unavailable. We introduce SBNO, an equation-free paired-data diffusion bridge matching framework that learns conditional operators for both forward and inverse PDE problems under partial observations. SBNO uses diffusion Schrödinger bridge matching to learn a pair of time-dependent drifts from a mask-aware endpoint coupling that preserves empirical input-solution pairing during training and supports both PDE-task directions within a single framework. At inference time, SBNO produces a deterministic point reconstruction by integrating the probability-flow ODE constructed from the learned drift pair, without inference-time observation or PDE guidance-weight tuning. On five PDE benchmarks with 5% observations, SBNO achieves superior or comparable accuracy to baselines while demonstrating lower test-instance error dispersion. Furthermore, SBNO is at least $9.7 \\times$ faster and reduces GPU memory by at least $4.3 \\times$ compared to guided-diffusion baselines.",
+    "authors": [
+      "Jaehyeon Park",
+      "Inhyeok Jeong",
+      "Noseong Park"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13317",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "partial differential equation",
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13317"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13317",
+    "open_access_url": "https://arxiv.org/pdf/2610.13317",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.13172",
+    "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
+    "abstract": "World models enable large language model (LLM) agents to anticipate action effects and make informed decisions. For generalization, it is desirable for such world models to transfer efficiently to new environments with similar interaction structure and underlying dynamics. Recent approaches encode world dynamics as symbolic rules or executable programs, whose compositional structure in principle affords transfer, but still organize such knowledge around environment-specific objects. To address this limitation, we introduce RoleWorld, a symbolic world modeling approach which uses reusable prototypes and environment-specific parameter values as functional role abstractions to represent how objects behave in interactions. From interaction trajectories, a teacher LLM extracts role prototypes and executable transition rules defined over role instances, together with a skill that guides the actor LLM to use role information in decision making. In a target world, without the teacher, the actor uses this skill together with its current role assignments and parameter estimates, and actively tests a role instance hypothesis through interaction when its uncertainty affects the current decision. Feedback from each action refines role assignments and estimates parameter values online, with no LLM parameter updates and the transition rules held fixed. Experiments on MARS benchmark show that RoleWorld enables robust generalization across environments with significantly altered object behavior, suggesting that functional role abstractions can serve as an effective component for knowledge transfer in world modeling. Project Page: https://future-item.github.io/RoleWorld.",
+    "authors": [
+      "Boyuan Xiao",
+      "Pu Wang",
+      "Ji Feng",
+      "Yao-Xiang Ding"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13172",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "language model",
+      "large language model",
+      "LLM"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13172"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13172",
+    "open_access_url": "https://arxiv.org/pdf/2610.13172",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1016/j.est.2026.125004",
@@ -20919,6 +21214,80 @@
     ]
   },
   {
+    "uid": "arxiv:2610.13258",
+    "title": "Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media",
+    "abstract": "Neural surrogates provide computationally efficient auto-regressive modeling of wave propagation, enabling e.g. fast inverse solutions. Despite recent progress, the current surrogates are not yet sufficient for the needs of ultrasonic sensing, characterized by high frequency and heterogeneous propagation media. We show how methods building on Fourier Neural Operators (FNO) fail to capture essential signal features, such as reflections, whereas U-Net -based methods learn the wave fields well but lack the ability to transfer information across different spatial scales. We then propose a new surrogate that captures the best of the two worlds, by integrating FNOs and local-integral resampling into a U-Net architecture. We show it can be trained on limited data, and that the predictions are robust to input noise and work across spatial scales.",
+    "authors": [
+      "Burla Nur Korkmaz",
+      "Petro Moilanen",
+      "Ari Salmi",
+      "Harsha Vardhan Tetali",
+      "Arto Klami"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13258",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13258"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13258",
+    "open_access_url": "https://arxiv.org/pdf/2610.13258",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.5194/acp-26-14185-2026",
     "title": "NeuPlume: generative inversion of atmospheric point-source emissions from sparse observations",
     "abstract": "Abstract. Inverting point-source emissions from sparse atmospheric observations is difficult because emission rate, release height, wind speed, turbulence, and plume morphology can compensate for one another. We present NeuPlume, a neural-physical probabilistic inversion framework that returns an ensemble of data-compatible plume fields rather than a single point estimate. A Lagrangian stochastic model builds a scenario-specific forward library, a conditional neural field compresses the concentration fields, and a latent diffusion model learns the feasible field prior. During inversion, diffusion posterior sampling combines this prior with sparse observations to infer emission rate, effective release height, wind speed, turbulence intensity, and the full concentration field. The present implementation targets passive, low-height, near-neutral releases over flat terrain. Across six synthetic cases within this scope, NeuPlume achieves mean errors of 10.0% for emission rate and 1.4% for effective release height, outperforming Gaussian plume and mass-balance baselines under the same volumetric observation protocol. On 30 holdout cases, the nominal 68% credible interval attains 73.3% empirical coverage. As an illustrative field-transfer check, NeuPlume is applied to four UAV methane transects above a coal-mine ventilation shaft; known-U posterior intervals from three flights overlap the same-shaft hourly inventory, with diagnostics identifying wind-speed and height-boundary sensitivities under model mismatch. NeuPlume provides uncertainty-aware source-parameter constraints within the physical scope of its forward library and can be re-instantiated for other regimes by rebuilding the scenario-specific simulation ensemble and retraining the neural prior.",
@@ -21515,6 +21884,155 @@
     ]
   },
   {
+    "uid": "arxiv:2610.13409",
+    "title": "ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving",
+    "abstract": "End-to-end planning in complex scenes must model diverse driving intentions and select the most appropriate trajectory using scene context and future risks. However, multi-query regression may collapse to one mode, while anchor-based and generative planners share a scaling bottleneck: small candidate sets limit maneuver coverage or discovery of high-quality trajectories, whereas large sets increase generation and scoring costs. We propose ManeuverFlow to generate trajectories for distinct intentions in one step and evaluate and refine them using current and future evidence. The model selects relevant maneuver modes, draws corresponding noise from the Gaussian mixture prior, and maps it to intention-specific trajectories through a maneuver-routed mixture-of-experts MeanFlow field. Current features and future features predicted by the world model are aggregated along each candidate path into trajectory-specific evidence for PDM-factor prediction. Using the same evidence, the refiner predicts local Frenet residuals for selected candidates; refined and retained candidates are then jointly re-scored for selection. With a lightweight TransFuser-style ResNet-34 backbone, ManeuverFlow achieves 90.6 PDMS and 90.1 EPDMS on NAVSIM v1/v2 navtest, respectively. On WorldEngine's recent 3DGS closed-loop benchmark, it attains the highest listed PDMS$^\\ast$ scores of 75.19 and 74.58 under logged and IDM-controlled traffic, respectively. Code: https://github.com/wyh-autonomy/maneuverflow.",
+    "authors": [
+      "Yuhao Wei",
+      "Yong Chen",
+      "Chen Yang",
+      "Yingchen Wang",
+      "Delin Ouyang",
+      "Lingfeng Qi",
+      "Qi Lan",
+      "Zhanhua Zhang",
+      "Jie Li",
+      "Guofa Li"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13409",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13409"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13409",
+    "open_access_url": "https://arxiv.org/pdf/2610.13409",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.13028",
+    "title": "Low-Rank Kolmogorov-Arnold Generator Flows for Interpretable Operator Learning",
+    "abstract": "Neural operators that learn physical laws from data should generalize beyond their training distribution and expose the learned law in closed form. The Kolmogorov-Arnold neural operator achieves both for position-dependent dynamics by learning a dense pseudo-differential symbol over all positions and frequencies, at a cost that grows with the square of the resolution and with closed forms that must be read out by hand. This dense symbol is unnecessary: a finite-order variable-coefficient differential operator has a symbol whose separation rank is bounded by the number of its coefficient functions, independently of the resolution, and the symbols that this network learns on its own benchmarks have rank two. We introduce the Kolmogorov-Arnold flow (KAFlow), which learns the generator of a physical operator as a low-rank symbol built from univariate Kolmogorov-Arnold functions, fixes the gauge of these functions so that every term has a unique place, integrates the dynamics with exact exponential integrators, and distills its closed form automatically. On the synthetic benchmarks of the Kolmogorov-Arnold neural operator, KAFlow lowers the out-of-distribution loss by 3.4 to 11 times and recovers every coefficient to within 10^-4 without symbolic templates, reaching the precision floor of the data. On long-horizon quantum dynamics, it lowers the state infidelity by up to 6 orders of magnitude, and by 30 times when trained only on position and momentum measurements. KAFlow also learns a variable-order fractional operator 15 times more accurately than existing operator networks and discovers nonlocal, fractional and non-polynomial dispersion relations on which sparse regression fails.",
+    "authors": [
+      "Minjong Cheon"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13028",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "operator learning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG",
+      "physics.comp-ph"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13028"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13028",
+    "open_access_url": "https://arxiv.org/pdf/2610.13028",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.64898/2026.10.02.756323",
     "title": "Learning Interpretable Switching Dynamics in Shared Neural-Behavioral Latent Space",
     "abstract": "Modern recording technologies enable simultaneous measurement of high-dimensional neural activity and rich behavioral variables, creating both an opportunity and a modeling challenge: identifying the shared latent structure that mediates the brain-behavior relationship and the underlying dynamics through which it evolves across behavioral states. Existing approaches focus on different parts of this challenge: shared representation learning methods identify neural-behavioral subspaces but typically do not model dynamical structure, while dynamical models capture temporal variation and discrete state transitions in neural activity, but do not explicitly disentangle shared neural-behavioral structure from modality-specific variability. We introduce Switching Shared Latent Dynamics (SSLD), a unified framework that learns a latent representation shared between neural activity and behavior and endows this shared space with nonlinear switching recurrent dynamics to reflect the hypothesis that behaviorally relevant neural representations exhibit structured dynamical changes across behavioral states. Complementary private latent variables capture modality-specific variability, providing a window into neural activity that does not directly interact with behavior. We evaluate SSLD on a simulated dataset and four diverse experimental datasets spanning species, brain regions, and recording modalities: monkey motor and premotor cortex during reaching, somatosensory cortex during a bump task, widefield calcium imaging across mouse dorsal cortex during (a) self-initiated decision-making and (b) spontaneous movements. Across all four datasets, SSLD accurately reconstructs neural and behavioral signals, recovers discrete states in the dynamics that align with experimentally defined behavioral epochs, and isolates behaviorally-relevant neural information in the shared latent while preserving private neural variability. Ablations confirm that shared representation learning, behavioral supervision, and switching dynamics each contribute to performance. SSLD offers an interpretable approach to modeling shared neural-behavioral dynamics that complements ongoing efforts toward foundation models for neuroscience.",
@@ -21754,6 +22272,83 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "arxiv:2610.13194",
+    "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+    "abstract": "Long-horizon autonomous research has shown promise in accelerating scientific progress through sustained cycles of hypothesis generation, implementation, and validation. However, this Generate-Execute-Feedback paradigm relies on reactive trial-and-error, where costly and time-consuming executions introduce severe feedback delays, throttling evolutionary progress under explosively expanding search space. To address this challenge, we propose JANUS, a framework that unifies future outcomes forecasting and past experience reflection through a Predict-Verify-Evolve loop driven by a co-evolving world model. Within an evolving graph, the research agent proposes candidates while world model scores them by forecasting value improvement, information gain, and exploration utility, then accordingly selects, refines, or prunes branches prior to execution. After receiving ground-truth feedback, JANUS distills experience into evolving skills: hierarchical skills for research agent, exploration-strategy skills for world model, and their coordination protocols. This mechanism enables continual co-evolution: the research agent sharpens candidate generation while the world model refines its predictive judgment over extended horizons. Extensive evaluations on MLS-Bench-Lite and real research tasks demonstrate that JANUS significantly outperforms state-of-the-art baselines, achieving both higher evolving efficiency and ceiling.",
+    "authors": [
+      "Mengdi Liu",
+      "Chenghao Jia",
+      "Hong Chang",
+      "Mingjie He",
+      "Shiguang Shan",
+      "Xilin Chen"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13194",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13194"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13194",
+    "open_access_url": "https://arxiv.org/pdf/2610.13194",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1038/s43856-026-01914-x",
@@ -22432,6 +23027,163 @@
     ]
   },
   {
+    "uid": "arxiv:2610.13164",
+    "title": "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding",
+    "abstract": "Scaling robot manipulation policies requires large amounts of diverse, action-labeled data, yet collecting such data in the real world remains expensive and difficult to scale. Existing methods either depend on human teleoperation, rely on simulation with limited visual realism, or use human videos that lack embodiment-specific annotations. In this paper, we introduce Grounded-Dreamer, a framework for synthesizing physically grounded robot manipulation data with video world models while avoiding human teleoperation demonstrations. Grounded-Dreamer combines the visual realism of generative video models with simulator physics engines. Starting from a small set of real images depicting robot task initial states, our method automatically reconstructs task-relevant objects and camera geometry, aligns them in simulation, and collects physically valid trajectories. These trajectories are used to post-train both a video world model and an inverse dynamics model, enabling the generation of visually realistic robot manipulation videos and corresponding robot actions from real images. To filter physically implausible rollouts, Grounded-Dreamer replays generated trajectories in the reconstructed simulation and retains only those that successfully complete the tasks. The real-world robot policies are trained solely on the grounded synthetic trajectories without any human demonstrations. Empirical results in real-world tasks demonstrate that Grounded-Dreamer can synthesize physically grounded data and substantially facilitate policy learning without requiring human teleoperation effort.",
+    "authors": [
+      "Feng Jiang",
+      "Shu Chen",
+      "Yuanfei Wang",
+      "Yuan Li",
+      "Zhenhao Shen",
+      "Jiaqi Liang",
+      "Yang Chen",
+      "Lei Wei",
+      "Chen Xie",
+      "Ruihai Wu"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13164",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "dynamics model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13164"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13164",
+    "open_access_url": "https://arxiv.org/pdf/2610.13164",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.13217",
+    "title": "Golden Anchor for Video Generation",
+    "abstract": "Video generation supports digital content creation, with applications in virtual avatars, AI-driven filmmaking, interactive game engines, and world models. State-of-the-art systems achieve controllability primarily through image-to-video (I2V) generation, in which an injected anchor image determines the identity, composition, and style of the resulting video. In modern pipelines, this anchor is synthesized by a text-to-image (T2I) generator. This raises a largely overlooked question: Are images obtained directly from the T2I model truly suitable for current video models? Our analysis shows that anchor aesthetic and quality scores are weakly correlated with downstream video quality. The structure-and-texture score is negatively correlated with I2V video quality in both the visual and motion dimensions. Fine-tuning the T2I model on an image reward accordingly yields anchors with visibly denser structural and character detail: they score higher on image metrics, yet lower the video reward on every I2V model we test and change downstream motion unpredictably. We therefore introduce Golden Anchor Learning (GAL), to our knowledge the first framework for learning golden anchors by optimizing a T2I generator with downstream video feedback. GAL evaluates candidate anchors through the videos they induce under a frozen I2V model and converts video rewards into image-level preferences for DPO fine-tuning of the T2I generator. On all four I2V models, GAL raises the VBench average by $2.97\\%$--$8.46\\%$ over the untuned generator. The rendered clips also score higher under VideoReward-Overall, and their extracted frames under HPSv3 and UniPercept. GAL yields consistent motion gains across all four I2V models, as measured by a $5.62\\%$--$38.24\\%$ increase in VBench dynamic degree. Although GAL is trained only on HunyuanVideo-1.5 renders, these gains extend to the other three I2V models.",
+    "authors": [
+      "Jinyuan Xu",
+      "Shitong Shao",
+      "Lichen Bai",
+      "Zikai Zhou",
+      "Guoxi Huang",
+      "Nantheera Anantrasirichai",
+      "Zeke Xie"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13217",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13217"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13217",
+    "open_access_url": "https://arxiv.org/pdf/2610.13217",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1007/s10648-026-10219-3",
     "title": "Further Redefining Motivation with Situated Cognition, Power, and Belonging",
     "abstract": "Abstract This article contributes to a growing convergence across educational psychology, the learning sciences, and culturally responsive education by further redefining motivation as an interactional and socially situated phenomenon. We review and extend ongoing efforts to challenge mainstream models that characterize motivation primarily in terms of individual-level psychological constructs and processes. We instead argue that motivation arises through social engagement in meaningful disciplinary activities shaped by power, identity, and community. Central to this redefinition are two innovative frameworks from Randi Engle (1967—2012): productive disciplinary engagement and expansive framing . The paper synthesizes these frameworks with critical and sociocultural theories to develop a design-based approach to engagement and motivation that highlights accountability, authorship, and intercontextuality. We examine two programs of design-based research—one focused on online instruction and assessment and the other on first-year college writing seminars—to demonstrate how Engle’s design principles might motivate equitable engagement and a lasting sense of belonging, especially for students with minoritized identities. The motivational implications of this approach are connected to mainstream motivation theories (i.e., social cognitive, self-determination, expectancy-value, and achievement goal theories), showing how Engle’s design principles align with established motivational constructs. We argue for a new approach to engagement and motivation that embeds psychological approaches into situative approaches, supports culturally sustaining pedagogy, and adopts more participatory research methods. We conclude by proposing a methodological and theoretical synthesis to inform future research on motivation and equitable instructional practices.",
@@ -22760,6 +23512,83 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "arxiv:2610.12936",
+    "title": "Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision",
+    "abstract": "Vision-language-action (VLA) models provide a unified framework for visual understanding, language grounding, and robot control, yet anticipating how the scene will evolve beyond the current observation can provide additional information for control. Action supervision alone does not explicitly encourage such anticipation, while future-image prediction entangles task-relevant motion with largely static appearance. To address these limitations, we introduce Evo-World, a lightweight VLA model that augments policy learning with future motion prediction through optical-flow supervision, thereby providing a task-relevant predictive signal focused on motion rather than appearance. We further design the training procedure to preserve these predictive representations during policy learning, regulating representation diversity while decoupling representation learning from action optimization. Across simulation benchmarks, Evo-World demonstrates strong performance, achieving a tier-averaged success rate of 91.1% on Meta-World MT50 , with a 13.0% relative improvement over the non-predictive baseline. On real-world AgileX robots, Evo-World outperforms the evaluated baselines across single-arm and bimanual manipulation tasks while using only 0.87B parameters and delivering lower GPU memory usage and higher inference efficiency. These results demonstrate that future motion prediction through optical-flow supervision provides an effective and lightweight approach to enhancing the predictive capabilities of VLA models.",
+    "authors": [
+      "Zile Zhong",
+      "Yuxin Du",
+      "Tao Lin",
+      "Haoxiao Wang",
+      "Wei Dai",
+      "Binhua Zuo",
+      "Bo Zhao"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.12936",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "representation learning",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.12936"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.12936",
+    "open_access_url": "https://arxiv.org/pdf/2610.12936",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.3389/fbinf.2026.1894725",
@@ -23244,6 +24073,83 @@
     "relevance_exclusion_reasons": [
       "ecosystem"
     ]
+  },
+  {
+    "uid": "arxiv:2610.13816",
+    "title": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models",
+    "abstract": "Generalist robot policies are trained with imitation learning and are bounded by the quality and coverage of their demonstrations. Reinforcement learning can improve and extend them, either by fine-tuning the policy weights or by training a small module to steer the input noise of a frozen generative policy. When tasks arrive sequentially, both approaches suffer from catastrophic forgetting. Fine-tuning on a task degrades prior tasks, and steering only shifts forgetting to the shared steering module. We propose Dream to Remember (D2R), which continually steers a frozen generalist policy toward new tasks, while retaining its earlier skills. As the steering module learns a new task, a frozen pretrained world model rehearses prior tasks through imagined rollouts, anchoring the module to its earlier behavior without a replay buffer or new data. When the world model is faithful enough, D2R learns the new task entirely in imagination. Otherwise, it learns the task in the environment while using the world model only to rehearse prior tasks. On CALVIN, D2R improves eight tasks in sequence entirely in imagination, raising average success from 63.7% to 74.8%, while LoRA fine-tuning on the same sequence drops it to 11.7%. With a frozen off-the-shelf generalist policy and world model, $π_0$ and A2World, D2R learns unseen LIBERO-90 tasks in the environment while keeping $π_0$'s performance on the LIBERO suites it was fine-tuned on, even though the world model is not accurate enough for policy optimization. Finally, on a real Franka robot, D2R improves three tasks in sequence entirely in imagination while retaining the earlier improvements.",
+    "authors": [
+      "Bahey Tharwat",
+      "Iman Nematollahi",
+      "Marvin Alles",
+      "Xingyuan Zhang",
+      "Akshay L Chandra",
+      "Abhinav Valada"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13816",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13816"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13816",
+    "open_access_url": "https://arxiv.org/pdf/2610.13816",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1007/978-3-032-19374-2_11",
@@ -24882,6 +25788,159 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "arxiv:2610.13504",
+    "title": "Beyond Temporal Proximity: Explanatory World Models for Credit Assignment in Reinforcement Learning",
+    "abstract": "Generative Recommenders increasingly use Reinforcement Learning (RL) to optimize outcomes that may appear hundreds or thousands of interactions after a decision. Standard RL propagates reward according to temporal proximity rather than explicit relevance, attenuating the signal assigned to distant but important actions and creating a source of sample inefficiency. We introduce Explanatory World Models (EWM), an attribution framework that uses explanations to identify the earlier events that plausibly contributed to a realized outcome. We instantiate EWM with a frontier language model and use its explanations as learning signals using a conservative hierarchical operator that recursively redistributes reward while preserving the undiscounted episode return. To investigate what constitutes a useful explanation, we operationalize three complementary variants inspired by Halpern's actual causation, Lombrozo's explanatory simplicity, and Deutsch's hard-to-vary explanations. We evaluate EWM on two controlled long-horizon RL benchmarks, a public sequential-recommendation benchmark, and an industry-scale generative recommender. On Crafter and WordCraft, EWM substantially outperforms PPO and LaRe, with its largest gains when rewards are most delayed. On KuaiRand, EWM outperforms SFT and LaRe offline and A2C online. Finally, in an offline evaluation of an industry generative recommender, EWM considerably improves Recall and increases behavioral proxies. These results suggest that explanations can provide structured and reusable credit for learning from delayed outcomes.",
+    "authors": [
+      "Oriol Corcoll",
+      "Qiyao Wei",
+      "Ciarán Mark Gilligan-Lee"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13504",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "language model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13504"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13504",
+    "open_access_url": "https://arxiv.org/pdf/2610.13504",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.13522",
+    "title": "Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics",
+    "abstract": "Action-conditioned world models offer a promising foundation for generalist robotic intelligence by predicting the consequences of actions. However, existing robotic datasets provide limited coverage of the diverse interaction dynamics required for generalizable world modeling. Large-scale egocentric human videos offer complementary interaction experience, yet the embodiment gap between human hands and robotic manipulators hinders effective cross-embodiment learning. Meanwhile, the predominance of successful demonstrations leaves failure dynamics substantially underrepresented, limiting the ability of world models to anticipate unsuccessful executions. To address these limitations, we introduce HF-WM, an action-conditioned world model that combines Human interaction learning with Failure-aware post-training. To bridge the embodiment gap, we develop a dual-branch framework that couples video generation with auxiliary pointflow prediction, using stabilized pointflow as a unified motion representation across human and robot interactions while suppressing egocentric camera motion. To improve failure modeling, we further perform Group Relative Policy Optimization (GRPO) post-training on perturbed actions derived from successful demonstrations, guided by action alignment and physical plausibility rewards, enabling the model to learn plausible failure dynamics without paired ground-truth videos. Extensive experiments demonstrate that HF-WM achieves state-of-the-art performance in action-conditioned video generation and exhibits strong utility for policy evaluation in downstream robotic tasks.",
+    "authors": [
+      "Peiyan Tu",
+      "Cong Wang",
+      "Hanxin Zhu",
+      "Xin Jin",
+      "Zhibo Chen"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-09",
+    "preprint_updated_date": "2026-10-09",
+    "arxiv_id": "2610.13522",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "action-conditioned"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.13522"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.13522",
+    "open_access_url": "https://arxiv.org/pdf/2610.13522",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.3389/ebm.2026.11329",
@@ -26603,7 +27662,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -27163,6 +28222,79 @@
     ]
   },
   {
+    "uid": "arxiv:2610.12696",
+    "title": "Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models",
+    "abstract": "Vision-language-action models (VLAs) offer a promising route toward general-purpose robotics by transferring semantic knowledge from large-scale vision-language pretraining into language-conditioned control. However, most VLA evaluations emphasize aggregate manipulation success under changes in objects, instructions, or environments, leaving unclear how reliably these policies ground spatial descriptions in the physical scenes where they act. We therefore ask a sharper question: how reliably can current VLAs translate spatial descriptions into appropriate real-robot behavior? To investigate this, we introduce Spa-Bench, a real-robot benchmark that evaluates spatial grounding across six tabletop tasks covering Object State, Relative Size, Referential Description, Relational Placement, Ordinal Position, and Counting. Our primary evaluation compares in-distribution (ID) and out-of-distribution (OOD) spatial configurations while retaining training support for the relevant objects, concepts, and actions, reducing object and motor unfamiliarity as alternative explanations for failure. Four diagnostic conditions further probe physical execution, sensitivity to wording, object-task associations, and recognition that no action is required. We release 4,092 episodes collected on the SO-101 robot arm: 1,200 human-teleoperated demonstrations and 2,892 real-robot evaluation rollouts from five state-of-the-art VLA policies. Across the three fully evaluated policies, success falls from 67.5-73.3% on ID spatial configurations to 40.7-52.0% on OOD spatial configurations, while matched direct instructions improve success by 28.3-40.0 percentage points. These results show that the evaluated VLAs can often execute the required manipulations but lack robust spatial grounding. Project materials, including videos, code, and benchmark data, are available at https://justintiensmith.github.io/Spa-Bench/.",
+    "authors": [
+      "Justin Tien-Smith",
+      "Matthew Pidden",
+      "Rolandos Alexandros Potamias"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-08",
+    "preprint_updated_date": "2026-10-08",
+    "arxiv_id": "2610.12696",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "control",
+      "robotics"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.12696"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.12696",
+    "open_access_url": "https://arxiv.org/pdf/2610.12696",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-12",
+    "last_status_checked": "2026-10-12",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1137/25m1785484",
     "title": "Sample-Based Consistency in Infinite-Dimensional Conic-Constrained Stochastic Optimization",
     "abstract": "Abstract. This paper is concerned with a class of stochastic optimization problems defined on a Banach space with almost sure conic-type constraints. For this class of problems, we investigate the consistency of optimal values and solutions corresponding to sample average approximation. Consistency is also shown in the case where a Moreau–Yosida-type regularization of the constraint is used. Additionally, the consistency of Karush–Kuhn–Tucker conditions is shown under mild conditions. This work provides theoretical justification for the numerical computation of solutions frequently used in the literature. Several applications are explored showing the flexibility of the framework. We cover nonparametric regression over Sobolev balls, operator learning, optimal transport, optimization with dynamical systems under uncertainty, and optimization with partial differential equations under uncertainty.",
@@ -27553,7 +28685,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -28230,7 +29362,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -28677,7 +29809,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -29651,7 +30783,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -30321,7 +31453,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -30760,7 +31892,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -30923,7 +32055,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -35335,7 +36467,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -37414,7 +38546,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -38106,7 +39238,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -44931,7 +46063,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -47012,7 +48144,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -47480,7 +48612,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -48552,7 +49684,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -48769,7 +49901,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-11",
+    "last_status_checked": "2026-10-12",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -57734,6 +58866,12 @@
         "role": "exploratory",
         "weight": 0.5,
         "query_term": "planning in world models"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning in world models"
       }
     ],
     "source_names": [
@@ -57760,7 +58898,8 @@
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
-      "交叉探索：学到的动力学支持规划、控制与优化"
+      "交叉探索：学到的动力学支持规划、控制与优化",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
     ],
     "relevance_anchors": [
       "world model",
