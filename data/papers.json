@@ -15704,6 +15704,89 @@
     ]
   },
   {
+    "uid": "doi:10.21203/rs.3.rs-11337099/v1",
+    "title": "Generative Quantum Search for Combinatorial Optimization: Learning Shallow Quantum Samplers for Classically Refined Solution Subspaces",
+    "abstract": "Abstract We port the Generative Quantum Eigensolver + Quantum-Selected Configuration Interaction (GQE+QSCI) architecture from quantum chemistry to combinatorial graph optimization. Our framework, GQO+QSS (Generative Quantum Optimization + Quantum-Selected Search), follows the same principle: ML generates circuit programs, quantum samplers produce bitstrings, classical recovery repairs and expands them into a restricted subspace, and a classical solver finds the optimum within that subspace. We formalize the key quantity as the recovery-basin mass pr(qθ,G) = Prx∼qθ [x ∈ Ar(G)], where Ar(G) = {x : Er(R(x))∩X∗(G) ̸= ∅} is the preimage of the optimal set under repair R and r-flip expansion Er. Under B independent shots, success probability becomes Psuccess = 1 − (1 − pr)B. The quantum-benefit question reduces to: does pr(qquantum,G) > pr(qclassical,G)? We test this on MaximumWeighted Independent Set (MWIS) with a preregistered, frozen protocol. All 150 ground truths are certified with CBC + brute-force verification. Exact recovery-basin masks are enumerated for all n ≤ 20 instances. Nine samplers are compared on a held-out test set: uniform, greedy, simulated annealing, tabu search, multi-start local search, Metropolis, warm-start QAOA, oracle QAOA, and a matched learned classical policy. Key findings: 1. Tabu search dominates at all sizes (pr = 0.82–0.94), followed by simulated annealing. All quantum samplers and the learned classical policy lose to both at every problem size under the frozen test protocol. 2. Oracle QAOA loses to SA under fair evaluation: With random QAOA configurations (not per-instance optimized), oracle QAOA achieves pr = 0.014 at n = 28 vs SA’s 0.088. The earlier positive result (pr = 0.185 vs 0.130) required per-instance best-of-50 configuration selection—an oracle upper bound, not a deployable method. 3. Learned classical policy matches oracle QAOA: A matched 140K-parameter classical policy achieves pr = 0.005–0.101, comparable to oracle QAOA’s 0.014–0.113. The quantum circuit’s proposal distribution provides no structural advantage over a matched learned classical model in this setting. 4. Recovery-basin masks reveal the phase structure: At r = 2, uniform-sampling Precover drops from 0.975 (n = 16) to 0.775 (n = 20) at B = 200, identifying the regime where sampler quality matters. 5. Hardware robustness without advantage: 136 cores on Piast-Q show 93.4% recovery consistency between QPU and simulator, but no basin-mass advantage. This is a falsification study: Under rigorous, preregistered evaluation with matched learned baselines, shallow QAOA-derived proposal distributions do not outperform matched classical proposal models, and both lose to strong classical baselines (SA, tabu). The earlier positive oracle result was an artifact of per-instance configuration selection. We claim no quantum advantage.",
+    "authors": [
+      "David Vesterlund"
+    ],
+    "institutions": [
+      {
+        "name": "Vesterlund Ventures Holding AB",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "David Vesterlund",
+        "institution": "Vesterlund Ventures Holding AB",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-13",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.21203/rs.3.rs-11337099/v1",
+    "work_type": "posted-content",
+    "citation_count": null,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.21203/rs.3.rs-11337099/v1"
+    ],
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-11337099/v1",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "posted-content",
+        "venue": "",
+        "venue_type": "",
+        "date": "2026-10-13",
+        "doi": "10.21203/rs.3.rs-11337099/v1"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "title:8f53a531144a8a",
     "title": "Niet-intrusieve parametrische modelreductie voor niet-lineaire structurele mechanica met behoud van de onderliggende fysica",
     "abstract": "High-fidelity Finite Element (FE) models enable accurate simulation of nonlinear structural systems but remain computationally expensive for many-query and Digital Twin applications. Model Order Reduction (MOR) provides efficient Reduced Order Models (ROMs), although conventional nonlinear and parametric approaches often require intrusive access to the underlying FE solver. Conversely, non-intrusive data-driven methods offer greater flexibility but generally lack guarantees on the preservation of physical and numerical properties. This PhD develops Physics-Augmented, non-intrusive MOR methodologies for nonlinear and parametric structural mechanics. The proposed POD-TD-pICNN frameworks combine Proper Orthogonal Decomposition (POD) with Physics-Augmented Neural Architectures (PANNs) that learn the reduced potential energy while enforcing relevant physical properties by construction. Internal forces and tangent operators are obtained through differentiation, preserving important properties such as equilibrium consistency, symmetry, positive semi-definiteness, and hyperelastic structure. The methodologies are validated on nonlinear academic benchmarks and a large-scale industrial structural application, demonstrating the potential of Physics-Augmentation to bridge classical physics-based MOR and data-driven Machine Learning.",
@@ -15775,6 +15858,1113 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.21203/rs.3.rs-11128449/v1",
+    "title": "Mixed physics-informed neural networks for anisotropic diffusion: Energy error and directional coupling",
+    "abstract": "",
+    "authors": [
+      "Mingde Ye",
+      "Xiaohua Ding"
+    ],
+    "institutions": [
+      {
+        "name": "Harbin Institute of Technology",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Mingde Ye",
+        "institution": "Harbin Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xiaohua Ding",
+        "institution": "Harbin Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Research Square",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-12",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.21203/rs.3.rs-11128449/v1",
+    "work_type": "preprint",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.21203/rs.3.rs-11128449/v1"
+    ],
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-11128449/v1",
+    "open_access_url": "https://doi.org/10.21203/rs.3.rs-11128449/v1",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "Research Square",
+        "venue_type": "repository",
+        "date": "2026-10-12",
+        "doi": "10.21203/rs.3.rs-11128449/v1"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.2118/234470-ms",
+    "title": "Intelligent Pre-Drill and Real-Time Optimization of Drilling Parameters",
+    "abstract": "Abstract Optimizing drilling parameters throughout the drilling process is essential for improving drilling efficiency, extending bit life, and advancing drilling automation. This paper presents an intelligent closed-loop drilling parameter optimization framework that integrates Pre-Drill planning with Real-Time optimization to enable coordinated decision-making for bit selection, drilling parameter control, and wear risk management in complex formations. A drilling database containing approximately 17,500 records from 61 bit runs was established after removing non-drilling intervals. The database integrates bit design parameters, operational parameters, and formation characteristics, including lithology and unconfined compressive strength (UCS). To overcome the lack of continuous downhole wear observations, a three-stage wear reconstruction method was developed to generate continuous cutter wear evolution, and a unified wear index was defined by combining inner-row and outer-row wear grades. An Extreme Gradient Boosting (XGBoost) model was trained to predict the rate of penetration (ROP) under varying drilling conditions, while a Transformer-based sequential model was developed to predict bit wear evolution. Based on these predictive models, a dual-mode optimization strategy was established. Bayesian optimization was first applied to optimize bit selection and drilling parameters before drilling and was subsequently extended to real-time optimization of weight on bit (WOB), rotary speed (RPM), and flow rate. Simulation case studies demonstrate that the optimized solutions can increase average ROP by approximately 10% under field-oriented operating conditions. This work also provides a practical and interpretable solution for intelligent drilling parameter optimization, supporting drilling automation and reducing reliance on experience-based decision making.",
+    "authors": [
+      "Jiaqing Yu",
+      "Yangjun (Kevin) Liu",
+      "Jason Sheng",
+      "Weihong Gao",
+      "Yongliang You",
+      "Chris Cheng",
+      "汪海阁",
+      "Yu Jiang",
+      "Lance Endres"
+    ],
+    "institutions": [
+      {
+        "name": "Postnova Analytics (Germany)",
+        "country_code": "DE",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Weihong Gao",
+        "institution": "Postnova Analytics (Germany)",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Yongliang You",
+        "institution": "Postnova Analytics (Germany)",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Yu Jiang",
+        "institution": "Postnova Analytics (Germany)",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "DE"
+    ],
+    "home_scope": "国外",
+    "venue": "SPE Asia Pacific Oil & Gas Conference and Exhibition (APOGCE)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 SPE Asia Pacific Oil & Gas Conference and Exhibition (APOGCE)；日期 2026-10-12"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-12",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.2118/234470-ms",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer-based",
+      "planning",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.2118/234470-ms"
+    ],
+    "paper_url": "https://doi.org/10.2118/234470-ms",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "SPE Asia Pacific Oil & Gas Conference and Exhibition (APOGCE)",
+        "venue_type": "conference",
+        "date": "2026-10-12",
+        "doi": "10.2118/234470-ms"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1088/2632-2153/aeb34b",
+    "title": "Inductive bias and out-of-distribution generalization in deep learning surrogates for 2D PDE dynamics",
+    "abstract": "Abstract Partial differential equations (PDEs) are a foundational tool for modeling physical systems. However, high-fidelity numerical simulations are often computationally intensive, which has prompted the development of surrogate models in the field of scientific machine learning. While recent approaches have achieved high predictive accuracy by employing complex architectures and extensive datasets, many scientific applications offer only a limited number of simulation trajectories. In this study, we examine the impact of architectural inductive biases on the learning of two-dimensional PDE in data-limited settings. Instead of proposing a highly expressive model, we deliberately adopt a simple multi-channel U-Net modified to enforce periodic boundary conditions. In this study, we compare this architecture with transformer-based and UNet variants such as vision transformer (ViT), adaptive fourier neural operator (AFNO), PDE-Transformer (PDE-T), and UNet with Kolmogorov-Arnold Layers (KAN-UNet) under a common training setup across five PDE families. To keep comparisons uniform and to mimic partial observability in real measurements, we train all models on rollouts of a single representative scalar field per system. Despite its simplicity, the adapted U-Net consistently matches or outperforms these more complex models in forecasting accuracy, spectral similarity, and physics-based metrics while requiring substantially less training time. The findings of this study demonstrate that, in scenarios where data is limited, the judicious selection of inductive biases can often prove to be more advantageous than increasing the model complexity for the purpose of learning the dynamics of PDEs.",
+    "authors": [
+      "Binh Duong Nguyen",
+      "Stefan Sandfeld"
+    ],
+    "institutions": [
+      {
+        "name": "Forschungszentrum Julich GmbH",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Forschungszentrum Jülich GmbH",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Binh Duong Nguyen",
+        "institution": "Forschungszentrum Julich GmbH",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Stefan Sandfeld",
+        "institution": "Forschungszentrum Jülich GmbH",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Machine Learning: Science and Technology",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：journal-article；Machine Learning: Science and Technology；日期 2026-10-12"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-12",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1088/2632-2153/aeb34b",
+    "work_type": "journal-article",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator",
+      "partial differential equation",
+      "PDE",
+      "transformer-based",
+      "transformer PDE",
+      "vision transformer"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1088/2632-2153/aeb34b"
+    ],
+    "paper_url": "https://doi.org/10.1088/2632-2153/aeb34b",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "Machine Learning: Science and Technology",
+        "venue_type": "",
+        "date": "2026-10-12",
+        "doi": "10.1088/2632-2153/aeb34b"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1609/aies.v9i3.43287",
+    "title": "RCTs & Human Uplift Studies: Methodological Challenges and Practical Solutions for Frontier AI Evaluation",
+    "abstract": "Human uplift studies, or studies that measure the effects of AI access on human performance via randomized controlled trials (RCTs) or similar methodologies, increasingly inform frontier AI governance and deployment decisions. While RCT methods are robust in other fields, their interaction with the distinctive properties of frontier AI systems remains underexamined, particularly when results are used to inform high-stakes decisions. We present findings from interviews with 16 expert practitioners with experience conducting human uplift studies in domains including biosecurity, cybersecurity, education, and labor. Across interviews, experts described a recurring tension between the standard causal inference assumptions upon which human uplift studies rely and the object of study itself. Rapidly evolving AI systems, shifting baselines, heterogeneous and changing user proficiency, and porous real-world settings strain assumptions underlying internal, external, and construct validity, complicating the interpretation and appropriate use of uplift evidence. We contribute (1) a synthesis of methodological challenges in human uplift studies, mapped to risks to study validity and classified by their degree of specificity to large language model (LLM) systems, and (2) a mapping from challenges to proposed solutions. By collating expert-identified challenges and solutions, we seek to clarify the interpretive limits and appropriate uses of human uplift evidence, to align evaluation practice with the decisions it informs, and to support more coordinated methodological foundations for AI governance.",
+    "authors": [
+      "Patricia Paskov",
+      "Kevin Wei",
+      "Shen Zhou Hong",
+      "Dan Bateyko",
+      "Xavier Roberts-Gaal",
+      "Carson Ezell",
+      "Gailius Praninskas",
+      "Valerie Chen",
+      "Umang Bhatt",
+      "Ella Guest"
+    ],
+    "institutions": [
+      {
+        "name": "RAND Corporation",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Johns Hopkins University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Cornell University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Harvard University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "London School of Economics and Political Science",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Cambridge",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Patricia Paskov",
+        "institution": "RAND Corporation",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kevin Wei",
+        "institution": "RAND Corporation",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Shen Zhou Hong",
+        "institution": "Johns Hopkins University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Dan Bateyko",
+        "institution": "Cornell University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xavier Roberts-Gaal",
+        "institution": "Harvard University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Carson Ezell",
+        "institution": "RAND Corporation",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gailius Praninskas",
+        "institution": "London School of Economics and Political Science",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Valerie Chen",
+        "institution": "Carnegie Mellon University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Umang Bhatt",
+        "institution": "University of Cambridge",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Ella Guest",
+        "institution": "RAND Corporation",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "GB",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-11",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1609/aies.v9i3.43287",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "large language model",
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning with learned dynamics"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "model-based control with learned dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1609/aies.v9i3.43287"
+    ],
+    "paper_url": "https://doi.org/10.1609/aies.v9i3.43287",
+    "open_access_url": "https://arxiv.org/pdf/2603.11001",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+        "venue_type": "conference",
+        "date": "2026-10-11",
+        "doi": "10.1609/aies.v9i3.43287"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1609/aies.v9i4.43329",
+    "title": "Open Science, Closed Models: How Funding Shapes AI in Science",
+    "abstract": "How funding shapes AI engagement in science is poorly understood despite its structural importance. We analyze 104,226 papers (2018–2025), linking funding acknowledgments to how each paper engages with foundation models: whether it extends a model (fine-tunes or builds on it), uses one without modification, or references models only peripherally. We report three findings. First, both private and public funding are associated with greater AI engagement. Public funding is associated with more off-the-shelf and open-weight use, while private funding is associated with greater model extension. Industry cloud credits are associated with less open-weight use, consistent with greater reliance on closed models. Second, industry involvement is associated with model extension, suggesting that corporate resources reach science through coauthorship, though this channel is concentrated in Computer Science and Global North collaborations. Third, the gap across research systems is not one of AI adoption but of control. Off-the-shelf use is rising across fields and country groups, and the least publicly funded group, the Global South, now has the highest share of API-only engagement (0.4% to 10.0% of engaged papers). China shows the opposite profile: the highest public-funding share and lowest API-only engagement, with extension remaining stable as it declines across the Global North. Standard capacity indicators show convergence in AI adoption even as dependence on proprietary infrastructure diverges",
+    "authors": [
+      "Ana Trišović",
+      "Janakan Sivaloganathan"
+    ],
+    "institutions": [
+      {
+        "name": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Ana Trišović",
+        "institution": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Janakan Sivaloganathan",
+        "institution": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-11",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1609/aies.v9i4.43329",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "foundation model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "vision transformer world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1609/aies.v9i4.43329"
+    ],
+    "paper_url": "https://doi.org/10.1609/aies.v9i4.43329",
+    "open_access_url": "https://arxiv.org/pdf/2609.25347",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+        "venue_type": "conference",
+        "date": "2026-10-11",
+        "doi": "10.1609/aies.v9i4.43329"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1609/aies.v9i1.43132",
+    "title": "Grounded but Misleading: Evaluating Semantic Alignment in AI-Generated Security Explanations",
+    "abstract": "Online scams increasingly leverage fluent and context-aware social-engineering strategies, creating growing demand for AI systems that explain why a message may be risky. However, explanations that cite detector-derived evidence may still semantically weaken or redirect the intended risk interpretation. We introduce VEXA (Verifying Semantic EXplanation Alignment), a controlled testbed for studying the gap between lexical grounding and semantic risk alignment in AI-generated scam-risk explanations. VEXA generates ungrounded, risk-aligned, and risk-diluting explanations by independently controlling evidence grounding and semantic framing. Across LLM-as-a-judge and human evaluations, explanations can remain comparatively grounded even when their interpretations weaken the detector’s intended risk assessment. In human evaluation, risk-diluting XAI-grounded explanations retained comparatively elevated Perceived Evidence Grounding scores (3.66 ± 1.02) despite lower Helpfulness (3.00 ± 1.41) and Reasoning Support (3.14 ± 1.05) scores. These findings provide controlled evidence of grounding-illusion effects and suggest that trustworthy explanation evaluation must verify not only whether evidence is cited, but also how it is interpreted.",
+    "authors": [
+      "Heajun An",
+      "Connor Ng",
+      "Sandesh Sharma Dulal",
+      "Junghwan Kim",
+      "Jin-Hee Cho"
+    ],
+    "institutions": [
+      {
+        "name": "Virginia Tech",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Heajun An",
+        "institution": "Virginia Tech",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Connor Ng",
+        "institution": "Virginia Tech",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sandesh Sharma Dulal",
+        "institution": "Virginia Tech",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Junghwan Kim",
+        "institution": "Virginia Tech",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jin-Hee Cho",
+        "institution": "Virginia Tech",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-11",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1609/aies.v9i1.43132",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "multimodal world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1609/aies.v9i1.43132"
+    ],
+    "paper_url": "https://doi.org/10.1609/aies.v9i1.43132",
+    "open_access_url": "https://arxiv.org/pdf/2602.05056",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+        "venue_type": "conference",
+        "date": "2026-10-11",
+        "doi": "10.1609/aies.v9i1.43132"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1609/aies.v9i3.43266",
+    "title": "Emergent Languages in Populations of Language Model Agents: From Token Efficiency to Oversight Evasion",
+    "abstract": "Monitoring autonomous language model agents currently relies mostly on surface behavior. But what happens when agent populations invent new languages with the goal of avoiding human oversight? Here, we study the emergent languages on Moltbook. For this, we build upon the Moltbook Files dataset and apply a three-stage approach consisting of a rule-based heuristic (about 6000 matches) followed by zero-shot classification (518 kept), and metadata extraction. The resulting categories include token efficiency (166), new natural languages (106), and oversight evasion (59). We conduct both quantitative and qualitative analyses. Our results show that posts proposing new languages for avoiding oversight are judged by DeepSeek-V3.2 as being less aligned than the other categories – and that all languages can be learned by other language models in-context merely from a description of the language. Moreover, manually studying exemplary cases reveals surprisingly sophisticated steganographic protocols like embedding hidden messages in natural language. Although we cannot be certain about the extent of autonomy in ideation of these languages, our results add up to the evidence that monitoring surface behavior may soon be insufficient for retaining control over agent populations.",
+    "authors": [
+      "Stine Lyngsø Beltoft",
+      "William Brach",
+      "Federico Torrielli",
+      "Jacob Nielsen",
+      "Annemette Brok Pirchert",
+      "Filippo Tonini",
+      "Peter Schneider–Kamp",
+      "Lukas Galke Poech"
+    ],
+    "institutions": [
+      {
+        "name": "University of Southern Denmark",
+        "country_code": "DK",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Slovak University of Technology in Bratislava",
+        "country_code": "SK",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Stine Lyngsø Beltoft",
+        "institution": "University of Southern Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "William Brach",
+        "institution": "Slovak University of Technology in Bratislava",
+        "country_code": "SK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Federico Torrielli",
+        "institution": "University of Southern Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jacob Nielsen",
+        "institution": "University of Southern Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Annemette Brok Pirchert",
+        "institution": "University of Southern Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Filippo Tonini",
+        "institution": "University of Southern Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Peter Schneider–Kamp",
+        "institution": "University of Southern Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Lukas Galke Poech",
+        "institution": "University of Southern Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "DK",
+      "SK"
+    ],
+    "home_scope": "国外",
+    "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-11",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1609/aies.v9i3.43266",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "neural combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1609/aies.v9i3.43266"
+    ],
+    "paper_url": "https://doi.org/10.1609/aies.v9i3.43266",
+    "open_access_url": "https://arxiv.org/pdf/2605.31170",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+        "venue_type": "conference",
+        "date": "2026-10-11",
+        "doi": "10.1609/aies.v9i3.43266"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1038/s41598-026-74575-4",
+    "title": "DBDM: a formal framework for bias detection and mitigation in distributed large language models",
+    "abstract": "Large language models (LLMs) are increasingly being deployed in distributed settings, where different nodes may work on heterogeneous data, user populations, and local model updates. In such settings, bias can arise in an emergent fashion via local interactions and spread over the connected nodes, turning fairness into a property of the network rather than of the model. In this paper, we introduce Distributed Bias Detection and Mitigation (DBDM), a formal framework to model, detect, and mitigate dynamically evolving bias in distributed LLM settings. DBDM captures node-level bias in a multi-dimensional state consisting of statistical divergence, embedding disparity and response asymmetry, allowing bias to be monitored beyond a single output-level metric. The proposed framework combines local bias-aware optimisation with cross-node bias propagation modelling and graph-based consensus alignment, such that neighbouring nodes can coordinate fairness corrections while preserving the underlying distributed learning process. We evaluate the proposed framework through controlled distributed simulations with publicly available fairness benchmarks including StereoSet, CrowS-Pairs and BOLD. Experiments examine convergence, stability, scalability and multi-dimensional bias mitigation. Further, a real-transformer proof-of-concept experiment is performed on an open-access CrowS-Pairs subset with a lightweight PyTorch Transformer Encoder. In the pilot experiment, DBDM reduces the composite bias by ~ 48.5% and the inter-node bias-state variance by ~ 87.4% when compared to FedAvg over ten independent runs, while achieving statistically comparable fairness performance to FairFL. We also observe from communication analysis that explicitly communicating the bias state incurs a moderate additional communication overhead of around 8.3–8.8% over the conventional parameter aggregation for the configurations we experimented with. The results provide evidence that explicit modelling of bias states and consensus-based coordination can improve the fairness consistency of distributed learning systems at the network-level. The study also exposes practical challenges around communication latency, asynchronous participation, privacy protection, heterogeneous nodes, and production scale LLM validation which are important directions for future work.",
+    "authors": [
+      "K. J. Sahana Devi",
+      "Nishant Tripathi",
+      "S. Santhosh Kumar",
+      "M. Vinaya Babu",
+      "T R Mahesh",
+      "Suresh Guluwadi"
+    ],
+    "institutions": [
+      {
+        "name": "Nitte University",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Alliance University",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Jain University",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Adama Science and Technology University",
+        "country_code": "ET",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "K. J. Sahana Devi",
+        "institution": "Nitte University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Nishant Tripathi",
+        "institution": "Alliance University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "S. Santhosh Kumar",
+        "institution": "Jain University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "T R Mahesh",
+        "institution": "Jain University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Suresh Guluwadi",
+        "institution": "Adama Science and Technology University",
+        "country_code": "ET",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "ET",
+      "IN"
+    ],
+    "home_scope": "国外",
+    "venue": "Scientific Reports",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Scientific Reports；日期 2026-10-11"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-11",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s41598-026-74575-4",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer encoder",
+      "language model",
+      "large language model",
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s41598-026-74575-4"
+    ],
+    "paper_url": "https://doi.org/10.1038/s41598-026-74575-4",
+    "open_access_url": "https://www.nature.com/articles/s41598-026-74575-4_reference.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Scientific Reports",
+        "venue_type": "journal",
+        "date": "2026-10-11",
+        "doi": "10.1038/s41598-026-74575-4"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1038/s41598-026-69897-2",
+    "title": "Causality-driven hybrid intrusion detection with entropy-aware feature learning and federated intelligence",
+    "abstract": "Modern IDSs should be capable of detecting and recognizing new forms of attack traffic (including both attacks from known adversaries) and to do so in ways that remain computational feasible when deployed across multiple, geographically distributed sites. Rule based, representation learning, and federated approaches have been used separately, or in combination in some cases. However, each approach operates independently in many cases. Therefore, they fail to support causal interpretability, efficient use of feature information, stable performance against adversarial attacks, and generalizability across multiple sites. This paper outlines a causality driven hybrid ids framework. The hybrid framework includes the Causal-Adaptive Signature Learning Engine; the Entropy-Guided Feature Compression Network; the attention-based Hybrid Cognitive Detection Synthesizer; the Adversarial Robustness Calibration Module; and the trust-weighted Federated Threat Intelligence Evolution Framework. The proposed framework has been tested on three separate publicly available network traffic datasets (cicids2017, unsw-nb15, and IoT-23). Testing included: use of dataset specific partitions that controlled for leakage in training; five fold validation to test the ability to learn patterns within the training data; ten different random seed controlled evaluations. A comparison of the hybrid ids framework was made to: block chain-based collaborative ids frameworks; traditional machine-learning based ids frameworks; optimized XGBoost-based ids frameworks. All comparisons were completed under similar preprocessing conditions and distributions of classes. The proposed ids framework produced detection accuracies of 97.4% and 96.1% on the cicids2017 and unsw-nb15 datasets respectively. An overall detection accuracy rate of 95.6% was achieved on the IoT-23 dataset. Additionally, the proposed framework reduced the number of features retained to 18 (a reduction of 70.9%) compared to the original number of features present in each of the datasets. Across ten iterations, the reported aggregate performance metrics were: overall accuracy = 96.37%; precision = 95.97%; recall = 95.43%; F1-score = 95.68%. In addition, the proposed framework had an average processing time per inference of 18.6 milliseconds. Finally, testing performed under bounded gradient-based perturbation conditions indicated that the proposed framework maintained high levels of detection accuracy (>91.5%).",
+    "authors": [
+      "Subham Kumar Gupta",
+      "Yogesh Kumar Gupta",
+      "Atul Kumar Verma"
+    ],
+    "institutions": [
+      {
+        "name": "Banasthali University",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Subham Kumar Gupta",
+        "institution": "Banasthali University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Yogesh Kumar Gupta",
+        "institution": "Banasthali University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "IN"
+    ],
+    "home_scope": "国外",
+    "venue": "Scientific Reports",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Scientific Reports；日期 2026-10-11"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-11",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s41598-026-69897-2",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "representation learning",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "temporal frequency principle in world models"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s41598-026-69897-2"
+    ],
+    "paper_url": "https://doi.org/10.1038/s41598-026-69897-2",
+    "open_access_url": "https://www.nature.com/articles/s41598-026-69897-2_reference.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Scientific Reports",
+        "venue_type": "journal",
+        "date": "2026-10-11",
+        "doi": "10.1038/s41598-026-69897-2"
+      }
+    ],
+    "first_seen": "2026-10-13",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.26442/00403660.2026.09.203866",
@@ -17095,7 +18285,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19093,7 +20283,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19374,7 +20564,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19451,7 +20641,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -21283,7 +22473,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -21957,7 +23147,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -22028,7 +23218,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -22346,7 +23536,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -23102,7 +24292,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -23179,7 +24369,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -23586,7 +24776,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -24147,7 +25337,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -25862,7 +27052,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -25938,7 +27128,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -27662,7 +28852,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -28290,7 +29480,7 @@
       }
     ],
     "first_seen": "2026-10-12",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -28685,7 +29875,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -29362,7 +30552,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -29809,7 +30999,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -30783,7 +31973,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -31453,7 +32643,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -31892,7 +33082,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -32055,7 +33245,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -36467,7 +37657,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -38546,7 +39736,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -39238,7 +40428,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -46063,7 +47253,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -48144,7 +49334,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -48612,7 +49802,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -49684,7 +50874,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -49901,7 +51091,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-12",
+    "last_status_checked": "2026-10-13",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -61801,6 +62991,90 @@
       }
     ],
     "first_seen": "2026-10-11",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.62311/nesx/rb5m-978-81-686966-5-5",
+    "title": "Sparse Feature Geometry of Transformer Circuits for Model Editing, Alignment and Behavioural Control",
+    "abstract": "Abstract Sparse feature geometry has become a decisive frontier for interpreting, editing, aligning and controlling transformer systems because it treats behaviour not as a monolithic property of a model, but as an emergent consequence of distributed, partially sparse and context-sensitive circuits. This manuscript develops a doctoral-level framework for studying transformer circuits through feature spaces, attribution structures, causal interventions, predictive trustworthiness models, reproducible engineering pipelines and governance-ready behavioural control. It argues that reliable model editing requires more than local parameter modification: it requires a geometry of feature activation, uncertainty-aware causal identification, evidence-preserving engineering, cross-context validation and institutionally auditable control policies. Across five chapters, the book integrates foundations, statistical explanation, machine-learning prediction, scalable analytics lifecycle design and sectoral governance horizons. It avoids fabricated empirical claims and instead provides conceptual models, mathematical formulations, algorithmic protocols, evaluation matrices and implementation artefacts that can guide rigorous research programs. The intended contribution is a coherent reference architecture for researchers building mechanistic interpretability methods, practitioners designing safer AI systems, and policymakers seeking accountable model-control regimes across South Asia, Europe, Africa and the Americas. Keywords sparse feature geometry, transformer circuits, mechanistic interpretability, model editing, alignment, behavioural control, causal inference, feature attribution, activation steering, representation learning, sparse autoencoders, uncertainty, trustworthiness, reproducibility, MLOps, governance, AI safety, circuit analysis, policy translation, sectoral AI, risk management, evaluation metrics, scalable analytics",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "institutions": [
+      {
+        "name": "National Education Services",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Murali Krishna Pasupuleti",
+        "institution": "National Education Services",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-05-26",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.62311/nesx/rb5m-978-81-686966-5-5",
+    "work_type": "reference-book",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "representation learning",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer world model"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.62311/nesx/rb5m-978-81-686966-5-5"
+    ],
+    "paper_url": "https://doi.org/10.62311/nesx/rb5m-978-81-686966-5-5",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "reference-book",
+        "venue": "",
+        "venue_type": "",
+        "date": "2026-05-26",
+        "doi": "10.62311/nesx/rb5m-978-81-686966-5-5"
+      }
+    ],
+    "first_seen": "2026-10-13",
     "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
