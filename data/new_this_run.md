@@ -1,92 +1,299 @@
-# 2026-10-13｜本轮首次收录的精选文献 6 篇
+# 2026-10-14｜本轮首次收录的精选文献 21 篇
 
-查询窗口起点：2026-04-13。
+查询窗口起点：2026-04-14。
 > 本文件按本轮首次入库日期汇总；首次六个月回溯可能集中录入历史论文，请按论文发表/预印本日期理解，不代表它们都在今天发表。
 
-#### 1. [Mixed physics-informed neural networks for anisotropic diffusion: Energy error and directional coupling](https://doi.org/10.21203/rs.3.rs-11128449/v1)
+#### 1. [WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions](https://arxiv.org/abs/2610.18826)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models、action-conditioned
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Haoyi Duan、Liliang Chen、Nan Wang、Yang Zhang、Yuhang Lu、Xiaotong Chen、Wei-Cheng Tseng、Shenyuan Gao 等
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=WorldOracle%3A%20Benchmarking%20Action-Conditioned%20World%20Models%20against%20Real-World%20Executions&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18826)　[PDF](https://arxiv.org/pdf/2610.18826)
+- **摘要：**We introduce WorldOracle, a benchmark specifically designed to evaluate action-conditioned world models (ACWMs) against paired real-world executions. Given the same initial observation and low-level action sequence, WorldOracle asks whether a predicted rollout reproduces what happens in the real world, including physical consequences and task-state transitions. We evaluate models along four complementary dimensions:…
+
+#### 2. [WAVE-0: Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction](https://arxiv.org/abs/2610.18568)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**world model、vision-language action、planning
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Haomin Wang、Anqiong Ji、Ke Wang、Zhongshan Liu、Ru Ying、Ran Zheng、Zhipeng Zhang
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=WAVE-0%3A%20Bridging%20VLA%20Policies%20and%20WAMs%20with%20Lightweight%20Latent%20Future%20Prediction&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18568)　[PDF](https://arxiv.org/pdf/2610.18568)
+- **摘要：**Vision-language-action (VLA) policies excel at generalist robotic manipulation but generate actions without explicitly modeling their environmental consequences. World action models (WAMs) incorporate future prediction, yet most rely on costly video generation, while latent alternatives either use predicted futures only as auxiliary targets or infer latent actions from suboptimal visual transitions through costly lar…
+
+#### 3. [UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models](https://arxiv.org/abs/2610.18697)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models、action-conditioned
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Jingbo Xu、Jianjie Fang、Zhuohang Li、Zihao Song、Zhaolu Wang、Xvyuan Liu、Xin Zhang、Haisheng Su 等
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=UniW%28A%29M%3A%20A%20Unified%20Mixture-of-Experts%20Framework%20for%20World%20and%20World-Action%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18697)　[PDF](https://arxiv.org/pdf/2610.18697)
+- **摘要：**World models (WMs) and world-action models (WAMs) focus on future world prediction and executable action generation, respectively. Although these models learn shared physical dynamics and interaction semantics from embodied trajectories, they are typically trained in isolation, which restricts knowledge reuse between prediction and control. The central challenge is therefore to develop a unified learning framework th…
+
+#### 4. [RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories](https://arxiv.org/abs/2610.18699)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**world model、world models、foundation model、control
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Yunfu Deng、Sangwoo Shin、Brahma S. Pavse、Josiah P. Hanna
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=RoboFQE%3A%20Rollout-Free%20Evaluation%20of%20Visual%20Robot%20Policies%20from%20Offline%20Trajectories&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18699)　[PDF](https://arxiv.org/pdf/2610.18699)
+- **摘要：**Evaluating robot policies before deployment typically requires producing new trajectories through real-world execution, simulators, or learned world models. These rollout-based approaches impose infrastructure requirements; simulator and world-model evaluators additionally face prediction errors that can compound over the evaluation horizon. In this paper, we study off-policy evaluation as an alternative to rollout-b…
+
+#### 5. [Order-Consistent Latent Geometry for Reliable Short-Horizon Planning in World Models](https://arxiv.org/abs/2610.18570)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Junlin Wu、Wen Fan、Dandan Zhang
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Order-Consistent%20Latent%20Geometry%20for%20Reliable%20Short-Horizon%20Planning%20in%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18570)　[PDF](https://arxiv.org/pdf/2610.18570)
+- **摘要：**Latent planners often rank candidate action sequences by terminal Euclidean distance to a goal latent. Exact agreement with transition distance would make this score ideal, but is stronger than planning requires: along a transition-shortest rollout, the essential requirement is that latent distance does not reverse true transition progress. We show that this pathwise no-reversal requirement is precisely the classical…
+
+#### 6. [Operator Surrogates](https://arxiv.org/abs/2610.18210)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator、fourier neural operator、spectral method
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Christoph Schwab、Josephine Westermann、Jakob Zech
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Operator%20Surrogates&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18210)　[PDF](https://arxiv.org/pdf/2610.18210)
+- **摘要：**This chapter provides a mathematical introduction to operator surrogates, which are finite-parametric maps approximating complex (typically nonlinear) operators between infinite-dimensional (function) spaces. A typical approach to constructing operator surrogates is the encoder-approximator-decoder paradigm, whereby infinite-dimensional inputs are mapped to a finite-dimensional latent space, processed, and then mappe…
+
+#### 7. [LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts](https://arxiv.org/abs/2610.18873)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、action-conditioned
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Wenxuan Guo、Yingping Liang、Zhaoguo Wang、Ziyuan Li、Angyuan Ma、Zhenyu Wu、Chengkun Wang、Bingyao Yu 等
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=LoopWAM%3A%20Closed-Loop%20Generalist%20Policy%20Improvement%20from%20Deployment%20Rollouts&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18873)　[PDF](https://arxiv.org/pdf/2610.18873)
+- **摘要：**Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical interactions and their consequences. We introduce \textbf{LoopWAM}, a closed-loop world-action model that learns directl…
+
+#### 8. [High-fidelity Three-Dimensional Flow Field Reconstruction Driven by Turbulent Fluid Dynamics](https://arxiv.org/abs/2610.18045)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**state-space model、state space model、neural operator
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Hanlin Kong、Jianan Wei、Yuntian Chen、Yujia Wang、Wenguan Wang
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=High-fidelity%20Three-Dimensional%20Flow%20Field%20Reconstruction%20Driven%20by%20Turbulent%20Fluid%20Dynamics&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18045)　[PDF](https://arxiv.org/pdf/2610.18045)
+- **摘要：**High-fidelity three-dimensional turbulent flow fields are essential for scientific and engineering analyses, yet obtaining them through direct numerical simulation or high-resolution measurements remains expensive. Super-resolution reconstruction from coarse-grained data therefore offers a promising alternative, but remains fundamentally challenging because fine-scale structures are intrinsically three-dimensional an…
+
+#### 9. [Grid or Nodes? Probing Object Memory in World Models Under Partial Observability](https://arxiv.org/abs/2610.18637)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Justin McMillen、Yasin Yilmaz
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Grid%20or%20Nodes%3F%20Probing%20Object%20Memory%20in%20World%20Models%20Under%20Partial%20Observability&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18637)　[PDF](https://arxiv.org/pdf/2610.18637)
+- **摘要：**A robot's world model must remember objects that leave the camera's view. FloWM, a learned world model, keeps them in a spatial grid of features that it moves with five built-in velocities. A node memory instead keeps each object's position and velocity as numbers. We compare them in FloWM's own block world, with an oracle-fed Kalman tracker as the node memory. How the grid is read changes its score: a single-cell pr…
+
+#### 10. [GreenWAM: A World Foundation Model for Robotics](https://arxiv.org/abs/2610.18774)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**world model、action-conditioned、vision-language action、foundation model
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Gennady Sidorov、Valerii Kornilov、Denis Grankin、Polina Fedotova、Aleksey Postnikov
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=GreenWAM%3A%20A%20World%20Foundation%20Model%20for%20Robotics&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18774)　[PDF](https://arxiv.org/pdf/2610.18774)
+- **摘要：**A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model for robotics, togethe…
+
+#### 11. [ForkCast: Predictive Recovery for Vision-Language-Action Policies via Counterfactual Futures](https://arxiv.org/abs/2610.18650)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**world model、vision-language action、planning
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Chenru Wen、Huajian Zeng、Haokai Ding、Jian Kang、Anqing Duan、Dawei Zhou、Dezhen Song、Xingxing Zuo
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=ForkCast%3A%20Predictive%20Recovery%20for%20Vision-Language-Action%20Policies%20via%20Counterfactual%20Futures&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18650)　[PDF](https://arxiv.org/pdf/2610.18650)
+- **摘要：**Vision-language-action (VLA) policies perform manipulation tasks using camera images and language instructions, but object slip or visual occlusion can disrupt execution. Recovery is typically learned during policy training or delegated to a monitor that triggers a scripted repair after detecting a failure. We introduce ForkCast, a predictive recovery framework that compares counterfactual futures to determine whethe…
+
+#### 12. [ForceWAM: Decoupling Future and Response Learning from Demo and Play Data for Contact-Rich Manipulation](https://arxiv.org/abs/2610.18852)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-13；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、dynamics model
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Zijun Xu、Wendi Chen、Xinkai Wang、Jiachen Zou、Hongjin Chen、Hairuo Liu、Bokai Lin、Shihao Ma 等
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=ForceWAM%3A%20Decoupling%20Future%20and%20Response%20Learning%20from%20Demo%20and%20Play%20Data%20for%20Contact-Rich%20Manipulation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.18852)　[PDF](https://arxiv.org/pdf/2610.18852)
+- **摘要：**Expert demonstrations show how to complete contact-rich tasks, but provide limited coverage of how interaction forces respond to different actions. Task-agnostic play provides broader experience of contact dynamics without specifying task goals. To fully leverage these two types of data, we introduce ForceWAM, a force world action model that decouples knowledge of task-compatible interaction outcomes from knowledge o…
+
+#### 13. [Sampling from Neural Operator Priors to Solve Partial Differential Equations](https://arxiv.org/abs/2610.16396)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-12；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator、partial differential equation、PDE
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Andrew Millard、Joshua Murphy、Zheng Zhao
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Sampling%20from%20Neural%20Operator%20Priors%20to%20Solve%20Partial%20Differential%20Equations&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.16396)　[PDF](https://arxiv.org/pdf/2610.16396)
+- **摘要：**Guided sampling with sparse observations and PDE residuals has recently been combined with neural operator priors to solve partial differential equations in function space, their natural setting. We pair such a prior with pseudo-bootstrap sequential Monte Carlo (pBS SMC), a guided sampling framework that accommodates proposals without tractable densities, and introduce a new proposal by adapting the DPM++ algorithm t…
+
+#### 14. [SPLICE: Sparse Physics Library Identification and Compositional Expansion](https://arxiv.org/abs/2610.17029)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-12；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Lucas Thil、Jesse Read、Guillaume Doquet、Rim Kaddah
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=SPLICE%3A%20Sparse%20Physics%20Library%20Identification%20and%20Compositional%20Expansion&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.17029)　[PDF](https://arxiv.org/pdf/2610.17029)
+- **摘要：**Neural operator splitting composes a library of neural operators, one per physical mechanism, into zero-shot simulators of new equations. Existing approaches, however, require these mechanisms and their labels to be specified in advance. We ask whether a pretrained library can instead be adapted and grown from unlabeled trajectories in which multiple mechanisms act simultaneously. We introduce SPLICE, a framework tha…
+
+#### 15. [Identifiability of a dissipative knowledge-dynamics model: exact recovery under designed excitation, degeneration on observational data](https://doi.org/10.66977/xsci.2610.000v)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-12；预印本首发 —；收录月份 2026-10
-- **类别：**PDE、Neural Operators、谱方法与最优控制
-- **主题锚点：**physics-informed neural
-- **引用：**0（约 0.0/月，OpenAlex）；优先机构信号：Harbin Institute of Technology
-- **venue：**Research Square　**作者：**Mingde Ye、Xiaohua Ding
-- **机构：**Harbin Institute of Technology (中国 (CN))
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**dynamics model
+- **引用：**0（约 0.0/月，OpenAlex）
+- **venue：**—　**作者：**Arman Kostanian、Armen Beklaryan
+- **机构：**未提供/未识别
 - **元数据来源：**OpenAlex
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Mixed%20physics-informed%20neural%20networks%20for%20anisotropic%20diffusion%3A%20Energy%20error%20and%20directional%20coupling&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.21203/rs.3.rs-11128449/v1](https://doi.org/10.21203/rs.3.rs-11128449/v1)
-- **开放获取：**[查看链接](https://doi.org/10.21203/rs.3.rs-11128449/v1)
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Identifiability%20of%20a%20dissipative%20knowledge-dynamics%20model%3A%20exact%20recovery%20under%20designed%20excitation%2C%20degeneration%20on%20observational%20data&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.66977/xsci.2610.000v](https://doi.org/10.66977/xsci.2610.000v)
+- **开放获取：**[查看链接](https://arxiv.org/pdf/2610.09889)
+- **摘要：**Human learning is a dissipative dynamical process: mastery accumulates through practice, decays through forgetting, and propagates across interdependent concepts. We model it as a nonlinear dissipative system of ordinary differential equations whose parameters are mechanistically meaningful (a concept-transfer matrix encoding prerequisite coupling, per-concept forgetting rates, and a saturating practice-response gain…
 
-#### 2. [RCTs & Human Uplift Studies: Methodological Challenges and Practical Solutions for Frontier AI Evaluation](https://doi.org/10.1609/aies.v9i3.43287)
-- **质量/状态：**CCF-A：AAAI；已发表/有期刊或会议记录（建议核验）
-- **状态依据：**OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11
-- **日期：**发表 2026-10-11；预印本首发 —；收录月份 2026-10
-- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**language model、large language model、LLM、control
-- **引用：**0（约 0.0/月，OpenAlex）；优先机构信号：Carnegie Mellon University、University of Cambridge
-- **venue：**Proceedings of the AAAI/ACM Conference on AI Ethics and Society　**作者：**Patricia Paskov、Kevin Wei、Shen Zhou Hong、Dan Bateyko、Xavier Roberts-Gaal、Carson Ezell、Gailius Praninskas、Valerie Chen 等
-- **机构：**RAND Corporation (美国 (US))；Johns Hopkins University (美国 (US))；Cornell University (美国 (US))；Harvard University (美国 (US))；London School of Economics and Political Science (英国 (GB))；Carnegie Mellon University (美国 (US))；University of Cambridge (英国 (GB))
-- **元数据来源：**OpenAlex
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=RCTs%20%26%20Human%20Uplift%20Studies%3A%20Methodological%20Challenges%20and%20Practical%20Solutions%20for%20Frontier%20AI%20Evaluation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.1609/aies.v9i3.43287](https://doi.org/10.1609/aies.v9i3.43287)
-- **开放获取：**[查看链接](https://arxiv.org/pdf/2603.11001)
-- **摘要：**Human uplift studies, or studies that measure the effects of AI access on human performance via randomized controlled trials (RCTs) or similar methodologies, increasingly inform frontier AI governance and deployment decisions. While RCT methods are robust in other fields, their interaction with the distinctive properties of frontier AI systems remains underexamined, particularly when results are used to inform high-s…
-
-#### 3. [Open Science, Closed Models: How Funding Shapes AI in Science](https://doi.org/10.1609/aies.v9i4.43329)
-- **质量/状态：**CCF-A：AAAI；已发表/有期刊或会议记录（建议核验）
-- **状态依据：**OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11
-- **日期：**发表 2026-10-11；预印本首发 —；收录月份 2026-10
-- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**foundation model、control
-- **引用：**0（约 0.0/月，OpenAlex）；优先机构信号：Massachusetts Institute of Technology
-- **venue：**Proceedings of the AAAI/ACM Conference on AI Ethics and Society　**作者：**Ana Trišović、Janakan Sivaloganathan
-- **机构：**Massachusetts Institute of Technology (美国 (US))
-- **元数据来源：**OpenAlex
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Open%20Science%2C%20Closed%20Models%3A%20How%20Funding%20Shapes%20AI%20in%20Science&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.1609/aies.v9i4.43329](https://doi.org/10.1609/aies.v9i4.43329)
-- **开放获取：**[查看链接](https://arxiv.org/pdf/2609.25347)
-- **摘要：**How funding shapes AI engagement in science is poorly understood despite its structural importance. We analyze 104,226 papers (2018–2025), linking funding acknowledgments to how each paper engages with foundation models: whether it extends a model (fine-tunes or builds on it), uses one without modification, or references models only peripherally. We report three findings. First, both private and public funding are as…
-
-#### 4. [Generative Quantum Search for Combinatorial Optimization: Learning Shallow Quantum Samplers for Classically Refined Solution Subspaces](https://doi.org/10.21203/rs.3.rs-11337099/v1)
+#### 16. [CLNO: Conservative Local Neural Operator for Compressible Flow Prediction](https://arxiv.org/abs/2610.16040)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 2026-10-13；预印本首发 —；收录月份 2026-10
-- **类别：**Neural Combinatorial Optimization 与神经搜索
-- **主题锚点：**combinatorial optimization
+- **日期：**发表 —；预印本首发 2026-10-12；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**David Vesterlund
-- **机构：**Vesterlund Ventures Holding AB
-- **元数据来源：**Crossref
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Generative%20Quantum%20Search%20for%20Combinatorial%20Optimization%3A%20Learning%20Shallow%20Quantum%20Samplers%20for%20Classically%20Refined%20Solution%20Subspaces&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.21203/rs.3.rs-11337099/v1](https://doi.org/10.21203/rs.3.rs-11337099/v1)
-- **摘要：**Abstract We port the Generative Quantum Eigensolver + Quantum-Selected Configuration Interaction (GQE+QSCI) architecture from quantum chemistry to combinatorial graph optimization. Our framework, GQO+QSS (Generative Quantum Optimization + Quantum-Selected Search), follows the same principle: ML generates circuit programs, quantum samplers produce bitstrings, classical recovery repairs and expands them into a restrict…
+- **venue：**—　**作者：**Buxuan Wang、Rongzu Li、Qingsong Zou
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=CLNO%3A%20Conservative%20Local%20Neural%20Operator%20for%20Compressible%20Flow%20Prediction&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.16040)　[PDF](https://arxiv.org/pdf/2610.16040)
+- **摘要：**We propose a conservative local neural operator (CLNO) for accurate and generalizable autoregressive prediction of compressible flows. Building upon the locality and translation invariance of the local neural operator (LNO), CLNO introduces a conservative evolution framework based on local subdomains of fixed physical size, separating local mean-state evolution from fine-scale reconstruction. The flow is encoded into…
 
-#### 5. [Grounded but Misleading: Evaluating Semantic Alignment in AI-Generated Security Explanations](https://doi.org/10.1609/aies.v9i1.43132)
-- **质量/状态：**CCF-A：AAAI；已发表/有期刊或会议记录（建议核验）
-- **状态依据：**OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11
-- **日期：**发表 2026-10-11；预印本首发 —；收录月份 2026-10
-- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**LLM、control
-- **引用：**0（约 0.0/月，OpenAlex）
-- **venue：**Proceedings of the AAAI/ACM Conference on AI Ethics and Society　**作者：**Heajun An、Connor Ng、Sandesh Sharma Dulal、Junghwan Kim、Jin-Hee Cho
-- **机构：**Virginia Tech (美国 (US))
-- **元数据来源：**OpenAlex
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Grounded%20but%20Misleading%3A%20Evaluating%20Semantic%20Alignment%20in%20AI-Generated%20Security%20Explanations&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.1609/aies.v9i1.43132](https://doi.org/10.1609/aies.v9i1.43132)
-- **开放获取：**[查看链接](https://arxiv.org/pdf/2602.05056)
-- **摘要：**Online scams increasingly leverage fluent and context-aware social-engineering strategies, creating growing demand for AI systems that explain why a message may be risky. However, explanations that cite detector-derived evidence may still semantically weaken or redirect the intended risk interpretation. We introduce VEXA (Verifying Semantic EXplanation Alignment), a controlled testbed for studying the gap between lex…
+#### 17. [A physics-coupled graph neural operator for mid-plane six-component stress tensor field prediction in concrete penetration](https://arxiv.org/abs/2610.16996)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-12；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator、fourier neural operator
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Wenpu Du、Peng Zhou、Yunlong Xia、Sinuo Xin、Congcong Zhang、Boyang Zhang、Yi Zhang、Wenzheng Xu
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20physics-coupled%20graph%20neural%20operator%20for%20mid-plane%20six-component%20stress%20tensor%20field%20prediction%20in%20concrete%20penetration&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.16996)　[PDF](https://arxiv.org/pdf/2610.16996)
+- **摘要：**The penetration-resistant design of concrete structures requires the spatiotemporal evolution of the stress field within the target, whereas in design only the strength grade, the geometry and the projectile parameters are known, and the aggregate arrangement is not. Empirical formulae and scalar-output surrogates serve design screening, and mesoscale finite element models resolve the aggregate-scale response, but on…
 
-#### 6. [Emergent Languages in Populations of Language Model Agents: From Token Efficiency to Oversight Evasion](https://doi.org/10.1609/aies.v9i3.43266)
-- **质量/状态：**CCF-A：AAAI；已发表/有期刊或会议记录（建议核验）
-- **状态依据：**OpenAlex：conference 来源 Proceedings of the AAAI/ACM Conference on AI Ethics and Society；日期 2026-10-11
-- **日期：**发表 2026-10-11；预印本首发 —；收录月份 2026-10
-- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**language model、control
-- **引用：**0（约 0.0/月，OpenAlex）
-- **venue：**Proceedings of the AAAI/ACM Conference on AI Ethics and Society　**作者：**Stine Lyngsø Beltoft、William Brach、Federico Torrielli、Jacob Nielsen、Annemette Brok Pirchert、Filippo Tonini、Peter Schneider–Kamp、Lukas Galke Poech
-- **机构：**University of Southern Denmark (丹麦 (DK))；Slovak University of Technology in Bratislava (SK (SK))
-- **元数据来源：**OpenAlex
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Emergent%20Languages%20in%20Populations%20of%20Language%20Model%20Agents%3A%20From%20Token%20Efficiency%20to%20Oversight%20Evasion&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.1609/aies.v9i3.43266](https://doi.org/10.1609/aies.v9i3.43266)
-- **开放获取：**[查看链接](https://arxiv.org/pdf/2605.31170)
-- **摘要：**Monitoring autonomous language model agents currently relies mostly on surface behavior. But what happens when agent populations invent new languages with the goal of avoiding human oversight? Here, we study the emergent languages on Moltbook. For this, we build upon the Moltbook Files dataset and apply a three-stage approach consisting of a rule-based heuristic (about 6000 matches) followed by zero-shot classificati…
+#### 18. [Mesh-Free Convolution: Learned Spectral Attenuation and Transport](https://arxiv.org/abs/2610.15931)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-11；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**learned dynamics、operator learning、partial differential equation、PDE
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Niloufar Zakariaei、Manav Manav、Eldad Haber
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Mesh-Free%20Convolution%3A%20Learned%20Spectral%20Attenuation%20and%20Transport&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.15931)　[PDF](https://arxiv.org/pdf/2610.15931)
+- **摘要：**Learning solution operators for partial differential equations (PDEs) requires models that can represent spatial structure across grids and scales. This becomes especially important in time-dependent problems, where the learned operator is often used autoregressively: each predicted state is fed back as input to predict future states. In this setting, small spatial errors can be repeatedly propagated through the lear…
+
+#### 19. [Learned Graph Bases for Neural Operators on Power-System Transients](https://arxiv.org/abs/2610.15651)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-11；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator、fourier neural operator
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Shubhan Bhattacharya、Avi Bagchi
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Learned%20Graph%20Bases%20for%20Neural%20Operators%20on%20Power-System%20Transients&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.15651)　[PDF](https://arxiv.org/pdf/2610.15651)
+- **摘要：**Fourier neural operators predict power-system transient trajectories with high accuracy. We extend this line of work by examining the choice of spatial spectral basis, studying both the graph Fourier transform derived from the grid's own coupling network and learnable bases trained from that starting point and from a Fourier control. Evaluated in one controlled pipeline across three protocols spanning unseen fault lo…
+
+#### 20. [Full Waveform Inversion with a Learned Preconditioner](https://arxiv.org/abs/2610.15331)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-11；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator、fourier neural operator
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Jeongjin Park
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Full%20Waveform%20Inversion%20with%20a%20Learned%20Preconditioner&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.15331)　[PDF](https://arxiv.org/pdf/2610.15331)
+- **摘要：**Full-waveform inversion (FWI) is a powerful approach for reconstructing subsurface velocity models, but its practical performance is limited by ill-conditioning, sensitivity to the update direction, and the high cost of curvature-based methods. In this project, we investigate whether a neural operator trained on reverse-time-migration (RTM) images can provide a useful learned preconditioner for FWI. We compare projec…
+
+#### 21. [RELAGRAM: Recursive Latent Graph Model for the Capacitated Vehicle Routing Problem](https://arxiv.org/abs/2610.15106)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-10；收录月份 2026-10
+- **类别：**Neural Combinatorial Optimization 与神经搜索
+- **主题锚点：**combinatorial optimization、vehicle routing、routing problem
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Vladimir Kirill Bickov、Neil Yorke-Smith
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=RELAGRAM%3A%20Recursive%20Latent%20Graph%20Model%20for%20the%20Capacitated%20Vehicle%20Routing%20Problem&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.15106)　[PDF](https://arxiv.org/pdf/2610.15106)
+- **摘要：**Latent recursion repeatedly processes internal representations through the same neural network. Recent work has shown this approach to be effective on structured reasoning tasks such as Sudoku and maze solving. However, whether latent recursion can support neural routing remains unclear. We introduce RELAGRAM (Recursive Latent Graph Model), a novel approach that brings latent recursion to graph combinatorial optimiza…
