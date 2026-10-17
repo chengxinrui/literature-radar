@@ -15365,6 +15365,102 @@
     ]
   },
   {
+    "uid": "doi:10.3390/math14203758",
+    "title": "Trajectory Parameterization and Evolutionary Search for Constrained Optimal Control",
+    "abstract": "In direct methods for constrained optimal control, accuracy depends on two things at once: the approximation space and the search applied to it. In this paper, we investigate that dependence by separating the two. A hybrid polynomial–Fourier trial space is searched by a real-coded genetic algorithm with local refinement, by a covariance-adapting evolution strategy, and by multistart of a local method, and each result is measured against the best solution the trial space itself contains. The expansion satisfies the initial conditions identically and the dynamics by construction rather than at collocation points; the control follows by inverting the dynamics, and constraints enter as blocks of algebraic rows. Nine benchmarks are solved on seven trial bases under one verification protocol, with every reference value computed here and verified independently. For the six convex problems, the best attainable value is computable, and the assisted scheme reaches it on every tested basis to a gap of at most 10−6; on the three nonconvex problems, it returns audit-admissible solutions above the feasibility threshold, under one fixed setting whose variation leaves the reported accuracy unchanged over the ranges examined. Two practical conditions are established: the trial family is over-complete and must be orthonormalized before any population-based search, and feasibility must be audited, not assumed. The accuracy attained proves not to be specific to the search: the evolution strategy reaches the same limit without local refinement, and multistart attains it on the nonconvex problems; so, what is measured is the trial space rather than the solver.",
+    "authors": [
+      "Moataz Ahmed"
+    ],
+    "institutions": [
+      {
+        "name": "Information and Computer Science Department, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "SDAIA–KFUPM Joint Research Center for Artificial Intelligence, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Moataz Ahmed",
+        "institution": "Information and Computer Science Department, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Moataz Ahmed",
+        "institution": "SDAIA–KFUPM Joint Research Center for Artificial Intelligence, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Mathematics",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：journal-article；Mathematics；日期 2026-10-16"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-16",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.3390/math14203758",
+    "work_type": "journal-article",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.3390/math14203758"
+    ],
+    "paper_url": "https://doi.org/10.3390/math14203758",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "Mathematics",
+        "venue_type": "",
+        "date": "2026-10-16",
+        "doi": "10.3390/math14203758"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.31838/ines/03.02.02",
     "title": "Nanomaterials for Water Purification Towards Global Water Crisis Sustainable Solutions",
     "abstract": "Providing the world's increasingly growing population with clean, affordable water is an unprecedented challenge for the 21st century. In the face of climate change and failing water quality, nanotechnology has become the center piece in innovation in this global crisis. This article discusses the ways in which nanomaterials are leading the way in the revolution of the water purification techniques and are providing sustainable means to increase access to safe drinking water around the world. Water scarcity and pollution threaten human health, economic development and environmental sustainability. Traditional water treatment methods do not generally achieve effective removal of emerging pollutants and pathogen. Thus, the properties of nanomaterials at the molecular scale make it unique, and open new possibilities for development of more efficient, cost effective and environmentally friendly water purification. Nanotechnology is changing the way we clean and reuse water resources from nano adsorbents that remove toxic metals selectively and nanomembranes that filter out the slightest contaminants. In this article we will look at the advances in nanomaterials for water purification looking at how they work, what they are good for, and they could help enlighten us about the global water crisis. Through these innovations we’ll explore ways these are redefining the future of water management for anyone and everyone, not just industries and communities, but all across the globe.",
@@ -15509,6 +15605,177 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.20944/preprints202610.1603.v1",
+    "title": "Decoupled Entropic-Geometric Planning (DEGP): Verified Conditioning and a Measured Contact-Prediction Boundary in Latent World Models",
+    "abstract": "Gradient-based latent space planning faces a fundamental trade-off: maintaining high-entropy representations for robust perception under domain shift often yields ill-conditioned manifolds that destabilize trajectory optimization. DEGP introduces a framework designed to isolate gradient interference between representation learning and control dynamics via strict architectural separation. However, empirical evaluation demonstrates that structural decoupling alone is insufficient for closed-loop planning (0/50 per condition; 0/200 total), uncovering a fundamental information-usability gap driven by contact-conditional predic-tion errors and cost signal suppression. The gap is not closed by retraining the encoder to be more decodable: a trained encoder whose T-pose decodability matches DEGP’s (R2=0.686) still yields a predictor that captures essentially no contact-conditioned movement (CDR = 0.046, versus the frozen random encoder’s 0.060). To delineate these operational limits, we provide analytical proofs establishing guaranteed spectral bounds on the predictor’s Ja-cobian under distribution shifts. Furthermore, we validate DEGP across manipulation tasks, ntroducing a telemetry-based runtime contract that quantifies the operational boundaries where geometric conditioning preserves planning stability.",
+    "authors": [
+      "Mohsen EL Mahdy"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-16",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.20944/preprints202610.1603.v1",
+    "work_type": "posted-content",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "representation learning",
+      "planning",
+      "control",
+      "trajectory optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning in world models"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.20944/preprints202610.1603.v1"
+    ],
+    "paper_url": "https://doi.org/10.20944/preprints202610.1603.v1",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "posted-content",
+        "venue": "",
+        "venue_type": "",
+        "date": "2026-10-16",
+        "doi": "10.20944/preprints202610.1603.v1"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.21203/rs.3.rs-11065605/v1",
+    "title": "Conformalized Quantum DeepONet Ensembles: Towards Scalable Operator Learning with Distribution-Free Guarantees",
+    "abstract": "Abstract Operator learning enables fast surrogate modelling of high-dimensional dynam-ical systems, but existing approaches face two fundamental limitations: the quadratic cost of dense neural layers and unreliable uncertainty quantification in safety-critical settings. We propose Conformalized Quantum Deep Operator Network (DeepONet) Ensembles, a framework that addresses both challenges simultaneously. Using Quantum Orthogonal Neural Networks (QOrthoNNs), we characterize the resource regime in which their established˜︁established˜︁ O(n) hidden-layer running-time scaling improves on the O(n 2) cost of a classical dense layer. To quantify uncertainty, we combine ensemble predictions with split conformal calibration. For a new input–output function pair jointly exchangeable with the calibration pairs, we prove a finite-sample, distribution-free lower bound on the expected fraction of covered query locations. As a secondary proof-of-concept, we explore hybrid classical–quantum architectures and superposed execution to manage ensemble runtime and hardware requirements. Experiments on synthetic operator benchmarks and real-world power-system dynamics show accurate predictions under ideal simulation and empirical coverage near the target under both ideal conditions and selected compact-circuit simulations with depolarizing 1 or device-calibrated composite noise. Together, these results connect resource-aware scalability analysis with finite-sample uncertainty guarantees for quantum operator learning.",
+    "authors": [
+      "Purav Matlia",
+      "Christian Moya",
+      "Guang Lin"
+    ],
+    "institutions": [
+      {
+        "name": "Purdue University West Lafayette",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Purav Matlia",
+        "institution": "Purdue University West Lafayette",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Christian Moya",
+        "institution": "Purdue University West Lafayette",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Guang Lin",
+        "institution": "Purdue University West Lafayette",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-16",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.21203/rs.3.rs-11065605/v1",
+    "work_type": "posted-content",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "operator learning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "operator learning"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.21203/rs.3.rs-11065605/v1"
+    ],
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-11065605/v1",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "posted-content",
+        "venue": "",
+        "venue_type": "",
+        "date": "2026-10-16",
+        "doi": "10.21203/rs.3.rs-11065605/v1"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.64643/ijirt.208535-459",
@@ -15731,6 +15998,276 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1038/s41746-026-03377-9",
+    "title": "TrajOnco: a multi-agent framework for temporal reasoning over longitudinal EHR for multi-cancer early detection",
+    "abstract": "Abstract Accurate estimation of cancer risk from longitudinal electronic health records (EHRs) could support earlier detection and improved care, but modeling such complex patient trajectories remains challenging. We present TrajOnco, a training-free, multi-agent large language model (LLM) framework designed for scalable multi-cancer early detection. Using a chain-of-agents architecture with long-term memory, TrajOnco performs temporal reasoning over sequential clinical events to generate patient-level summaries, evidence-linked rationales, and predicted risk scores. We evaluated TrajOnco on de-identified Truveta EHR data across 15 cancer types using matched case-control cohorts, predicting risk of cancer diagnosis at 1 year. In zero-shot evaluation, TrajOnco achieved AUROCs of 0.64–0.80, performing comparably to supervised machine learning in a lung cancer benchmark while demonstrating better temporal reasoning than single-agent LLMs. The multi-agent design also enabled effective temporal reasoning with smaller-capacity models such as GPT-4.1-mini. The groundedness of TrajOnco’s output was supported by human evaluation. Furthermore, TrajOnco’s interpretable reasoning outputs can be aggregated to reveal population-level risk patterns that align with established clinical knowledge. These findings highlight the potential of multi-agent LLMs to execute interpretable temporal reasoning over longitudinal EHRs, advancing both scalable multi-cancer early detection and clinical insight generation.",
+    "authors": [
+      "Sihang Zeng",
+      "Young Won Kim",
+      "Wilson Lau",
+      "Ehsan Alipour",
+      "Ruth Etzioni",
+      "Meliha Yetisgen",
+      "Anand Oka"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "npj Digital Medicine",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 npj Digital Medicine；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s41746-026-03377-9",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "large language model",
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s41746-026-03377-9"
+    ],
+    "paper_url": "https://doi.org/10.1038/s41746-026-03377-9",
+    "open_access_url": "https://doi.org/10.1038/s41746-026-03377-9",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "npj Digital Medicine",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.1038/s41746-026-03377-9"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1073/pnas.2600331123",
+    "title": "Tipping point forecasting in nonstationary dynamics on function spaces",
+    "abstract": "Tipping points are abrupt, drastic, and often irreversible changes in the evolution of nonstationary and chaotic dynamical systems. For instance, increased greenhouse gas concentrations are predicted to lead to drastic decreases in low cloud cover, referred to as a climatological tipping point. In this paper, we learn the evolution of such nonstationary dynamical systems using a recurrent neural operator (RNO), which learns mappings between function spaces. After training RNO on only the pre-tipping dynamics, we employ it to detect future tipping points using an uncertainty-based approach. In particular, we propose a conformal prediction framework to forecast tipping points by monitoring deviations from physics constraints (such as conserved quantities and partial differential equations), enabling forecasting of these abrupt changes along with a rigorous measure of uncertainty. We illustrate our proposed methodology on nonstationary ordinary and partial differential equations, such as the Lorenz-63 and Kuramoto–Sivashinsky equations. We also apply our methods to forecast a climate tipping point in stratocumulus cloud cover and airfoil wake and stall transitions using only limited knowledge of the governing equations. For the latter, we show that our proposed method zero-shot generalizes to forecasting multiple future tipping points under varying Reynolds numbers. In our experiments, we demonstrate that even partial or approximate physics constraints can be used to accurately forecast future tipping points.",
+    "authors": [
+      "Miguel Liu-Schiaffini",
+      "Clare E. Singer",
+      "Nikola Kovachki",
+      "Sze Chai Leung",
+      "H. Jane Bae",
+      "Kamyar Azizzadenesheli",
+      "Anima Anandkumar"
+    ],
+    "institutions": [
+      {
+        "name": "California Institute of Technology",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Colorado Boulder",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Nvidia (United States)",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Miguel Liu-Schiaffini",
+        "institution": "California Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Clare E. Singer",
+        "institution": "University of Colorado Boulder",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Nikola Kovachki",
+        "institution": "Nvidia (United States)",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sze Chai Leung",
+        "institution": "California Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "H. Jane Bae",
+        "institution": "California Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kamyar Azizzadenesheli",
+        "institution": "Nvidia (United States)",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Anima Anandkumar",
+        "institution": "California Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Proceedings of the National Academy of Sciences；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1073/pnas.2600331123",
+    "work_type": "article",
+    "citation_count": 4,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "Neural Combinatorial Optimization 与神经搜索",
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "partial differential equation"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "temporal frequency principle in world models"
+      },
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "neural routing"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "model-based control with learned dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1073/pnas.2600331123"
+    ],
+    "paper_url": "https://doi.org/10.1073/pnas.2600331123",
+    "open_access_url": "https://doi.org/10.1073/pnas.2600331123",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Proceedings of the National Academy of Sciences",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.1073/pnas.2600331123"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2610.21922",
     "title": "TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control",
     "abstract": "Many vision-language-action policies rely on action-labeled robot demonstrations and lack an explicit mechanism for predicting future visual states. These limitations hinder learning from action-free videos and can encourage overfitting to demonstration conditions, weakening generalization and robustness. We present TS-WAM, a lightweight Teacher-Student World-Action Model that addresses these challenges through self-supervised temporal learning and explicit future prediction. Its vlm-jepa framework learns from heterogeneous data, including robot demonstrations and action-free human videos, using an EMA target branch without requiring a separately trained external teacher. By coupling vlm-jepa with delta-lwm, TS-WAM learns to predict latent actions from the current observation and instruction and uses them to predict future visual features that guide action generation at inference. A unified end-to-end training architecture jointly optimizes temporal representation learning, visual dynamics, and robot control without a separate latent-action or world-model pretraining stage. The EMA target branch is removed at inference, keeping the deployed policy lightweight. Experiments on LIBERO, LIBERO-Plus, and SimplerEnv, together with real-world manipulation experiments on Franka Research 3 and RevoTron, demonstrate that TS-WAM achieves strong manipulation performance, generalization, and robustness.",
@@ -15807,6 +16344,81 @@
     ],
     "first_seen": "2026-10-16",
     "last_status_checked": "2026-10-16",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.5281/zenodo.23386686",
+    "title": "THE EL-RAKHAWI INTEGRATIVE FRAMEWORK FOR APPLIED MATHEMATICAL SCIENCES A Unified Pedagogical and Methodological Architecture Bridging Pure Mathematics, Computational Methods, and Real-World Applications",
+    "abstract": "The El-Rakhawi Integrative Framework for Applied Mathematical Sciences (DOI: 10.5281/zenodo.23386687) presents a groundbreaking pedagogical architecture bridging six fundamental mathematical domains: (1) Pure Mathematics Foundations (linear/abstract algebra, real/complex analysis, discrete mathematics, history/philosophy); (2) Calculus & Modeling (multivariable calculus, ODEs/PDEs, optimization, operations research); (3) Numerical & Computational Methods (numerical analysis, Python/R/MATLAB implementation, scientific computing); (4) Probability & Statistics (inference, statistical modeling, biostatistics, environmental statistics); (5) Data Science & Machine Learning (statistical learning, time series, big data, deep learning); (6) Specialized Applications (mathematical finance, mathematical physics, environmental resilience, UAS systems). The Mathematical Integration and Application Readiness Index (MIARI)=(F×C×A)/((F×C×A)+(W×D×I)+0.01), with W=10, quantitatively exposes that typical mathematics programs score only 0.021 due to fragmentation and irrelevance. The framework explicitly acknowledges MIARI as a methodological assessment tool requiring empirical validation—not a proven theorem—demonstrating scientific honesty. Unlike prior works, this monograph makes no claims of novel mathematical theorems. Its contribution lies in integrative pedagogy connecting established knowledge through vertical/horizontal bridges, computational grounding, and application-driven motivation. Protected under sovereign moral and intellectual property with mandatory academic citation framework. All rights exclusively reserved to Dr. Mohamed Kamal Arafa El-Rakhawi—establishing mathematics not as isolated formulas but as a unified language for understanding and improving the world.",
+    "authors": [
+      "mohamed kamal arafa el-rakhawi"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.5281/zenodo.23386686",
+    "work_type": "book",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.5281/zenodo.23386686"
+    ],
+    "paper_url": "https://doi.org/10.5281/zenodo.23386686",
+    "open_access_url": "https://doi.org/10.5281/zenodo.23386686",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "book",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "venue_type": "repository",
+        "date": "2026-10-15",
+        "doi": "10.5281/zenodo.23386686"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15898,6 +16510,127 @@
     ],
     "first_seen": "2026-10-16",
     "last_status_checked": "2026-10-16",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1137/25m1735329",
+    "title": "Subspace Accelerated Measure Transport Methods for Fast and Scalable Sequential Experimental Design, with Application to Photoacoustic Imaging",
+    "abstract": "Abstract. We propose a novel approach for sequential optimal experimental design (sOED) for Bayesian inverse problems involving expensive models with high-dimensional unknown parameters. This work focuses on designs that maximize the expected information gain (EIG) from prior to posterior, a task that is computationally very challenging in non-Gaussian settings. This challenge is amplified in sOED, as the incremental EIG (iEIG) must be repeatedly approximated across distinct stages, with both prior and posterior distributions being intractable. To address this, we derive a general-purpose, derivative-based upper bound for the iEIG, which not only guides design placement but also enables the construction of projectors onto likelihood-informed subspaces, facilitating parameter dimension reduction. By combining this approach with conditional measure transport maps for the sequence of posteriors, we develop a unified sOED and amortized inference framework scalable to high- and infinite-dimensional problems. Numerical experiments for two inverse problems governed by PDEs demonstrate the effectiveness of designs by maximizing the proposed bound.",
+    "authors": [
+      "Tiangang Cui",
+      "Karina Koval",
+      "Roland Herzog",
+      "Robert Scheichl"
+    ],
+    "institutions": [
+      {
+        "name": "The University of Sydney",
+        "country_code": "AU",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Heidelberg University",
+        "country_code": "DE",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Tiangang Cui",
+        "institution": "The University of Sydney",
+        "country_code": "AU",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Karina Koval",
+        "institution": "Heidelberg University",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Roland Herzog",
+        "institution": "Heidelberg University",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Robert Scheichl",
+        "institution": "Heidelberg University",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "AU",
+      "DE"
+    ],
+    "home_scope": "国外",
+    "venue": "SIAM/ASA Journal on Uncertainty Quantification",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 SIAM/ASA Journal on Uncertainty Quantification；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1137/25m1735329",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "model-based reinforcement learning"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1137/25m1735329"
+    ],
+    "paper_url": "https://doi.org/10.1137/25m1735329",
+    "open_access_url": "https://arxiv.org/pdf/2502.20086",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "SIAM/ASA Journal on Uncertainty Quantification",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.1137/25m1735329"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16490,6 +17223,359 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1088/2632-2153/aeb505",
+    "title": "Interpolation of unitaries with time-dependent Hamiltonians via Deep Learning",
+    "abstract": "Abstract Quantum systems governed by time-dependent Hamiltonians pose significant challenges for the accurate computation of unitary time-evolution operators, which are essential for predicting quantum state dynamics. In this work, we introduce a physics-informed deep learning approach based on Physics-Informed Neural Networks to estimate these operators over the full time domain. By incorporating physical constraints such as unitarity and leveraging the second-order Magnus expansion or Trotterization on the evolution operator, the proposed framework enables the estimation of unitary matrices at different time intervals. The model is trained using simulated unitary operators and evaluated on quantum systems ranging from 2 to 6 qubits, governed by a fully non-zero Pauli Hamiltonian. For larger many-body systems, specifically those with 7 and 8 qubits, the same methodology is employed to reconstruct an effective time-dependent Hamiltonian, restricted to nearest-neighbor Ising and XYZ Heisenberg models, from which the corresponding time-evolution operator is computed over the entire temporal domain. Across all system sizes, the framework achieves high gate fidelities using a limited number of unitary samples, with a statistical analysis over independent Hamiltonian realizations confirming mean fidelities close to 0.99 and low variability. Furthermore, once trained, the model interpolates the evolution operator with inference times substantially lower than those of a numerical interpolation baseline, indicating a potential reduction in measurement and data acquisition costs. These results highlight the effectiveness of the approach for data-driven simulation and identification of quantum dynamical systems, with direct relevance to quantum computing and quantum simulation applications.",
+    "authors": [
+      "Antonio Guerra",
+      "Daniel Uzcátegui Contreras",
+      "A. Delgado",
+      "Esteban S. Gómez"
+    ],
+    "institutions": [
+      {
+        "name": "University of Concepción",
+        "country_code": "CL",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Universidad Católica de la Santísima Concepción",
+        "country_code": "CL",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Antonio Guerra",
+        "institution": "University of Concepción",
+        "country_code": "CL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Daniel Uzcátegui Contreras",
+        "institution": "Universidad Católica de la Santísima Concepción",
+        "country_code": "CL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "A. Delgado",
+        "institution": "University of Concepción",
+        "country_code": "CL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Esteban S. Gómez",
+        "institution": "University of Concepción",
+        "country_code": "CL",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CL"
+    ],
+    "home_scope": "国外",
+    "venue": "Machine Learning Science and Technology",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Machine Learning Science and Technology；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1088/2632-2153/aeb505",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural spectral method"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "model-based control with learned dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1088/2632-2153/aeb505"
+    ],
+    "paper_url": "https://doi.org/10.1088/2632-2153/aeb505",
+    "open_access_url": "https://doi.org/10.1088/2632-2153/aeb505",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Machine Learning Science and Technology",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.1088/2632-2153/aeb505"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1214/25-aop1818",
+    "title": "Higher order approximation of nonlinear SPDEs with additive space-time white noise",
+    "abstract": "We consider strong approximations of 1+1-dimensional stochastic PDEs driven by additive space-time white noise. It has long been proposed (Math. Comp. 70 (2001) 121–134; Proc. R. Soc. Lond. Ser. A Math. Phys. Eng. Sci. 465 (2009) 649–667), as well as observed in simulations, that approximation schemes based on samples from the stochastic convolution, rather than from increments of the underlying Wiener processes, should achieve significantly higher convergence rates with respect to the temporal timestep. The present paper proves this. For a large class of nonlinearities, with possibly superlinear growth, a temporal rate of (almost) 1 is proven, a major improvement on the rate 1/4 that is known to be optimal for schemes based on Wiener increments. The spatial rate remains (almost) 1/2, as it is standard in the literature.",
+    "authors": [
+      "Ana Djurdjevac",
+      "Máté Gerencsér",
+      "Helena Kremp"
+    ],
+    "institutions": [
+      {
+        "name": "Freie Universität Berlin",
+        "country_code": "DE",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Weierstrass Institute for Applied Analysis and Stochastics",
+        "country_code": "DE",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Ana Djurdjevac",
+        "institution": "Freie Universität Berlin",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Helena Kremp",
+        "institution": "Weierstrass Institute for Applied Analysis and Stochastics",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "DE"
+    ],
+    "home_scope": "国外",
+    "venue": "The Annals of Probability",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 The Annals of Probability；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1214/25-aop1818",
+    "work_type": "article",
+    "citation_count": 2,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "adaptive spectral method"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1214/25-aop1818"
+    ],
+    "paper_url": "https://doi.org/10.1214/25-aop1818",
+    "open_access_url": "https://arxiv.org/pdf/2406.03058",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "The Annals of Probability",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.1214/25-aop1818"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1016/j.apenergy.2026.128983",
+    "title": "Graph neural networks for transmission grid topology control: Busbar information asymmetry and heterogeneous representations",
+    "abstract": "",
+    "authors": [
+      "Matthijs de Jong",
+      "Jan Viebahn",
+      "Yuliya Shapovalova"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Applied Energy",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Applied Energy；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1016/j.apenergy.2026.128983",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "graph neural network",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "neural combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduction-based combinatorial optimization"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer world model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "graph neural network combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1016/j.apenergy.2026.128983"
+    ],
+    "paper_url": "https://doi.org/10.1016/j.apenergy.2026.128983",
+    "open_access_url": "https://arxiv.org/pdf/2501.07186",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Applied Energy",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.1016/j.apenergy.2026.128983"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2610.22343",
     "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
     "abstract": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically, a scene tokenizer aggregates multi-view GFM features into a view-decoupled scene state, which a geometry decoder queries using camera rays. An autoregressive world model then predicts future scene states, while camera motion is modeled separately. The predicted states can therefore be decoded under either predicted or externally specified cameras, while retaining a single context-derived scale throughout the rollout without per-frame scale alignment. Experiments show that GeoState outperforms prior 3D world models on Waymo, supports geometrically consistent cross-view querying, and generalizes zero-shot to KITTI and nuScenes. Project page: https://hongchang-liu.github.io/GeoState-project-page/",
@@ -16793,6 +17879,134 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1214/26-aop1852",
+    "title": "Controlled rough SDEs, pathwise stochastic control and dynamic programming principles",
+    "abstract": "We study stochastic optimal control of rough stochastic differential equations (RSDEs). This is in the spirit of the pathwise control problem (Lions–Souganidis 1998, Buckdahn–Ma 2007; also Davis–Burstein 1992), with renewed interest and recent works drawing motivation from filtering, SPDEs, and reinforcement learning. Results include regularity of rough value functions, validity of a rough dynamic programming principle and new rough stability results for HJB equations, removing excessive regularity demands previously imposed by flow transformation methods. Measurable selection is used to relate RSDEs to “doubly stochastic” SDEs under conditioning. In contrast to previous works, Brownian statistics for the to-be-conditioned-on noise are not required, aligned with the “pathwise” intuition that these should not matter upon conditioning. Depending on the chosen class of admissible controls, the involved processes may also be anticipating. The resulting stochastic value functions coincide in great generality for different classes of controls. RSDE theory offers a powerful and unified perspective on this problem class.",
+    "authors": [
+      "Peter K. Friz",
+      "Khoa Lê",
+      "Huilin Zhang"
+    ],
+    "institutions": [
+      {
+        "name": "Weierstrass Institute for Applied Analysis and Stochastics",
+        "country_code": "DE",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Leeds",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Cal Poly Humboldt",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Peter K. Friz",
+        "institution": "Weierstrass Institute for Applied Analysis and Stochastics",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Khoa Lê",
+        "institution": "University of Leeds",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Huilin Zhang",
+        "institution": "Cal Poly Humboldt",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "DE",
+      "GB",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "The Annals of Probability",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 The Annals of Probability；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1214/26-aop1852",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "model-based reinforcement learning"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1214/26-aop1852"
+    ],
+    "paper_url": "https://doi.org/10.1214/26-aop1852",
+    "open_access_url": "https://arxiv.org/pdf/2412.05698",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "The Annals of Probability",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.1214/26-aop1852"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2610.21910",
     "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
     "abstract": "As Vision-Language Models (VLMs) advance, they are increasingly expected to perform spatiotemporal reasoning over motion, actions, and view changes beyond what the input images show. Video World Models (VWMs) provide a natural unified engine for visual imagination by generating task-relevant visual content as additional evidence. However, existing approaches typically invoke a VWM through fixed pipelines centered on a predefined form of visual imagination, such as novel-view synthesis. To support flexible visual imagination for diverse reasoning tasks, we introduce CoWorld Reasoner, an agentic framework that uses a VWM as a unified visual reasoning engine. Its Video World Model-Driven Harness exposes multiple visual operations through tools and uses skills to guide the VLM in deciding whether to imagine, selecting an operation, constructing a generation request, and interpreting the resulting visual evidence. We further introduce VLM-VWM Harness Co-Evolution, which jointly revises tools, skills, and execution code based on execution feedback while keeping both model weights fixed. Across seven benchmarks spanning spatial intelligence, temporal and causal reasoning, and perceptual reasoning, CoWorld Reasoner outperforms direct reasoning with the same VLM. The strongest variant improves on all seven benchmarks, including relative accuracy gains of 11.8% on MMSI and 13.0% on ERQA, and outperforms all five evolving baselines using the same backbone across five benchmarks.",
@@ -16867,6 +18081,338 @@
     ],
     "first_seen": "2026-10-16",
     "last_status_checked": "2026-10-16",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.5281/zenodo.23405625",
+    "title": "Causal Invariant Bio-Inference: Breaking the Observational Barrier in Rhizosphere Dynamics via Physically-Constrained Edge-GNN Structural Causal Models",
+    "abstract": "Observational machine learning models (e.g., Transformers, CNNs, Random Forests) fit joint probability distributions P(Y|X) and inherently break down out-of-distribution when spurious correlations fail under environmental volatility. In rhizosphere dynamics, unobserved confounders and micro-climatic shifts frequently lead to catastrophic prediction failures. To break this observational barrier, we introduce Causal Invariant Bio-Inference for RADIUS 0 / MediEEZI, combining Judea Pearl’s do-calculus interventional framework P(Y|do(X=x*)) with structural causal models (SCMs) and decentralized Edge Graph Neural Networks (Edge-GNNs). By embedding a stoichiometric and biochemical constraint matrix (C_bio derived from KEGG/MetaCyc pathways) directly into the adjacency optimization, we restrict the causal search space to thermodynamically allowed interactions and enforce strict directed acyclic graph (DAG) topology via matrix exponential constraints. This physically-constrained architecture enables provably convergent, continuous in-situ causal bio-inference across soil-plant-microbiome interactions, closed-loop environmental control life support systems (ECLS), and non-invasive health monitoring without requiring destructive sampling.",
+    "authors": [
+      "Thorsten Franke"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.5281/zenodo.23405625",
+    "work_type": "preprint",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "graph neural network",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer dynamics model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.5281/zenodo.23405625"
+    ],
+    "paper_url": "https://doi.org/10.5281/zenodo.23405625",
+    "open_access_url": "https://doi.org/10.5281/zenodo.23405625",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "venue_type": "repository",
+        "date": "2026-10-15",
+        "doi": "10.5281/zenodo.23405625"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.21203/rs.3.rs-10382036/v1",
+    "title": "A Speculative Verification and Expert Repair Framework for Dynamic Vehicle Routing",
+    "abstract": "",
+    "authors": [
+      "Qingyou Wang"
+    ],
+    "institutions": [
+      {
+        "name": "Hubei University of Automotive Technology",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Qingyou Wang",
+        "institution": "Hubei University of Automotive Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Research Square",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.21203/rs.3.rs-10382036/v1",
+    "work_type": "preprint",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vehicle routing"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "neural combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "autoregressive combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.21203/rs.3.rs-10382036/v1"
+    ],
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-10382036/v1",
+    "open_access_url": "https://www.researchsquare.com/article/rs-10382036/latest.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "Research Square",
+        "venue_type": "repository",
+        "date": "2026-10-15",
+        "doi": "10.21203/rs.3.rs-10382036/v1"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.3390/pr14203318",
+    "title": "A Literature Review on the Sensor Network Design Problem Applied to Chemical Processes",
+    "abstract": "In the present paper, a comprehensive review of methodologies for the optimal placement of measurement devices in chemical processes, commonly referred to as the sensor network design problem (SNDP), is presented. The SNDP is a combinatorial optimization problem of paramount importance in process design, monitoring, control, and data reconciliation, as sensor placement directly affects estimability, precision, reliability, and fault detectability. In addition to surveying solution strategies for SNDP, this review examines the closely related variable classification problem, which constitutes a fundamental building block in the systematic development of sensor networks. The evolution of the field is analyzed, highlighting early structural search approaches, subsequent optimization-based formulations relying on relaxation and decomposition techniques, and heuristic and metaheuristic strategies. The strengths and limitations of these methodological classes are discussed with respect to problem size and computational complexity. Moreover, this review identified a novel strategy to solve SNDPs based on machine learning algorithms. Finally, future research directions are outlined, emphasizing the growing need for scalable frameworks capable of addressing increasingly large and automated industrial systems. As computational capabilities continue to advance and process plants transition toward highly digitalized environments, research efforts devoted to efficient and robust SNDP methodologies are expected to intensify. In this context, Large Language Models (LLMs) can play a transformative role.",
+    "authors": [
+      "Jonildo dos Santos Silva",
+      "Marília Caroline C. de Sá",
+      "Romulo Brito da Silva",
+      "Bruno Colli Manhães",
+      "Daniela Miranda Neves",
+      "Luiz Felipe de O. Campos",
+      "Thiago Koichi Anzai",
+      "Fábio C. Diehl",
+      "José Carlos Pinto"
+    ],
+    "institutions": [
+      {
+        "name": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Petrobras (Brazil)",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Jonildo dos Santos Silva",
+        "institution": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marília Caroline C. de Sá",
+        "institution": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Romulo Brito da Silva",
+        "institution": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bruno Colli Manhães",
+        "institution": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Daniela Miranda Neves",
+        "institution": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Luiz Felipe de O. Campos",
+        "institution": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Thiago Koichi Anzai",
+        "institution": "Petrobras (Brazil)",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Fábio C. Diehl",
+        "institution": "Petrobras (Brazil)",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "José Carlos Pinto",
+        "institution": "Universidade Federal do Rio de Janeiro",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "BR"
+    ],
+    "home_scope": "国外",
+    "venue": "Processes",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Processes；日期 2026-10-15"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-15",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.3390/pr14203318",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization",
+      "language model",
+      "large language model",
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.3390/pr14203318"
+    ],
+    "paper_url": "https://doi.org/10.3390/pr14203318",
+    "open_access_url": "https://doi.org/10.3390/pr14203318",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Processes",
+        "venue_type": "journal",
+        "date": "2026-10-15",
+        "doi": "10.3390/pr14203318"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18281,6 +19827,98 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1002/nav.70099",
+    "title": "Machine Learning‐Assisted Optimization for Dynamic Supply Network Design in the Additive Manufacturing Platform",
+    "abstract": "ABSTRACT Distributed manufacturing enabled by additive manufacturing (AM) allows supply chains to rapidly adapt to changing market conditions through flexible facility relocation and capacity adjustment. However, existing studies largely overlook the logistical aspects of AM‐based supply chains and typically treat facility location and logistics decisions separately. This study addresses this gap by developing a novel AM supply network design model that simultaneously considers the dynamic relocation of AM facilities, the adjustment of production capacities, and delivery routing decisions over multiple periods. We formulate the problem as a mixed‐integer linear programming model (MILP). Given the computational challenges associated with the delivery routing component, we propose a machine learning genetic algorithm (MLGA) approach to solve the problem efficiently. MLGA incorporates a machine learning surrogate to estimate the cost of the capacitated vehicle routing subproblem (CVRP), thereby significantly accelerating the convergence of the genetic algorithm (GA). We train two different machine learning surrogates: One based on a neural network model and the other on an XGBoost model. The MLGA solution methodology, under both surrogate models, performs satisfactorily in terms of solution quality and computation time across a set of randomly generated instances. Extensive sensitivity analyses are also conducted on a realistic use case to evaluate the model's applicability under varying service area, demand, and cost scenarios, offering valuable managerial insights and practical implications.",
+    "authors": [
+      "Behrang Bootaki",
+      "Guoqing Zhang"
+    ],
+    "institutions": [
+      {
+        "name": "University of Windsor",
+        "country_code": "CA",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Behrang Bootaki",
+        "institution": "University of Windsor",
+        "country_code": "CA",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Guoqing Zhang",
+        "institution": "University of Windsor",
+        "country_code": "CA",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CA"
+    ],
+    "home_scope": "国外",
+    "venue": "Naval Research Logistics (NRL)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Naval Research Logistics (NRL)；日期 2026-10-14"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-14",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1002/nav.70099",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vehicle routing"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1002/nav.70099"
+    ],
+    "paper_url": "https://doi.org/10.1002/nav.70099",
+    "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/nav.70099",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Naval Research Logistics (NRL)",
+        "venue_type": "journal",
+        "date": "2026-10-14",
+        "doi": "10.1002/nav.70099"
+      }
+    ],
+    "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.3389/frobt.2026.1832982",
     "title": "Learning-enabled collaborative intelligence in search and rescue robotics: a survey of paradigms, models, and challenges",
     "abstract": "Search and Rescue (SAR) robotics increasingly depends on collaborative intelligence to operate effectively in dynamic, uncertain, and time-sensitive environments. Modern SAR missions require coordinated interaction among heterogeneous robotic agents as well as structured collaboration between humans and intelligent systems for perception, decision-making, and adaptive mission execution. This paper presents a structured narrative review supported by a systematic literature search of learning-enabled collaborative intelligence frameworks in SAR robotics, organized around three paradigms: human-to-machine (H2M), machine-to-machine (M2M), and machine-to-human (M2H) learning. The review examines recent developments in reinforcement learning, federated and decentralized learning, knowledge distillation, swarm intelligence, semantic communication, and the growing integration of large language models (LLMs) and vision-language models (VLMs) for knowledge grounding, transfer, and explainability. Beyond algorithmic advances, the analysis emphasizes deployment-oriented challenges including partial observability, communication constraints, uncertainty management, model reliability, and real-time operational requirements. Rather than conducting a fully PRISMA-compliant systematic review, this work synthesizes representative and influential studies to identify emerging trends, architectural trade-offs, deployment limitations, and future research directions for scalable and trustworthy collaborative SAR systems.",
@@ -19634,30 +21272,220 @@
       "Amaury Habrard",
       "Massimiliano Pontil",
       "Remi Emonet",
-      "Marc Sebban"
+      "Marc Sebban",
+      "Mezidi, Abdel-Rahim",
+      "Patracone, Jordan",
+      "Rémi Emonet"
     ],
-    "institutions": [],
-    "affiliations": [],
-    "institution_countries": [],
-    "home_scope": "未知",
-    "venue": "",
+    "institutions": [
+      {
+        "name": "Laboratoire Hubert Curien",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Centre Inria de Lyon",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "MALICE: Apprentissage automatique avec intégration des connaissances en ingénierie de surface : théorie et algorithmes",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Université Jean Monnet",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Sapienza University of Rome",
+        "country_code": "IT",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Institut Universitaire de France",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Italian Institute of Technology",
+        "country_code": "IT",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Mezidi, Abdel-Rahim",
+        "institution": "Laboratoire Hubert Curien",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mezidi, Abdel-Rahim",
+        "institution": "Centre Inria de Lyon",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mezidi, Abdel-Rahim",
+        "institution": "MALICE: Apprentissage automatique avec intégration des connaissances en ingénierie de surface : théorie et algorithmes",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mezidi, Abdel-Rahim",
+        "institution": "Université Jean Monnet",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Patracone, Jordan",
+        "institution": "Laboratoire Hubert Curien",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Patracone, Jordan",
+        "institution": "Centre Inria de Lyon",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Patracone, Jordan",
+        "institution": "MALICE: Apprentissage automatique avec intégration des connaissances en ingénierie de surface : théorie et algorithmes",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Patracone, Jordan",
+        "institution": "Université Jean Monnet",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Saverio Salzo",
+        "institution": "Sapienza University of Rome",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Amaury Habrard",
+        "institution": "Institut Universitaire de France",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Amaury Habrard",
+        "institution": "Laboratoire Hubert Curien",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Amaury Habrard",
+        "institution": "Centre Inria de Lyon",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Amaury Habrard",
+        "institution": "MALICE: Apprentissage automatique avec intégration des connaissances en ingénierie de surface : théorie et algorithmes",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Amaury Habrard",
+        "institution": "Université Jean Monnet",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Massimiliano Pontil",
+        "institution": "Italian Institute of Technology",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rémi Emonet",
+        "institution": "Institut Universitaire de France",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rémi Emonet",
+        "institution": "Laboratoire Hubert Curien",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rémi Emonet",
+        "institution": "Centre Inria de Lyon",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rémi Emonet",
+        "institution": "MALICE: Apprentissage automatique avec intégration des connaissances en ingénierie de surface : théorie et algorithmes",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rémi Emonet",
+        "institution": "Université Jean Monnet",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marc Sebban",
+        "institution": "Laboratoire Hubert Curien",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marc Sebban",
+        "institution": "Université Jean Monnet",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "FR",
+      "IT"
+    ],
+    "home_scope": "国外",
+    "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
     "publication_status": "已发表/有期刊或会议记录（建议核验）",
     "status_evidence": [
       "arXiv journal_ref（作者提供，需核验）：Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:43965-43989, 2025"
     ],
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
-    "publication_date": "",
+    "publication_date": "2026-10-14",
     "preprint_date": "2026-10-14",
     "preprint_updated_date": "2026-10-14",
     "arxiv_id": "2610.20120",
-    "doi": "",
+    "doi": "10.48550/arxiv.2610.20120",
     "work_type": "preprint",
-    "citation_count": null,
+    "citation_count": 0,
     "topics": [
       "PDE、Neural Operators、谱方法与最优控制"
     ],
     "search_topics": [
-      "PDE、Neural Operators、谱方法与最优控制"
+      "PDE、Neural Operators、谱方法与最优控制",
+      "World Models 与连续时间/潜变量动力学"
     ],
     "relevance_status": "in_scope",
     "relevance_anchors": [
@@ -19674,13 +21502,27 @@
         "role": "adjacent",
         "weight": 0.8,
         "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      },
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
       }
     ],
     "source_names": [
-      "arXiv"
+      "arXiv",
+      "OpenAlex"
     ],
     "source_urls": [
-      "https://arxiv.org/abs/2610.20120"
+      "https://arxiv.org/abs/2610.20120",
+      "https://doi.org/10.48550/arxiv.2610.20120"
     ],
     "paper_url": "https://arxiv.org/abs/2610.20120",
     "open_access_url": "https://arxiv.org/pdf/2610.20120",
@@ -19692,6 +21534,14 @@
         "venue": "arXiv",
         "journal_ref": "Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:43965-43989, 2025",
         "doi": ""
+      },
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "venue_type": "repository",
+        "date": "2026-10-14",
+        "doi": "10.48550/arxiv.2610.20120"
       }
     ],
     "first_seen": "2026-10-15",
