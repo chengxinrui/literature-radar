@@ -15260,6 +15260,185 @@
     ]
   },
   {
+    "uid": "doi:10.5281/zenodo.23433810",
+    "title": "Verifier-Bound Rule Discovery: A Pre-Registered Evaluation of LLM Proposers for Combinatorial Scheduling",
+    "abstract": "Large language models are increasingly used as proposers of human-readable rules in scientific discovery and combinatorial optimization (FunSearch, ARCHE, SVBRD-LLM). Yet the LLM-proposer systems we surveyed share a methodological gap: none reports a same-budget random-proposer control, none pre-registers its acceptance criteria, and none evaluates at distribution scale –- ARCHE validates on three hand-picked cases, and SVBRD-LLM, the closest system to ours, is outperformed on accuracy by a black-box LSTM while reporting no significance tests. We apply a verifier-bound rule-discovery framework in which an LLM proposes interpretable rules (linear weight vectors and sandboxed programs), an independent programmatic verifier checks domain-hard properties, holdout evaluation is physically isolated and executed exactly once, and every acceptance criterion is frozen before experiments run. On an industrial scheduling domain, under a 20-evaluation budget, the LLM proposer reaches train quality far above a same-budget random control (median new-overdue 11 vs.\\ 14, vs.\\ production baseline 17), but its holdout win rate is 55/100 bootstrap pairs –- an inconclusive band by our pre-registered criteria. The failure mode is nevertheless systematic and stable: a decoupling between train improvement and generalization –- the proposer finds a train-beating rule in 81/100 pairs, but 47\\",
+    "authors": [
+      "Siyuan Zhang",
+      "Jia Chen",
+      "Ni Zhang"
+    ],
+    "institutions": [
+      {
+        "name": "Shenyang Institute of Technology",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Siyuan Zhang",
+        "institution": "Shenyang Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jia Chen",
+        "institution": "Shenyang Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Ni Zhang",
+        "institution": "Shenyang Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.5281/zenodo.23433810",
+    "work_type": "preprint",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization",
+      "language model",
+      "large language model",
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.5281/zenodo.23433810"
+    ],
+    "paper_url": "https://doi.org/10.5281/zenodo.23433810",
+    "open_access_url": "https://doi.org/10.5281/zenodo.23433810",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "venue_type": "repository",
+        "date": "2026-10-17",
+        "doi": "10.5281/zenodo.23433810"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.48175/ijarsct-38921",
+    "title": "Truck Platooning—An Overview Study with Time Constraints",
+    "abstract": "The truck platoon has a significant impact on modern society. As fuel costs increase daily,vehicles can be driven in a pattern to reduce fuel consumption. Vehicle routing problem is discussed in literature with taking only single objective and not considering other objectives.Multiple objectives are hard to solve.If the environment changes then vehicle routine problem gets a new route hence problem becomes challenging.In theory the data about customers and route to reach the customer will be known before but the real case scenario the request from customer changes so the environment is dynamic.The dynamic vehicle routing problem is discussed in this study with time window where which customer has to visit in what time is included.Multiple objectives such as the waiting time of the customer and minimizing routing distance to reach the customer are considered here.Hence there are multiple objectives in the dynamic environment an ensemble learning to obtain an optimization problem is discussed here ie;EL-DMOEA.Other algorithms to solve vehicle routing problem along with their comparison additionally different types of platoons, comparison of platoon with other types of the transportation is also discussed in this report.",
+    "authors": [
+      "Athira Mavoomkuttathil Sivachandran"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "International Journal of Advanced Research in Science Communication and Technology",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 International Journal of Advanced Research in Science Communication and Technology；日期 2026-10-17"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.48175/ijarsct-38921",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vehicle routing",
+      "routing problem"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduction-based combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.48175/ijarsct-38921"
+    ],
+    "paper_url": "https://doi.org/10.48175/ijarsct-38921",
+    "open_access_url": "https://doi.org/10.48175/ijarsct-38921",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "International Journal of Advanced Research in Science Communication and Technology",
+        "venue_type": "journal",
+        "date": "2026-10-17",
+        "doi": "10.48175/ijarsct-38921"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.5281/zenodo.23424406",
     "title": "The Informational Vector World Model (IVW): spacetime as a network of entanglement — derivations, pre-registered tests, and frozen predictions",
     "abstract": "The Informational Vector World Model (IVW) describes spacetime as a network of quantum entanglement. This combined paper contains the derivations, 42 pre-registered analyses (V07–V48, each frozen with a SHA-256 checksum before the data download or the run) and frozen predictions for future measurements. Negative results are reported in full. The central new proposal is the quenching-time relation a_0 = c H(t_q). Version 1.9, 16 October 2026. The record includes a calculation script with input data that re-computes 14 numbers of the text. All other results cannot be re-computed from this record alone. No result has yet been reproduced by others. The use of language models is disclosed in the section “Use of AI tools” of the paper. Deutsch: Das Informationelle Vektor-Weltmodell (IVW) beschreibt Raumzeit als Netzwerk aus Quantenverschränkung. Diese Gesamtarbeit enthält die Herleitungen, 42 vorregistrierte Auswertungen (V07–V48, jeweils vor dem Herunterladen der Daten oder vor dem Lauf mit einer SHA-256-Prüfsumme festgeschrieben) und die festgeschriebenen Vorhersagen für künftige Messungen. Negative Ergebnisse sind vollständig berichtet. Der zentrale neue Vorschlag ist die Abschaltzeit-Beziehung a_0 = c H(t_q). Fassung 1.9, 16. Oktober 2026. Dem Eintrag liegen ein Rechenskript mit Eingabedaten bei, das 14 Zahlen des Textes nachrechnet. Alle übrigen Ergebnisse lassen sich mit diesem Eintrag allein nicht nachrechnen. Kein Ergebnis wurde bisher von anderen nachgerechnet. Der Einsatz von Sprachmodellen ist im Abschnitt „Einsatz von KI-Werkzeugen” der Arbeit offengelegt.",
@@ -15325,6 +15504,695 @@
       }
     ],
     "first_seen": "2026-10-18",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/978-3-032-40124-3_11",
+    "title": "Resampling in Importance Splitting Rare Event Simulation: n-th Time’s the Charm",
+    "abstract": "Abstract Importance splitting (ISPLIT) is a robust variance reduction technique that estimates the probability of rare events by decomposing the problem into a sequence of nested, easier subproblems. By partitioning the state space into regions by means of an importance function (IFUN), ISPLIT selectively clones trajectories that reach high importance layers, significantly outperforming standard Monte Carlo simulation while introducing dependencies among trajectories. Resampling (i.e., reinitializing timers given the elapsed time) can mitigate the dependency bottleneck while incurring additional computational overhead. In this paper, we empirically evaluate the impact of resampling on ISPLIT performance, investigating whether it improves estimation efficiency despite its inherent computational costs. To this end, we perform large-scale benchmarking across a variety of artificial and real-world models including queueing networks and dynamic fault trees, exploiting scalable IFUN derivation methods available in the Modest Toolset . We also discuss that resampling is implicitly performed when working with a default simulation engine in fully Markovian systems. In most cases, resampling provides a notable performance improvement, though the degree of the gain significantly depends on the model characteristics.",
+    "authors": [
+      "Carlos E. Budde",
+      "Laura Carnevali",
+      "Gabriel Dengler"
+    ],
+    "institutions": [
+      {
+        "name": "Technical University of Denmark",
+        "country_code": "DK",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Florence",
+        "country_code": "IT",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Saarland University",
+        "country_code": "DE",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Carlos E. Budde",
+        "institution": "Technical University of Denmark",
+        "country_code": "DK",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Laura Carnevali",
+        "institution": "University of Florence",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gabriel Dengler",
+        "institution": "Saarland University",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "DE",
+      "DK",
+      "IT"
+    ],
+    "home_scope": "国外",
+    "venue": "Lecture notes in computer science",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/978-3-032-40124-3_11",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduction-based combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/978-3-032-40124-3_11"
+    ],
+    "paper_url": "https://doi.org/10.1007/978-3-032-40124-3_11",
+    "open_access_url": "https://link.springer.com/content/pdf/10.1007/978-3-032-40124-3_11.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Lecture notes in computer science",
+        "venue_type": "book series",
+        "date": "2026-10-17",
+        "doi": "10.1007/978-3-032-40124-3_11"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1186/s13048-026-02286-5",
+    "title": "Neurosymbolic approach improves robustness of deep learning models for semantic segmentation of MII human oocyte images",
+    "abstract": "Morphology-based assessment of metaphase II (MII) oocytes remains an important component of intracytoplasmic sperm injection (ICSI) workflows, but it is affected by inter-operator variability and limited reproducibility. Deep learning approaches have shown promise for automated segmentation of oocyte structures, although purely data-driven models may generate anatomically implausible masks. Domain knowledge can instead be integrated into neural networks as explicit structural and anatomical constraints guiding training. We retrospectively analyzed 1,243 microscopic images acquired at 200× magnification from 218 patients undergoing ICSI at a single center. We propose a neurosymbolic architecture in which a logic score, derived from a set of knowledge-driven anatomical constraints, is computed on the regions of interest predicted by a transformer-based model (SegFormer). This score was used during training, alongside the segmentation loss, to guide parameter updates, and at inference as a continuous measure of morphological reliability. The neurosymbolic model was compared with an architecturally identical baseline, both quantitatively and qualitatively. To verify that the improvement is attributable to the content of the logical rules rather than to the presence of an auxiliary term, we trained two controls with identical loss form and weight but no anatomical meaning: a non-structural auxiliary loss and a scrambled rule set. The framework was further compared with U-Net and DeepLabV3+ trained on the same dataset and split, and the logic loss was additionally applied to a convolutional backbone. The neurosymbolic model achieved a macro-average intersection over union (IoU) of 0.84 and a Dice score of 0.91, outperforming the baseline (IoU 0.80; Dice 0.88), U-Net (IoU 0.76) and DeepLabV3+ (IoU 0.81). A non-structural auxiliary loss of equal weight did not reproduce this gain (IoU 0.81; Dice 0.88), and scrambling the semantics of the rules degraded performance (IoU 0.61), indicating that the improvement is driven by the content of the constraints rather than by the auxiliary term itself. By embedding domain knowledge as logical constraints, the proposed neurosymbolic framework yields more accurate and morphologically coherent segmentations of MII oocyte images than a purely neural SegFormer baseline. This approach represents a promising image-analysis component for future decision-support systems in ICSI workflows.",
+    "authors": [
+      "Alessandro Biscontin",
+      "Miloš Ajčević",
+      "Stefania Luppi",
+      "Elena Giolo",
+      "Aleksandar Miladinović",
+      "Roberta Bottega",
+      "Daniela De Rocco",
+      "Monica Martinelli",
+      "Agostino Accardo",
+      "Kristina Skerk",
+      "Gabriella Zito",
+      "Giuseppe Ricci"
+    ],
+    "institutions": [
+      {
+        "name": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Trieste",
+        "country_code": "IT",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Alessandro Biscontin",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Miloš Ajčević",
+        "institution": "University of Trieste",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Stefania Luppi",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Elena Giolo",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Aleksandar Miladinović",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Roberta Bottega",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Daniela De Rocco",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Monica Martinelli",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Agostino Accardo",
+        "institution": "University of Trieste",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kristina Skerk",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gabriella Zito",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Giuseppe Ricci",
+        "institution": "University of Trieste",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Giuseppe Ricci",
+        "institution": "IRCCS Materno Infantile Burlo Garofolo",
+        "country_code": "IT",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "IT"
+    ],
+    "home_scope": "国外",
+    "venue": "Journal of Ovarian Research",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Journal of Ovarian Research；日期 2026-10-17"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1186/s13048-026-02286-5",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer-based",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1186/s13048-026-02286-5"
+    ],
+    "paper_url": "https://doi.org/10.1186/s13048-026-02286-5",
+    "open_access_url": "https://doi.org/10.1186/s13048-026-02286-5",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Journal of Ovarian Research",
+        "venue_type": "journal",
+        "date": "2026-10-17",
+        "doi": "10.1186/s13048-026-02286-5"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/978-3-032-41086-3_26",
+    "title": "ELADO: Elliptic PDE Assessment Datasets for Operator Learning",
+    "abstract": "",
+    "authors": [
+      "Frank Ehebrecht",
+      "Toni Scharle",
+      "Martin Atzmueller"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Lecture notes in computer science",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/978-3-032-41086-3_26",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "operator learning",
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/978-3-032-41086-3_26"
+    ],
+    "paper_url": "https://doi.org/10.1007/978-3-032-41086-3_26",
+    "open_access_url": "https://arxiv.org/pdf/2606.20771",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Lecture notes in computer science",
+        "venue_type": "book series",
+        "date": "2026-10-17",
+        "doi": "10.1007/978-3-032-41086-3_26"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/978-3-032-41960-6_38",
+    "title": "Decision-Aware Approximation of Belief Functions for Evidential Combinatorial Optimization",
+    "abstract": "",
+    "authors": [
+      "Sohaib Afifi"
+    ],
+    "institutions": [
+      {
+        "name": "Université d'Artois",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Sohaib Afifi",
+        "institution": "Université d'Artois",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "FR"
+    ],
+    "home_scope": "国外",
+    "venue": "Lecture notes in computer science",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/978-3-032-41960-6_38",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "neural combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/978-3-032-41960-6_38"
+    ],
+    "paper_url": "https://doi.org/10.1007/978-3-032-41960-6_38",
+    "open_access_url": "https://arxiv.org/pdf/2608.10650",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Lecture notes in computer science",
+        "venue_type": "book series",
+        "date": "2026-10-17",
+        "doi": "10.1007/978-3-032-41960-6_38"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1038/s41598-026-75703-w",
+    "title": "Adaptive storage optimization for deep learning workloads in converged HPC-cloud environments: a reinforcement learning approach",
+    "abstract": "Abstract Storage systems remain a significant bottleneck in large-scale deep learning training. Most evaluation studies rely on synthetic benchmarks that do not capture the I/O heterogeneity present in real training pipelines. Automated configuration methods often treat parameter selection as stateless, overlooking the temporal structure of recurring training phases. These challenges are addressed using a converged HPC-cloud platform that integrates Lustre with S3-compatible object storage. Three workloads with distinct I/O characteristics were evaluated: ResNet-50 on ImageNet-1K, 3D U-Net on the Medical Segmentation Decathlon, and Whisper Large on LibriSpeech. Time-to-convergence was used as the primary metric. We introduced a deep reinforcement learning framework that combines Proximal Policy Optimization and Soft Actor-Critic with a Transformer-based state encoder to predict workload phase transitions rather than merely respond to them. The learned policies reduced checkpoint write latency by up to 74.6% and improved GPU utilization across all three workloads. The approach generalizes across heterogeneous I/O profiles without per-workload reconfiguration. The results indicate that temporally aware storage control can improve the efficiency of distributed training pipelines in heterogeneous HPC-cloud environments.",
+    "authors": [
+      "Hovhannes Baghdasaryan",
+      "Hrachya V. Astsatryan"
+    ],
+    "institutions": [
+      {
+        "name": "Institute for Informatics and Automation Problems",
+        "country_code": "AM",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Hovhannes Baghdasaryan",
+        "institution": "Institute for Informatics and Automation Problems",
+        "country_code": "AM",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Hrachya V. Astsatryan",
+        "institution": "Institute for Informatics and Automation Problems",
+        "country_code": "AM",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "AM"
+    ],
+    "home_scope": "国外",
+    "venue": "Scientific Reports",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Scientific Reports；日期 2026-10-17"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s41598-026-75703-w",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer-based",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s41598-026-75703-w"
+    ],
+    "paper_url": "https://doi.org/10.1038/s41598-026-75703-w",
+    "open_access_url": "https://www.nature.com/articles/s41598-026-75703-w_reference.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Scientific Reports",
+        "venue_type": "journal",
+        "date": "2026-10-17",
+        "doi": "10.1038/s41598-026-75703-w"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3859287",
+    "title": "AdaFuse: Adaptive Function Fusion for Dynamic Serverless Workflows",
+    "abstract": "Serverless workflows are commonly modeled as directed acyclic graphs (DAGs) composed of fine-grained functions. While this design promotes modularity and programming flexibility, it also incurs frequent inter-function communication. To alleviate this performance overhead, function fusion has been explored to co-locate and execute communicating functions within a shared container instance. However, existing approaches fail to account for the time-varying trade-off between communication latency reduction and resource overprovisioning arising from path uncertainty in dynamic serverless workflows, making it difficult to sustain high resource efficiency over time. In this paper, we propose a new adaptive function fusion strategy that dynamically reconstructs serverless workflows by adjusting communication schemes between functions in response to changing workflow invocations. Realizing this strategy, however, requires jointly optimizing function fusion and per-instance configuration, a problem with a combinatorial search space, while managing the substantial overhead of switching fusion schemes at runtime. To address these challenges, we design AdaFuse, a novel system for dynamic serverless workflows. AdaFuse jointly optimizes function fusion and instance reconfiguration through an efficient beam-search–based algorithm to optimize the end-to-end resource allocation. With the optimized fusion scheme, AdaFuse employs a fluid migration mechanism that incrementally transitions the workflow deployment while seamlessly redirecting incoming workloads. Evaluations across diverse benchmarks show that AdaFuse reduces resource allocation by up to 49.4% compared to baselines, without compromising SLO attainment.",
+    "authors": [
+      "Zixuan Lin",
+      "Jianxiong Liao",
+      "Zhi Zhou",
+      "Huanle Xu",
+      "Fei Xu",
+      "Xu Chen",
+      "Deke Guo"
+    ],
+    "institutions": [
+      {
+        "name": "Sun Yat-sen University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Macau",
+        "country_code": "MO",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "East China Normal University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Zixuan Lin",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jianxiong Liao",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Zhi Zhou",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Huanle Xu",
+        "institution": "University of Macau",
+        "country_code": "MO",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Fei Xu",
+        "institution": "East China Normal University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xu Chen",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Deke Guo",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN",
+      "MO"
+    ],
+    "home_scope": "国内+国外合作",
+    "venue": "ACM Transactions on Architecture and Code Optimization",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 ACM Transactions on Architecture and Code Optimization；日期 2026-10-17"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-17",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3859287",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial search"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduction-based combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3859287"
+    ],
+    "paper_url": "https://doi.org/10.1145/3859287",
+    "open_access_url": "https://doi.org/10.1145/3859287",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "ACM Transactions on Architecture and Code Optimization",
+        "venue_type": "journal",
+        "date": "2026-10-17",
+        "doi": "10.1145/3859287"
+      }
+    ],
+    "first_seen": "2026-10-19",
     "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
@@ -15526,6 +16394,119 @@
       }
     ],
     "first_seen": "2026-10-17",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1088/2631-8695/aeb5a5",
+    "title": "Temperature-Field Reconstruction and Heat-Source Inversion Estimation Method for High-Voltage Switchgear Based Reduced-Order PINN Surrogate Model",
+    "abstract": "Abstract Localized overheating induced by poor electrical contact, loosened busbar connections, and insulation degradation is a major precursor to failures in high-voltage switchgear. To address the difficulty in directly measuring internal heat sources, a fast three-dimensional temperature-field reconstruction, candidate heat-source identification, and heat-source power inversion method for high-voltage switchgear is proposed based on a reduced-order surrogate model integrating Proper Orthogonal Decomposition (POD) and physics-informed neural networks (PINNs). First, a coupled three-dimensional thermal–flow coupled computational fluid dynamics(CFD) model is established to generate temperature fields under different heat-source conditions. POD is then applied to extract the dominant thermal modes and their corresponding low-dimensional modal coefficients from the high-dimensional temperature fields. A PINN-based reduced-order surrogate model is subsequently trained to establish the nonlinear mapping from heat-source parameters to POD modal coefficients, while residuals of the steady-state heat conduction equation and boundary-condition constraints are incorporated into the loss function to enforce physical consistency and enhance prediction accuracy. Based on external temperature measurements, an Improved Grey Wolf Optimizer (I-GWO) is further adopted to identify the active fault heat source from a predefined set of candidate locations and inversely estimate its corresponding heat-source power. Numerical simulations and temperature-rise experiments show that the proposed method accurately reconstructs the three-dimensional temperature distribution and identifies local high-temperature regions. In the temperature-rise experiment, the relative error of heat-source power inversion is only 2.27%, demonstrating that the proposed framework enables rapid and accurate temperature-field reconstruction and heat-source inversion.",
+    "authors": [
+      "Shengxue Tang",
+      "Xiang Zheng",
+      "Er-Peng Wang",
+      "Songyang Han",
+      "Yize Cheng"
+    ],
+    "institutions": [
+      {
+        "name": "Hebei University of Technology",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Shengxue Tang",
+        "institution": "Hebei University of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xiang Zheng",
+        "institution": "Hebei University of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Er-Peng Wang",
+        "institution": "Hebei University of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Songyang Han",
+        "institution": "Hebei University of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Yize Cheng",
+        "institution": "Hebei University of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Engineering Research Express",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Engineering Research Express；日期 2026-10-16"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-16",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1088/2631-8695/aeb5a5",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1088/2631-8695/aeb5a5"
+    ],
+    "paper_url": "https://doi.org/10.1088/2631-8695/aeb5a5",
+    "open_access_url": "https://iopscience.iop.org/article/10.1088/2631-8695/aeb5a5/pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Engineering Research Express",
+        "venue_type": "journal",
+        "date": "2026-10-16",
+        "doi": "10.1088/2631-8695/aeb5a5"
+      }
+    ],
+    "first_seen": "2026-10-19",
     "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
@@ -16537,6 +17518,82 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.17512/jamcm.2026.4.02",
+    "title": "Caputo-inspired Adaptive Genetic Algorithm and Taguchi Design of Experiment to Solve Capacitated Ambulance Routing Problem",
+    "abstract": "This study proposes an adaptive genetic algorithm based on a nabla Caputo fractional difference with the Taguchi design of experiment for solving the capacitated ambulance routing problem.The optimization problem considered aims to minimize the total ambulance routing cost while satisfying ambulance availability and capacity.In this study, a nabla Caputo fractional difference-based adaptive mutation mechanism is designed and incorporated into the genetic algorithm evolutionary process.This so-called memory-aware mechanism captures historical fitness behavior and is used as an adaptive control signal for dynamically adjusting the mutation rate during optimization.To obtain appropriate parameter settings systematically, the Taguchi design of experiment is employed in two stages.The first stage tunes the genetic algorithm parameters, such as the maximum number of generations, the population size, and the fixed mutation rate.While the second stage tunes the nabla Caputo fractional-memory parameters, such as the fractional order, the memory window, the scaling coefficient, and the maximum adaptive mutation rate.The proposed algorithm is interpreted through the lens of nonlinear dynamical systems.For the performance evaluation, this study uses Augerat benchmark instances.The results show that the proposed algorithm is competitive against established hybrid metaheuristics.These findings suggest that integrating the nabla Caputo fractional-memory dynamics with statistically guided parameter tuning offers a promising solution for the capacitated ambulance routing problem.",
+    "authors": [
+      "Marissa Marcella Daulip Lakkui",
+      "Jackel Vui Lung Chew"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Journal of Applied Mathematics and Computational Mechanics",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Journal of Applied Mathematics and Computational Mechanics；日期 2026-10-16"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-16",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.17512/jamcm.2026.4.02",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "routing problem"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.17512/jamcm.2026.4.02"
+    ],
+    "paper_url": "https://doi.org/10.17512/jamcm.2026.4.02",
+    "open_access_url": "http://amcm.pcz.pl/get.php?article=2026_4/art_02.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Journal of Applied Mathematics and Computational Mechanics",
+        "venue_type": "journal",
+        "date": "2026-10-16",
+        "doi": "10.17512/jamcm.2026.4.02"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.22266/ijies2026.1130.61",
     "title": "CA-VSN: A Context-aware Variable Selection Network with Context-guided Cross-attention for Personalized Recommendation",
     "abstract": "Providing personalized recommendations, depends on two complementary sources of information, one is user's past interactions and the second is the context in which a new decision is made.In practice, however, combining these two sources is not straightforward.Many existing methods either treat contextual variables too uniformly which introduces context noise.The context noise weakens personalization as user history is utilized without adequately accounting for the current context at hand.To address this problem, this paper proposes CA-VSN, a Context-Aware Variable Selection Network for highly personalized recommendation.The model first uses a Variable Selection Network to assign instance-specific importance weights to contextual variables and build a refined context representation.It then applies a Context-Gated Cross-Attention mechanism, where the refined context vector is used to retrieve the most relevant signals from the user's historical interactions.A gating function further controls how strongly historical information should influence the prediction under the current context.CA-VSN is evaluated on ITM-Rec and MovieLens-100K for both rating prediction and Top-K recommendation.CA-VSN remains competitive in both score prediction and ranking with Recall@20 = 0.831 and NDCG@20 = 0.460 on ITM-Rec and Recall@20 = 0.705 and NDCG@20 = 0.383 on MovieLens-100K.Additional ablation and sensitivity analyses confirm the importance of the proposed components and the robustness of the model design.Beyond predictive performance, CA-VSN provides inspectable feature selection and history attention signals whose behavioural relevance is supported by perturbation, stability, and counterfactual analyses.Refining context before modelling history offers an effective approach to personalized recommendation.",
@@ -16845,6 +17902,107 @@
       }
     ],
     "first_seen": "2026-10-18",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/s10732-026-09607-3",
+    "title": "A hybrid metaheuristic for the family capacitated vehicle routing problem",
+    "abstract": "Abstract The Family Traveling Salesman Problem (FTSP) seeks a minimum-cost tour from a depot that visits a prescribed number of members of each customer family. This paper studies the Family Capacitated Vehicle Routing Problem (F-CVRP), a generalization of the FTSP in which customers carry demands and are served by a homogeneous fleet of capacitated vehicles, and proposes a hybrid metaheuristic for it. The method, named ILS+SP, couples an Iterated Local Search (ILS), which embeds a Random Variable Neighborhood Descent (RVND) over classical and problem-specific neighborhoods and accepts worsening moves through a Simulated-Annealing criterion, with a Set Partitioning (SP) post-optimization over the pool of routes collected during the search. On 144 large benchmark instances with more than 50 nodes, the metaheuristic wins or ties on every instance against the state-of-the-art heuristic of the literature, reducing the average gap to the best known solution from 1.84 to 0.01%. On a new benchmark of 120 larger instances with up to 142 customers, it attains an average gap of $$0.47\\%$$ 0.47 % to the best solutions found across all our runs, within an average total running time of 37 s (a 20-second ILS budget plus the Set Partitioning post-optimization), showing that the method scales to these instance sizes in terms of running time.",
+    "authors": [
+      "Bruno Oliveira",
+      "Diogo Lima",
+      "Marcos Roboredo"
+    ],
+    "institutions": [
+      {
+        "name": "Universidade Federal Fluminense",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Bruno Oliveira",
+        "institution": "Universidade Federal Fluminense",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Diogo Lima",
+        "institution": "Universidade Federal Fluminense",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marcos Roboredo",
+        "institution": "Universidade Federal Fluminense",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "BR"
+    ],
+    "home_scope": "国外",
+    "venue": "Journal of Heuristics",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Journal of Heuristics；日期 2026-10-16"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-16",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/s10732-026-09607-3",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vehicle routing",
+      "routing problem",
+      "traveling salesman"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/s10732-026-09607-3"
+    ],
+    "paper_url": "https://doi.org/10.1007/s10732-026-09607-3",
+    "open_access_url": "https://link.springer.com/content/pdf/10.1007/s10732-026-09607-3.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Journal of Heuristics",
+        "venue_type": "journal",
+        "date": "2026-10-16",
+        "doi": "10.1007/s10732-026-09607-3"
+      }
+    ],
+    "first_seen": "2026-10-19",
     "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
@@ -58074,6 +59232,89 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.3390/appliedmath6090153",
+    "title": "Budget-Constrained Optimal Control and Cost-Effectiveness of Vaccination, Vector Control, and Movement Restriction for Lumpy Skin Disease",
+    "abstract": "Lumpy skin disease (LSD) is a rapidly spreading viral disease of cattle that threatens livestock productivity and agricultural trade across Africa, the Middle East, and Asia. Despite effective vaccines being available, evidence-based guidance on allocating limited veterinary budgets across competing interventions remains lacking, and no LSD study has yet combined dynamic transmission modelling with a hard budget constraint and formal cost-effectiveness analysis. We develop a deterministic ShVhEhIhRh–SvIv (SVEIRSI) compartmental model for LSD, embedded within a budget-constrained optimal control framework with three time-dependent controls—vaccination (u1), vector control (u2), and movement restriction (u3)—evaluated across all eight strategy combinations. The basic reproduction number is R0=2.7899. Pontryagin’s Maximum Principle characterises the optimality conditions. The resulting two-point boundary value problem is solved via forward–backward sweep with budget bisection over a 180-day horizon at three budget levels (WL=NAD5000, WM=NAD15,000, WH=NAD40,000). Vaccination dominates the optimal allocation at every budget, reducing peak infectious prevalence by 54–57% and averting 15,645–17,970 animal-days of cumulative burden relative to the uncontrolled baseline (I0=97,313 animal-days). Shadow-price analysis reveals that the budget constraint is non-binding across all three policy budget levels (actual optimal spend ≈ NAD 572), indicating that logistical (rather than financial) barriers are the true bottleneck, with the shadow price dropping to zero at W≈NAD1862. Incremental cost-effectiveness analysis places vaccination alone (S1), vaccination plus vector control (S12), and the combined strategy (S123) on the efficiency frontier, with ICERs of NAD 0.012, 0.015, and 0.166 per animal-day averted, respectively. One-way sensitivity analysis identifies vaccine efficacy ε as the dominant driver of cases averted (swing ≈85,601 animal-days), while global sensitivity analysis via Latin Hypercube Sampling identifies the midge biting rate a as the strongest driver of cumulative infectious burden (PRCC=0.926, p",
+    "authors": [
+      "David Shituula Iiyambo"
+    ],
+    "institutions": [
+      {
+        "name": "Department of Mathematics, Statistics and Actuarial Science, Namibia University of Science and Technology, Windhoek 9000, Namibia",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "David Shituula Iiyambo",
+        "institution": "Department of Mathematics, Statistics and Actuarial Science, Namibia University of Science and Technology, Windhoek 9000, Namibia",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "AppliedMath",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：journal-article；AppliedMath；日期 2026-09-10"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-09-10",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.3390/appliedmath6090153",
+    "work_type": "journal-article",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.3390/appliedmath6090153"
+    ],
+    "paper_url": "https://doi.org/10.3390/appliedmath6090153",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "AppliedMath",
+        "venue_type": "",
+        "date": "2026-09-10",
+        "doi": "10.3390/appliedmath6090153"
+      }
+    ],
+    "first_seen": "2026-10-19",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.21203/rs.3.rs-10263481/v1",

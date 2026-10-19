@@ -1,8 +1,8 @@
 # Awesome 文献雷达｜2026-04 至 2026-10
 
-更新日期：2026-10-18（Asia/Shanghai）。滚动窗口：最近 183 天。
-共收录精选论文/预印本 179 篇；其中正式 venue 精选 16 篇，预印本观察 163 篇。
-滚动窗口内另有 299 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
+更新日期：2026-10-19（Asia/Shanghai）。滚动窗口：最近 183 天。
+共收录精选论文/预印本 180 篇；其中正式 venue 精选 16 篇，预印本观察 164 篇。
+滚动窗口内另有 298 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
 > 主题类别还需命中 `relevance_policy` 中的标题/摘要锚点；单独命中宽泛检索词不够。偏高精度规则可能漏掉措辞不同的相关论文，可在配置中补充锚点。
 > 同一月份/类别内按引用量优先，并显示按论文年龄折算的月均引用；预印本优先展示机构信号，再参考引用与日期。引用量会滞后，不能单独代表质量。
@@ -1610,7 +1610,22 @@
 
 #### 前沿预印本｜未经过正式 venue 验证
 
-#### 1. [Decoupled Entropic-Geometric Planning (DEGP): Verified Conditioning and a Measured Contact-Prediction Boundary in Latent World Models](https://doi.org/10.20944/preprints202610.1603.v1)
+#### 1. [Verifier-Bound Rule Discovery: A Pre-Registered Evaluation of LLM Proposers for Combinatorial Scheduling](https://doi.org/10.5281/zenodo.23433810)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 2026-10-17；预印本首发 —；收录月份 2026-10
+- **类别：**Neural Combinatorial Optimization 与神经搜索、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**combinatorial optimization、language model、large language model、LLM
+- **引用：**0（约 0.0/月，OpenAlex）
+- **venue：**Zenodo (CERN European Organization for Nuclear Research)　**作者：**Siyuan Zhang、Jia Chen、Ni Zhang
+- **机构：**Shenyang Institute of Technology (中国 (CN))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Verifier-Bound%20Rule%20Discovery%3A%20A%20Pre-Registered%20Evaluation%20of%20LLM%20Proposers%20for%20Combinatorial%20Scheduling&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.5281/zenodo.23433810](https://doi.org/10.5281/zenodo.23433810)
+- **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23433810)
+- **摘要：**Large language models are increasingly used as proposers of human-readable rules in scientific discovery and combinatorial optimization (FunSearch, ARCHE, SVBRD-LLM). Yet the LLM-proposer systems we surveyed share a methodological gap: none reports a same-budget random-proposer control, none pre-registers its acceptance criteria, and none evaluates at distribution scale –- ARCHE validates on three hand-picked cases,…
+
+#### 2. [Decoupled Entropic-Geometric Planning (DEGP): Verified Conditioning and a Measured Contact-Prediction Boundary in Latent World Models](https://doi.org/10.20944/preprints202610.1603.v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-16；预印本首发 —；收录月份 2026-10
@@ -1624,7 +1639,7 @@
 - **DOI：**[10.20944/preprints202610.1603.v1](https://doi.org/10.20944/preprints202610.1603.v1)
 - **摘要：**Gradient-based latent space planning faces a fundamental trade-off: maintaining high-entropy representations for robust perception under domain shift often yields ill-conditioned manifolds that destabilize trajectory optimization. DEGP introduces a framework designed to isolate gradient interference between representation learning and control dynamics via strict architectural separation. However, empirical evaluation…
 
-#### 2. [VLA-$Δ$: Learning Physical State Transition for Vision-Language-Action Models](https://arxiv.org/abs/2610.21306)
+#### 3. [VLA-$Δ$: Learning Physical State Transition for Vision-Language-Action Models](https://arxiv.org/abs/2610.21306)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-15；收录月份 2026-10
@@ -1638,7 +1653,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.21306)　[PDF](https://arxiv.org/pdf/2610.21306)
 - **摘要：**Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some methods introduce interme…
 
-#### 3. [LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models](https://arxiv.org/abs/2610.21362)
+#### 4. [LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models](https://arxiv.org/abs/2610.21362)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-15；收录月份 2026-10
@@ -1652,7 +1667,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.21362)　[PDF](https://arxiv.org/pdf/2610.21362)
 - **摘要：**Robotic manipulation often requires remembering interactions that are no longer visible. We introduce Latent Transition Memory (LTM), which stores history as compact latent transitions between consecutive observations. Instantiated on $π_{0.5}$ as LTM-$π$, our method uses a frozen latent action encoder, a lightweight adapter, and causal KV caching for incremental inference without memory-specific semantic annotations…
 
-#### 4. [FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2610.22146)
+#### 5. [FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2610.22146)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-15；收录月份 2026-10
@@ -1666,7 +1681,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.22146)　[PDF](https://arxiv.org/pdf/2610.22146)
 - **摘要：**Vision-Language-Action (VLA) models present a promising paradigm for general-purpose robot manipulation, but closed-loop deployment is often limited by inference efficiency: at each timestep, high-resolution, often multi-view images are encoded into hundreds of visual tokens that dominate transformer computation and latency. Token compression via attention is a natural solution but is challenging for VLA control beca…
 
-#### 5. [Causal Invariant Bio-Inference: Breaking the Observational Barrier in Rhizosphere Dynamics via Physically-Constrained Edge-GNN Structural Causal Models](https://doi.org/10.5281/zenodo.23405625)
+#### 6. [Causal Invariant Bio-Inference: Breaking the Observational Barrier in Rhizosphere Dynamics via Physically-Constrained Edge-GNN Structural Causal Models](https://doi.org/10.5281/zenodo.23405625)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-15；预印本首发 —；收录月份 2026-10
@@ -1681,7 +1696,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23405625)
 - **摘要：**Observational machine learning models (e.g., Transformers, CNNs, Random Forests) fit joint probability distributions P(Y|X) and inherently break down out-of-distribution when spurious correlations fail under environmental volatility. In rhizosphere dynamics, unobserved confounders and micro-climatic shifts frequently lead to catastrophic prediction failures. To break this observational barrier, we introduce Causal In…
 
-#### 6. [VLRLA: Deployment-Time Adaptation of Vision-Language-Action Models through In-Context Reinforcement Learning](https://arxiv.org/abs/2610.19517)
+#### 7. [VLRLA: Deployment-Time Adaptation of Vision-Language-Action Models through In-Context Reinforcement Learning](https://arxiv.org/abs/2610.19517)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-14；收录月份 2026-10
@@ -1695,7 +1710,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.19517)　[PDF](https://arxiv.org/pdf/2610.19517)
 - **摘要：**Vision-language-action (VLA) models connect visual perception and language understanding with robot control, providing a foundation for instruction-conditioned manipulation. However, conventional pretrained VLA policies lack a mechanism for gradual adaptation through accumulated interaction experience during deployment. We therefore propose VLRLA, a general framework that equips existing VLA models with \textit{in-co…
 
-#### 7. [SPECTRA-VLA: Base-Fine Hyperspectral Token Transfer at Frozen Vision-Language-Action Interfaces](https://arxiv.org/abs/2610.19651)
+#### 8. [SPECTRA-VLA: Base-Fine Hyperspectral Token Transfer at Frozen Vision-Language-Action Interfaces](https://arxiv.org/abs/2610.19651)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-14；收录月份 2026-10
@@ -1709,7 +1724,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.19651)　[PDF](https://arxiv.org/pdf/2610.19651)
 - **摘要：**Hyperspectral imaging distinguishes RGB-similar objects, but a pretrained vision-language-action model needs a state its frozen decoder can use. SPECTRA-VLA provides a native-width spectral upgrade without retraining the visual encoder or action decoder. A learned continuous residual enriches each target token through its own normalized false-color reference; projection, norm control and validation-calibrated injecti…
 
-#### 8. [Deterministic Quantum Mechanics of Transformer In-Context Attention: Wavefunction Dirac-Delta Collapse via Optical-Mechanical Dual-Chassis](https://doi.org/10.5281/zenodo.23351867)
+#### 9. [Deterministic Quantum Mechanics of Transformer In-Context Attention: Wavefunction Dirac-Delta Collapse via Optical-Mechanical Dual-Chassis](https://doi.org/10.5281/zenodo.23351867)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-14；预印本首发 —；收录月份 2026-10
@@ -1724,7 +1739,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23351867)
 - **摘要：**Large language models (LLMs) governed by softmax-based self-attention inherently suffer from non-deterministic token drift, attention dispersion, and cumulative hallucination. In this paper, we formalize in-context attention dynamics through a quantum mechanical perspective, modeling the attention distribution as a statistical probability density over the discrete token Hilbert space. To eliminate attention drift wit…
 
-#### 9. [Back on Track: Deployment-time Policy Improvement via World Model Planning](https://arxiv.org/abs/2610.19579)
+#### 10. [Back on Track: Deployment-time Policy Improvement via World Model Planning](https://arxiv.org/abs/2610.19579)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-14；收录月份 2026-10
@@ -1738,7 +1753,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.19579)　[PDF](https://arxiv.org/pdf/2610.19579)
 - **摘要：**State-of-the-art visuomotor policies are increasingly capable of executing complex tasks, yet can fail during deployment in ways they cannot predict or recover from on their own. Improving their performance and robustness typically requires collecting more data, retraining, or modifying the policy architecture, all of which are time- and resource-intensive in practice. We instead propose an offline-trained monitoring…
 
-#### 10. [Somnium: A Recurrent World Model that Learns to Dream Before It Wakes](https://doi.org/10.5281/zenodo.23278219)
+#### 11. [Somnium: A Recurrent World Model that Learns to Dream Before It Wakes](https://doi.org/10.5281/zenodo.23278219)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-10；预印本首发 —；收录月份 2026-10
@@ -1753,7 +1768,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23278219)
 - **摘要：**Preprint v1.0. Paper PDF attached; LaTeX source in the source archive.Code, full run registry, and per-run records:https://github.com/wilberforce1900/somnium We train a small non-Transformer world model, Somnium, under a developmentalcurriculum: chaos -> dream -> wake. A single recurrent substrate carries twodynamics -- fast streaming expansion (yang) and energy-relaxation contraction(yin) -- softly mixed by a gate;…
 
-#### 11. [Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision](https://arxiv.org/abs/2610.12936)
+#### 12. [Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision](https://arxiv.org/abs/2610.12936)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-09；收录月份 2026-10
@@ -1767,7 +1782,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.12936)　[PDF](https://arxiv.org/pdf/2610.12936)
 - **摘要：**Vision-language-action (VLA) models provide a unified framework for visual understanding, language grounding, and robot control, yet anticipating how the scene will evolve beyond the current observation can provide additional information for control. Action supervision alone does not explicitly encourage such anticipation, while future-image prediction entangles task-relevant motion with largely static appearance. To…
 
-#### 12. [Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models](https://arxiv.org/abs/2610.12696)
+#### 13. [Spa-Bench: A Real-Robot Benchmark for Spatial Grounding in Vision-Language-Action Models](https://arxiv.org/abs/2610.12696)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-08；收录月份 2026-10
@@ -1781,7 +1796,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.12696)　[PDF](https://arxiv.org/pdf/2610.12696)
 - **摘要：**Vision-language-action models (VLAs) offer a promising route toward general-purpose robotics by transferring semantic knowledge from large-scale vision-language pretraining into language-conditioned control. However, most VLA evaluations emphasize aggregate manipulation success under changes in objects, instructions, or environments, leaving unclear how reliably these policies ground spatial descriptions in the physi…
 
-#### 13. [Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models](https://arxiv.org/abs/2610.12090)
+#### 14. [Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models](https://arxiv.org/abs/2610.12090)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-08；收录月份 2026-10
@@ -1795,7 +1810,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.12090)　[PDF](https://arxiv.org/pdf/2610.12090)
 - **摘要：**Latent reasoning enables vision-language-action (VLA) models to transform multimodal observations into task-relevant internal states before generating continuous robot actions. While existing methods learn to generate or refine such states for each policy query, they discard successful reasoning after execution and therefore reconstruct similar computation from scratch. We present Reasoning and Flow Memory (FLOWMEM),…
 
-#### 14. [Juno: Taming Predictive Latents for Vision-Language-Action Models](https://arxiv.org/abs/2610.09940)
+#### 15. [Juno: Taming Predictive Latents for Vision-Language-Action Models](https://arxiv.org/abs/2610.09940)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-07；收录月份 2026-10
@@ -1809,7 +1824,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.09940)　[PDF](https://arxiv.org/pdf/2610.09940)
 - **摘要：**Joint-embedding predictive architectures (JEPAs) predict masked or future observations in representation space, offering a natural source of predictive latents for vision-language-action (VLA) models. Yet making these latents useful across pretraining, policy learning, and deployment requires addressing three failures: mismatch with embodiment-specific control, interference with action learning, and teacher miscalibr…
 
-#### 15. [Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding](https://arxiv.org/abs/2610.10178)
+#### 16. [Do Vision-Language-Action Models Understand Instructions? A Mechanistic Interpretability Study on Language Grounding](https://arxiv.org/abs/2610.10178)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-07；收录月份 2026-10
@@ -1823,7 +1838,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.10178)　[PDF](https://arxiv.org/pdf/2610.10178)
 - **摘要：**Vision-Language-Action models are designed to generalise across environments and task descriptions, raising the question of whether their action generation actually depends on the language instruction, or whether they largely rely on visual cues and superficial correlations. Robustness to variance in the visual and linguistic observation space is critical for real-world deployment, yet VLAs lack explicit grounding mo…
 
-#### 16. [Diffusion Models and the Koopman Operator for Spacecraft Trajectory Optimization](https://doi.org/10.21203/rs.3.rs-11176716/v1)
+#### 17. [Diffusion Models and the Koopman Operator for Spacecraft Trajectory Optimization](https://doi.org/10.21203/rs.3.rs-11176716/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-06；预印本首发 —；收录月份 2026-10
@@ -1837,7 +1852,7 @@
 - **DOI：**[10.21203/rs.3.rs-11176716/v1](https://doi.org/10.21203/rs.3.rs-11176716/v1)
 - **摘要：**Abstract Diffusion models trained on pre-computed optimal trajectories have recently been shown to accelerate direct-method spacecraft trajectory optimization by generating high-quality warm starts, reducing the number of solver attempts needed. However, a diffusion-generated candidate's dynamical feasibility is currently either checked entirely by the downstream nonlinear program (NLP) solver or not checked at all p…
 
-#### 17. [Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?](https://arxiv.org/abs/2610.09170)
+#### 18. [Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?](https://arxiv.org/abs/2610.09170)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-06；收录月份 2026-10
