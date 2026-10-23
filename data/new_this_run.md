@@ -1,229 +1,216 @@
-# 2026-10-22｜本轮首次收录的精选文献 16 篇
+# 2026-10-23｜本轮首次收录的精选文献 15 篇
 
-查询窗口起点：2026-04-22。
+查询窗口起点：2026-04-23。
 > 本文件按本轮首次入库日期汇总；首次六个月回溯可能集中录入历史论文，请按论文发表/预印本日期理解，不代表它们都在今天发表。
 
-#### 1. [Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model](https://arxiv.org/abs/2610.29139)
+#### 1. [Skeleton-Grounded Latent Action Model for Robot World Models](https://arxiv.org/abs/2610.31474)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
-- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、world models、language model、large language model
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Jiongxiao Wang、Han Ding、Youzhi Luo、Yawei Wang、Yun Zhou、Linbo Liu、Panpan Xu
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Steering%20Black-Box%20Large%20Language%20Model%20Agents%20with%20Pitfall%20Anticipation%20World%20Model&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29139)　[PDF](https://arxiv.org/pdf/2610.29139)
-- **摘要：**Frontier black-box Large Language Model (LLM) agents are proficient at long-horizon reasoning and precise action generation. However, when it comes to a specific agentic task, they have no internalized knowledge of how that particular environment unfolds. A world model offers a natural remedy, providing the agent with environment specific knowledge by foreseeing how the environment will respond to the action it is ab…
-
-#### 2. [Safe World Model for Joint Trajectory and Beamforming Design of Mobile Base Stations](https://arxiv.org/abs/2610.29534)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
 - **类别：**World Models 与连续时间/潜变量动力学
-- **主题锚点：**world model
+- **主题锚点：**world model、world models
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Abdolrasoul Sakhaei Gharagezlou、Zeinab Askari Donbeh、Mehdi Monemi、Matti Latva-aho、Mehdi Rasti
+- **venue：**—　**作者：**Qi Lv、Jiayi Lin、Yuxin Jiang、Jianzong Wang、Xiang Deng、Mike Shou Zheng
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Safe%20World%20Model%20for%20Joint%20Trajectory%20and%20Beamforming%20Design%20of%20Mobile%20Base%20Stations&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29534)　[PDF](https://arxiv.org/pdf/2610.29534)
-- **摘要：**Mobile base stations (MBSs), including aerial and ground-based platforms, provide flexible wireless coverage through adaptive positioning. However, jointly optimizing their trajectories and digital beamforming is challenging because movement changes channel conditions and interference, while beamforming determines the resulting signal and interference powers. These coupled decisions also account for how current movem…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Skeleton-Grounded%20Latent%20Action%20Model%20for%20Robot%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.31474)　[PDF](https://arxiv.org/pdf/2610.31474)
+- **摘要：**Robot world models simulate how environments evolve in response to robot actions. Latent action models enable learning dynamics from videos by encoding visual transitions as proxy actions. However, reconstruction-driven latent actions mix robot motion with object responses and other scene changes, complicating their correspondence with robot controls. We propose SkeLAM, a skeleton-guided latent action model for contr…
 
-#### 3. [SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30044)
+#### 2. [RheOPT: Few-Shot Non-Newtonian Flow Prediction via Newtonian Pretraining of RheOFormer](https://arxiv.org/abs/2610.31465)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
-- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**vision-language action、control
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**neural operator、operator learning、transformer-based
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Zhaohui Yang、Quanbao Lin、Chengqi Shi、Zhenglang Weng、Jicheng Lin、Boyu Chen、Tengjie Zhu、Guanzhu Ren 等
+- **venue：**—　**作者：**Maedeh Saberi、Amir Barati Farimani、Safa Jamali
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=SP-HLM%3A%20Sparse-Pose-Driven%20Motion%20Generation%20and%20Whole-Body%20Control%20for%20Humanoid%20Loco-Manipulation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30044)　[PDF](https://arxiv.org/pdf/2610.30044)
-- **摘要：**Humanoid loco-manipulation requires an effective interface between high-level task policies and whole-body control. Existing interfaces typically rely on a single action representation for both task intent and whole-body coordination. This may burden the high-level policy or leave one aspect underspecified. We present SP-HLM, a framework built on a sparse-pose-driven interface. The interface combines five task-critic…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=RheOPT%3A%20Few-Shot%20Non-Newtonian%20Flow%20Prediction%20via%20Newtonian%20Pretraining%20of%20RheOFormer&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.31465)　[PDF](https://arxiv.org/pdf/2610.31465)
+- **摘要：**Despite advances in numerical methods, non-Newtonian flow simulations remain computationally expensive because velocity and stress must be advanced together through rate- and history-dependent constitutive dynamics. Neural-operator surrogates reduce inference cost after training, but their training data require the same expensive simulations they aim to replace, making data-efficient learning essential when only a fe…
 
-#### 4. [PhysiCalWorld: In-Context Physics Calibration for World Models](https://arxiv.org/abs/2610.30125)
+#### 3. [Optimal daily allocation between vocabulary and grammar in second- language study: a normative control model](https://doi.org/10.21203/rs.3.rs-11383493/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
-- **类别：**World Models 与连续时间/潜变量动力学
-- **主题锚点：**world model、world models、action-conditioned
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Yunhao Luo、Wentao He、Yinpei Dai、Hyelin Nam、Hongze Fu、Joyce Chai、Nima Fazeli、Jeong Joon Park
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=PhysiCalWorld%3A%20In-Context%20Physics%20Calibration%20for%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30125)　[PDF](https://arxiv.org/pdf/2610.30125)
-- **摘要：**Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrating these physics factors for world models, predictions tend to regress toward an empirical prior and induce severe drift…
-
-#### 5. [OccJEPA: Occlusion as Masking for Amodal Video Segmentation](https://arxiv.org/abs/2610.29061)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
-- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、world models、diffusion model、control
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Genpei Zhang
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=OccJEPA%3A%20Occlusion%20as%20Masking%20for%20Amodal%20Video%20Segmentation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29061)　[PDF](https://arxiv.org/pdf/2610.29061)
-- **摘要：**Amodal video segmentation asks for the complete mask of an object in every frame, including the parts hidden behind other objects. The best current methods generate these masks with fine-tuned video diffusion models, which need many denoising steps and an extra depth network, and give a different answer for every sample. Self-supervised video world models of the JEPA family are trained on a closely related task: pred…
-
-#### 6. [Local and Sparse Kernel Operator Learning for Incompressible Flows: An Operator Lagrange Formulation](https://arxiv.org/abs/2610.29009)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 2026-10-22；预印本首发 —；收录月份 2026-10
 - **类别：**PDE、Neural Operators、谱方法与最优控制
-- **主题锚点：**neural operator、operator learning
+- **主题锚点：**optimal control
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Ramansh Sharma、Matthew Lowery、Houman Owhadi、Varun Shankar
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Local%20and%20Sparse%20Kernel%20Operator%20Learning%20for%20Incompressible%20Flows%3A%20An%20Operator%20Lagrange%20Formulation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29009)　[PDF](https://arxiv.org/pdf/2610.29009)
-- **摘要：**We present a local and sparse kernel method for learning the solution operators of incompressible flows. It builds on our earlier property-preserving kernel method, whose global output reconstruction and dense operator regression scale poorly. Our method replaces the global output reconstruction by local divergence-free interpolants with divergence-free polynomials of any degree, solved in parallel on the GPU. These…
+- **venue：**—　**作者：**Tian-Yu Wang
+- **机构：**Guangdong Peizheng College
+- **元数据来源：**Crossref
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Optimal%20daily%20allocation%20between%20vocabulary%20and%20grammar%20in%20second-%20language%20study%3A%20a%20normative%20control%20model&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.21203/rs.3.rs-11383493/v1](https://doi.org/10.21203/rs.3.rs-11383493/v1)
+- **摘要：**Abstract Foreign-language learners with a fixed daily study budget divide their time between vocabulary and grammar and decide when to stop memorising words. Published guidance often places that stopping point near 98% coverage of the running words in a text. This paper treats the decision as a finite-horizon optimal-control problem. The state is mastered word families and a grammar-mastery index. A Zipf–Mandelbrot f…
 
-#### 7. [LLM-Based Exogenous World Modeling for Dynamic Scheduling](https://arxiv.org/abs/2610.29308)
+#### 4. [Learning from Next-Frame Prediction: Towards Unified and Scalable Visual Representation Learning](https://arxiv.org/abs/2610.30724)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
 - **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、language model、large language model、LLM
+- **主题锚点：**world model、representation learning
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Ni Zhang、Haofeng Yuan、Jianan Zhou、Shiji Song、Zhiguang Cao
+- **venue：**—　**作者：**Yifeng Yao、Jinghan Li、Zhihao Zhang、Yajiao Xiong、Yang Jin、Kun Xu、Huishuai Zhang、Dongyan Zhao
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=LLM-Based%20Exogenous%20World%20Modeling%20for%20Dynamic%20Scheduling&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29308)　[PDF](https://arxiv.org/pdf/2610.29308)
-- **摘要：**Dynamic scheduling requires dispatching online arrivals while anticipating future jobs, as poor decisions can compound downstream costs under nonlinear tardiness objectives. We show that a pretrained large language model (LLM) can serve as the exogenous component of a structured world model, forecasting uncertain future job arrivals. Specifically, we exploit an afterstate decomposition, which separates known determin…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Learning%20from%20Next-Frame%20Prediction%3A%20Towards%20Unified%20and%20Scalable%20Visual%20Representation%20Learning&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30724)　[PDF](https://arxiv.org/pdf/2610.30724)
+- **摘要：**Video provides a natural source of supervision: what happens next serves as a learning signal for visual world modeling. Yet masked video pretraining focuses on recovering missing content from surrounding context rather than predicting the future from the past. Autoregressive methods instead predict forward one token at a time, but have yet to match joint-embedding methods in representation quality. This gap motivate…
 
-#### 8. [How Representational Priors Shape Generalization in World Action Models](https://arxiv.org/abs/2610.29168)
+#### 5. [Inside-JEPA: From Prediction to Relational Grounding in Latent World Models](https://arxiv.org/abs/2610.31194)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
 - **类别：**World Models 与连续时间/潜变量动力学
 - **主题锚点：**world model、world models
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Junha Chun、Youngjoon Jeong、Taesup Kim
+- **venue：**—　**作者：**Hossein Resani、Javen Qinfeng Shi
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=How%20Representational%20Priors%20Shape%20Generalization%20in%20World%20Action%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29168)　[PDF](https://arxiv.org/pdf/2610.29168)
-- **摘要：**World action models (WAMs) are shown to substantially diverge under generalization performance based on their generative backbones. We investigate this gap through the representational geometry that WAMs inherit from their backbones and how policy training reorganizes it. Our central hypothesis is that a useful representational prior would structure geometry that separates nuisance information from the in-distributio…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Inside-JEPA%3A%20From%20Prediction%20to%20Relational%20Grounding%20in%20Latent%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.31194)　[PDF](https://arxiv.org/pdf/2610.31194)
+- **摘要：**Joint-embedding predictive architectures (JEPAs) learn world models in latent space, enabling efficient planning but leaving their states opaque. We introduce Inside-JEPA, which places relational channels for ordered entity pairs inside the JEPA latent state and shows that an inverse-dynamics loss can ground these channels without relation labels when its head reads them, either alone or as part of the full state. On…
 
-#### 9. [GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models](https://arxiv.org/abs/2610.29866)
+#### 6. [In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations](https://arxiv.org/abs/2610.30988)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**world model、world models、action-conditioned、transformer backbone
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Hengyi Sim、Quentin Rouxel、Dennis Hong、Darwin Caldwell、Fei Chen
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=In-Context%20Learning%20World%20Models%20for%20Robot%20Dual-Arm%20Manipulation%20of%20Soft%20Garment%20with%20Partial%20Observations&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30988)　[PDF](https://arxiv.org/pdf/2610.30988)
+- **摘要：**Robust manipulation of soft objects, such as garments, is a critical skill for service and household robots to adopt, but remains challenging due to its high-dimensional state space, and material-dependent deformations. Humans address this challenge by using mental world models that "imagine" the shape and material properties from partial observations, which enables them to predict how actions affect future states. A…
+
+#### 7. [Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models](https://arxiv.org/abs/2610.31569)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
 - **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**vision-language action、foundation model、control
+- **主题锚点：**vision-language action、planning、control
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Qinfan Zhang、Yifan Luo、Haoyuan Shi、Guanlin Liu、Han Dong、Haozhe Shan、Yong Dai、Xiangcong Ren 等
+- **venue：**—　**作者：**Yufeng Liu、Bohao Fan、Juntu Zhao、Xinyi Wang、Hang Yu、Wenzhuan Luo、Yingzhi Wang、Qinghai Li 等
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=GeoMem-VLA%3A%20Internalizing%203D%20Scene%20Understanding%20into%20Temporal%20Memory%20for%20Vision-Language-Action%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29866)　[PDF](https://arxiv.org/pdf/2610.29866)
-- **摘要：**Geometric structure is essential for robotic manipulation and understanding the 3D world. Most VLA models rely on 2D representations of current observations, while geometry-aware approaches often require additional 3D information. However, geometry inferred independently from individual observations is often discarded rather than accumulated into a persistent task representation. Our key insight is that action genera…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Echo%3A%20Coupled%20Action%20and%20Task%20Status%20Signal%20Denoising%20for%20Vision%20Language%20Action%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.31569)　[PDF](https://arxiv.org/pdf/2610.31569)
+- **摘要：**Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execution decisions. However, learning and integrating these signals can require fine-grained supervision, external monitoring models, or complex architectural designs. Moreover,…
 
-#### 10. [Events, Not Pixels: Where World Models Get the Return Wrong](https://arxiv.org/abs/2610.29435)
+#### 8. [Dual Exam: Controlled Evaluation of Multimodal Agents and World Models](https://arxiv.org/abs/2610.31066)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
-- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、world models、diffusion model、planning
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Haoyue Liu、Xiaoying Tang
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Events%2C%20Not%20Pixels%3A%20Where%20World%20Models%20Get%20the%20Return%20Wrong&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29435)　[PDF](https://arxiv.org/pdf/2610.29435)
-- **摘要：**World models are increasingly used for planning, where a planner ranks candidate actions by returns imagined by the model. However, these models are judged mainly by how well they render frames, even though a visually faithful rollout can still assign the wrong return. To identify where this mismatch arises, we introduce a transition-level diagnostic that replaces imagined transitions with real ones and measures the…
-
-#### 11. [Causal world models under physical parameter shifts](https://arxiv.org/abs/2610.29088)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
 - **类别：**World Models 与连续时间/潜变量动力学
 - **主题锚点：**world model、world models
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Chu Lin、Yi Sun
+- **venue：**—　**作者：**Zhefan Rao、Meng Chu、Xuan Zhang、Jingfan Chen、Guohao Cai、Runyi Li、Shiyi Du、Ning Lu 等
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Causal%20world%20models%20under%20physical%20parameter%20shifts&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29088)　[PDF](https://arxiv.org/pdf/2610.29088)
-- **摘要：**World models predict how embodied systems evolve under actions, but their accuracy can degrade when physical conditions move outside the training distribution. We study two components of causal modeling: which inputs a predictor may use, and how its mechanism computes their effects. In a synthetic benchmark with shortcut features, a frozen dependency mask derived from paired interventions reduces mean out-of-distribu…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Dual%20Exam%3A%20Controlled%20Evaluation%20of%20Multimodal%20Agents%20and%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.31066)　[PDF](https://arxiv.org/pdf/2610.31066)
+- **摘要：**World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and s…
 
-#### 12. [Agentic World Action Models](https://arxiv.org/abs/2610.30136)
+#### 9. [DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control](https://arxiv.org/abs/2610.31617)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
 - **类别：**World Models 与连续时间/潜变量动力学
-- **主题锚点：**world model
+- **主题锚点：**world model、world models、latent dynamics、model-based reinforcement learning
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Zhuoyang Liu、Dantong Niu、Botong Zhang、Boning Shao、Jing Wang、Ruijie Zheng、Yuvan Sharma、Runyu Lu 等
+- **venue：**—　**作者：**Fanxing Li、Yuxiang Huang、Shengyang Wang、Fangyu Sun、Shuyu Wu、Tianbao Zhang、Dexin Zuo、Yan Yufei 等
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Agentic%20World%20Action%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30136)　[PDF](https://arxiv.org/pdf/2610.30136)
-- **摘要：**Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. We introduce AW-0, an agentic world action model framework that integrates code-based planning with joint video and actio…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=DiffDreamer%3A%20Coupling%20World%20Models%20with%20Differentiable%20Simulation%20for%20Agile%20Quadrotor%20Control&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.31617)　[PDF](https://arxiv.org/pdf/2610.31617)
+- **摘要：**Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control. World-model-based reinforcement learning provides a natural solution by learning latent dynamics for future imagination, yet it often entangles environmental evolution and the robot's own dynamics in a single learned rollout, where model bias can affect policy optimization efficie…
 
-#### 13. [A PDE-theory-guided neural operator and the long-time relaxation of the two-dimensional anisotropic Boussinesq system](https://arxiv.org/abs/2610.29938)
+#### 10. [Anticipating Social Consequences with Distributional World Models](https://arxiv.org/abs/2610.30657)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Viet-Thanh Pham、Thuy-Trang Vu、Zhuang Li、Lizhen Qu、Gholamreza Haffari
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Anticipating%20Social%20Consequences%20with%20Distributional%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30657)　[PDF](https://arxiv.org/pdf/2610.30657)
+- **摘要：**Social world models predict how interactions develop after an action, helping agents negotiate, cooperate and mediate. In these situations, one action can lead to several plausible futures, hence predicting only one future can overlook consequential alternatives, while exploring them through repeated simulations increases inference cost. We propose DSWM, a Distributional Social World Model that predicts alternative r…
+
+#### 11. [An Introduction to World Models for Generalist Agents](https://arxiv.org/abs/2610.30789)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-22；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models、dynamics model
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Zhihui Zhu
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=An%20Introduction%20to%20World%20Models%20for%20Generalist%20Agents&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30789)　[PDF](https://arxiv.org/pdf/2610.30789)
+- **摘要：**World models have recently emerged as a promising direction toward developing generalist agents capable of understanding, predicting, and interacting with diverse environments. However, despite growing interest, the concept of a world model remains loosely defined, encompassing approaches ranging from predictive dynamics models and learned simulators to models that jointly generate future observations and actions. Th…
+
+#### 12. [A Physics-Informed Fourier Neural Operator Framework for Zero-Plating Fast Charging of Lithium-Ion Batteries via Real-Time Electrochemical State Estimation and Barrier-Riding Optimal Control](https://doi.org/10.26434/chemrxiv.15010874/v1)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 2026-10-22；预印本首发 —；收录月份 2026-10
 - **类别：**PDE、Neural Operators、谱方法与最优控制
-- **主题锚点：**neural operator、PDE
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Akram Moustafa、Jiahong Wu、Xiaoming Zheng
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20PDE-theory-guided%20neural%20operator%20and%20the%20long-time%20relaxation%20of%20the%20two-dimensional%20anisotropic%20Boussinesq%20system&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.29938)　[PDF](https://arxiv.org/pdf/2610.29938)
-- **摘要：**We design a neural operator for the two-dimensional Boussinesq system with anisotropic dissipation on the periodic box, guided by a rigorous analysis of its long-time behavior. The operator maps a small perturbation of hydrostatic equilibrium, of amplitude $\varepsilon$, to the vorticity at a late time. We prove that the flow relaxes to a stratified shear flow, with the horizontally averaged vorticity staying within…
-
-#### 14. [Self-Improving Agents with World Model Predictive Paths](https://arxiv.org/abs/2610.28945)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-20；收录月份 2026-10
-- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、world models、language model、large language model
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Haori Lu、Tianyu Gao、Yaoyao Liu、Yingying Li
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Self-Improving%20Agents%20with%20World%20Model%20Predictive%20Paths&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.28945)　[PDF](https://arxiv.org/pdf/2610.28945)
-- **摘要：**Large language model (LLM) agents are increasingly expected to interact with environments and improve their decisions during deployment. However, how anticipating future outcomes and drawing on accumulated interaction experience can jointly support decision-making remains underexplored. We propose a test-time framework, inspired by Model Predictive Path Integral (MPPI) control, that combines multi-branch predictive a…
-
-#### 15. [Second Thoughts: Exploring and Planning through Comparative Imagination in World Models](https://arxiv.org/abs/2610.28779)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-10-20；收录月份 2026-10
-- **类别：**World Models 与连续时间/潜变量动力学
-- **主题锚点：**world model、world models
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Hieu Tran、Hong Yu
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Second%20Thoughts%3A%20Exploring%20and%20Planning%20through%20Comparative%20Imagination%20in%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2610.28779)　[PDF](https://arxiv.org/pdf/2610.28779)
-- **摘要：**World models let agents compare imagined outcomes before acting, but an agent must still decide which alternatives to explore and when a proposed plan should replace its learned policy. We introduce SDI (Sibling Disagreement in Imagination), which connects these decisions through a shared actor-based reference. SDI compares action sequences imagined from the same model state, using repeated rollouts of the actor's ow…
-
-#### 16. [Quantum-Classical Hybrid Cloud Workflows for Combinatorial Supply-Chain and Fleet Optimization](https://doi.org/10.5281/zenodo.23513316)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 2026-10-20；预印本首发 —；收录月份 2026-10
-- **类别：**Neural Combinatorial Optimization 与神经搜索
-- **主题锚点：**vehicle routing、routing problem
+- **主题锚点：**neural operator、fourier neural operator、optimal control
 - **引用：**0（约 0.0/月，OpenAlex）
-- **venue：**Zenodo (CERN European Organization for Nuclear Research)　**作者：**Sonu Kumar Singh
+- **venue：**ChemRxiv　**作者：**Hussnain Tariq
+- **机构：**Islamia University of Bahawalpur (PK (PK))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20Physics-Informed%20Fourier%20Neural%20Operator%20Framework%20for%20Zero-Plating%20Fast%20Charging%20of%20Lithium-Ion%20Batteries%20via%20Real-Time%20Electrochemical%20State%20Estimation%20and%20Barrier-Riding%20Optimal%20Control&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.26434/chemrxiv.15010874/v1](https://doi.org/10.26434/chemrxiv.15010874/v1)
+- **摘要：**Extreme fast charging of lithium-ion batteries is critically limited by internal lithium plating at the negative electrode-separator interface, driving rapid degradation and thermal hazards. Real-time mitigation is fundamentally impeded because the interfacial plating overpotential (ηplating) is inaccessible to non-invasive sensors, leaving conventional protocols blind to metallic lithium deposition. While high-fidel…
+
+#### 13. [Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives](https://arxiv.org/abs/2610.30438)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**vision-language action、robotics
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Jingyi Xiang、Yixuan Wang、Wenzhen Yuan
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Tactile-Based%20Robotic%20Manipulation%3A%20From%20Mechanics-Driven%20to%20Data-Driven%20Perspectives&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1146/annurev-control-032125-030330](https://doi.org/10.1146/annurev-control-032125-030330)
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30438)　[PDF](https://arxiv.org/pdf/2610.30438)
+- **摘要：**Tactile sensing provides robots with direct access to physical interactions at the contact interface, making it a critical modality for robust and dexterous manipulation. Over the past several decades, tactile-based manipulation research has evolved from mechanics-driven approaches, which explicitly interpret tactile signals through contact mechanics and task-specific reasoning, to data-driven approaches that learn t…
+
+#### 14. [From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?](https://arxiv.org/abs/2610.30488)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-10-21；收录月份 2026-10
+- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**world model、world models、language model、large language model
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Juntong Ni、Zewen Liu、Bohan Wang、Lige Zhang、Wei Jin
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=From%20Single-Actor%20Environments%20to%20Multi-Actor%20Event%20Worlds%3A%20Can%20LLMs%20Be%20Event%20World%20Models%3F&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2610.30488)　[PDF](https://arxiv.org/pdf/2610.30488)
+- **摘要：**World models help agents assess the consequences of their actions before acting. Many real systems, however, involve multiple actors who make their own decisions, can evolve even when the agent takes no action, and are only partially observed through event logs. We formalize these systems as event worlds and ask whether large language models can predict future observations from the log and the agent's proposed action…
+
+#### 15. [Accelerating natural gradient descent for PINNs with randomized numerical linear algebra](https://doi.org/10.1016/j.cma.2026.119456)
+- **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-22
+- **日期：**发表 2026-10-22；预印本首发 —；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**PDE
+- **引用：**0（约 0.0/月，OpenAlex）
+- **venue：**Computer Methods in Applied Mechanics and Engineering　**作者：**Ivan Bioli、Carlo Marcati、Giancarlo Sangalli
 - **机构：**未提供/未识别
 - **元数据来源：**OpenAlex
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Quantum-Classical%20Hybrid%20Cloud%20Workflows%20for%20Combinatorial%20Supply-Chain%20and%20Fleet%20Optimization&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.5281/zenodo.23513316](https://doi.org/10.5281/zenodo.23513316)
-- **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23513316)
-- **摘要：**Abstract: Global logistics networks, intercontinental air-freight consolidators, and maritime energy fleets continuously solve large-scale Mixed-Integer Linear Programs (MILPs) such as the Capacitated Vehicle Routing Problem with Time Windows (CVRPTW) and multi-vessel Maritime Inventory Routing Problems (MIRP). When weather disruptions, port congestion, or geopolitical airspace closures invalidate baseline schedules,…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Accelerating%20natural%20gradient%20descent%20for%20PINNs%20with%20randomized%20numerical%20linear%20algebra&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1016/j.cma.2026.119456](https://doi.org/10.1016/j.cma.2026.119456)
+- **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119456)
+- **摘要：**Code of the paper "Accelerating Natural Gradient Descent for PINNs with Randomized Numerical Linear Algebra": the randngd package (natural gradient descent preconditioned with randomized Nyström approximations and randomly pivoted partial Cholesky) and the example scripts of the paper's PDE problems.

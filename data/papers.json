@@ -7849,6 +7849,74 @@
     ]
   },
   {
+    "uid": "doi:10.54195/9789465153414",
+    "title": "Latent Dynamics Enable Decoding of Brain States and Discovery of Oculomotor Rhythmicity",
+    "abstract": "This dissertation examines how latent neural and behavioural dynamics can be inferred from indirect, limited measurements in two areas of systems neuroscience, where the most salient feature of the recorded signal does not coincide with the structure in which the phenomenon of interest resides. Part I concerns functional near-infrared spectroscopy (fNIRS). Chapter 2 introduces a Riemannian-geometry classification framework for fNIRS data that nearly doubles accuracy in decoding eight brain states relative to traditional, channel-wise methods. Chapter 3 applies this framework to a clinical proof-of-principle for disorders of consciousness. Part II addresses the temporal structure of saccadic eye movements during naturalistic viewing. Chapter 4 shows that saccade timing combines a locally rhythmic interval-generating process with a slowly fluctuating rate, and that rhythmicity increases with saccade rate across humans, macaques and a marmoset. Chapter 5 uses inhibitory continuous theta-burst TMS over the right frontal eye field to show that this cortical area influences saccade rhythmicity causally.",
+    "authors": [
+      "Tim Näher"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-12-07",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.54195/9789465153414",
+    "work_type": "monograph",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "latent dynamics"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "latent dynamics"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.54195/9789465153414"
+    ],
+    "paper_url": "https://doi.org/10.54195/9789465153414",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "monograph",
+        "venue": "",
+        "venue_type": "",
+        "date": "2026-12-07",
+        "doi": "10.54195/9789465153414"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.17877/tudobooks-11.195",
     "title": "Trustworthy direct interval propagation via conformal prediction in neural network surrogates",
     "abstract": "Uncertainty propagation is essential for reliable engineering design, but when input distributions are unknown, or data are scarce, probabilistic models risk misspecification, making interval representations a more robust alternative. However, interval propagation requires solving optimisation problems for each bound, leading to high computational cost, especially in downstream tasks such as design optimisation or reliability analysis. To mitigate this, surrogate models can be designed to provide interval predictions directly via interval-valued regression, supported by recent neural-network-based methods and data augmentation strategies for constructing interval datasets. Yet these approaches typically ignore surrogate approximation error and data noise. We address this by extending interval regression with a conformal prediction framework, which is model-agnostic and provides user-controlled confidence levels to capture both input and model uncertainty in a distribution-free manner. Experimental results on analytical and PDE benchmark problems demonstrate that the proposed conformalised interval propagation significantly improves coverage reliability compared to uncalibrated predictors, while maintaining practical prediction efficiency. Furthermore, we show that calibration using approximate interval data remains effective when the approximation error is limited, highlighting the practical applicability of the proposed framework in data-scarce settings.",
@@ -10498,6 +10566,86 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "title:e35241c5147d57",
+    "title": "Accelerating Discrete Diffusion Models for Combinatorial Optimization via Momentum Inference",
+    "abstract": "International audience",
+    "authors": [
+      "Bessam Azizi",
+      "Mimoun Mohamed",
+      "Sophie Barbe",
+      "Thomas Schiex"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-02",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization",
+      "diffusion model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "diffusion combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "diffusion model combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://hal.science/hal-05776656"
+    ],
+    "paper_url": "https://hal.science/hal-05776656",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "venue_type": "repository",
+        "date": "2026-11-02",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1016/j.cma.2026.119228",
@@ -14711,6 +14859,1736 @@
     ]
   },
   {
+    "uid": "arxiv:2610.31474",
+    "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
+    "abstract": "Robot world models simulate how environments evolve in response to robot actions. Latent action models enable learning dynamics from videos by encoding visual transitions as proxy actions. However, reconstruction-driven latent actions mix robot motion with object responses and other scene changes, complicating their correspondence with robot controls. We propose SkeLAM, a skeleton-guided latent action model for controllable robot world modeling. SkeLAM decomposes latent actions into a kinematic component grounded by robot skeleton supervision and a residual component retaining complementary visual dynamics. Cross-modal swap reconstruction encourages RGB-derived and skeleton-derived kinematic representations to be interchangeable during video reconstruction. The world model incorporates both components through separate conditioning pathways, while branch dropout reduces its dependence on future-derived residual information. A lightweight adapter maps robot actions to the kinematic space, and subsequent world-model fine-tuning adapts generation to these predicted conditions. At inference, the model generates future observations from the current observation and robot actions. On DROID, SkeLAM reduces end-effector ADE by 19.5% and LPIPS by 11.1% compared with DreamDojo. Motion probing supports kinematic specialization, while qualitative results demonstrate zero-shot human-to-robot motion transfer in generated rollouts. Policy evaluation shows agreement between predicted success rates and those measured in real robot executions.",
+    "authors": [
+      "Qi Lv",
+      "Jiayi Lin",
+      "Yuxin Jiang",
+      "Jianzong Wang",
+      "Xiang Deng",
+      "Mike Shou Zheng"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.31474",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.31474"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.31474",
+    "open_access_url": "https://arxiv.org/pdf/2610.31474",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.31465",
+    "title": "RheOPT: Few-Shot Non-Newtonian Flow Prediction via Newtonian Pretraining of RheOFormer",
+    "abstract": "Despite advances in numerical methods, non-Newtonian flow simulations remain computationally expensive because velocity and stress must be advanced together through rate- and history-dependent constitutive dynamics. Neural-operator surrogates reduce inference cost after training, but their training data require the same expensive simulations they aim to replace, making data-efficient learning essential when only a few non-Newtonian simulations can be afforded. Here, we introduce the Rheological Operator Pretrained Transformer (RheOPT), which pretrains a transformer-based neural operator on inexpensive Newtonian simulations and fine-tunes it on a small number of non-Newtonian samples. Rather than transferring the Newtonian constitutive response itself, RheOPT reuses geometry-conditioned transport structure that remains useful after the stress model changes. We evaluate RheOPT in two geometry-matched settings: a $4{:}1$ contraction channel for Giesekus, Oldroyd-B, and Bingham fluids, and the oscillatory wake behind a triangular obstacle for Oldroyd-B flow. In the contraction, Newtonian pretraining substantially improves few-shot prediction, and a model fine-tuned on four target samples can match or exceed a from-scratch model trained on four times as many. This benefit is reliable under reversible instance normalization (RevIN) but dataset dependent under Global normalization, a difference we trace to the dynamic range of each fluid's velocity and stress fields. In the wake, where relative $L_2$ error alone cannot verify that vortex shedding is recovered, phase-insensitive diagnostics show that pretraining recovers the shedding frequency and wake fluctuation amplitude that are suppressed by the from-scratch model in the few-shot regime. Overall, RheOPT establishes Newtonian simulation as a physically grounded pretraining source for data-efficient non-Newtonian operator learning.",
+    "authors": [
+      "Maedeh Saberi",
+      "Amir Barati Farimani",
+      "Safa Jamali"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.31465",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "operator learning",
+      "transformer-based"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.31465"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.31465",
+    "open_access_url": "https://arxiv.org/pdf/2610.31465",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.18231/j.ijmi.98567.1792643840",
+    "title": "Pixels to precision: Deep learning in dental imaging",
+    "abstract": "Dental imaging is fundamental to diagnosis, treatment planning, and follow-up in Oral Medicine and Maxillofacial Radiology. Although conventional radiographic interpretation remains dependent on professional expertise, diagnostic performance may be influenced by observer variability, image quality, workload, and the subtle nature of early pathological changes. The development of Artificial intelligence (AI), particularly deep learning (DL), has introduced new approaches for automated analysis of dental and maxillofacial images. This narrative review discusses the evolution, principles, applications, clinical relevance, limitations, and future directions of deep learning in dental imaging, with emphasis on intraoral radiography, panoramic radiography, cone-beam computed tomography (CBCT), and related imaging modalities. Convolutional neural networks (CNNs) have demonstrated applications in dental caries detection, periodontal bone assessment, periapical lesion detection, tooth identification and numbering, jaw lesion analysis, anatomical segmentation, and treatment planning. More advanced architectures, including U-Net, residual networks, object-detection models, three-dimensional CNNs, and emerging transformer-based systems, have expanded the scope of automated image interpretation. However, the rapid growth of research has also highlighted important limitations, including small and heterogeneous datasets, inconsistent annotation, retrospective study designs, limited external validation, algorithmic bias, and difficulties in explaining model predictions. Importantly, high algorithmic accuracy does not necessarily translate into clinical effectiveness. Future research should therefore focus on diverse multicentre datasets, external and prospective validation, explainable AI, multimodal systems, ethical governance, and meaningful human-AI collaboration. Deep learning is most appropriately viewed as an adjunctive clinical decision-support technology that complements rather than replaces professional diagnostic judgment.",
+    "authors": [
+      "Ananya Sapra",
+      "Dr Suman Sen"
+    ],
+    "institutions": [
+      {
+        "name": "Kothiwal Dental College and Research Centre",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Ananya Sapra",
+        "institution": "Kothiwal Dental College and Research Centre",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Dr Suman Sen",
+        "institution": "Kothiwal Dental College and Research Centre",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "IN"
+    ],
+    "home_scope": "国外",
+    "venue": "International Journal of Maxillofacial Imaging",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 International Journal of Maxillofacial Imaging；日期 2026-10-22"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.18231/j.ijmi.98567.1792643840",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer-based",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.18231/j.ijmi.98567.1792643840"
+    ],
+    "paper_url": "https://doi.org/10.18231/j.ijmi.98567.1792643840",
+    "open_access_url": "https://doi.org/10.18231/j.ijmi.98567.1792643840",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "International Journal of Maxillofacial Imaging",
+        "venue_type": "journal",
+        "date": "2026-10-22",
+        "doi": "10.18231/j.ijmi.98567.1792643840"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.21203/rs.3.rs-11383493/v1",
+    "title": "Optimal daily allocation between vocabulary and grammar in second- language study: a normative control model",
+    "abstract": "Abstract Foreign-language learners with a fixed daily study budget divide their time between vocabulary and grammar and decide when to stop memorising words. Published guidance often places that stopping point near 98% coverage of the running words in a text. This paper treats the decision as a finite-horizon optimal-control problem. The state is mastered word families and a grammar-mastery index. A Zipf–Mandelbrot frequency distribution converts the first into text coverage, and comprehension is a constant-elasticity-of-substitution aggregate of coverage and grammar mastery, so the two skills are complementary but not perfectly substitutable. Forgetting is exponential; reading maintains some vocabulary at no cost, while grammar rehearsal is discounted by a modelling parameter. Four coverage conventions are fitted and carried through every analysis, each solved over a Latin-hypercube parameter box. Three findings hold across all four conventions. A 98% target is optimal in only 1.67% to 4.17% of the parameter box. The drivers of the optimal target are ranked identically every time: the free rehearsal that reading supplies for vocabulary, then vocabulary retention, then the horizon, with grammar-side parameters and the substitution elasticity nearly inert. One negative result is reported: the grammar rehearsal weight shifts the objective level, not the policy structure. Because the level of the optimal target depends on the coverage convention while its drivers do not, no point estimate is offered. The analysis is a normative model, not a prescription for individual learners.",
+    "authors": [
+      "Tian-Yu Wang"
+    ],
+    "institutions": [
+      {
+        "name": "Guangdong Peizheng College",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Tian-Yu Wang",
+        "institution": "Guangdong Peizheng College",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.21203/rs.3.rs-11383493/v1",
+    "work_type": "posted-content",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model for control"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.21203/rs.3.rs-11383493/v1"
+    ],
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-11383493/v1",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "posted-content",
+        "venue": "",
+        "venue_type": "",
+        "date": "2026-10-22",
+        "doi": "10.21203/rs.3.rs-11383493/v1"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1103/6ftg-93hc",
+    "title": "Measurement-driven quantum approximate optimization",
+    "abstract": "Algorithms based on non-unitary evolution have attracted much interest for ground state preparation on quantum computers. One recently proposed method makes use of ancilla qubits and controlled unitary operators to implement weak measurements related to imaginary-time evolution. In this work we specialize and extend this approach to the setting of combinatorial optimization. We first generalize the algorithm from exact to approximate optimization, taking advantage of several properties unique to classical problems. In particular we show how to select parameters such that the success probability of each measurement step is bounded away from $1/2$. We then show how to adapt our paradigm to the setting of constrained optimization for a number of important classes of hard problem constraints. For this we compare and contrast both penalty-based and feasibility-preserving approaches, elucidating the significant advantages of the latter approach. Our approach is general and may be applied to easy-to-prepare initial states as a standalone algorithm, or deployed as a quantum postprocessing stage to improve performance of a given parameterized quantum circuit. We then propose a more sophisticated variant of our algorithm that adaptively applies a mixing operator or not, based on the measurement outcomes seen so far, as to speeds up the algorithm and helps the system evolution avoid slowing down or getting stuck suboptimally. In particular, we show that mixing operators from the quantum alternating operator ansatz can be imported directly, both for the necessary eigenstate scrambling operator and for initial state preparation, and discuss quantum resource tradeoffs.",
+    "authors": [
+      "Tobias Stollenwerk",
+      "Stuart Hadfield"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Physical Review A",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Physical Review A；日期 2026-10-22"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1103/6ftg-93hc",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1103/6ftg-93hc"
+    ],
+    "paper_url": "https://doi.org/10.1103/6ftg-93hc",
+    "open_access_url": "https://arxiv.org/pdf/2512.21046",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Physical Review A",
+        "venue_type": "journal",
+        "date": "2026-10-22",
+        "doi": "10.1103/6ftg-93hc"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.30724",
+    "title": "Learning from Next-Frame Prediction: Towards Unified and Scalable Visual Representation Learning",
+    "abstract": "Video provides a natural source of supervision: what happens next serves as a learning signal for visual world modeling. Yet masked video pretraining focuses on recovering missing content from surrounding context rather than predicting the future from the past. Autoregressive methods instead predict forward one token at a time, but have yet to match joint-embedding methods in representation quality. This gap motivates us to revisit the granularity and space of future prediction. In this work, we introduce VANE, a self-supervised visual pretraining framework built on next-frame prediction in embedding space. A causal encoder summarizes past observations for a state predictor that infers the representation of the entire next frame, making temporal evolution the primary learning signal. This prediction is carried out in a fixed embedding space provided by a frozen semantic tokenizer, emphasizing scene content and structure. To retain fine-grained spatial detail alongside semantic content, a lightweight auxiliary generative decoder reconstructs future-frame patches conditioned on the predicted representations. To unify visual modeling across images and videos, we construct a local-to-global crop sequence for still images, allowing the same encoder to predict newly revealed regions from earlier crops under the same objective. Experiments show that VANE improves with model and data scaling, achieving SOTA on most anticipation, recognition, and dense perception benchmarks among unified encoders. Especially on EPIC-KITCHENS-100 action anticipation, it surpasses V-JEPA 2.1 by 7.1 points in mean-class recall@5. These results demonstrate that next-frame prediction in embedding space is effective and scalable for visual world modeling.",
+    "authors": [
+      "Yifeng Yao",
+      "Jinghan Li",
+      "Zhihao Zhang",
+      "Yajiao Xiong",
+      "Yang Jin",
+      "Kun Xu",
+      "Huishuai Zhang",
+      "Dongyan Zhao"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.30724",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "representation learning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.30724"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.30724",
+    "open_access_url": "https://arxiv.org/pdf/2610.30724",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/s44207-026-00019-6",
+    "title": "Kernel methods in the deep Ritz framework: theory and practice",
+    "abstract": "Abstract In this contribution, kernel approximations are applied as ansatz functions within the Deep Ritz method. This allows to approximate weak solutions of elliptic partial differential equations with weak enforcement of boundary conditions using Nitsche’s method. A priori error estimates are proven in different norms leveraging both standard results for weak solutions of elliptic equations and well-established convergence results for kernel methods. This availability of a priori error estimates renders the method useful for practical purposes where theoretical guarantees are important. The procedure is described in detail, meanwhile providing practical hints and implementation details. By means of numerical examples, the performance of the proposed approach is evaluated and the theoretical findings are verified. We further apply two-layered kernels in a high-dimensional test case, which goes beyond a purely linear method. To the best of our knowledge, this paper contains the first extensive numerical studies and discussions comparing kernel interpolation, the kernel Galerkin method, the deep Ritz method with kernels and the “classical” deep Ritz method with neural networks. We numerically verify advantages and disadvantages of the particular methods and show under which assumptions the individual approaches are beneficial.",
+    "authors": [
+      "Hendrik Kleikamp",
+      "Tizian Wenzel"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Computational Science and Engineering",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Computational Science and Engineering；日期 2026-10-22"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/s44207-026-00019-6",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "partial differential equation"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/s44207-026-00019-6"
+    ],
+    "paper_url": "https://doi.org/10.1007/s44207-026-00019-6",
+    "open_access_url": "https://doi.org/10.1007/s44207-026-00019-6",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Computational Science and Engineering",
+        "venue_type": "journal",
+        "date": "2026-10-22",
+        "doi": "10.1007/s44207-026-00019-6"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.31194",
+    "title": "Inside-JEPA: From Prediction to Relational Grounding in Latent World Models",
+    "abstract": "Joint-embedding predictive architectures (JEPAs) learn world models in latent space, enabling efficient planning but leaving their states opaque. We introduce Inside-JEPA, which places relational channels for ordered entity pairs inside the JEPA latent state and shows that an inverse-dynamics loss can ground these channels without relation labels when its head reads them, either alone or as part of the full state. On Something-Something V2, latent prediction alone performs no better than a random relation head, while inverse-dynamics supervision that recovers actions from channel changes improves relational AUROC by .065-.103 across ten settings with annotated boxes, by .081 on RH20T robot episodes with held-out tasks, and by .050-.061 across five relations using off-the-shelf detection and tracking. An inverse head on entity latents decodes actions more accurately but barely improves relational grounding; shuffled labels, two label-free objectives, and action labels on only 5% of the pairs also fail to ground the channels. Given an action, predicted relational changes approach the quality of observed future relations (AUROC .599 vs .621). For one-step relational goals, a supervised readout of the 16 channels ranks the correct action among the top five of 65 in 43% of cases, compared with 24% for prediction-only latents and 17% for a frequency prior.",
+    "authors": [
+      "Hossein Resani",
+      "Javen Qinfeng Shi"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.31194",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.31194"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.31194",
+    "open_access_url": "https://arxiv.org/pdf/2610.31194",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.30988",
+    "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
+    "abstract": "Robust manipulation of soft objects, such as garments, is a critical skill for service and household robots to adopt, but remains challenging due to its high-dimensional state space, and material-dependent deformations. Humans address this challenge by using mental world models that \"imagine\" the shape and material properties from partial observations, which enables them to predict how actions affect future states. As such, embedding such world models in robots allows for better generalization in manipulating a wide variety of garments in the real world. However, learned world models typically require large amounts of real world data that is strenuous to collect, and a mechanism to infer latent properties that govern dynamics. We present a Soft-Object World Model that performs generative full-state estimation and action-conditioned dynamics prediction using a transformer backbone trained on large-scale simulated soft object interactions, with measures to mitigate the sim-to-real gap. By learning to infer latent shape and material cues through in-context learning over a variable-length partial point-cloud history, the model generalizes across robot embodiments, material parameters, garment types and shapes, and manipulation coordination modes without weight updates. The world model is then integrated with a Goal-Conditioned action planner for motion synthesis. We validate the approach in simulation and real world for bimanual garment folding, reporting improvements in reconstruction fidelity, prediction accuracy, and task success.",
+    "authors": [
+      "Hengyi Sim",
+      "Quentin Rouxel",
+      "Dennis Hong",
+      "Darwin Caldwell",
+      "Fei Chen"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.30988",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "action-conditioned",
+      "transformer backbone"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.30988"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.30988",
+    "open_access_url": "https://arxiv.org/pdf/2610.30988",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.5194/wes-11-3949-2026",
+    "title": "Economic lifetime-aware wind farm control",
+    "abstract": "Abstract. We present the economic lifetime-aware formulation of wind farm control (WFC), a novel approach that incorporates the current state of damage of turbines – either provided by a digital twin or estimated from operational data – to compute control policies that optimize the long-term life management of a wind farm. The optimization is guided by an economic value function that balances power capture (taking into account variable spot market prices) with operation and maintenance (O&M) costs, including potential revenue losses due to turbine downtime. The optimization process is subject to constraints ensuring that the target lifetime of selected turbine components is met, considering varying inflow conditions. This results in optimal control setpoints for each turbine as functions of ambient conditions. After introducing the economic lifetime-aware WFC approach, the paper analyzes two case studies. The first is a synthetic scenario with a simplified set of environmental conditions, designed to demonstrate the behavior of the new control strategy and its impact on fatigue loads. The second case features the more realistic setup of a small wind farm, with wind climate data derived from a real meteorological mast. The benefits of the proposed methodology are highlighted by comparing it to a range of reference control strategies, which either ignore component damage or address fatigue loads in alternative simplified ways. When compared to greedy and power-maximizing WFC strategies, results show that only the lifetime-aware formulation ensures the achievement of the desired lifetime targets. Additionally, it also results in the best economic performance.",
+    "authors": [
+      "Abhinav Anand",
+      "Robert Braunbehrens",
+      "Adrien Guilloré",
+      "Carlo L. Bottasso"
+    ],
+    "institutions": [
+      {
+        "name": "Technical University of Munich",
+        "country_code": "DE",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Abhinav Anand",
+        "institution": "Technical University of Munich",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Robert Braunbehrens",
+        "institution": "Technical University of Munich",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Adrien Guilloré",
+        "institution": "Technical University of Munich",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Carlo L. Bottasso",
+        "institution": "Technical University of Munich",
+        "country_code": "DE",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "DE"
+    ],
+    "home_scope": "国外",
+    "venue": "Wind energy science",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Wind energy science；日期 2026-10-22"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.5194/wes-11-3949-2026",
+    "work_type": "article",
+    "citation_count": 2,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.5194/wes-11-3949-2026"
+    ],
+    "paper_url": "https://doi.org/10.5194/wes-11-3949-2026",
+    "open_access_url": "https://doi.org/10.5194/wes-11-3949-2026",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Wind energy science",
+        "venue_type": "journal",
+        "date": "2026-10-22",
+        "doi": "10.5194/wes-11-3949-2026"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.31569",
+    "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+    "abstract": "Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execution decisions. However, learning and integrating these signals can require fine-grained supervision, external monitoring models, or complex architectural designs. Moreover, the potential of task status signals to directly guide action generation remains underexplored. We present Echo, a framework that combines task status signal learning without frame-level progress annotations with a compact design for status prediction and action generation within a single VLA. Specifically, Echo represents task status with stop and failure signals, added as two dimensions of each action chunk and denoised together with robot actions. Their combination distinguishes ongoing execution, successful completion, and failure. To learn these signals without fine-grained progress annotations, Echo constructs successful, failed, and recovery trajectories with complementary supervision properties. To enable status signal-guided action generation, Echo controls interactions between the signals and actions and denoises the signals faster than the actions. These allow later action denoising steps to condition on cleaner status estimates while preserving accurate signal prediction. Extensive real-world manipulation experiments show that Echo accurately predicts task status and consistently improves policy performance.",
+    "authors": [
+      "Yufeng Liu",
+      "Bohao Fan",
+      "Juntu Zhao",
+      "Xinyi Wang",
+      "Hang Yu",
+      "Wenzhuan Luo",
+      "Yingzhi Wang",
+      "Qinghai Li",
+      "Yingdong Hu",
+      "Junliang Guo",
+      "Richard Wang",
+      "Dequan Wang",
+      "Yang Gao",
+      "Cheng Ma"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.31569",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "planning",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.31569"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.31569",
+    "open_access_url": "https://arxiv.org/pdf/2610.31569",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.31066",
+    "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+    "abstract": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and scientific domains. The Agent track compares 10 configurations on 1,088 items in 15 reporting categories. The World Model track contains 400 cases across eight scenarios; 15 configurations have full coverage and one covers six scenarios. GPT 6 Astra leads the case-weighted Agent Index at 31.3, and GPT-Image-2 leads the full-coverage WM Overall at 21.7. These scores use different tasks and metrics and are not directly comparable. A 150-case pilot of one coupled pairing records zero task successes and motivates component-level diagnosis. Results reveal uneven task performance and failures to preserve task-relevant state. Their value for predicting coupled success or sustained reciprocal learning remains to be established.",
+    "authors": [
+      "Zhefan Rao",
+      "Meng Chu",
+      "Xuan Zhang",
+      "Jingfan Chen",
+      "Guohao Cai",
+      "Runyi Li",
+      "Shiyi Du",
+      "Ning Lu",
+      "Xu Huang",
+      "Zhixuan Chen",
+      "Feng Nie",
+      "Harold Haodong Chen",
+      "Hanwen Wang",
+      "Wen-Jie Shu",
+      "Yajing Bai",
+      "Xianfeng Wu",
+      "Xuanhua He",
+      "Shuhan Guo",
+      "Ziyue Ma",
+      "Ruichuan An",
+      "Long Bai",
+      "Miaosen Chai",
+      "Wenhao Chai",
+      "Jingye Chen",
+      "Qi Chen",
+      "Xuhang Chen",
+      "Wei Chow",
+      "Minghao Fu",
+      "Yunhao Gou",
+      "Haokun Gui",
+      "Dong Huang",
+      "Wei Huang",
+      "Zi Cheng Huang",
+      "Haibo Jin",
+      "Lingdong Kong",
+      "Leung Chun Ho",
+      "Tianqin Li",
+      "Yanheng Li",
+      "Jiayuan Liu",
+      "Jiyang Liu",
+      "Mingyu Liu",
+      "Shaoteng Liu",
+      "Xiaocheng Lu",
+      "Yawen Luo",
+      "Zeyu Qin",
+      "Tiancheng Shen",
+      "Yueqi Song",
+      "Zhaolong Su",
+      "Hengkai Tan",
+      "Tianhao Tang",
+      "Yiran Tao",
+      "Juncheng Wang",
+      "Qinghe Wang",
+      "Shangshang Wang",
+      "Yingying Wang",
+      "Fang Wu",
+      "Tiange Xiang",
+      "Qiushi Yang",
+      "Weicai Ye",
+      "Weichen Yu",
+      "Jiarui Zhang",
+      "Jize Zhang",
+      "Liuzhou Zhang",
+      "Renrui Zhang",
+      "Sheng Zhang",
+      "Wenhu Zhang",
+      "Junru Zhao",
+      "Lingting Zhu",
+      "Yuxin Zuo",
+      "Yutong Bai",
+      "Long Chen",
+      "Yang Deng",
+      "Ziqi Huang",
+      "Yeying Jin",
+      "Weijia Li",
+      "Kevin Qinghong Lin",
+      "Quande Liu",
+      "See-Kiong Ng",
+      "Hongliang Ren",
+      "Hongru Wang",
+      "Shujun Wang",
+      "Qifeng Chen",
+      "Haoxuan Che"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.31066",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.31066"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.31066",
+    "open_access_url": "https://arxiv.org/pdf/2610.31066",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.31617",
+    "title": "DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control",
+    "abstract": "Tasks such as quadrotor dynamic-gate racing require agents to anticipate external motion while maintaining precise high-frequency control. World-model-based reinforcement learning provides a natural solution by learning latent dynamics for future imagination, yet it often entangles environmental evolution and the robot's own dynamics in a single learned rollout, where model bias can affect policy optimization efficiency. We propose DiffDreamer, a differentiable reinforcement learning framework that tightly couples a learned world model with differentiable simulation for actor optimization. In one optimization step, the learned world model propagates latent states that capture external dynamics and history-dependent features, while the differentiable simulator propagates the robot's explicit physical state. We further decompose the actor objective into a critic-driven pathway for non-differentiable task rewards and a simulator-driven pathway for differentiable motion rewards. Experiments on aggressive tracking and dynamic-gate racing show that DiffDreamer improves training convergence over the model-free, model-based, and differentiable-RL baselines, and final performance over these baselines and classical planning and control methods. Additional experiments assess reward decomposition and the odometry-conditioned relative-state representation through ablations. We also provide proof-of-concept real-world flight experiments for validation.",
+    "authors": [
+      "Fanxing Li",
+      "Yuxiang Huang",
+      "Shengyang Wang",
+      "Fangyu Sun",
+      "Shuyu Wu",
+      "Tianbao Zhang",
+      "Dexin Zuo",
+      "Yan Yufei",
+      "Danping Zou",
+      "Wenxian Yu"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.31617",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "latent dynamics",
+      "model-based reinforcement learning",
+      "model based reinforcement learning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.31617"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.31617",
+    "open_access_url": "https://arxiv.org/pdf/2610.31617",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.3389/frai.2026.1937548",
+    "title": "CAFM v4: a cascaded anchor-dominant residual fusion model for multi-scale brain tumor classification from magnetic resonance imaging",
+    "abstract": "Inroduction Brain tumor classification using Magnetic Resonance Imaging (MRI) is critical for diagnosis and treatment planning in neuro-oncology. The CAFM v4 framework introduced in this study incorporates a novel Anchor-Dominant Residual Fusion (ADRF) mechanism for brain tumor MRI classification. Methods CAFM v4 combines ConvNeXt V2, Swin-Base, and EfficientFormerV2-S0 for feature extraction using deep supervision, knowledge distillation, class-balanced focal loss, and progressive training. Stochastic weight averaging and test-time augmentation are incorporated to support optimization, training stability, and benchmark performance. The proposed framework was evaluated on five public brain tumor MRI datasets: Br35H (binary), FigShare (3-class), 4-class, 15-class, and 30-class datasets. Results The proposed CAFM v4 framework achieved classification accuracies of 99.78%, 98.01%, 96.75%, 95.79%, and 97.73% on the Br35H, FigShare, 4-class, 15-class, and 30-class datasets, respectively. The model demonstrated strong benchmark performance across five independently trained datasets with different class distributions, sample sizes, and classification complexities. The learned fusion gates showed similar convergent values across training runs, indicating consistent information integration from the three backbone networks. Discussion CAFM v4 demonstrated strong performance relative to a majority of contemporary CNN-based, transformer-based, and hybrid frameworks. The results indicate that the proposed fusion strategy supports binary and multi-class brain tumor classification. However, these independently trained benchmark experiments do not establish external or cross-institutional generalization. Further patient-level external validation using independent multicenter datasets is necessary before establishing clinical utility.",
+    "authors": [
+      "Nagamani Kamineni",
+      "R. K. Nadesh"
+    ],
+    "institutions": [
+      {
+        "name": "Vellore Institute of Technology University",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Nagamani Kamineni",
+        "institution": "Vellore Institute of Technology University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "R. K. Nadesh",
+        "institution": "Vellore Institute of Technology University",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "IN"
+    ],
+    "home_scope": "国外",
+    "venue": "Frontiers in Artificial Intelligence",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Frontiers in Artificial Intelligence；日期 2026-10-22"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.3389/frai.2026.1937548",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer-based",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.3389/frai.2026.1937548"
+    ],
+    "paper_url": "https://doi.org/10.3389/frai.2026.1937548",
+    "open_access_url": "https://doi.org/10.3389/frai.2026.1937548",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Frontiers in Artificial Intelligence",
+        "venue_type": "journal",
+        "date": "2026-10-22",
+        "doi": "10.3389/frai.2026.1937548"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.30657",
+    "title": "Anticipating Social Consequences with Distributional World Models",
+    "abstract": "Social world models predict how interactions develop after an action, helping agents negotiate, cooperate and mediate. In these situations, one action can lead to several plausible futures, hence predicting only one future can overlook consequential alternatives, while exploring them through repeated simulations increases inference cost. We propose DSWM, a Distributional Social World Model that predicts alternative responses, their probabilities and immediate and final outcome values in one output per candidate action. We train a 4B model on repeated simulations using supervised fine-tuning and GRPO. At inference time, the actor uses these possible consequences to choose an action. Across three seen and two unseen environments, with interaction backbones absent from training collection, DSWM achieves the best average performance on 13 of 15 metrics. Ablations show that retaining multiple futures and their predicted probabilities improves outcomes in all five environments.",
+    "authors": [
+      "Viet-Thanh Pham",
+      "Thuy-Trang Vu",
+      "Zhuang Li",
+      "Lizhen Qu",
+      "Gholamreza Haffari"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.30657",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.30657"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.30657",
+    "open_access_url": "https://arxiv.org/pdf/2610.30657",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.30789",
+    "title": "An Introduction to World Models for Generalist Agents",
+    "abstract": "World models have recently emerged as a promising direction toward developing generalist agents capable of understanding, predicting, and interacting with diverse environments. However, despite growing interest, the concept of a world model remains loosely defined, encompassing approaches ranging from predictive dynamics models and learned simulators to models that jointly generate future observations and actions. This introductory paper aims to clarify the concept of world models and provide a unified perspective on their role in developing generalist agents. Starting from the partially observable Markov decision process (POMDP) framework, we connect world modeling to classical control, dynamical systems, signal processing, and reinforcement learning. We introduce different approaches to world modeling, emphasizing the knowledge they capture, their learning objectives, and how they support decision-making. We further explore the relationship between world modeling and policy learning, highlighting how these capabilities can be unified through conditional prediction without requiring separate models. Rather than offering an exhaustive survey of existing methods, this paper focuses on fundamental concepts, modeling principles, and connections, with the goal of providing an accessible and unified introduction to world models for generalist agents.",
+    "authors": [
+      "Zhihui Zhu"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-22",
+    "preprint_updated_date": "2026-10-22",
+    "arxiv_id": "2610.30789",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "dynamics model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.30789"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.30789",
+    "open_access_url": "https://arxiv.org/pdf/2610.30789",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.3389/fdgth.2026.1962988",
+    "title": "Airway image analysis systems: a review of datasets, evaluation methodologies, and deep learning approaches",
+    "abstract": "Airway image analysis systems play an increasingly important role in computer-assisted diagnosis, quantitative airway assessment, intervention planning, and respiratory disease management. However, the development of robust airway analysis methods remains challenging due to the complex geometry of airway structures, strong class imbalance, variability in imaging protocols, and the need to preserve anatomical connectivity across multiple spatial scales. Recent advances in topology-aware learning, transformer-based architectures, and foundation-model adaptation have substantially changed the landscape of airway image analysis, motivating an updated review focused specifically on airway-oriented systems. In this narrative review, we provide a comprehensive overview of the datasets, evaluation methodologies, and computational approaches that underpin modern airway image analysis systems. We discuss the imaging modalities and publicly available datasets commonly used for airway analysis and examine their strengths, limitations, and implications for algorithm development and benchmarking. Particular attention is given to evaluation methodologies, including overlap-based, surface-distance, and topology-aware metrics that assess both segmentation accuracy and structural correctness. We further review the evolution of computational approaches, covering convolutional neural networks, transformer-based architectures, hybrid methods, topology-aware and tubular-aware networks, foundation-model adaptations, and data-efficient learning strategies. Finally, we discuss current challenges related to dataset availability, annotation quality, model generalization, topology preservation, and clinical deployment, and outline future research directions toward robust, interpretable, and clinically deployable airway image analysis systems.",
+    "authors": [
+      "Evropi Toulkeridou",
+      "Panagiota Kosmidou",
+      "Zinonas Antoniou",
+      "Marios S. Pattichis",
+      "Andreas S. Panayides"
+    ],
+    "institutions": [
+      {
+        "name": "Mediterranean University",
+        "country_code": "ME",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of New Mexico",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Panagiota Kosmidou",
+        "institution": "Mediterranean University",
+        "country_code": "ME",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marios S. Pattichis",
+        "institution": "University of New Mexico",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "ME",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Frontiers in Digital Health",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Frontiers in Digital Health；日期 2026-10-22"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.3389/fdgth.2026.1962988",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer-based",
+      "foundation model",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.3389/fdgth.2026.1962988"
+    ],
+    "paper_url": "https://doi.org/10.3389/fdgth.2026.1962988",
+    "open_access_url": "https://doi.org/10.3389/fdgth.2026.1962988",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Frontiers in Digital Health",
+        "venue_type": "journal",
+        "date": "2026-10-22",
+        "doi": "10.3389/fdgth.2026.1962988"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1016/j.cma.2026.119456",
+    "title": "Accelerating natural gradient descent for PINNs with randomized numerical linear algebra",
+    "abstract": "Code of the paper \"Accelerating Natural Gradient Descent for PINNs with Randomized Numerical Linear Algebra\": the randngd package (natural gradient descent preconditioned with randomized Nyström approximations and randomly pivoted partial Cholesky) and the example scripts of the paper's PDE problems.",
+    "authors": [
+      "Ivan Bioli",
+      "Carlo Marcati",
+      "Giancarlo Sangalli"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Computer Methods in Applied Mechanics and Engineering",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-22"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1016/j.cma.2026.119456",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "adaptive spectral method"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural spectral method"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1016/j.cma.2026.119456"
+    ],
+    "paper_url": "https://doi.org/10.1016/j.cma.2026.119456",
+    "open_access_url": "https://doi.org/10.1016/j.cma.2026.119456",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Computer Methods in Applied Mechanics and Engineering",
+        "venue_type": "journal",
+        "date": "2026-10-22",
+        "doi": "10.1016/j.cma.2026.119456"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.26434/chemrxiv.15010874/v1",
+    "title": "A Physics-Informed Fourier Neural Operator Framework for Zero-Plating Fast Charging of Lithium-Ion Batteries via Real-Time Electrochemical State Estimation and Barrier-Riding Optimal Control",
+    "abstract": "Extreme fast charging of lithium-ion batteries is critically limited by internal lithium plating at the negative electrode-separator interface, driving rapid degradation and thermal hazards. Real-time mitigation is fundamentally impeded because the interfacial plating overpotential (ηplating) is inaccessible to non-invasive sensors, leaving conventional protocols blind to metallic lithium deposition. While high-fidelity Doyle–Fuller–Newman (DFN) models resolve these dynamics, their computational cost (∼ 8 s) precludes embedded closed-loop control, whereas empirical equivalent circuit models lack the spatial resolution to detect plating. To resolve this trade-off, we develop a physics-informed 1D Fourier Neural Operator (FNO-1D) surrogate incorporating an explicit cumulative charge integral Q(t) = ∫ I dt to preserve mass conservation. Trained on 7,771 continuum DFN trajectories, the surrogate achieves a 4, 349× speedup (1.84 ms inference) with high fidelity (V RMSE = 5.40 mV, η plating , RMSE = 2.24 mV). Coupled with an Ensemble Smoother with Multiple Data Assimilation (ESMDA), the framework filters sensor noise (±10 mV to 5.94 mV) and reconstructs unobservable plating dynamics (RMSE = 4.12 mV, 95% CI = ±3.22 mV), establishing continuous closed-loop observability. A Barrier-Riding Nonlinear Model Predictive Control (NMPC) policy then maximizes charging current along the degradation boundary. Across a 10% - 80% SOC window, it cuts charging time by 21.7% (33.7 min vs. 43.0 min CC-CV)while strictly preventing lithium plating (η plating ≥ +14.81 mV > +5.0 mV), limiting peak temperature to 38.5◦C, and decreasing SEI growth by 21.5%. Finally, transferability is experimentally validated across two phys ical cycler benchmarks: cross-chemistry transfer on Oxford pouch cells, and chemistry-matched validation on commercial RWTH Aachen Sanyo 18650 NMCcells, achieving a terminal voltage tracking RMSE of 33.02 mV (86.0% error reduction over zero-shot transfer) providing an experimentally grounded paradigm for degradation-free fast charging.",
+    "authors": [
+      "Hussnain Tariq"
+    ],
+    "institutions": [
+      {
+        "name": "Islamia University of Bahawalpur",
+        "country_code": "PK",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Hussnain Tariq",
+        "institution": "Islamia University of Bahawalpur",
+        "country_code": "PK",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "PK"
+    ],
+    "home_scope": "国外",
+    "venue": "ChemRxiv",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-22",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.26434/chemrxiv.15010874/v1",
+    "work_type": "preprint",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator",
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.26434/chemrxiv.15010874/v1"
+    ],
+    "paper_url": "https://doi.org/10.26434/chemrxiv.15010874/v1",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "ChemRxiv",
+        "venue_type": "repository",
+        "date": "2026-10-22",
+        "doi": "10.26434/chemrxiv.15010874/v1"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.30438",
+    "title": "Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives",
+    "abstract": "Tactile sensing provides robots with direct access to physical interactions at the contact interface, making it a critical modality for robust and dexterous manipulation. Over the past several decades, tactile-based manipulation research has evolved from mechanics-driven approaches, which explicitly interpret tactile signals through contact mechanics and task-specific reasoning, to data-driven approaches that learn tactile representations and manipulation policies directly from data. This paper reviews the development of tactile-based manipulation from these two complementary perspectives. We first introduce the fundamentals of tactile sensing, and then review, from a mechanics-driven perspective, how those signals form manipulation-relevant state representations and subsequently influence the robot action. We then examine the recent advances in data-driven tactile manipulation, covering imitation learning, reinforcement learning, vision-language-action models, and predictive models. Finally, we discuss open challenges and future opportunities toward scalable, generalizable, and robust tactile-enabled robotic systems.",
+    "authors": [
+      "Jingyi Xiang",
+      "Yixuan Wang",
+      "Wenzhen Yuan"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-21",
+    "preprint_updated_date": "2026-10-21",
+    "arxiv_id": "2610.30438",
+    "doi": "10.1146/annurev-control-032125-030330",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "robotics"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.30438"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.30438",
+    "open_access_url": "https://arxiv.org/pdf/2610.30438",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": "10.1146/annurev-control-032125-030330"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2610.29139",
     "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
     "abstract": "Frontier black-box Large Language Model (LLM) agents are proficient at long-horizon reasoning and precise action generation. However, when it comes to a specific agentic task, they have no internalized knowledge of how that particular environment unfolds. A world model offers a natural remedy, providing the agent with environment specific knowledge by foreseeing how the environment will respond to the action it is about to take. Prior world models for LLM agents mainly predict next observations at each step, which is costly and often uninformative because individual observations provide limited task-relevant guidance and not every step requires call for foresight. This raises a key question: what a world model should predict and when should it be invoked for agentic tasks? Our pilot study suggests that world model guidance is most useful when it anticipates pitfalls within a bounded multi-step future. Motivated by this, we introduce Pitfall Anticipation World Model (PAWM), which selectively intervenes when a potential pitfall arises and predicts the impending failure to steer the agent away from it. PAWM is trained in two stages: Supervised Fine-Tuning (SFT) on synthetic data labeled with agent pitfalls, followed by GRPO co-training with a black-box LLM to further optimize it in the target environment. PAWM improves Claude Sonnet 4.5 performance by 24.3% on ScienceWorld and 7.7% on WebArena-Lite, outperforming a range of baselines. These results demonstrate that PAWM provides an effective form of world model guidance for black-box LLM agents.",
@@ -14787,6 +16665,144 @@
     ],
     "first_seen": "2026-10-22",
     "last_status_checked": "2026-10-22",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1038/s41598-026-73549-w",
+    "title": "Spatial metabolomics-guided deep learning framework for dissecting immune evasion mechanisms in fungal infection microenvironments",
+    "abstract": "Invasive fungal infections cause high mortality in immunocompromised patients, yet the spatially organized metabolic circuits that enable pathogens to evade host immunity remain poorly understood. Here we present an integrated computational–experimental framework coupling high-resolution spatial metabolomics with attention-enhanced deep learning to dissect immune evasion mechanisms within fungal infection microenvironments. We constructed a spatial metabolic atlas from MALDI-MSI and DESI-MSI data acquired on murine invasive pulmonary aspergillosis tissue sections, identifying 1,847 reproducible metabolite features across histologically distinct tissue compartments. A multi-scale convolutional network with fused channel and spatial attention modules was designed for automated segmentation of infection core, immune infiltration zone, and a transitional boundary zone, not previously resolved spatially in this infection model, that is enriched in immunosuppressive metabolites including kynurenine, prostaglandin E₂, and gliotoxin, achieving a mean Dice coefficient of 0.887 against expert pathologist annotations. To reconstruct the dynamic regulatory wiring underlying immune evasion, we developed a variational graph autoencoder coupled with neural ordinary differential equations, which inferred temporally evolving metabolite–immune interaction networks across 24, 48, and 72 h post-infection with an area under the precision-recall curve of 0.782 against KEGG and Reactome benchmarks. Network analysis ranked kynurenine as the highest-centrality hub metabolite at 48–72 h, and Neural ODE interpolation placed a putative metabolic tipping point between 36 and 48 h, marked by abrupt activation of tryptophan catabolism edges and a concurrent loss of Th1-associated signaling connectivity. Ablation experiments showed that the dual attention mechanism contributed the largest gain in segmentation and the second-largest in network inference, after the Neural ODE temporal coupling. This framework offers a hypothesis-generating, data-driven paradigm that recasts immune evasion as a spatially encoded and temporally dynamic process, and it yields prioritised candidate targets and therapeutic windows that remain to be tested by perturbation experiments before any antifungal intervention strategy can be built on them.",
+    "authors": [
+      "Xuezhen Zhai",
+      "Tingting Luo",
+      "Ruyan Zhang",
+      "Mengyun Dong"
+    ],
+    "institutions": [
+      {
+        "name": "Xuzhou Medical College",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Second People’s Hospital of Huai’an",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Xuezhen Zhai",
+        "institution": "Xuzhou Medical College",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xuezhen Zhai",
+        "institution": "Second People’s Hospital of Huai’an",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Tingting Luo",
+        "institution": "Xuzhou Medical College",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Tingting Luo",
+        "institution": "Second People’s Hospital of Huai’an",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Ruyan Zhang",
+        "institution": "Xuzhou Medical College",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Ruyan Zhang",
+        "institution": "Second People’s Hospital of Huai’an",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mengyun Dong",
+        "institution": "Xuzhou Medical College",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mengyun Dong",
+        "institution": "Second People’s Hospital of Huai’an",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Scientific Reports",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Scientific Reports；日期 2026-10-21"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-21",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s41598-026-73549-w",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural ODE",
+      "neural ordinary differential equation"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s41598-026-73549-w"
+    ],
+    "paper_url": "https://doi.org/10.1038/s41598-026-73549-w",
+    "open_access_url": "https://www.nature.com/articles/s41598-026-73549-w_reference.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Scientific Reports",
+        "venue_type": "journal",
+        "date": "2026-10-21",
+        "doi": "10.1038/s41598-026-73549-w"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14941,7 +16957,114 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1016/j.fuel.2026.141710",
+    "title": "Physics-enforced neural ordinary differential equation for chemical kinetics optimization in reaction-diffusion systems",
+    "abstract": "Calibrating chemical kinetics in a reaction–diffusion system is challenging because of complex dynamics governed by tightly coupled chemistry and transport, while experimental observations are often sparse and noisy. We propose a physics consistent diffusion-chemistry coupled neural ordinary differential equation (Diff-Chem Neural ODE) that embeds Arrhenius-structured reaction neurons into a fully differentiable streamline formulation and explicitly accounts for diffusion coupling. This design enables direct gradient-based analysis of kinetic parameters without sampling-based pretraining. We validate this method on burner-stabilized flat and stagnation reacting flows using mechanisms spanning different stiffness ranges. The proposed method reproduces species profiles with near-reference accuracy, whereas a pure chemistry Neural ODE that neglects diffusion coupling may misplace ignition and generate an incorrect thin reaction zone. Diff-Chem Neural ODE is more robust than pure chemistry Neural ODE and provides substantial speedups for gradient evaluation compared with fully discretized computations. In kinetics refinement, optimizing only a limited set of “primal” species reduces the loss by over 98 % and simultaneously recovers unobserved variables, demonstrating physically consistent global control. Finally, tests with 1–20 % noise in the objective show stable convergence without local overfitting, supporting its applicability under noisy measurements.",
+    "authors": [
+      "Feixue Cai",
+      "Hua Zhou",
+      "Zhuyin Ren"
+    ],
+    "institutions": [
+      {
+        "name": "Tsinghua University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Feixue Cai",
+        "institution": "Tsinghua University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Hua Zhou",
+        "institution": "Tsinghua University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Zhuyin Ren",
+        "institution": "Tsinghua University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Fuel",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Fuel；日期 2026-10-21"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-21",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1016/j.fuel.2026.141710",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural ODE",
+      "neural ordinary differential equation"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning with learned dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1016/j.fuel.2026.141710"
+    ],
+    "paper_url": "https://doi.org/10.1016/j.fuel.2026.141710",
+    "open_access_url": "https://doi.org/10.1016/j.fuel.2026.141710",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Fuel",
+        "venue_type": "journal",
+        "date": "2026-10-21",
+        "doi": "10.1016/j.fuel.2026.141710"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15100,6 +17223,183 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1002/adrr.70182",
+    "title": "Model Predictive Control for Magnetically Actuated Cellbots",
+    "abstract": "This article presents a control strategy for, which are magnetically actuated, micron‐scale robots embedded into living cells. Our approach combines model predictive control, which provides low computational complexity and adaptability to changing environments, with Gaussian Processes (GPs), which are used as disturbance estimators for precise path tracking. To address the challenges posed by unmodeled dynamics, we integrate data‐driven modeling with model‐based control to accurately track desired trajectories using relatively small data. To the best of our knowledge, this is the first work to integrate data‐driven modeling with model‐based control for magnetically actuated cellbots. The GP effectively learns and predicts unmodeled disturbances, providing uncertainty bounds as well. The experimental results show that our controllers perform very well, even in environments cluttered with cells.",
+    "authors": [
+      "Mehdi Kermanshah",
+      "Logan E. Beaver",
+      "Max Sokolich",
+      "Fatma Ceren Kırmızıtaş",
+      "Ahmad Ahmad",
+      "Roberto Tron",
+      "Ron Weiss",
+      "Sambeeta Das",
+      "Calin A. Belta"
+    ],
+    "institutions": [
+      {
+        "name": "Boston University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Old Dominion University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Delaware",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Massachusetts System",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Maryland, College Park",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Mehdi Kermanshah",
+        "institution": "Boston University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Logan E. Beaver",
+        "institution": "Old Dominion University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Max Sokolich",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Fatma Ceren Kırmızıtaş",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Ahmad Ahmad",
+        "institution": "University of Massachusetts System",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Roberto Tron",
+        "institution": "Boston University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Ron Weiss",
+        "institution": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sambeeta Das",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Calin A. Belta",
+        "institution": "University of Maryland, College Park",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Advanced Robotics Research",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Advanced Robotics Research；日期 2026-10-21"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-21",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1002/adrr.70182",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "model-based control",
+      "model based control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning with learned dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1002/adrr.70182"
+    ],
+    "paper_url": "https://doi.org/10.1002/adrr.70182",
+    "open_access_url": "https://doi.org/10.1002/adrr.70182",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Advanced Robotics Research",
+        "venue_type": "journal",
+        "date": "2026-10-21",
+        "doi": "10.1002/adrr.70182"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2610.29009",
     "title": "Local and Sparse Kernel Operator Learning for Incompressible Flows: An Operator Lagrange Formulation",
     "abstract": "We present a local and sparse kernel method for learning the solution operators of incompressible flows. It builds on our earlier property-preserving kernel method, whose global output reconstruction and dense operator regression scale poorly. Our method replaces the global output reconstruction by local divergence-free interpolants with divergence-free polynomials of any degree, solved in parallel on the GPU. These interpolants are divergence free, periodic on periodic domains, and, with a multiscale kernel, approach Kolmogorov statistics under refinement. A compactly supported kernel, positive semidefinite in any input dimension, makes the operator regression sparse. Its support radius, and hence the sparsity, is fitted to data, and optional affine polynomials in the input capture global trends. Operator Lagrange weights join the two. They cost one sparse solve per new input and act on the training fields before the output reconstruction, so their local coefficients are never formed. We show that, unlike direct evaluation, Lagrange evaluation does not amplify solve errors by the cancellation among spatial coefficients. On ten fluid benchmarks, validation selects sparse matrices nearly everywhere, with densities that mostly decrease as the training set grows, and affine augmentation lowers the error by more than an order of magnitude for forced isotropic turbulence. These sparse models are at least as accurate as our earlier dense method and more accurate than neural operators. Lagrange evaluation is as accurate as direct evaluation with local output reconstructions, and up to nearly three orders of magnitude more accurate with global ones. We also present GPU timings and storage.",
@@ -15168,7 +17468,7 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15400,7 +17700,7 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15470,6 +17770,84 @@
     ],
     "first_seen": "2026-10-22",
     "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2610.30488",
+    "title": "From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?",
+    "abstract": "World models help agents assess the consequences of their actions before acting. Many real systems, however, involve multiple actors who make their own decisions, can evolve even when the agent takes no action, and are only partially observed through event logs. We formalize these systems as event worlds and ask whether large language models can predict future observations from the log and the agent's proposed actions. We build complementary benchmarks from human Diplomacy games and real Polymarket trades. Our hierarchical framework compares prediction with and without other actors' actions, then tests multi-step rollouts, predictions for actions never taken, and usefulness to agents. Fine-tuning and more data improve prediction when all actors' recorded actions are given. With only the agent's action, models struggle when other actors strongly affect the outcome, and larger models and longer histories help little. This gap also limits multi-step prediction and agent decisions, with models overestimating plan success. Yet imagined experience and initialization from world models can still improve policy learning. Anticipating other actors' actions remains a central challenge for event world modeling.",
+    "authors": [
+      "Juntong Ni",
+      "Zewen Liu",
+      "Bohan Wang",
+      "Lige Zhang",
+      "Wei Jin"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-21",
+    "preprint_updated_date": "2026-10-21",
+    "arxiv_id": "2610.30488",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "language model",
+      "large language model",
+      "LLM"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2610.30488"
+    ],
+    "paper_url": "https://arxiv.org/abs/2610.30488",
+    "open_access_url": "https://arxiv.org/pdf/2610.30488",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15549,6 +17927,79 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.60893/figshare.adv.c.8759034",
+    "title": "Electronic Inductor-less Parametric Oscillators for Compact Large-Scale Ising Machines",
+    "abstract": "Parametric Oscillator (PO)-based Ising machines (IMs) are promising candidates for electronic solvers. They are able to solve nondeterministic polynomial-time hard (NP-hard) combinatorial optimization problems that current von Neumann architectures struggle to address. PO-based IMs relying on coupled networks of parametric frequency divider (PFD) circuits have recently been demonstrated, showing the capability to achieve power levels per spin in the hundreds of Nanowatts range. This has created an unprecedented opportunity to realize electronic Ising machines capable of solving NP-hard problems with a million variables while requiring less than 1 Watt. Yet, a major limitation still remains: due to its nonlinear dynamics, a typical PFD circuit requires multiple inductors to enable low-power activation of the period-doubling mechanism that is the basis of its PO-like operation, making it difficult to achieve wafer-scale Ising machines suited to solve problems with millions of variables. To overcome this limitation and enable large-scale PFD-based IMs without passive inductors, we propose a novel inductor-less PFD architecture. This architecture leverages gyrator-based circuits to achieve inductive elements out of active networks of resistors and capacitors, allowing to achieve a low-power threshold for the activation of the period-doubling mechanism without requiring inductors. The design approach creates a path to significantly reduce circuit area and improve integration capability. While being demonstrated using lumped electronic components on a printed circuit board, this architecture can be replicated using Complementary Metal Oxide Semiconductor (CMOS) electronics in the future, providing a promising path toward large-scale, fully integrated PFD-based Ising machines.",
+    "authors": [
+      "Cristian Cassella",
+      "Minghan Liu",
+      "Yunfan Gao",
+      "Blaise O'Mara",
+      "Marvin Onabajo",
+      "Nicolas Casilli"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "AIP Publishing",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-21",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.60893/figshare.adv.c.8759034",
+    "work_type": "other",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.60893/figshare.adv.c.8759034"
+    ],
+    "paper_url": "https://doi.org/10.60893/figshare.adv.c.8759034",
+    "open_access_url": "https://doi.org/10.60893/figshare.adv.c.8759034",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "other",
+        "venue": "AIP Publishing",
+        "venue_type": "repository",
+        "date": "2026-10-21",
+        "doi": "10.60893/figshare.adv.c.8759034"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2610.29088",
     "title": "Causal world models under physical parameter shifts",
     "abstract": "World models predict how embodied systems evolve under actions, but their accuracy can degrade when physical conditions move outside the training distribution. We study two components of causal modeling: which inputs a predictor may use, and how its mechanism computes their effects. In a synthetic benchmark with shortcut features, a frozen dependency mask derived from paired interventions reduces mean out-of-distribution (OOD) RMSE from 1.769 for a fully connected predictor to 0.697, close to the generator-oracle mask (0.694). For robot link-mass extrapolation in CausalWorld, with disjoint training and test mass ranges, we develop finger-local world models in which link masses enter inertia and dynamics-bias terms through explicit affine coefficients, actions act through either a learned torque network or the known PD controller, and learned residuals capture contact-related effects. Compared with a separately trained control whose mass inputs are fixed at training means, the known-PD model turns out-of-range masses into a consistent predictive gain: median time-averaged joint R2 over 150-step rollouts rises from 0.609 to 0.727, with improvement in all ten task-seed runs (exact two-sided sign test, p = 0.002). In a shared 100-step forecast, the learned-torque model is competitive with the strongest recurrent robotic world model (RWM) configuration (median joint R2 of 0.755 - 0.768 versus 0.752), whereas supplying out-of-range masses sharply degrades the MLP and recurrent predictors. These results indicate that how a physical parameter enters the dynamics mechanism determines whether its out-of-range value helps or harms prediction.",
@@ -15617,6 +18068,149 @@
     ],
     "first_seen": "2026-10-22",
     "last_status_checked": "2026-10-22",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1038/s44172-026-00805-2",
+    "title": "CarBench: A comprehensive benchmark for neural surrogates on high-fidelity 3D car aerodynamics",
+    "abstract": "Abstract Benchmarking has been the cornerstone of progress in computer vision, natural language processing, and the broader deep learning domain, driving algorithmic innovation through standardized datasets and reproducible evaluation protocols. The growing availability of large-scale Computational Fluid Dynamics (CFD) datasets has opened new opportunities for applying machine learning to aerodynamic and engineering design. Yet, despite this progress, large-scale standardized benchmarks remain limited for high-resolution three-dimensional automotive aerodynamics, making it difficult to evaluate and compare models systematically. In this work, we introduce CarBench, a large-scale standardized benchmark dedicated to high-resolution 3D automotive aerodynamics, and perform a large-scale evaluation of state-of-the-art models on DrivAerNet++, the largest public dataset for automotive aerodynamics, containing over 8,000 high-fidelity car simulations. We assess eleven representative model configurations spanning multiple modeling paradigms: classical neural operator methods (e.g., Fourier Neural Operator), geometric deep learning approaches (PointNet, RegDGCNN, PointMAE, PointTransformer), transformer-based neural solvers (Transolver, Transolver++, AB-UPT), and implicit field networks leveraging triplane representations (TripNet). Beyond standard interpolation tasks, we perform cross-category experiments in which representative transformer-based solvers trained on a single car archetype are evaluated on unseen categories to probe generalization. Our analysis covers predictive accuracy, pressure-field fidelity relative to the CFD reference, computational efficiency, and statistical uncertainty in evaluation metrics, providing a unified comparison across modeling families and quantifying the robustness of performance estimates under shifts in test geometry distributions. To accelerate progress in data-driven engineering, we open-source the complete benchmark framework, including training pipelines, metric-level uncertainty estimation routines based on bootstrap resampling, and pretrained model weights, establishing a reproducible foundation for large-scale learning from high-fidelity external automotive aerodynamics simulations, available at https://github.com/Mohamedelrefaie/CarBench .",
+    "authors": [
+      "Mohamed Elrefaie",
+      "Dule Shu",
+      "Matt Klenk",
+      "Faez Ahmed"
+    ],
+    "institutions": [
+      {
+        "name": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Institute for the Future",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Mohamed Elrefaie",
+        "institution": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Dule Shu",
+        "institution": "Institute for the Future",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Matt Klenk",
+        "institution": "Institute for the Future",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Faez Ahmed",
+        "institution": "Massachusetts Institute of Technology",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Communications Engineering",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Communications Engineering；日期 2026-10-21"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-21",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s44172-026-00805-2",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator",
+      "transformer-based",
+      "computer vision",
+      "natural language processing"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer dynamics model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "vision transformer world model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s44172-026-00805-2"
+    ],
+    "paper_url": "https://doi.org/10.1038/s44172-026-00805-2",
+    "open_access_url": "https://www.nature.com/articles/s44172-026-00805-2_reference.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Communications Engineering",
+        "venue_type": "journal",
+        "date": "2026-10-21",
+        "doi": "10.1038/s44172-026-00805-2"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15702,7 +18296,241 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.7554/elife.109757.3",
+    "title": "A mechanistic theory of planning in prefrontal cortex",
+    "abstract": "Abstract Planning is critical for adaptive behaviour in a changing world, because it lets us anticipate the future and adjust our actions accordingly. While prefrontal cortex is crucial for this process, it remains unknown how planning is implemented in neural circuits. Prefrontal representations were recently discovered in simpler sequence memory tasks, where different populations of neurons represent different future time points. We demonstrate that combining such representations with the ubiquitous principle of neural attractor dynamics allows circuits to solve much richer problems including planning. This is achieved by embedding the environment structure directly in synaptic connections to implement an attractor network that infers desirable futures. The resulting ‘spacetime attractor’ excels at planning in challenging tasks known to depend on prefrontal cortex. Recurrent neural networks trained by gradient descent on such tasks learn a solution that precisely recapitulates the spacetime attractor – in representation, in dynamics, and in connectivity. Analyses of networks trained across different environment structures reveal a generalisation mechanism that rapidly reconfigures the world model used for planning, without the need for synaptic plasticity. The spacetime attractor is a testable mechanistic theory of planning. If true, it would provide a path towards detailed mechanistic understanding of how prefrontal cortex structures adaptive behaviour.",
+    "authors": [
+      "Kristopher Torp Jensen",
+      "Peter T. Doohan",
+      "Mathias Sablé-Meyer",
+      "Sandra Reinert",
+      "Alon Boaz Baram",
+      "Maneesh Sahani",
+      "Thomas E. Akam",
+      "Timothy E.J. Behrens"
+    ],
+    "institutions": [
+      {
+        "name": "University of Oxford",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Wellcome Centre for Integrative Neuroimaging",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Sainsbury Wellcome Centre",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University College London",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Gatsby Computational Neuroscience Unit",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Kristopher Torp Jensen",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kristopher Torp Jensen",
+        "institution": "Wellcome Centre for Integrative Neuroimaging",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kristopher Torp Jensen",
+        "institution": "Sainsbury Wellcome Centre",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kristopher Torp Jensen",
+        "institution": "University College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Peter T. Doohan",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mathias Sablé-Meyer",
+        "institution": "Sainsbury Wellcome Centre",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mathias Sablé-Meyer",
+        "institution": "University College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sandra Reinert",
+        "institution": "Sainsbury Wellcome Centre",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sandra Reinert",
+        "institution": "University College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Alon Boaz Baram",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Alon Boaz Baram",
+        "institution": "Wellcome Centre for Integrative Neuroimaging",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Maneesh Sahani",
+        "institution": "Gatsby Computational Neuroscience Unit",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Maneesh Sahani",
+        "institution": "University College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Thomas E. Akam",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Thomas E. Akam",
+        "institution": "Sainsbury Wellcome Centre",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Thomas E. Akam",
+        "institution": "University College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Timothy E.J. Behrens",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Timothy E.J. Behrens",
+        "institution": "Wellcome Centre for Integrative Neuroimaging",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Timothy E.J. Behrens",
+        "institution": "Sainsbury Wellcome Centre",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Timothy E.J. Behrens",
+        "institution": "University College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "GB"
+    ],
+    "home_scope": "国外",
+    "venue": "eLife",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 eLife；日期 2026-10-21"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-21",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.7554/elife.109757.3",
+    "work_type": "article",
+    "citation_count": 6,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning with learned dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.7554/elife.109757.3"
+    ],
+    "paper_url": "https://doi.org/10.7554/elife.109757.3",
+    "open_access_url": "https://doi.org/10.7554/elife.109757.3",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "eLife",
+        "venue_type": "journal",
+        "date": "2026-10-21",
+        "doi": "10.7554/elife.109757.3"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15775,7 +18603,7 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15796,19 +18624,19 @@
     "affiliations": [],
     "institution_countries": [],
     "home_scope": "未知",
-    "venue": "",
+    "venue": "arXiv (Cornell University)",
     "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
     "status_evidence": [
       "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
     ],
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
-    "publication_date": "",
+    "publication_date": "2026-10-20",
     "preprint_date": "2026-10-20",
     "preprint_updated_date": "2026-10-20",
     "arxiv_id": "2610.27568",
-    "doi": "",
+    "doi": "10.48550/arxiv.2610.27568",
     "work_type": "preprint",
-    "citation_count": null,
+    "citation_count": 0,
     "topics": [
       "Neural Combinatorial Optimization 与神经搜索"
     ],
@@ -15833,13 +18661,21 @@
         "role": "core",
         "weight": 1.0,
         "query_term": "OR: neural combinatorial optimization | neural routing | autoregressive combinatorial optimization | diffusion combinatorial optimization | iterative search combinatorial optimization | reduce-then-solve combinatorial optimization | reduction-based combinatorial optimization | learning to optimize routing"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "autoregressive combinatorial optimization"
       }
     ],
     "source_names": [
-      "arXiv"
+      "arXiv",
+      "OpenAlex"
     ],
     "source_urls": [
-      "https://arxiv.org/abs/2610.27568"
+      "https://arxiv.org/abs/2610.27568",
+      "https://doi.org/10.48550/arxiv.2610.27568"
     ],
     "paper_url": "https://arxiv.org/abs/2610.27568",
     "open_access_url": "https://arxiv.org/pdf/2610.27568",
@@ -15851,10 +18687,18 @@
         "venue": "arXiv",
         "journal_ref": "",
         "doi": ""
+      },
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "venue_type": "repository",
+        "date": "2026-10-20",
+        "doi": "10.48550/arxiv.2610.27568"
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16279,7 +19123,7 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16579,7 +19423,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16736,7 +19580,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -17048,7 +19892,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -17997,7 +20841,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18787,7 +21631,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19353,7 +22197,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19858,7 +22702,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -20171,7 +23015,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -21568,7 +24412,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -23367,19 +26211,19 @@
     "affiliations": [],
     "institution_countries": [],
     "home_scope": "未知",
-    "venue": "",
+    "venue": "arXiv (Cornell University)",
     "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
     "status_evidence": [
       "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
     ],
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
-    "publication_date": "",
+    "publication_date": "2026-10-16",
     "preprint_date": "2026-10-16",
     "preprint_updated_date": "2026-10-16",
     "arxiv_id": "2610.23190",
-    "doi": "",
+    "doi": "10.48550/arxiv.2610.23190",
     "work_type": "preprint",
-    "citation_count": null,
+    "citation_count": 0,
     "topics": [
       "Neural Combinatorial Optimization 与神经搜索",
       "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
@@ -23405,13 +26249,21 @@
         "role": "core",
         "weight": 1.0,
         "query_term": "OR: neural combinatorial optimization | neural routing | autoregressive combinatorial optimization | diffusion combinatorial optimization | iterative search combinatorial optimization | reduce-then-solve combinatorial optimization | reduction-based combinatorial optimization | learning to optimize routing"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "autoregressive combinatorial optimization"
       }
     ],
     "source_names": [
-      "arXiv"
+      "arXiv",
+      "OpenAlex"
     ],
     "source_urls": [
-      "https://arxiv.org/abs/2610.23190"
+      "https://arxiv.org/abs/2610.23190",
+      "https://doi.org/10.48550/arxiv.2610.23190"
     ],
     "paper_url": "https://arxiv.org/abs/2610.23190",
     "open_access_url": "https://arxiv.org/pdf/2610.23190",
@@ -23423,10 +26275,18 @@
         "venue": "arXiv",
         "journal_ref": "",
         "doi": ""
+      },
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "venue_type": "repository",
+        "date": "2026-10-16",
+        "doi": "10.48550/arxiv.2610.23190"
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -32375,6 +35235,12 @@
         "role": "core",
         "weight": 1.0,
         "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "autoregressive combinatorial optimization"
       }
     ],
     "source_names": [
@@ -36017,7 +38883,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -53174,6 +56040,12 @@
         "role": "core",
         "weight": 1.0,
         "query_term": "reduce-then-solve combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
       }
     ],
     "source_names": [
@@ -53202,7 +56074,8 @@
     "search_topics": [
       "主线B：Neural Combinatorial Optimization 与神经搜索",
       "交叉探索：学到的动力学如何支持规划、控制与优化",
-      "Neural Combinatorial Optimization 与神经搜索"
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
     ],
     "relevance_anchors": [
       "combinatorial optimization"
@@ -53777,6 +56650,12 @@
         "role": "exploratory",
         "weight": 0.5,
         "query_term": "transformer combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "diffusion combinatorial optimization"
       }
     ],
     "source_names": [
@@ -56574,7 +59453,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -58733,7 +61612,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -59425,7 +62304,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -66402,7 +69281,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -68483,7 +71362,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-10-22",
+    "last_status_checked": "2026-10-23",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -81083,6 +83962,104 @@
     "relevance_exclusion_reasons": []
   },
   {
+    "uid": "doi:10.1109/iv66570.2026.11624036",
+    "title": "Natural Language Instructions for Scene-Responsive Human-in-the-Loop Motion Planning in Autonomous Driving using Vision-Language-Action Models",
+    "abstract": "",
+    "authors": [
+      "Angel Martinez-Sanchez",
+      "Parthib Roy",
+      "Ross Greer"
+    ],
+    "institutions": [
+      {
+        "name": "University of California",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Angel Martinez-Sanchez",
+        "institution": "University of California",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Parthib Roy",
+        "institution": "University of California",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Ross Greer",
+        "institution": "University of California",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；2026 IEEE Intelligent Vehicles Symposium (IV)；日期 2026-06-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-06-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/iv66570.2026.11624036",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "vision-language model planning"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/iv66570.2026.11624036"
+    ],
+    "paper_url": "https://doi.org/10.1109/iv66570.2026.11624036",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+        "venue_type": "",
+        "date": "2026-06-01",
+        "doi": "10.1109/iv66570.2026.11624036"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1007/s00521-026-12147-3",
     "title": "Multiobjective Crow Search Optimization for context aware routing in WSN",
     "abstract": "",
@@ -81352,11 +84329,72 @@
     "uid": "doi:10.1109/cvprf71909.2026.00098",
     "title": "IRL-VLA: Vision-Language-Action Training via Reward World Model",
     "abstract": "",
-    "authors": [],
-    "institutions": [],
-    "affiliations": [],
-    "institution_countries": [],
-    "home_scope": "未知",
+    "authors": [
+      "Jiang Anqing",
+      "Gao Yu",
+      "Yuwen Heng",
+      "Yiru Wang",
+      "Wang Shuo",
+      "Hao Jiang",
+      "Hao Sun"
+    ],
+    "institutions": [
+      {
+        "name": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Jiang Anqing",
+        "institution": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Gao Yu",
+        "institution": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yuwen Heng",
+        "institution": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yiru Wang",
+        "institution": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Wang Shuo",
+        "institution": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Hao Jiang",
+        "institution": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Hao Sun",
+        "institution": "Bosch Corporate Research, Bosch (China) Investment Ltd.",
+        "country_code": "CN",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
     "venue": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition- FINDINGS Track (CVPRF)",
     "publication_status": "已发表/有期刊或会议记录（建议核验）",
     "status_evidence": [
@@ -82099,6 +85137,89 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.1109/iccbi68589.2026.11619789",
+    "title": "A Scalable Data-Driven Paradigm for Stability Prediction and Robust Control of PDE-based Industrial Systems",
+    "abstract": "",
+    "authors": [
+      "Qingcong Wang"
+    ],
+    "institutions": [
+      {
+        "name": "Dongying Vocational College",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Qingcong Wang",
+        "institution": "Dongying Vocational College",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "2026 5th International Conference on Computer Networks, Big Data and IoT (ICCBI)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；2026 5th International Conference on Computer Networks, Big Data and IoT (ICCBI)；日期 2026-06-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-06-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/iccbi68589.2026.11619789",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/iccbi68589.2026.11619789"
+    ],
+    "paper_url": "https://doi.org/10.1109/iccbi68589.2026.11619789",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "2026 5th International Conference on Computer Networks, Big Data and IoT (ICCBI)",
+        "venue_type": "",
+        "date": "2026-06-01",
+        "doi": "10.1109/iccbi68589.2026.11619789"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1007/s10898-026-01620-x",
@@ -85410,6 +88531,143 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.1109/icassp55912.2026.11461939",
+    "title": "Towards Object-Level Multimodal Task Planning for Long-Term Robotic Manipulation with Vision Language Model and Behavior Tree",
+    "abstract": "",
+    "authors": [
+      "Hanqian Luo",
+      "Zezhi Liu",
+      "Jiannong Cao",
+      "Xiuxiu Qi",
+      "Julie A. McCann",
+      "Yongchun Fang"
+    ],
+    "institutions": [
+      {
+        "name": "Institute of Robotics and Automatic Information System, Nankai University,Tianjin,China",
+        "country_code": "CN",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "The Hong Kong Polytechnic University,Department of Computing,Hong Kong,China",
+        "country_code": "CN",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Imperial College London,Department of Computing,London,UK",
+        "country_code": "GB",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Hanqian Luo",
+        "institution": "Institute of Robotics and Automatic Information System, Nankai University,Tianjin,China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Zezhi Liu",
+        "institution": "Institute of Robotics and Automatic Information System, Nankai University,Tianjin,China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Jiannong Cao",
+        "institution": "The Hong Kong Polytechnic University,Department of Computing,Hong Kong,China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Xiuxiu Qi",
+        "institution": "Institute of Robotics and Automatic Information System, Nankai University,Tianjin,China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Julie A. McCann",
+        "institution": "Imperial College London,Department of Computing,London,UK",
+        "country_code": "GB",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yongchun Fang",
+        "institution": "Institute of Robotics and Automatic Information System, Nankai University,Tianjin,China",
+        "country_code": "CN",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [
+      "CN",
+      "GB"
+    ],
+    "home_scope": "国内+国外合作",
+    "venue": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)；日期 2026-05-03"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-05-03",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/icassp55912.2026.11461939",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "vision-language model",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "vision-language model planning"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/icassp55912.2026.11461939"
+    ],
+    "paper_url": "https://doi.org/10.1109/icassp55912.2026.11461939",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "venue_type": "",
+        "date": "2026-05-03",
+        "doi": "10.1109/icassp55912.2026.11461939"
+      }
+    ],
+    "first_seen": "2026-10-23",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1109/icassp55912.2026.11464851",
