@@ -1,7 +1,7 @@
 # Awesome 文献雷达｜2026-04 至 2026-10
 
-更新日期：2026-10-24（Asia/Shanghai）。滚动窗口：最近 183 天。
-共收录精选论文/预印本 261 篇；其中正式 venue 精选 19 篇，预印本观察 242 篇。
+更新日期：2026-10-25（Asia/Shanghai）。滚动窗口：最近 183 天。
+共收录精选论文/预印本 262 篇；其中正式 venue 精选 20 篇，预印本观察 242 篇。
 滚动窗口内另有 297 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
 > 主题类别还需命中 `relevance_policy` 中的标题/摘要锚点；单独命中宽泛检索词不够。偏高精度规则可能漏掉措辞不同的相关论文，可在配置中补充锚点。
@@ -265,7 +265,22 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.24708)　[PDF](https://arxiv.org/pdf/2610.24708)
 - **摘要：**Meteorological downscaling is crucial for high-resolution regional climate forecasting and disaster early warning. While neural operators have emerged as a promising paradigm for modeling complex spatiotemporal mappings, existing frameworks often struggle with spherical manifold geometric distortions, inherent atmospheric multi-scale coupling mismatches, and lack of explicit atmospheric laws. We propose the Spherical…
 
-#### 4. [Accelerating natural gradient descent for PINNs with randomized numerical linear algebra](https://doi.org/10.1016/j.cma.2026.119456)
+#### 4. [Discontinuous Galerkin Finite Element Operator Network for Solving Non-Smooth PDEs](https://doi.org/10.1137/26m1839136)
+- **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-10-23
+- **日期：**发表 2026-10-23；预印本首发 —；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator、operator learning、fourier neural operator、partial differential equation
+- **引用：**0（约 0.0/月，OpenAlex）
+- **venue：**SIAM Journal on Scientific Computing　**作者：**Kapil Chawla、Youngjoon Hong、Jae Yong Lee、Sanghyun Lee
+- **机构：**Florida State University (美国 (US))；Seoul National University (韩国 (KR))；Chung-Ang University (韩国 (KR))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Discontinuous%20Galerkin%20Finite%20Element%20Operator%20Network%20for%20Solving%20Non-Smooth%20PDEs&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1137/26m1839136](https://doi.org/10.1137/26m1839136)
+- **开放获取：**[查看链接](https://arxiv.org/pdf/2601.03668)
+- **摘要：**Abstract. We introduce the Discontinuous Galerkin Finite Element Operator Network (DG–FEONet), a data-free operator learning framework that combines the strengths of the discontinuous Galerkin (DG) method with neural networks to solve parametric partial differential equations (PDEs) with discontinuous coefficients and non-smooth solutions. Unlike traditional operator learning models such as DeepONet and Fourier Neura…
+
+#### 5. [Accelerating natural gradient descent for PINNs with randomized numerical linear algebra](https://doi.org/10.1016/j.cma.2026.119456)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-22
 - **日期：**发表 2026-10-22；预印本首发 —；收录月份 2026-10
@@ -280,7 +295,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119456)
 - **摘要：**Code of the paper "Accelerating Natural Gradient Descent for PINNs with Randomized Numerical Linear Algebra": the randngd package (natural gradient descent preconditioned with randomized Nyström approximations and randomly pivoted partial Cholesky) and the example scripts of the paper's PDE problems.
 
-#### 5. [Accelerating droplet-laden Stokes flow simulations with hierarchical surrogate modeling](https://doi.org/10.1016/j.cma.2026.119487)
+#### 6. [Accelerating droplet-laden Stokes flow simulations with hierarchical surrogate modeling](https://doi.org/10.1016/j.cma.2026.119487)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-14
 - **日期：**发表 2026-10-14；预印本首发 —；收录月份 2026-10
@@ -295,7 +310,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119487)
 - **摘要：**We present a surrogate modeling strategy for Stokes flows with liquid droplets suspended in a carrier fluid. Our approach is based on a multi-fidelity framework. At the lowest fidelity, droplets are treated as passive tracers, neglecting their influence on the ambient flow field. Building on this approximation, we derive a PDE that represents the current modeling error. This error equation is then solved approximatel…
 
-#### 6. [Adjoint method versus physics-informed neural networks in PDE-constrained inverse problems](https://doi.org/10.1016/j.cma.2026.119472)
+#### 7. [Adjoint method versus physics-informed neural networks in PDE-constrained inverse problems](https://doi.org/10.1016/j.cma.2026.119472)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-13
 - **日期：**发表 2026-10-13；预印本首发 —；收录月份 2026-10
@@ -310,7 +325,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119472)
 - **摘要：**Inverse problems governed by partial differential equations (PDEs) are central to computational mechanics and are commonly solved by adjoint-based optimization, while physics-informed neural networks (PINNs) have emerged as a flexible alternative. Their relative performance remains difficult to assess because the two approaches are often compared under different formulations, parameterizations, optimizers, and regula…
 
-#### 7. [Exact solutions to a class of constrained optimal control problems via lossless convexification for digital control](https://doi.org/10.1016/j.automatica.2026.113169)
+#### 8. [Exact solutions to a class of constrained optimal control problems via lossless convexification for digital control](https://doi.org/10.1016/j.automatica.2026.113169)
 - **质量/状态：**领域强 venue：Automatica；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Automatica；日期 2026-10-01
 - **日期：**发表 2026-10-01；预印本首发 —；收录月份 2026-10
@@ -323,7 +338,7 @@
 - **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Exact%20solutions%20to%20a%20class%20of%20constrained%20optimal%20control%20problems%20via%20lossless%20convexification%20for%20digital%20control&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
 - **DOI：**[10.1016/j.automatica.2026.113169](https://doi.org/10.1016/j.automatica.2026.113169)
 
-#### 8. [An inverse scattering inspired Fourier neural operator for time-dependent PDE learning](https://doi.org/10.1016/j.jcp.2026.115081)
+#### 9. [An inverse scattering inspired Fourier neural operator for time-dependent PDE learning](https://doi.org/10.1016/j.jcp.2026.115081)
 - **质量/状态：**领域强 venue：Journal of Computational Physics；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Journal of Computational Physics；日期 2026-10-01
 - **日期：**发表 2026-10-01；预印本首发 —；收录月份 2026-10
@@ -3588,7 +3603,7 @@
 - **主题锚点：**world model、world models、representation learning
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
 - **venue：**—　**作者：**Ziyuan Yin、Hongyi Zhu、Yifei Bai、Luqi Zhou、John Moraros、Guangliang Cheng、Shuihua Wang
-- **机构：**Department of Biosciences and Bioinformatics, Suzhou Municipal Key Lab AI4Health, School of Science Xi’an Jiaotong-Liverpool University, Suzhou, China (中国 (CN))；Apon Medical Ltd. Shanghai, China (中国 (CN))；Department of Computer Science University of Liverpool, Liverpool, UK (英国 (GB))；University of Liverpool;；Shanghai Tech University;；Apon Medical Ltd.;；Xi'an Jiaotong Liverpool University
+- **机构：**Department of Biosciences and Bioinformatics, Suzhou Municipal Key Lab AI4Health, School of Science Xi’an Jiaotong-Liverpool University, Suzhou, China (中国 (CN))；Apon Medical Ltd. Shanghai, China (中国 (CN))；Department of Computer Science University of Liverpool, Liverpool, UK (英国 (GB))；University of Liverpool;；Shanghai Tech University;；Apon Medical Ltd.;；Xi'an Jiaotong Liverpool University；Xi’an Jiaotong-Liverpool University, Suzhou, China (中国 (CN))；University of Liverpool, Liverpool, UK (英国 (GB))；ShanghaiTech University, Shanghai, China (中国 (CN))
 - **元数据来源：**Crossref
 - **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Multimodal%20EEG%20World%20Model%3A%20Self-Supervised%20Latent%20Transition%20Learning%20for%20Wearable%20EEG%20Seizure%20Detection&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
 - **DOI：**[10.64898/2026.07.20.26358450](https://doi.org/10.64898/2026.07.20.26358450)
