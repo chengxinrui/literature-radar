@@ -1,11 +1,60 @@
-# Awesome 文献雷达｜2026-05 至 2026-10
+# Awesome 文献雷达｜2026-05 至 2026-11
 
-更新日期：2026-10-31（Asia/Shanghai）。滚动窗口：最近 183 天。
-共收录精选论文/预印本 332 篇；其中正式 venue 精选 21 篇，预印本观察 311 篇。
-滚动窗口内另有 300 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
+更新日期：2026-11-01（Asia/Shanghai）。滚动窗口：最近 183 天。
+共收录精选论文/预印本 337 篇；其中正式 venue 精选 25 篇，预印本观察 312 篇。
+滚动窗口内另有 326 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
 > 主题类别还需命中 `relevance_policy` 中的标题/摘要锚点；单独命中宽泛检索词不够。偏高精度规则可能漏掉措辞不同的相关论文，可在配置中补充锚点。
 > 同一月份/类别内按引用量优先，并显示按论文年龄折算的月均引用；预印本优先展示机构信号，再参考引用与日期。引用量会滞后，不能单独代表质量。
+
+## 2026-11
+
+### PDE、Neural Operators、谱方法与最优控制
+
+#### 高质量正式 venue
+
+#### 1. [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](https://doi.org/10.1016/j.cma.2026.119228)
+- **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**Crossref：journal-article；Computer Methods in Applied Mechanics and Engineering；日期 2026-11-01
+- **日期：**发表 2026-11-01；预印本首发 —；收录月份 2026-11
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**neural operator、operator learning
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**Computer Methods in Applied Mechanics and Engineering　**作者：**Yuan Qiu、Wolfgang Dahmen、Peng Chen
+- **机构：**未提供/未识别
+- **元数据来源：**Crossref
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Variationally%20correct%20operator%20learning%3A%20Reduced%20basis%20neural%20operator%20with%20a%20posteriori%20error%20estimation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1016/j.cma.2026.119228](https://doi.org/10.1016/j.cma.2026.119228)
+
+#### 2. [Safe output-feedback adaptive optimal control of input-constrained control-affine nonlinear systems](https://doi.org/10.1016/j.automatica.2026.113209)
+- **质量/状态：**领域强 venue：Automatica；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**Crossref：journal-article；Automatica；日期 2026-11-01
+- **日期：**发表 2026-11-01；预印本首发 —；收录月份 2026-11
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**optimal control
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**Automatica　**作者：**Tochukwu Elijah Ogri、Muzaffar Qureshi、Zachary I. Bell、Rushikesh Kamalapurkar
+- **机构：**未提供/未识别
+- **元数据来源：**Crossref
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Safe%20output-feedback%20adaptive%20optimal%20control%20of%20input-constrained%20control-affine%20nonlinear%20systems&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1016/j.automatica.2026.113209](https://doi.org/10.1016/j.automatica.2026.113209)
+
+### World Models 与连续时间/潜变量动力学
+
+#### 高质量正式 venue
+
+#### 1. [Latent dynamics graph convolutional networks for model order reduction of parameterized time-dependent PDEs](https://doi.org/10.1016/j.jcp.2026.115150)
+- **质量/状态：**领域强 venue：Journal of Computational Physics；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**Crossref：journal-article；Journal of Computational Physics；日期 2026-11-01
+- **日期：**发表 2026-11-01；预印本首发 —；收录月份 2026-11
+- **类别：**World Models 与连续时间/潜变量动力学、PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**latent dynamics、PDE
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**Journal of Computational Physics　**作者：**Lorenzo Tomada、Federico Pichi、Gianluigi Rozza
+- **机构：**未提供/未识别
+- **元数据来源：**Crossref
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Latent%20dynamics%20graph%20convolutional%20networks%20for%20model%20order%20reduction%20of%20parameterized%20time-dependent%20PDEs&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1016/j.jcp.2026.115150](https://doi.org/10.1016/j.jcp.2026.115150)
 
 ## 2026-10
 
@@ -13,7 +62,22 @@
 
 #### 前沿预印本｜未经过正式 venue 验证
 
-#### 1. [Where do the gains come from? A component analysis of a spatial-decomposition memetic algorithm for large geometric traveling salesman problems](https://doi.org/10.21203/rs.3.rs-11379553/v1)
+#### 1. [A Block-Guided Artificial Bee Colony Algorithm for Distributed Assembly Flowshop Scheduling with Sequence-Dependent Setup Times](https://doi.org/10.21203/rs.3.rs-11546208/v1)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 2026-10-30；预印本首发 —；收录月份 2026-10
+- **类别：**Neural Combinatorial Optimization 与神经搜索
+- **主题锚点：**flow shop scheduling、flow-shop scheduling、permutation flow shop
+- **引用：**0（约 0.0/月，OpenAlex）；优先机构信号：Zhejiang University
+- **venue：**Research Square　**作者：**Ji-Feng Xu、Hongbo Song
+- **机构：**Zhejiang University of Finance and Economics (中国 (CN))；Zhejiang Shuren University (中国 (CN))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20Block-Guided%20Artificial%20Bee%20Colony%20Algorithm%20for%20Distributed%20Assembly%20Flowshop%20Scheduling%20with%20Sequence-Dependent%20Setup%20Times&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.21203/rs.3.rs-11546208/v1](https://doi.org/10.21203/rs.3.rs-11546208/v1)
+- **开放获取：**[查看链接](https://www.researchsquare.com/article/rs-11546208/latest.pdf)
+- **摘要：**Abstract The Distributed Assembly Permutation Flowshop Scheduling Problem with Sequence-Dependent Setup Times (DAPFSP-SDST) arises in many modern manufacturing supply chains. This paper proposes a Block-Guided Artificial Bee Colony (BG-ABC) algorithm for this problem with the aim of minimizing the makespan. An idle-aware block compression mechanism is developed to lock adjacent product pairs with minimal setup time a…
+
+#### 2. [Where do the gains come from? A component analysis of a spatial-decomposition memetic algorithm for large geometric traveling salesman problems](https://doi.org/10.21203/rs.3.rs-11379553/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-28；预印本首发 —；收录月份 2026-10
@@ -27,7 +91,7 @@
 - **DOI：**[10.21203/rs.3.rs-11379553/v1](https://doi.org/10.21203/rs.3.rs-11379553/v1)
 - **开放获取：**[查看链接](https://www.researchsquare.com/article/rs-11379553/latest.pdf)
 
-#### 2. [A Statistically Rigorous, Held–Karp- and LKH-Validated Empirical Evaluation of a Classical 2-opt + Or-opt Local Search Pipeline for the Euclidean Traveling Salesman Problem](https://doi.org/10.21203/rs.3.rs-11120328/v1)
+#### 3. [A Statistically Rigorous, Held–Karp- and LKH-Validated Empirical Evaluation of a Classical 2-opt + Or-opt Local Search Pipeline for the Euclidean Traveling Salesman Problem](https://doi.org/10.21203/rs.3.rs-11120328/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-27；预印本首发 —；收录月份 2026-10
@@ -41,7 +105,7 @@
 - **DOI：**[10.21203/rs.3.rs-11120328/v1](https://doi.org/10.21203/rs.3.rs-11120328/v1)
 - **开放获取：**[查看链接](https://www.researchsquare.com/article/rs-11120328/latest.pdf)
 
-#### 3. [Dynamic Position-Wise Competitive Word Generation and Reordering: A Framework for Competitive Lexical Selection and Sequence Reconstruction](https://doi.org/10.5281/zenodo.23614734)
+#### 4. [Dynamic Position-Wise Competitive Word Generation and Reordering: A Framework for Competitive Lexical Selection and Sequence Reconstruction](https://doi.org/10.5281/zenodo.23614734)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-24；预印本首发 —；收录月份 2026-10
@@ -56,7 +120,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23614734)
 - **摘要：**Autoregressive language models typically generate text incrementally, conditioning each new token on a previously generated prefix. Although effective, this process couples lexical selection to a predetermined left-to-right generation trajectory. This paper proposes Dynamic Position-Wise Competitive Word Generation and Reordering (DPC-WGR), a conceptual framework in which candidate words compete dynamically for outpu…
 
-#### 4. [TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing](https://arxiv.org/abs/2610.27568)
+#### 5. [TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing](https://arxiv.org/abs/2610.27568)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-20；预印本首发 2026-10-20；收录月份 2026-10
@@ -71,7 +135,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.27568)　[PDF](https://arxiv.org/pdf/2610.27568)
 - **摘要：**Neural combinatorial optimization has enabled fast constructive solvers for the Capacitated Vehicle Routing Problem (CVRP), yet most autoregressive models still construct solutions through sequential node selection and represent route organization only implicitly. We investigate whether route-level customer co-assignment can be modeled explicitly and used to guide this node-level decision process. To this end, we pro…
 
-#### 5. [Quantum-Classical Hybrid Cloud Workflows for Combinatorial Supply-Chain and Fleet Optimization](https://doi.org/10.5281/zenodo.23513316)
+#### 6. [Quantum-Classical Hybrid Cloud Workflows for Combinatorial Supply-Chain and Fleet Optimization](https://doi.org/10.5281/zenodo.23513316)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-20；预印本首发 —；收录月份 2026-10
@@ -86,7 +150,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23513316)
 - **摘要：**Abstract: Global logistics networks, intercontinental air-freight consolidators, and maritime energy fleets continuously solve large-scale Mixed-Integer Linear Programs (MILPs) such as the Capacitated Vehicle Routing Problem with Time Windows (CVRPTW) and multi-vessel Maritime Inventory Routing Problems (MIRP). When weather disruptions, port congestion, or geopolitical airspace closures invalidate baseline schedules,…
 
-#### 6. [PACT: Plan-Augmented Coordination via Trace-Graphs for Dynamic Multi-Agent Combinatorial Optimization](https://arxiv.org/abs/2610.26671)
+#### 7. [PACT: Plan-Augmented Coordination via Trace-Graphs for Dynamic Multi-Agent Combinatorial Optimization](https://arxiv.org/abs/2610.26671)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-19；预印本首发 2026-10-19；收录月份 2026-10
@@ -101,7 +165,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.26671)　[PDF](https://arxiv.org/pdf/2610.26671)
 - **摘要：**Multi-agent approaches have been investigated recently as a means of improving the scalability of reinforcement learning for neural combinatorial optimization. Existing methods assume that all problem instance information is known upfront. However, real-world problems are often dynamic: relevant information is progressively revealed as the agents take actions (e.g., arriving at an edge in a routing problem only to di…
 
-#### 7. [CoRS: Fast Neural Flexible Job-Shop Scheduling via Composite Interval State Reuse](https://doi.org/10.48550/arxiv.2610.26239)
+#### 8. [CoRS: Fast Neural Flexible Job-Shop Scheduling via Composite Interval State Reuse](https://doi.org/10.48550/arxiv.2610.26239)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-19；预印本首发 —；收录月份 2026-10
@@ -116,7 +180,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2610.26239)
 - **摘要：**Neural solvers for the Flexible Job-Shop Scheduling Problem (FJSP) typically refresh graph representations and update feasibility after every operation--machine decision. However, only feasibility must remain exact at every step, whereas graph encoding is substantially more expensive and can potentially be refreshed less frequently. We present CoRS, which decouples them: an interval-level graph representation is reus…
 
-#### 8. [Chronos-QRL: Outperforming Google OR-Tools, Attention Model, and POMO on the International Dynamic VRPTW Benchmark via 28-Qubit Floquet-MBL Superposition in 4GB VRAM](https://doi.org/10.5281/zenodo.23478433)
+#### 9. [Chronos-QRL: Outperforming Google OR-Tools, Attention Model, and POMO on the International Dynamic VRPTW Benchmark via 28-Qubit Floquet-MBL Superposition in 4GB VRAM](https://doi.org/10.5281/zenodo.23478433)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-19；预印本首发 —；收录月份 2026-10
@@ -131,7 +195,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23478433)
 - **摘要：**The Dynamic Vehicle Routing Problem with Time Windows (Dynamic VRPTW) constitutes the most demanding international standard for evaluating autonomous dispatch algorithms for massive fleets under combinatorial uncertainty O(2^N). Classical local search metaheuristics (Google OR-Tools GLS and HGS-VRP) suffer an exponential growth in computation time when re-optimizing routes live, while state-of-the-art autoregressive…
 
-#### 9. [A Spectral Prior for Graph Coloring: Accelerating Combinatorial Search and Register Allocation](https://doi.org/10.5281/zenodo.23458281)
+#### 10. [A Spectral Prior for Graph Coloring: Accelerating Combinatorial Search and Register Allocation](https://doi.org/10.5281/zenodo.23458281)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-18；预印本首发 —；收录月份 2026-10
@@ -146,7 +210,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.23458281)
 - **摘要：**Graph coloring is a deceptively simple problem with far-reaching consequences for compiler optimization, wireless networks, and semiconductor manufacturing. Despite decades of research, widely used heuristics can perform poorly when graph structure conflicts with their greedy decision rules. A geometric prior offers a different way to guide the search toward colorings that conventional approaches may overlook. We int…
 
-#### 10. [LangNCO: Compiling Natural-Language Constraints into Inference-Time Interventions for Neural Combinatorial Optimization](https://arxiv.org/abs/2610.23190)
+#### 11. [LangNCO: Compiling Natural-Language Constraints into Inference-Time Interventions for Neural Combinatorial Optimization](https://arxiv.org/abs/2610.23190)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-16；预印本首发 2026-10-16；收录月份 2026-10
@@ -161,7 +225,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.23190)　[PDF](https://arxiv.org/pdf/2610.23190)
 - **摘要：**Neural combinatorial optimization (NCO) rapidly produces high-quality solutions for problem structures encountered during training, but operational requirements may change after deployment and be communicated in natural language. We propose LangNCO, a framework that compiles instance-specific requirements into structured inference-time interventions for a frozen NCO solver, without changing the pretrained policy's ar…
 
-#### 11. [A Speculative Verification and Expert Repair Framework for Dynamic Vehicle Routing](https://doi.org/10.21203/rs.3.rs-10382036/v1)
+#### 12. [A Speculative Verification and Expert Repair Framework for Dynamic Vehicle Routing](https://doi.org/10.21203/rs.3.rs-10382036/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-15；预印本首发 —；收录月份 2026-10
@@ -175,7 +239,7 @@
 - **DOI：**[10.21203/rs.3.rs-10382036/v1](https://doi.org/10.21203/rs.3.rs-10382036/v1)
 - **开放获取：**[查看链接](https://www.researchsquare.com/article/rs-10382036/latest.pdf)
 
-#### 12. [Generative Quantum Search for Combinatorial Optimization: Learning Shallow Quantum Samplers for Classically Refined Solution Subspaces](https://doi.org/10.21203/rs.3.rs-11337099/v1)
+#### 13. [Generative Quantum Search for Combinatorial Optimization: Learning Shallow Quantum Samplers for Classically Refined Solution Subspaces](https://doi.org/10.21203/rs.3.rs-11337099/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-13；预印本首发 —；收录月份 2026-10
@@ -189,7 +253,7 @@
 - **DOI：**[10.21203/rs.3.rs-11337099/v1](https://doi.org/10.21203/rs.3.rs-11337099/v1)
 - **摘要：**Abstract We port the Generative Quantum Eigensolver + Quantum-Selected Configuration Interaction (GQE+QSCI) architecture from quantum chemistry to combinatorial graph optimization. Our framework, GQO+QSS (Generative Quantum Optimization + Quantum-Selected Search), follows the same principle: ML generates circuit programs, quantum samplers produce bitstrings, classical recovery repairs and expands them into a restrict…
 
-#### 13. [RELAGRAM: Recursive Latent Graph Model for the Capacitated Vehicle Routing Problem](https://arxiv.org/abs/2610.15106)
+#### 14. [RELAGRAM: Recursive Latent Graph Model for the Capacitated Vehicle Routing Problem](https://arxiv.org/abs/2610.15106)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-10；收录月份 2026-10
@@ -203,7 +267,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.15106)　[PDF](https://arxiv.org/pdf/2610.15106)
 - **摘要：**Latent recursion repeatedly processes internal representations through the same neural network. Recent work has shown this approach to be effective on structured reasoning tasks such as Sudoku and maze solving. However, whether latent recursion can support neural routing remains unclear. We introduce RELAGRAM (Recursive Latent Graph Model), a novel approach that brings latent recursion to graph combinatorial optimiza…
 
-#### 14. [A multi-strategy depot-selection portfolio for the Capacitated Location Routing Problem](https://doi.org/10.21203/rs.3.rs-11079696/v1)
+#### 15. [A multi-strategy depot-selection portfolio for the Capacitated Location Routing Problem](https://doi.org/10.21203/rs.3.rs-11079696/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-09；预印本首发 —；收录月份 2026-10
@@ -217,7 +281,7 @@
 - **DOI：**[10.21203/rs.3.rs-11079696/v1](https://doi.org/10.21203/rs.3.rs-11079696/v1)
 - **开放获取：**[查看链接](https://www.researchsquare.com/article/rs-11079696/latest.pdf)
 
-#### 15. [QIADE: A Quantum-Inspired Adaptive Differential Evolution Framework with Elite Memory for Combinatorial Optimization](https://doi.org/10.21203/rs.3.rs-10686778/v1)
+#### 16. [QIADE: A Quantum-Inspired Adaptive Differential Evolution Framework with Elite Memory for Combinatorial Optimization](https://doi.org/10.21203/rs.3.rs-10686778/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-08；预印本首发 —；收录月份 2026-10
@@ -231,7 +295,7 @@
 - **DOI：**[10.21203/rs.3.rs-10686778/v1](https://doi.org/10.21203/rs.3.rs-10686778/v1)
 - **摘要：**Abstract The Traveling Salesman Problem (TSP) remains a challenging combinatorial optimization problem, particularly as the number of cities increases and the search space grows rapidly. This study proposes QIADE, an adaptive quantum-inspired Differential Evolution framework designed to improve the balance between exploration and exploitation while maintaining effective guidance toward promising solutions. The framew…
 
-#### 16. [When Do Entangling Gates Add Predictive Signal? A Preregistered Falsification Study for Hybrid Quantum-Classical Combinatorial Optimization](https://doi.org/10.21203/rs.3.rs-11192113/v1)
+#### 17. [When Do Entangling Gates Add Predictive Signal? A Preregistered Falsification Study for Hybrid Quantum-Classical Combinatorial Optimization](https://doi.org/10.21203/rs.3.rs-11192113/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-10-05；预印本首发 —；收录月份 2026-10
@@ -245,7 +309,7 @@
 - **DOI：**[10.21203/rs.3.rs-11192113/v1](https://doi.org/10.21203/rs.3.rs-11192113/v1)
 - **摘要：**Abstract \small\noindent Choosing the best heuristic for a combinatorial optimization instance depends on landscape structure that cheap graph descriptors capture only partly. We test whether a small quantum circuit, used as a fixed feature map, adds predictive signal about solver performance beyond such descriptors. Graphs are spectrally compressed to eight supernodes and encoded in a single-layer circuit of $R_Y$ r…
 
-#### 17. [MiLoop: Selective Memory Propagation for Neural Combinatorial Optimization](https://arxiv.org/abs/2610.01685)
+#### 18. [MiLoop: Selective Memory Propagation for Neural Combinatorial Optimization](https://arxiv.org/abs/2610.01685)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-10-01；收录月份 2026-10
@@ -308,7 +372,22 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2610.24708)　[PDF](https://arxiv.org/pdf/2610.24708)
 - **摘要：**Meteorological downscaling is crucial for high-resolution regional climate forecasting and disaster early warning. While neural operators have emerged as a promising paradigm for modeling complex spatiotemporal mappings, existing frameworks often struggle with spherical manifold geometric distortions, inherent atmospheric multi-scale coupling mismatches, and lack of explicit atmospheric laws. We propose the Spherical…
 
-#### 4. [Topological Derivative Approach for Deep Neural Network Architecture Adaptation](https://doi.org/10.1137/25m1733938)
+#### 4. [HypeRL: Hypernetwork-based reinforcement learning for control of parametrized dynamical systems](https://doi.org/10.1016/j.cma.2026.119501)
+- **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-30
+- **日期：**发表 2026-10-30；预印本首发 —；收录月份 2026-10
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**optimal control、Hamilton-Jacobi-Bellman
+- **引用：**0（约 0.0/月，OpenAlex）
+- **venue：**Computer Methods in Applied Mechanics and Engineering　**作者：**Nicolò Botteghi、Stefania Fresca、Mengwu Guo、Andrea Manzoni
+- **机构：**未提供/未识别
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=HypeRL%3A%20Hypernetwork-based%20reinforcement%20learning%20for%20control%20of%20parametrized%20dynamical%20systems&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1016/j.cma.2026.119501](https://doi.org/10.1016/j.cma.2026.119501)
+- **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119501)
+- **摘要：**In this work, we devise a new, general-purpose reinforcement learning strategy for the optimal control of parametric dynamical systems. Such problems frequently arise in applied sciences and engineering and entail a significant complexity when control and/or state variables are distributed in high-dimensional space or depend on varying parameters. Traditional numerical methods, relying on either iterative minimizatio…
+
+#### 5. [Topological Derivative Approach for Deep Neural Network Architecture Adaptation](https://doi.org/10.1137/25m1733938)
 - **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-10-26
 - **日期：**发表 2026-10-26；预印本首发 —；收录月份 2026-10
@@ -323,7 +402,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2502.06885)
 - **摘要：**Abstract. This work presents a novel algorithm for progressively adapting neural network architecture along the depth. In particular, we attempt to address the following questions in a mathematically principled way: (i) Where to add a new capacity (layer) during the training process? (ii) How to initialize the new capacity? At the heart of our approach are two key ingredients: (i) the introduction of a “shape functio…
 
-#### 5. [Discontinuous Galerkin Finite Element Operator Network for Solving Non-Smooth PDEs](https://doi.org/10.1137/26m1839136)
+#### 6. [Discontinuous Galerkin Finite Element Operator Network for Solving Non-Smooth PDEs](https://doi.org/10.1137/26m1839136)
 - **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-10-23
 - **日期：**发表 2026-10-23；预印本首发 —；收录月份 2026-10
@@ -338,7 +417,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2601.03668)
 - **摘要：**Abstract. We introduce the Discontinuous Galerkin Finite Element Operator Network (DG–FEONet), a data-free operator learning framework that combines the strengths of the discontinuous Galerkin (DG) method with neural networks to solve parametric partial differential equations (PDEs) with discontinuous coefficients and non-smooth solutions. Unlike traditional operator learning models such as DeepONet and Fourier Neura…
 
-#### 6. [Accelerating natural gradient descent for PINNs with randomized numerical linear algebra](https://doi.org/10.1016/j.cma.2026.119456)
+#### 7. [Accelerating natural gradient descent for PINNs with randomized numerical linear algebra](https://doi.org/10.1016/j.cma.2026.119456)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-22
 - **日期：**发表 2026-10-22；预印本首发 —；收录月份 2026-10
@@ -353,7 +432,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119456)
 - **摘要：**Code of the paper "Accelerating Natural Gradient Descent for PINNs with Randomized Numerical Linear Algebra": the randngd package (natural gradient descent preconditioned with randomized Nyström approximations and randomly pivoted partial Cholesky) and the example scripts of the paper's PDE problems.
 
-#### 7. [Accelerating droplet-laden Stokes flow simulations with hierarchical surrogate modeling](https://doi.org/10.1016/j.cma.2026.119487)
+#### 8. [Accelerating droplet-laden Stokes flow simulations with hierarchical surrogate modeling](https://doi.org/10.1016/j.cma.2026.119487)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-14
 - **日期：**发表 2026-10-14；预印本首发 —；收录月份 2026-10
@@ -368,7 +447,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119487)
 - **摘要：**We present a surrogate modeling strategy for Stokes flows with liquid droplets suspended in a carrier fluid. Our approach is based on a multi-fidelity framework. At the lowest fidelity, droplets are treated as passive tracers, neglecting their influence on the ambient flow field. Building on this approximation, we derive a PDE that represents the current modeling error. This error equation is then solved approximatel…
 
-#### 8. [Adjoint method versus physics-informed neural networks in PDE-constrained inverse problems](https://doi.org/10.1016/j.cma.2026.119472)
+#### 9. [Adjoint method versus physics-informed neural networks in PDE-constrained inverse problems](https://doi.org/10.1016/j.cma.2026.119472)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-13
 - **日期：**发表 2026-10-13；预印本首发 —；收录月份 2026-10
@@ -383,7 +462,7 @@
 - **开放获取：**[查看链接](https://doi.org/10.1016/j.cma.2026.119472)
 - **摘要：**Inverse problems governed by partial differential equations (PDEs) are central to computational mechanics and are commonly solved by adjoint-based optimization, while physics-informed neural networks (PINNs) have emerged as a flexible alternative. Their relative performance remains difficult to assess because the two approaches are often compared under different formulations, parameterizations, optimizers, and regula…
 
-#### 9. [Exact solutions to a class of constrained optimal control problems via lossless convexification for digital control](https://doi.org/10.1016/j.automatica.2026.113169)
+#### 10. [Exact solutions to a class of constrained optimal control problems via lossless convexification for digital control](https://doi.org/10.1016/j.automatica.2026.113169)
 - **质量/状态：**领域强 venue：Automatica；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Automatica；日期 2026-10-01
 - **日期：**发表 2026-10-01；预印本首发 —；收录月份 2026-10
@@ -396,7 +475,7 @@
 - **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Exact%20solutions%20to%20a%20class%20of%20constrained%20optimal%20control%20problems%20via%20lossless%20convexification%20for%20digital%20control&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
 - **DOI：**[10.1016/j.automatica.2026.113169](https://doi.org/10.1016/j.automatica.2026.113169)
 
-#### 10. [An inverse scattering inspired Fourier neural operator for time-dependent PDE learning](https://doi.org/10.1016/j.jcp.2026.115081)
+#### 11. [An inverse scattering inspired Fourier neural operator for time-dependent PDE learning](https://doi.org/10.1016/j.jcp.2026.115081)
 - **质量/状态：**领域强 venue：Journal of Computational Physics；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Journal of Computational Physics；日期 2026-10-01
 - **日期：**发表 2026-10-01；预印本首发 —；收录月份 2026-10
@@ -4520,7 +4599,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2607.14169)　[PDF](https://arxiv.org/pdf/2607.14169)
 - **摘要：**Large language models can synthesize a game's rules as executable code - a Code World Model (CWM) - which a classical planner then searches over. Such models are typically accepted when they reach high transition accuracy on sampled trajectories. We argue this is the wrong notion of adequacy for planning. We show four things. (1) An LLM-synthesized CWM can pass a sampling gate at 100% transition accuracy and be $\geq…
 
-#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v3)
+#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-07-10；预印本首发 —；收录月份 2026-07
