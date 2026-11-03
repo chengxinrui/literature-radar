@@ -10735,6 +10735,1487 @@
     ]
   },
   {
+    "uid": "arxiv:2611.03428",
+    "title": "Toward Uncertainty-Aware, Physics-Grounded Human World Models",
+    "abstract": "A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next. This abstract argues that two published components form exactly these two halves, and specifies how to couple them. KNOWN [1] reconstructs the 3D human body while estimating both aleatoric and epistemic uncertainty in real time (11.6 ms per frame); its aleatoric term identifies unreliable observations, its epistemic term identifies inputs from low-density regions of the training data, and refinement driven by the epistemic term reduces the error on such inputs from 81.3 to 70.3 mm. PhysMoP [2] predicts future body configuration by solving the Euler-Lagrange equations of the body with learned dynamics terms, reducing the 80 ms prediction error from 9.6 to 2.1 mm on Human3.6M and from 12.1 to 0.7 mm on 3DPW. We define the interface between the two, propose three mechanisms by which KNOWN's uncertainty enters PhysMoP, and specify an evaluation protocol on in-the-wild video. No new experimental results are reported here.",
+    "authors": [
+      "Yufei Zhang",
+      "Zijun Cui"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.03428",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "learned dynamics",
+      "dynamics model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.03428"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.03428",
+    "open_access_url": "https://arxiv.org/pdf/2611.03428",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.03596",
+    "title": "Spacetime Emergence in the Memory of a Learning Agent",
+    "abstract": "We show that the causal structure of spacetime can emerge within the memory of a learning agent performing a quantum information task. We train a model-based reinforcement-learning agent to maximize the quantum mutual information between localized quantum probes interacting with a quantum field in Minkowski spacetime, without directly providing it with information regarding the spacetime metric or causal structure. In learning to accomplish this task, the reinforcement-learning agent constructs an internal predictive model whose planner develops the characteristic null structure of spacetime, allowing us to reconstruct the causal structure of the Minkowski metric with high accuracy. Within this task, spacetime geometry is obtained from an agent's successful predictions and actions, providing a first step toward showing that spacetime concepts emerge from operational quantum experience.",
+    "authors": [
+      "Philip A. LeMaitre",
+      "T. Rick Perche"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.03596",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "model-based reinforcement learning",
+      "model based reinforcement learning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "quant-ph",
+      "cs.AI",
+      "cs.LG",
+      "gr-qc"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.03596"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.03596",
+    "open_access_url": "https://arxiv.org/pdf/2611.03596",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02699",
+    "title": "Right Ranking, Wrong Scale: Reproducing the Robotic World Model's Dynamics Model and Testing the Uncertainty of Its Follow-up",
+    "abstract": "We reimplement the dynamics model of the Robotic World Model (RWM) and test the uncertainty estimate that its follow-up, RWM-U, uses to penalize reward in offline policy optimization. Our implementation matches the released model's gradients. On held-out data, training on the model's own rollouts beats one-step training at the preregistered long horizon for all ten episodes, but loses on short one-step windows. RWM-U's ensemble disagreement ranks rollout errors better than forecast step (Spearman rho = 0.90 at 100 steps), yet its spread substantially understates error: one-sigma coverage on the released checkpoint is 4.6% at 100 steps, versus 68% for a calibrated Gaussian. Rolling ensemble members on their own predictions raises coverage to 33%. The implemented squared-error loss on sampled predictions drives each member's variance toward zero. A horizon-specific rescaling restores one-sigma coverage under leave-one-episode-out evaluation, but not two-sigma coverage. We also identify two defects in the released evaluation pipeline. The study covers one robot, one gait and one dataset; it trains no policy.",
+    "authors": [
+      "Joyjeet Singh"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02699",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models",
+      "dynamics model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02699"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02699",
+    "open_access_url": "https://arxiv.org/pdf/2611.02699",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02815",
+    "title": "Predictive Safety Guardrails Do Not Always Make LLM Agents Safer",
+    "abstract": "Large language model agents increasingly take consequential actions in digital and physical environments, where safety risks may emerge only after multiple interaction steps. This has motivated world-model-driven predictive safety guardrails, which anticipate future consequences before execution. However, existing evaluations largely focus on end-to-end safety outcomes, leaving unclear whether safety gains arise from reliable prediction and faithful use of predicted risks. In this work, we systematically diagnose the prediction-to-action pipeline along three dimensions: how world-model predictions are integrated into decision making, whether the predictions themselves are reliable, and whether their content is faithfully used. Across seven policy models and two safety environments, we find that stronger prediction involvement does not yield monotonic safety gains and can reduce task completion while substantially increasing inference cost. We further find that world-model predictions remain insufficiently reliable, especially over longer horizons, where safety prediction degrades substantially relative to near-term forecasting. Finally, we find that safety gains can persist even under corrupted predictions, while locally verified predictions still leave subsequent safety violations, showing that predictive content is not faithfully incorporated into the decision process. Together, these findings expose a fundamental prediction-to-action gap in current predictive guardrails: producing more or seemingly accurate foresight is insufficient unless that foresight is both reliable and faithfully translated into safer decisions.",
+    "authors": [
+      "Weixiang Zhao",
+      "Zhihao Liu",
+      "Guancheng Li",
+      "Yanyan Zhao",
+      "Bing Qin",
+      "Ting Liu"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02815",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "language model",
+      "large language model",
+      "LLM"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02815"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02815",
+    "open_access_url": "https://arxiv.org/pdf/2611.02815",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.2118/236321-ms",
+    "title": "Predicting Slow Shear from Drilling Parameters using Advanced Deep Learning Architectures",
+    "abstract": "Abstract Shear slowness (DTS) is a critical measurement for formation evaluation, geomechanics, and drilling optimisation. However, reliable DTS acquisition remains difficult in slow formations, where shear-wave propagation is strongly attenuated. Missing or poor-quality DTS can compromise elastic-property estimation and limit formation characterisation. This study introduces a deep-learning workflow to predict compressional slowness (DTC) and reconstruct missing DTS logs directly from drilling parameters. Approximately 40,000 samples from seven wells were used to train and evaluate several modern architectures, including Transformer, Mixture-of-Experts Transformer (MoE Transformer), Patch Time-Series Transformer (PatchTST), Autoformer, and Temporal Convolutional Networks (TCN). The workflow integrates data quality control, feature engineering, missing-value reconstruction, clustering-based operational and formation-response context, and semi-supervised learning with pseudo-labels. Predictive inputs include rate of penetration, weight on bit, torque, rotary speed, gamma ray, mud-flow rate, standpipe pressure, and mud density. The results show that advanced transformer-based models can accurately predict sonic elastic properties from drilling data. The MoE Transformer provided the best DTC performance, achieving an R2 of 0.9855, while PatchTST gave the highest DTS accuracy, with an R2 of 0.9631. Semi-supervised learning also improved DTS reconstruction in intervals with incomplete labels. Overall, the study confirms that drilling parameters can serve as a useful surrogate for estimating elastic properties when sonic measurements are missing or degraded. The proposed workflow may support geomechanical evaluation, well planning, and formation characterisation in challenging drilling environments.",
+    "authors": [
+      "S. Assous",
+      "T. Sun"
+    ],
+    "institutions": [
+      {
+        "name": "Weatherford (United Kingdom)",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Imperial College London",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "S. Assous",
+        "institution": "Weatherford (United Kingdom)",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "T. Sun",
+        "institution": "Imperial College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "GB"
+    ],
+    "home_scope": "国外",
+    "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)；日期 2026-11-02"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-02",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.2118/236321-ms",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer-based",
+      "planning",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.2118/236321-ms"
+    ],
+    "paper_url": "https://doi.org/10.2118/236321-ms",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+        "venue_type": "conference",
+        "date": "2026-11-02",
+        "doi": "10.2118/236321-ms"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.2118/235506-ms",
+    "title": "Physics-Guided AI–Numerical Simulation for Sand Production Prediction and Completion Optimization",
+    "abstract": "Abstract Sand production is a nonlinear, path-dependent, and strongly coupled process controlled by reservoir depletion, effective-stress redistribution, near-wellbore stress concentration, elastoplastic failure, damage accumulation, grain debonding, hydraulic detachment, erosion, and particulate transport. Its occurrence and severity depend on rock-strength variability, stress regime, well trajectory, completion type, perforation orientation, production drawdown, transient rate history, water weakening, and evolving cavity geometry. Conventional sanding workflows typically combine empirical screening, analytical failure criteria, and detailed numerical simulation, but each method has limitations when used independently. Empirical correlations may not extrapolate reliably; analytical methods simplify geometry and constitutive behavior; and high-fidelity finite-element or discrete-element models are computationally expensive for field-scale optimization and real-time control. This paper develops a unified physics-guided artificial-intelligence and numerical-simulation framework for predicting sanding onset, critical drawdown, transient sand rate, cumulative sand production, cavity evolution, and completion-dependent operating envelopes. The workflow integrates quality-controlled petrophysical logs, drilling and production records, depletion history, laboratory measurements from unconfined compression, triaxial compression, thick-wall-cylinder and advanced thick-wall-cylinder tests, calibrated one-dimensional geomechanical models, and three-dimensional poroelastoplastic finite-element simulations. Sanding initiation is constrained by an analytical effective-strength-factor load criterion and a laboratory-calibrated critical-strain-limit criterion. Mechanical failure is coupled to hydraulic mobilization through drag, lift, seepage, and retention forces, while an erosion law governs sand generation and transport. The AI layer combines gradient-boosted trees, random forests, deep neural networks, temporal models, graph neural networks, neural operators, residual learning, and physics-informed neural networks. A multi-task, multi-fidelity loss function enforces data agreement, finite-element consistency, equilibrium, mass conservation, yield admissibility, Critical state line (CSL) consistency, nonnegative sand rate, physically valid bounds, and regime-dependent monotonicity. Bayesian and ensemble uncertainty quantification provides conservative safe-drawdown limits and out-of-distribution detection. Completion optimization is posed as a constrained multi-objective problem over well trajectory, perforation orientation, phasing, penetration, sand-control selection, and drawdown schedule. The supplied field-study basis indicates that representative depletion scenarios up to 3,000 psi, a stress-path coefficient near 0.6, TWC variability, and open-hole versus cased-and-perforated geometry materially alter the sanding envelope. Laboratory-calibrated TWC/perforation-scale CSL values range approximately from 30 to 68 millistrain in the documented cases, and open-hole CSL may be 20–60% lower because of hole-size and unsupported-boundary effects. The proposed framework converts high-fidelity numerical simulations into rapid probabilistic operating envelopes without inventing unsupported AI performance statistics. It supports pre-drill completion screening, uncertainty-aware production design, adaptive choke control, and continuously updated sand-management digital twins.",
+    "authors": [
+      "Osman Hamid",
+      "Eslam M. Abdalrahman",
+      "Rowa Tawfiq"
+    ],
+    "institutions": [
+      {
+        "name": "Saudi Aramco (Saudi Arabia)",
+        "country_code": "SA",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Saudi Aramco (United States)",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Osman Hamid",
+        "institution": "Saudi Aramco (Saudi Arabia)",
+        "country_code": "SA",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Osman Hamid",
+        "institution": "Saudi Aramco (United States)",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rowa Tawfiq",
+        "institution": "Saudi Aramco (Saudi Arabia)",
+        "country_code": "SA",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rowa Tawfiq",
+        "institution": "Saudi Aramco (United States)",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "SA",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)；日期 2026-11-02"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-02",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.2118/235506-ms",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "physics-informed neural",
+      "graph neural network",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.2118/235506-ms"
+    ],
+    "paper_url": "https://doi.org/10.2118/235506-ms",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+        "venue_type": "conference",
+        "date": "2026-11-02",
+        "doi": "10.2118/235506-ms"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.2118/235813-ms",
+    "title": "Machine Learning-Based Proxy Modeling for Real-Time Prediction of Mud-Filtrate Cleanup While Drilling in Highly Deviated Wells",
+    "abstract": "Abstract Downhole fluid sampling using logging-while-drilling (LWD) formation testers represents an unmatched opportunity for early fluid characterization and reservoir evaluation, leading to optimized subsequent completion and development plans. Reliable prediction of cleanup operations is critical to ensure obtaining representative fluid samples with an acceptable level of mud-filtrate contamination (i.e., below 5% v/v). Time to reach this tolerance ranges from minutes to hours, depending on fluid properties, wellbore geometry, flow rate, and pressure limits. Real-time prediction of cleanup time during drilling in deviated wells is especially challenging due to the competing effects of active mud-filtrate invasion and formation-fluid pumpout, as well as the added computational complexity of well deviation. In this paper, we present a novel machine learning (ML) proxy modeling workflow for real-time prediction of contamination cleanup while drilling in highly deviated wells. The interaction between mud filtrate and reservoir fluid (i.e., mud invasion) is modeled using a Computational Fluid Dynamics (CFD) simulator with a single-phase, two-component, fully miscible formulation. The simulation design varied mud filtration rate, wellbore diameter and inclination, formation thickness, sampling tool position, probe orientation, filtrate invasion depth, permeability anisotropy, and viscosity ratio. The resulting database of input–output pairs was used to train ML models, where inputs represented cleanup-controlling parameters and outputs were contamination cleanup curves as a function of pumped volume. Traditional ML methods, including Random Forest, ExtraTrees, and K-Nearest Neighbors, were evaluated alongside temporal models, including Long Short-Term Memory (LSTM), Temporal Convolutional Network, and Transformer architectures. A total of 5,328 CFD simulations were generated for training, with 300 additional cases reserved for evaluation. The developed proxy model demonstrated that temporal ML models can accurately reproduce contamination cleanup behavior while greatly reducing computational cost. Among the tested methods, the LSTM model achieved the best performance. Other temporal models, including TCN and Transformer, also significantly outperformed traditional approaches such as Random Forest and ExtraTrees. In this paper, the impact of active mud filtration on cleanup prediction accuracy was investigated and integrated into the development of the proxy models. The strong agreement between predicted and simulated cleanup curves enables rapid estimation of the pumped volume required to reach target contamination levels and supports more confident decisions when evaluating multiple stations, tool placements, well inclinations, and flow-rate constraints before or during sampling jobs. We developed ML-based proxy models for contamination cleanup planning using high-fidelity simulation data. The proxy model reduced evaluation time, providing predictions within seconds compared to approximately 30 minutes required by 3D numerical simulations. This efficiency enables rapid scenario assessment and improved job planning, particularly in highly deviated wells.",
+    "authors": [
+      "Tarek Sabry-Mohamed",
+      "Liangyu Xu",
+      "Cheolkyun Jeong",
+      "Alex Dykes",
+      "Yong Chang",
+      "Aldrick Garcia Mayans"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)；日期 2026-11-02"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-02",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.2118/235813-ms",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer architecture",
+      "planning",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer dynamics model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.2118/235813-ms"
+    ],
+    "paper_url": "https://doi.org/10.2118/235813-ms",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+        "venue_type": "conference",
+        "date": "2026-11-02",
+        "doi": "10.2118/235813-ms"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.03411",
+    "title": "Low-Rank Clebsch--Gordan Coupling for Equivariant Spherical Forecasting",
+    "abstract": "Spherical-harmonic neural operators provide an efficient representation for global forecasting, but their discretized pointwise nonlinearities can break rotational equivariance through aliasing. Clebsch-Gordan (CG) tensor products provide exactly equivariant interactions between spherical-harmonic representations, but their computational cost grows rapidly with spectral bandwidth and has limited their use at forecasting scale. We introduce LCG-SFNO, which combines low-rank CG interactions within a controlled low-degree band with coefficient-space residual propagation and an exactly projected quadratic nonlinearity, preserving SO(3) equivariance throughout the learned operator. To make the CG interaction practical, we further develop SSHCG, a sparse GPU implementation with a factorized alternative for wider coupled bands. On spherical shallow-water dynamics and the ERA5-based WeatherBench benchmark, LCG-SFNO reduces rotational error to numerical precision (more than three orders of magnitude below SFNO on shallow water and five orders of magnitude below it on WeatherBench), while matching SFNO on shallow-water forecasting and substantially improving forecast skill relative to SFNO on WeatherBench. Matched ablations show that CG coupling accelerates convergence, while SSHCG keeps the coupling to about 10 percent of a training step at the operating bandwidth, making exact equivariant coupling practical at forecasting scale.",
+    "authors": [
+      "Yaojun Li",
+      "Zhixuan Zhao",
+      "Dongzhe Zheng",
+      "Christine Allen-Blanchette"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.03411",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.03411"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.03411",
+    "open_access_url": "https://arxiv.org/pdf/2611.03411",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02876",
+    "title": "Identifiable Signed Causal Learning via Latent Stochastic Differential Equations for Inferring Brain Dynamic Effective Connectivity",
+    "abstract": "Understanding how brain regions interact to support cognitive tasks requires characterizing directed causal influences among them, known as effective connectivity (EC). As inter-regional coupling changes over time, a dynamic EC (dEC) estimate is required to track this temporal variation. Existing dEC learning methods typically lack a causal rationality guarantee or an identifiability analysis, and output unsigned connectivity that cannot distinguish excitatory from inhibitory influences, which limits further study of brain mechanisms. We propose ISCL, a latent stochastic differential equation framework that derives dEC from latent dynamics through a causal influence operator defined in observation space. As established by a rationality theorem, the operator captures a directed interventional response at each brain state, and under invariance assumptions the operator is identifiable from data, with its signed output separating excitatory from inhibitory influences. On synthetic benchmarks, \\model recovers the causal structure on Lorenz96 and achieves the lowest mean structural Hamming distance among compared methods on NetSim, while preserving signed influence structures that distinguish excitatory from inhibitory interactions. Applied to HCP Social Cognition task-fMRI, ISCL reveals a signed architecture whose stability across seeds supports the identifiability guarantee, identifies dominant source and target networks consistent with social-cognition systems, and shows that condition-specific training strengthens causal outflow from the default-mode and frontoparietal networks during theory-of-mind processing. In this task, the recovered signed structure reveals network-level excitatory and inhibitory organization, with the dorsal-attention network as the only consistently positive out-strength source.",
+    "authors": [
+      "Yiding Wang",
+      "Chen Qiao"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02876",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "latent dynamics"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02876"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02876",
+    "open_access_url": "https://arxiv.org/pdf/2611.02876",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02690",
+    "title": "Human-Oriented World Model",
+    "abstract": "Supporting a person over repeated interactions requires interpreting their current state in context and anticipating its subsequent evolution. We formulate the \\emph{Human-Oriented World Model} (HOWM) as a conceptual framework centered on task-relevant human states and their evolution. HOWM connects current observations and individual history with environmental and social context to organize continuing state estimation, personalized dynamics prediction, and action support. Dynamic expectations and new observations jointly inform the current estimate, which in turn anchors personalized forecasts based on shared knowledge and individual experience. An external policy relates forecasts under alternative conditions to the person's goals, preferences, and constraints when considering support. Actual responses and outcomes provide evidence for revising the state estimate and personal dynamic patterns, thereby informing subsequent estimation, prediction, and support. We illustrate the framework through hypothetical training and learning scenarios. Our research agenda asks whether accumulated interaction experience improves subsequent estimation and prediction, and whether using the model helps the person pursue their goals over time.",
+    "authors": [
+      "Saihui Hou",
+      "Zengyun Mou",
+      "Chunshui Cao",
+      "Yongzhen Huang"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02690",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02690"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02690",
+    "open_access_url": "https://arxiv.org/pdf/2611.02690",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.03473",
+    "title": "Fracture-Bench: A Controlled Benchmark Suite for Machine Learning Surrogates in Phase-Field Fracture Mechanics",
+    "abstract": "Machine-learning surrogates are increasingly proposed to replace phase-field fracture simulations in many-query tasks such as uncertainty quantification, inverse analysis and design. Little controlled evidence shows which architectures are reliable, for which fracture problems and how far beyond their training data. We introduce Fracture-Bench, an open benchmark of two phase-field datasets with fixed splits, common test metrics and a description of each dataset's physical regime. Dataset~1 contains 1,000 AT2 simulations of multiple cracks growing from a notched hole in a hyperelastic plate under random non-uniform biaxial boundary displacements (44 load steps, $128\\times128$ grid). Dataset~2 contains 4,000 PF-CZM simulations of a pre-cracked plate with two inclusions, each ten times stiffer or more compliant than the matrix ($128\\times256$ grid). We train a Fourier neural operator (FNO), DeepONet, Latent DeepONet, a UNet and a conditional diffusion model on identical splits and compare one test metric per dataset, training time, inference time and model size. On Dataset~1, FNO and Latent DeepONet attain mean test errors of order $10^{-6}$, about ten times lower than UNet and DeepONet. On Dataset~2, the diffusion model is most accurate, with about one sixth of the UNet error, but requires \\SI{706}{s} per prediction versus \\SI{6}{ms} for UNet. For all architectures, most of the error occurs in the final load steps, after crack localization. Dataset~2 contains initial cracks less than one grid cell apart that produce qualitatively different paths. Architecture rankings therefore depend on the task, and errors averaged over densely sampled inputs reveal little about near-bifurcation cases. Data, codes, splits, regime descriptors and generalization splits are public, with a protocol for adding under-represented regimes such as mixed-mode, three-dimensional and experimentally paired fracture.",
+    "authors": [
+      "Meenu Krishnan U.",
+      "Maryam Hakimzadeh",
+      "Indrashish Saha",
+      "Meer Mehran Rashid",
+      "Lori Graham-Brady",
+      "Somdatta Goswami"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.03473",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator",
+      "diffusion model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "physics.comp-ph",
+      "cs.CE"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.03473"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.03473",
+    "open_access_url": "https://arxiv.org/pdf/2611.03473",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.03294",
+    "title": "ForceLDM: A Force-aware Latent Dynamics Model for Contact-Rich Manipulation",
+    "abstract": "Contact-rich manipulation requires fine-grained control and complex physical interactions with the environment, posing significant challenges for robot policy learning. Vision-only policies struggle with such tasks, as contact states and interaction forces are difficult to infer from visual observations alone. Existing methods mitigate this issue by incorporating force or tactile sensing. However, they often treat these signals as auxiliary observations without fully exploiting their role in modeling future interaction dynamics. To address this, we propose ForceLDM, a force-aware latent dynamics model that learns future contact and motion dynamics to guide action generation. Rather than directly predicting future observations, which can entangle task-relevant dynamics with irrelevant sensory details, ForceLDM learns a compact representation of future dynamics through knowledge distillation. Specifically, a teacher network with privileged future force/torque and optical flow signals extracts future dynamic features, which are then distilled into a student network trained only on current observations. This enables the student model to reason about upcoming contacts and physical dynamics without relying on future sensory inputs at deployment. To improve robustness and generalization, we further introduce a curriculum-based progressive noise injection strategy to mitigate over-reliance on future features. Experiments on five real-world contact-rich manipulation tasks demonstrate that ForceLDM outperforms state-of-the-art baselines, generalizes effectively to novel objects, and remains robust to environmental perturbations. Project page and code are available at https://tpy001.github.io/ForceLDM/.",
+    "authors": [
+      "Peiyuan Tang",
+      "Yao Li",
+      "Xiaodong Zhang",
+      "Wuyang Zhang",
+      "Qin Xia",
+      "Yanyong Zhang",
+      "Zijiang Yang"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.03294",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "latent dynamics",
+      "dynamics model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.03294"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.03294",
+    "open_access_url": "https://arxiv.org/pdf/2611.03294",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.03595",
+    "title": "DynaSolver: A Neural Operator for Autoregressive 4D Flow Prediction with Dynamic Boundaries",
+    "abstract": "Neural operators provide efficient surrogates for computational fluid dynamics (CFD), but most are designed for static geometries and are not equipped to model unsteady flows induced by continuously moving boundaries. We study dynamic-boundary 4D CFD prediction for articulated moving geometries and introduce RoboCFD-4D, a temporally resolved robotic CFD benchmark spanning diverse morphologies and flow conditions. To address the computational and autoregressive challenges of this setting, we propose DynaSolver, a neural operator that explicitly conditions on boundary evolution and causal flow history. DynaSolver employs an efficient physical-token formulation that amortizes point-to-token projection across the operator stack, substantially reducing repeated point-space spatio-temporal computation while retaining accurate point-level reconstruction. We further introduce Replay-Augmented Parallel Training, which exposes the model to autoregressively generated histories while preserving parallel dense supervision, narrowing the gap between ground-truth-conditioned training and autoregressive rollout. Experiments on RoboCFD-4D show that DynaSolver achieves the best full-rollout accuracy among a broad range of learned CFD surrogates, with its advantage increasing as rollout proceeds, indicating substantially reduced autoregressive error accumulation. Project page: https://made-gpt.github.io/DynaSolver-ProjectPage.",
+    "authors": [
+      "Rui Qian",
+      "Shibo Dai",
+      "Mengjun Lin",
+      "Yuk-Kit Hou",
+      "Saining Zhang",
+      "Bohan Li",
+      "Junhao Chen",
+      "Hao Zhao",
+      "Chaojian Li"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.03595",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.03595"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.03595",
+    "open_access_url": "https://arxiv.org/pdf/2611.03595",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.2118/235329-ms",
+    "title": "Cross-Resolution Surrogate Modeling for CCUS-EOR Digital Twins Using 4DFNO Coupled with a Denoising Hamiltonian Network",
+    "abstract": "Abstract Repeated compositional simulation is costly when Carbon Dioxide-Enhanced Oil Recovery (CO2-EOR) is deployed within carbon capture, utilization, and storage (CCUS) workflows that evaluate many geological realizations, assimilate production data, or compare grid resolutions. The proposed framework, termed DHN-4DFNO, couples a four-dimensional Fourier neural operator (4DFNO) with a Denoising Hamiltonian Network (DHN) to predict pressure, oil saturation, and CO2 molar fraction over (t,z,x,y). The 4DFNO provides the global spatiotemporal state fields, while DHN encodes the 4DFNO feature-field response into time-indexed latent variables q and p, applies block-wise denoising Hamiltonian relations conditioned by a trajectory code z, and uses the scaled latent refinement in a 4DFNO-feature residual branch. The training objective combines supervised prediction and coarse-field losses with a Hamiltonian block loss. An optional simulator-exported component residual-label branch is retained in the implementation, but its particle swarm optimization (PSO)-selected weight is zero in the reported model. It therefore contributes neither loss nor gradient during final training. Tests use 1,500 compact compositional CO2-EOR numerical simulations with latent permeability-field variance parameter 0.2. The fixed random split gives 1,350 final-training cases and a 150-case evaluation partition reserved from final model fitting. For representative evaluation case 214, field-specific structural similarity index (SSIM) values are 0.9228-0.9994 over 370 reporting records, and DHN-4DFNO reduces pressure mean squared error (MSE) from 0.6322 to 0.3632 and CO2 molar-fraction MSE from 7.56E−3 to 2.45E−3. The trained framework is also evaluated from the native 40 × 40 × 3 setting to an 80 × 80 × 3 target grid without retraining, where the target-grid reference states are generated by rerunning the compositional simulator after horizontal interpolation of the rock-property fields. The surrogate supports rapid state forecasting, response screening, permeability data assimilation, CO2 storage-accounting post-processing, and net present value (NPV) evaluation.",
+    "authors": [
+      "Beichen Zhao",
+      "Katerina Nik",
+      "Jianfei Bi"
+    ],
+    "institutions": [
+      {
+        "name": "King Abdullah University of Science and Technology",
+        "country_code": "SA",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Research Institute of Petroleum Exploration and Development",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Beichen Zhao",
+        "institution": "King Abdullah University of Science and Technology",
+        "country_code": "SA",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Katerina Nik",
+        "institution": "King Abdullah University of Science and Technology",
+        "country_code": "SA",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jianfei Bi",
+        "institution": "Research Institute of Petroleum Exploration and Development",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN",
+      "SA"
+    ],
+    "home_scope": "国内+国外合作",
+    "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)；日期 2026-11-02"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-02",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.2118/235329-ms",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.2118/235329-ms"
+    ],
+    "paper_url": "https://doi.org/10.2118/235329-ms",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+        "venue_type": "conference",
+        "date": "2026-11-02",
+        "doi": "10.2118/235329-ms"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02807",
+    "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
+    "abstract": "Interactive narratives let users shape a story while an Experience Manager (EM) keeps it coherent, balancing player freedom against authorial control. Large Language Models now enable a new generation of hybrid EMs, which combine run-time generation from free-text input with symbolic narrative control. However, their heterogeneity makes them hard to compare: A manager's behaviour is generally tied to the unique and specific scenario in which it operates, and much of its decision-making takes place outside of any explicit and verifiable structure. We address this with an LLM-based narrative platform whose managers are interchangeable modules operating over a shared symbolic world model of facts, operations, and goals. Because every applied operation carries explicit preconditions and effects, each session can be analysed as a plan through a common state-transition representation and evaluated, independently of how the manager works internally, with shared indicators of four properties: player agency, EM controllability, author intent, and robustness. We implement three contrasting managers, based respectively on open generation, Monte Carlo repair, and autonomous characters, and compare them through functional analysis on an interactive Little Red Riding Hood scenario. The results show that no manager dominates on every property, giving authors and EM designers a concrete basis to select a manager according to their priorities.",
+    "authors": [
+      "Jules Clerc",
+      "Domitile Lourdeaux",
+      "Mohamed Sallak",
+      "Marc Ravaine"
+    ],
+    "institutions": [
+      {
+        "name": "Heudiasyc",
+        "country_code": "",
+        "sources": [
+          "arXiv"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Jules Clerc",
+        "institution": "Heudiasyc",
+        "country_code": "",
+        "source": "arXiv"
+      },
+      {
+        "author": "Domitile Lourdeaux",
+        "institution": "Heudiasyc",
+        "country_code": "",
+        "source": "arXiv"
+      },
+      {
+        "author": "Mohamed Sallak",
+        "institution": "Heudiasyc",
+        "country_code": "",
+        "source": "arXiv"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "arXiv journal_ref（作者提供，需核验）：38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026), IEEE Computer Society, Nov 2026, Boca Raton, United States"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02807",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "language model",
+      "large language model",
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02807"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02807",
+    "open_access_url": "https://arxiv.org/pdf/2611.02807",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026), IEEE Computer Society, Nov 2026, Boca Raton, United States",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02427",
+    "title": "Architecture-Aware Mixed Precision for Replica-Exchange Training of Geometry-Aware Neural Operators with Uncertainty Quantification",
+    "abstract": "Geometry-aware neural operators face substantial computational and memory demands when learning across complex physical domains. We introduce Architecture-Aware Mixed Precision (AA-MP), a replica-exchange training strategy that allocates numerical precision according to replica roles and architecture-specific operations. By retaining FP32 for refinement while selectively employing BF16 for exploration, AA-MP preserves predictive accuracy while improving training efficiency. Across fluid dynamics and three-dimensional structural mechanics benchmarks, AA-MP achieves comparable accuracy to full-precision training over an ensemble of runs, while reducing hot-replica peak GPU memory by 46.9% and training time by up to 25.8%. It also outperforms naive Automatic Mixed Precision (AMP) in memory efficiency and computational cost, with increasing memory advantages at larger model and geometry scales. Ablation studies show that retaining FP32 in the cold-replica is important for predictive accuracy, while additional FP32 operations in the exploratory replica provide limited benefits relative to their computational cost. Finally, conformal prediction for uncertainty calibration shows that AA-MP achieves near-nominal coverage with narrower prediction intervals than the alternatives. These results advance the scalability of geometry-aware scientific machine learning by reducing computational costs without compromising predictive accuracy or uncertainty quantification.",
+    "authors": [
+      "Ujin Jeon",
+      "Michael Penwarden",
+      "Wenqian Chen",
+      "Guang Lin"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02427",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02427"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02427",
+    "open_access_url": "https://arxiv.org/pdf/2611.02427",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02922",
+    "title": "An intelligent satellite must do nothing well",
+    "abstract": "Autonomous inspection of a resident space object is usually posed as a contest between classical next-best-view planning and reinforcement learning. We argue that the choice of algorithm is the least informative of the design axes. An inspector spacecraft has no rest state: when it stops thrusting, orbital dynamics carry it along a natural trajectory that can be used to observe the target at no fuel cost. On a controlled ladder in which one design axis is varied at a time, fuel efficiency turns out to be set by three things: whether the agent is allowed to drift, whether its state records where drifting has taken it, and whether its planning horizon is long enough for the benefit to appear. Removing any one of them doubles the fuel bill or more. The algorithm still matters, but through what it can represent: a model-based agent whose learned world model ignores fuel spends several times more of it. Finally, no learned policy is safe by construction, and a control barrier function filter beneath the decision layer removed every keep-out-zone violation in two thousand evaluation episodes.",
+    "authors": [
+      "Fabrizio Pilone",
+      "Giordana Bucchioni"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02922",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02922"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02922",
+    "open_access_url": "https://arxiv.org/pdf/2611.02922",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02341",
+    "title": "AgiWorld: An Agentic Video World Model for Building Persistent Worlds",
+    "abstract": "Recent interactive video world models generate visually compelling videos from a single image, following user-provided camera motion and text prompts. However, such low-level control demands substantial user effort to realize a high-level intent, and the generated world struggles to remain persistent as the exploration proceeds. In this work, we present AgiWorld, an agentic video world model that explores and builds a persistent world from a single image and a free-form instruction. For high-level planning, our agent AgiWorld-Agent designs the world and the journey through it in a world state and directs the exploration. For low-level realization, our video world model AgiWorld-WM generates the video chunk by chunk and stores it with its geometry in a spatial memory, from which the agent updates its world state. This closed loop keeps the world faithful to the user's intent and keeps the agent's world state consistent with the generated content throughout the exploration. We co-design the two levels around the shared spatial memory and an interface of metric camera trajectories and structured prompts. In AgiWorld-WM, to handle occlusion and accumulated geometric errors in the spatial memory over long rollouts, we propose occlusion-aware history selection, which retrieves past views by surface visibility, and reliability-based memory maintenance, which prefers reliable geometry and earlier observations. AgiWorld-WM achieves state-of-the-art overall performance on world revisiting and exploration benchmarks, and qualitative results and ablations show that AgiWorld builds persistent worlds from free-form instructions over minute-long journeys. Persistence thus arises not from the video model alone but from its closed loop with the agent.",
+    "authors": [
+      "Shaoheng Fang",
+      "Yiqun Mei",
+      "Hanwen Jiang",
+      "Xin Sun",
+      "Haitian Zheng",
+      "Hao Tan",
+      "Kalyan Sunkavalli",
+      "Georgios Pavlakos",
+      "Qixing Huang",
+      "Yiwei Hu"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.02341",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: world models | action-conditioned world model | latent dynamics | continuous-time dynamics model | temporal frequency principle in world models | model-based reinforcement learning | ODE world model"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02341"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02341",
+    "open_access_url": "https://arxiv.org/pdf/2611.02341",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "title:e35241c5147d57",
     "title": "Accelerating Discrete Diffusion Models for Combinatorial Optimization via Momentum Inference",
     "abstract": "International audience",
@@ -10811,6 +12292,343 @@
     ],
     "first_seen": "2026-10-23",
     "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.2118/235860-ms",
+    "title": "A Multi-Fidelity Surrogate-Assisted Method for Infill Well Placement in Heterogeneous Carbonate Reservoirs",
+    "abstract": "Abstract Infill placement in an established waterflooded carbonate pattern is a mixed-variable optimization problem. Target interval and access choices are categorical, while heel position, azimuth, lateral length, vertical placement, and operating controls are continuous. Reservoir boundaries, drilling corridors, well spacing, bottomhole-pressure limits, and water-handling capacity further restrict the search. We present an engineering-constrained multi-fidelity workflow that combines reservoir-informed screening, a residual U-shaped Fourier neural operator (U-FNO), and a hierarchical covariance matrix adaptation evolution strategy (CMA-ES). A coarsened black-oil model covers the broad design space, matched full-grid runs train a fine-grid residual correction, and ensemble disagreement decides which uncertain or near-boundary candidates require full-physics verification. The method is tested on anonymized Reservoir Model A, a 33 × 18 × 370 single-porosity black-oil model with about 107,000 active cells, one central injector, and six existing producers. The 486-day reference run provides the state for infill evaluation; model-average pressure falls from 4,011 to 3,658 psi, and recovery over the window is 2.45% of OOIP. The selected P7 position lies in the lower-central part of the pattern between P4 and I1. Relative to the reference plan, its verified NPV rises from about 131.2 to 144.5 million monetary units, an absolute increase of 13.3 million and a relative increase of 10.1%. About 96.4% of the gain is obtained by iteration 40, after which the archive changes little. The comparison is a short-horizon placement screen, not a payout forecast: the base model becomes difficult to converge after about day 500, and the present study does not yet quantify P4 rate redistribution, well cost and payback, or multi-realization risk. Those checks are required before a drilling decision.",
+    "authors": [
+      "Xing Zhao",
+      "Lingfeng Yang",
+      "Jianhua Qu",
+      "Xiuwei Liu",
+      "Linjun Sun",
+      "Keyi Zang",
+      "Lian Wang"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)；日期 2026-11-02"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-02",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.2118/235860-ms",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.2118/235860-ms"
+    ],
+    "paper_url": "https://doi.org/10.2118/235860-ms",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+        "venue_type": "conference",
+        "date": "2026-11-02",
+        "doi": "10.2118/235860-ms"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.03381",
+    "title": "A Geometry-Informed Neural Operator surrogate of LISFLOOD-FP for rapid pluvial-fluvial flood forecasting: the case of Forlì, Italy",
+    "abstract": "Physically based two-dimensional hydraulic models are too slow for real-time inundation forecasting and large ensembles. We present a time-dependent geometry-informed neural operator (GINO) surrogate of LISFLOOD-FP for the municipality of Forlì (Italy), severely affected by the May 2023 Emilia-Romagna floods. The surrogate is designed for an operational setting in which only river stage gauges and rain gauges are available. A reproducible pipeline turns public regional observations into a physically based training set: each river inflow is driven by the first stage gauge downstream of it through a calibrated water-surface boundary condition, and rain enters as SCS-CN effective rainfall. The surrogate is an autoregressive GINO trained on 216 simulations of 24 observed events with scaled forcing. It predicts volume-conserving polygon-mean depths on an exposure-based Voronoi mesh of 659 nodes, with a 20 min step over 72 h. The surrogate is tested on 38 independent observed events that it never saw during training. On these events it reaches a critical success index (CSI) of 0.934 at 0.05m and 0.844 at 0.3 m, a depth RMSE of 0.008m and an $R^2$ of 0.984 for maximum-depth maps. On one NVIDIA A10G GPU a 72-h forecast takes 1.7 s instead of 55 s with LISFLOOD-FP, and a 50-member ensemble, computed in a single batched rollout, takes 6.2 s instead of about 46 min, which makes probabilistic flood forecasting practical. These results show that neural-operator surrogates can deliver accurate pluvial-fluvial flood forecasts driven by river stage for operational early warning.",
+    "authors": [
+      "Samuele Maria Garofalo",
+      "Fabio Limardo",
+      "Simonetta Bodojra",
+      "Mohammad Amin Nabian",
+      "Mehdi Taghizadeh"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-02",
+    "preprint_updated_date": "2026-11-02",
+    "arxiv_id": "2611.03381",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG",
+      "physics.geo-ph"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.03381"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.03381",
+    "open_access_url": "https://arxiv.org/pdf/2611.03381",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.2118/236261-ms",
+    "title": "A Framework for Efficient Well Control Modeling in Machine Learning Surrogates",
+    "abstract": "Abstract Numerical reservoir simulators are computationally prohibitive for many-query tasks such as field development planning; which motivates a new generation of machine learning surrogates that promise significant speed ups over traditional solvers. A persistent challenge in that work is the treatment of dynamic well controls and sparse, time-dependent well data. Surrogates that reproduce cell-centered fields accurately often leave the quantities an engineer actually depend on, namely bottomhole pressure, phase rates, water cut, and gas-oil ratio, either outside the model or regressed by unconstrained output heads that need not respect rate control or the underlying inflow physics. We address this by coupling a three-dimensional Temporal Neural Operator (TNO), whose branch and trunk factorization decouples spatial geological heterogeneity from temporal well control inputs, to an analytic and fully differentiable black-oil well module placed inside both the training graph and the forecast loop. TNO predicts pressure, water saturation, and gas saturation on the Norne benchmark model. The well module samples those fields at the 504 completion cells belonging to 36 wells, evaluates black-oil properties and three-phase mobilities, corrects each completion pressure to a common bottomhole datum, and recovers the rate-controlled bottomhole pressure in closed form. Phase rates are aggregated per well and the computed pressure returns to the operator input, closing the loop. We trained the TNO on 400 Norne cases and evaluated on 50 held-out cases over a 61-step sequential forecast, the model reaches a pressure MAE of 0.559 bar, a bottomhole pressure MAE of 2.99 bar, and a water cut MAE of 0.034. Scheduled rate closure holds by construction rather than by fit, so the well responses stay physically consistent at the cost of a forward pass rather than a simulation run. This framework presents a step toward fast, physically consistent proxies that closed-loop reservoir management requires.",
+    "authors": [
+      "W. Diab",
+      "T. Onishi",
+      "M. Corrales",
+      "Mohammed Al Kobaisi"
+    ],
+    "institutions": [
+      {
+        "name": "Nvidia (United States)",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Khalifa University of Science and Technology",
+        "country_code": "AE",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "W. Diab",
+        "institution": "Nvidia (United States)",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "T. Onishi",
+        "institution": "Nvidia (United States)",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "M. Corrales",
+        "institution": "Nvidia (United States)",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mohammed Al Kobaisi",
+        "institution": "Khalifa University of Science and Technology",
+        "country_code": "AE",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "AE",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)；日期 2026-11-02"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-02",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.2118/236261-ms",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.2118/236261-ms"
+    ],
+    "paper_url": "https://doi.org/10.2118/236261-ms",
+    "open_access_url": "",
+    "is_open_access": false,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+        "venue_type": "conference",
+        "date": "2026-11-02",
+        "doi": "10.2118/236261-ms"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.02101",
+    "title": "When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem",
+    "abstract": "Robot foundation models now act in a closed loop, yet their safety is evaluated one variation at a time: robustness benchmarks perturb the scene while assuming instantaneous inference, and real-time execution methods study inference delay in nominal scenes. We argue that physical safety is not a property of the model alone, but emerges from how variations in the physical environment, the model, the computing platform, and execution interact in closed loop. We formalize this as cross-layer variation propagation across these system layers and use an interaction contrast to measure when joint variation creates more risk than the sum of its parts. In 4,000 paired closed-loop episodes of the pi0.5 vision-language-action model on LIBERO, a 400 ms inference delay raises the safety-violation rate by 3.5 percentage points under the training viewpoint but by 37 percentage points under a 60-degree camera shift: 33.5 percentage points (95% CI: 25-43) more than the two effects combined. We close with a research agenda toward predictable physical intelligence: predicting when variation becomes risk, and adapting compute, power, and control accordingly.",
+    "authors": [
+      "Liangkai Liu",
+      "Bimal Thapa Magar"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-01",
+    "preprint_updated_date": "2026-11-01",
+    "arxiv_id": "2611.02101",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "foundation model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.ET"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02101"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02101",
+    "open_access_url": "https://arxiv.org/pdf/2611.02101",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11364,6 +13182,83 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "arxiv:2611.02076",
+    "title": "Scene-Adaptive Readout and Decoding in Diffusion Driving VLAs",
+    "abstract": "Diffusion driving vision-language-action models repeatedly execute the backbone at every denoising stage, incurring substantial inference cost, while it remains unclear whether all scenes require the same decoding computation. To distinguish when a trajectory becomes readable from how much further refinement it requires, we analyze trajectory readout across network depth and decoding progress. We identify a depth-decoding dissociation in which late-layer representations already support useful trajectory readout after the first forward sweep, whereas early-layer representations benefit more from continued decoding. We further find that both the preferred readout layer and decoding depth vary across scenes. Based on these observations, we propose a scene-adaptive readout and decoding framework. A scene-conditioned readout MoE adaptively weights and combines trajectory predictions from layer-specific late-layer representations after a single backbone sweep, while an adaptive decoding policy applies additional native refinement only when required by the scene. We evaluate our framework on two diffusion driving VLAs across the Waymo E2E and nuScenes benchmarks. Our method improves validation RFS by up to 0.56 while also improving test performance, and achieves an end-to-end speedup of up to $6.0\\times$ on Waymo E2E, while consistently reducing trajectory error on nuScenes. These results demonstrate that scene-level readout and decoding allocation improves planning quality while avoiding unnecessary decoding. Our code is available at https://github.com/sjyu001/SARD",
+    "authors": [
+      "Seungjun Yu",
+      "Jiho Choi",
+      "Inha Kang",
+      "Hojun Choi",
+      "Seungwook Kim",
+      "Hyunjung Shim"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-01",
+    "preprint_updated_date": "2026-11-01",
+    "arxiv_id": "2611.02076",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02076"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02076",
+    "open_access_url": "https://arxiv.org/pdf/2611.02076",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1016/j.automatica.2026.113209",
@@ -12188,6 +14083,165 @@
     ]
   },
   {
+    "uid": "doi:10.1016/j.rico.2026.100872",
+    "title": "Modeling viral mutant-variant dynamics: From continuous optimal control to discrete dosing protocols",
+    "abstract": "The emergence of viral mutant-variants poses a significant public health challenge, as existing treatments often exhibit reduced efficacy against new lineages compared to the original strains. This paper presents a mathematical framework to model the competitive dynamics between these lineages within a host using a Lotka–Volterra competition scheme. To mitigate the impact of more contagious or resistant microorganisms, we apply optimal control theory to investigate strategies for mutant suppression. We conduct a comparative study between continuous control, representing ideal treatment scenarios, and discrete-time control, which reflects the clinical reality of periodic dosing protocols. We introduce a discrete-time optimal control formulation to connect the theoretical continuous-control framework with periodic dosing protocols. The analytical study identifies the stability conditions for viral extinction under constant and impulsive interventions, while numerical simulations validate the expected behaviors. Our results show that the effectiveness of discrete treatment depends strongly on the dosing interval and treatment intensity, with a transition from effective mutant suppression to loss of control as the dosing interval increases. Specifically, our quantitative results demonstrate that periodic interventions can achieve complete mutant suppression while effectively halving the total cumulative dose compared to continuous protocols. These findings provide quantitative insights into the design of antiviral dosing strategies.",
+    "authors": [
+      "Javier López-Pedrares",
+      "Cristiana J. Silva",
+      "M. Elena Vázquez-Cendón",
+      "Alberto P. Muñuzuri"
+    ],
+    "institutions": [
+      {
+        "name": "Universidade de Santiago de Compostela",
+        "country_code": "ES",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Universidade de Vigo",
+        "country_code": "ES",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Iscte – Instituto Universitário de Lisboa",
+        "country_code": "PT",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Centro de Investigação em Ciências da Informação Tecnologias e Arquitetura",
+        "country_code": "PT",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Aveiro",
+        "country_code": "PT",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Javier López-Pedrares",
+        "institution": "Universidade de Santiago de Compostela",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Javier López-Pedrares",
+        "institution": "Universidade de Vigo",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Cristiana J. Silva",
+        "institution": "Iscte – Instituto Universitário de Lisboa",
+        "country_code": "PT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Cristiana J. Silva",
+        "institution": "Centro de Investigação em Ciências da Informação Tecnologias e Arquitetura",
+        "country_code": "PT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Cristiana J. Silva",
+        "institution": "University of Aveiro",
+        "country_code": "PT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "M. Elena Vázquez-Cendón",
+        "institution": "Universidade de Santiago de Compostela",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Alberto P. Muñuzuri",
+        "institution": "Universidade de Santiago de Compostela",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "ES",
+      "PT"
+    ],
+    "home_scope": "国外",
+    "venue": "Results in Control and Optimization",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Results in Control and Optimization；日期 2026-11-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1016/j.rico.2026.100872",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "temporal frequency principle in world models"
+      },
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1016/j.rico.2026.100872"
+    ],
+    "paper_url": "https://doi.org/10.1016/j.rico.2026.100872",
+    "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2666720726002249/pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Results in Control and Optimization",
+        "venue_type": "journal",
+        "date": "2026-11-01",
+        "doi": "10.1016/j.rico.2026.100872"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1007/s00125-026-06726-1",
     "title": "Metabolic dysfunction-associated Steatotic liver disease prevalence, incidence and global aspects",
     "abstract": "Over the last decade it has become clear that obesity and type 2 diabetes are key to the aetiology, pathogenesis and outcomes of metabolic dysfunction-associated steatotic liver disease (MASLD). The considerable current and potential burden of MASLD on patients and healthcare systems is therefore inextricably linked with today’s global epidemics of obesity and type 2 diabetes. In this review, we discuss estimates of the global MASLD burden in terms of prevalence, incidence, disability from complications and reduced life expectancy associated with the condition. We also highlight the variability in MASLD prevalence estimates among different populations, with a particular focus on the sub-Saharan Africa and Asia Pacific regions, where population increases and the epidemiological transition (a sustained shift in population mortality and disease patterns from infectious diseases towards non-communicable diseases) are occurring most rapidly. Additionally, we consider the impact of social determinants of health, including socioeconomic conditions, structural inequities, care access, food environments and systemic discrimination. We also identify opportunities to advance equity in MASLD prevention, diagnosis and treatment worldwide.",
@@ -12266,6 +14320,80 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "arxiv:2611.02127",
+    "title": "Mesh2Shell Neural Operator for Inverse Shape Optimization",
+    "abstract": "Physics-driven design seeks high-performing geometries, which need not conform to a learned shape category. Parametric and latent-space approaches facilitate surrogate-based optimization, but restrict deformations to prescribed shape families or learned decoders. We introduce the Mesh-to-Shell Neural Operator (M2S-NO) as the mesh-to-shell component of a category-agnostic inverse shape optimization framework. We separate the explicit mesh used for design from the volumetric representation used for physics prediction. M2S-NO maps oriented surface samples to a surface-centered shell representation, such as TruncatedSDF or HeatSDF. A separate problem-specific PDE neural operator (PDE-NO) maps this representation to physical fields. Objective gradients update mesh vertices through both operators, without a latent shape decoder. Preconditioning and remeshing support free-form deformation, while fixed interfaces are controlled directly on the mesh. Optional shell-space proposals enable topology changes. We evaluate geometric matching, jet-engine brackets, and neutron moderators, with independent FEM and OpenMC evaluation. Relative to the best training designs, M2S-NO reduces maximum bracket displacement by 14.3% and increases neutron-sensor current by 13.8%. Optimization also succeeds from an out-of-distribution bracket initialization, demonstrating the framework's geometric flexibility.",
+    "authors": [
+      "Xinyi Li",
+      "Xi Deng",
+      "Yubo Cao",
+      "Hudson Liu",
+      "Anima Anandkumar"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-11-01",
+    "preprint_updated_date": "2026-11-01",
+    "arxiv_id": "2611.02127",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.02127"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.02127",
+    "open_access_url": "https://arxiv.org/pdf/2611.02127",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1016/j.ejcon.2026.101662",
@@ -13013,6 +15141,109 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.66977/xsci.2611.0004",
+    "title": "ExpEvolve: Structuring and Reusing Experience for Open-Ended Discovery",
+    "abstract": "Evolutionary coding agents such as AlphaEvolve are one of the notable successes in using Large Language Models (LLMs) to build AI Scientists. These agents tackle open-ended scientific problems by iteratively improving and evolving programs, leveraging the prior knowledge and reasoning capabilities of LLMs. Despite their success, mutations over programs are mostly low-level upon surface heuristics, without a persistent unit of control. In contrast, science compounds through ideas. In this work, we propose ExpEvolve, which injects idea-level extraction and control into evolution: it discovers and leverages the high-level factors from programs that explain scoring differences among different programs. We characterize theoretical conditions on when discovery with idea factors improves sample efficiency. We also build a practical framework to show that the extracted high-level idea factors are helpful for guiding exploitation from experience and exploration when discovery comes to a plateau. Across 11 open-ended mathematical tasks, ExpEvolve significantly improves the final performance and sample efficiency up to 5.0x. The improvements also transfer to 4 other LLMs and to 6 machine learning tasks from MLS-Bench. Analysis shows that ExpEvolve can discover idea-level factors to provide better exploration and exploitation for evolutionary discovery.",
+    "authors": [
+      "Yongqiang Chen",
+      "Chenxi Liu",
+      "Deyu Zou",
+      "Zhenhao Chen",
+      "Tongliang Liu",
+      "Bo Han",
+      "Kun Zhang"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.66977/xsci.2611.0004",
+    "work_type": "preprint",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "large language model",
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "neural combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.66977/xsci.2611.0004"
+    ],
+    "paper_url": "https://doi.org/10.66977/xsci.2611.0004",
+    "open_access_url": "https://arxiv.org/pdf/2610.29303",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "",
+        "venue_type": "",
+        "date": "2026-11-01",
+        "doi": "10.66977/xsci.2611.0004"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1016/j.oceaneng.2026.128200",
@@ -14439,6 +16670,76 @@
     "my_notes": ""
   },
   {
+    "uid": "arxiv:2611.00896",
+    "title": "Verifying Test-State Identity in Paired Evaluation of Vision-Language-Action Models",
+    "abstract": "Simulation-based VLA evaluation often treats matching task, seed, and episode identifiers as sufficient evidence that two policies faced identical test conditions. Under specific vectorized reset and autoreset conditions, different termination timing can change subsequent initial-state assignment, so the same episode index need not mean the same test state. We present an evaluation-integrity framework for paired comparison - invariants I1-I5, provenance logging, optional scene fingerprints, and an automated checker - and a controlled LeRobot 0.6.1 LIBERO harness study with emulated controllers. Four evidence levels are kept separate: (A) mixed-horizon Sync wave-1 IDs [20, 5, 22, 7] vs [4, 5, 6, 7]; (B) homogeneous separate-job Sync control (16 cells, 0 ID/fingerprint mismatches); (C) Async+Freeze batch-size map differences (12 I3 mismatches; bs=8 incomplete; mechanism unisolated); (D) a synthetic McNemar illustration only. Controllers were emulated and no real-VLA shared-vector experiment was completed. We recommend checking declared/resolved init-state identity and provenance before paired statistics. We do not claim that published VLA leaderboards are generally invalid.",
+    "authors": [
+      "Rafiqul Islam"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-31",
+    "preprint_updated_date": "2026-10-31",
+    "arxiv_id": "2611.00896",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.00896"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.00896",
+    "open_access_url": "https://arxiv.org/pdf/2611.00896",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1037/xan0000418",
     "title": "Static outcomes: Anodal transcranial direct current stimulation at Fp3 or P3 does not modulate perceptual learning as indexed by the intermixed-blocked effect",
     "abstract": "Perceptual learning can be defined as a relatively permanent change in discrimination performance as a result of experience or exposure. One key index of perceptual learning is the intermixed-blocked effect in which exposure to two ambiguous or perceptually similar stimuli (i.e., AX and BX) exposed in an intermixed fashion (AX, BX, AX, BX, AX, BX) produces enhanced discrimination performance compared with blocked exposure (AX, AX, AX, BX, BX, BX). Previous imaging data have implicated multiple brain regions in the intermixed-blocked effect. In the present study, transcranial direct current stimulation was used to explore the causal relationship of two regions, the dorsolateral prefrontal cortex (DLPFC) and the posterior parietal cortex (PPC), to performance. A mixed, double-blind, design administered two online sessions of transcranial direct current stimulation (active and sham) to 48 participants, although they viewed pairs of similar stimuli. Half of the participants received active stimulation to the DLPFC, and the other half to the PPC. Anodal stimulation in either the DLPFC or the PPC provided no modulation of discrimination performance relative to sham stimulation. These results potentially question the generality of the interpretation of other studies in which stimulation of these areas does impact on other indices of perceptual learning.",
@@ -14828,6 +17129,157 @@
     "my_notes": ""
   },
   {
+    "uid": "arxiv:2611.01069",
+    "title": "On Sparse Graph Limits for Neural Combinatorial Optimization",
+    "abstract": "Graph neural networks are often trained on small graphs and deployed on larger ones, raising the question of which graph information must be preserved for combinatorial optimization values to transfer across sizes. We establish size-transfer guarantees for normalized graph optimization values using finite collections of energy features. For affine objectives, including MAX-CUT, coloring defect, and independent-set density, differences in task value are controlled by discrepancies in normalized scalar energy probes on all bounded-degree graphs. For general Lipschitz objectives, such as those with balance penalties, an additional representation error appears; this error vanishes on hyperfinite graph families but can remain bounded away from zero on expanders. Thus, at fixed degree bound, state space, Lipschitz constant, and target accuracy, a finite energy representation independent of graph size suffices universally for affine tasks and asymptotically for general Lipschitz tasks on hyperfinite families. These results yield prediction guarantees under explicit conditions on encoder accuracy, readout stability, and representation coverage, together with statistical generalization bounds. Theoretically, we prove Shapley-Folkman bounds with sharp parameter dependence, including a dimension-free $\\ell_2$ regime, and realize the resulting energy features with a fixed-weight message-passing network using random node initialization on bounded-treewidth graphs. Experiments with exact solvers and trained models test the resulting transfer guarantees.",
+    "authors": [
+      "Thien Le",
+      "Melanie Weber"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-31",
+    "preprint_updated_date": "2026-10-31",
+    "arxiv_id": "2611.01069",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural combinatorial",
+      "combinatorial optimization",
+      "graph neural network",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG",
+      "math.CO"
+    ],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: neural combinatorial optimization | neural routing | autoregressive combinatorial optimization | diffusion combinatorial optimization | iterative search combinatorial optimization | reduce-then-solve combinatorial optimization | reduction-based combinatorial optimization | learning to optimize routing"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.01069"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.01069",
+    "open_access_url": "https://arxiv.org/pdf/2611.01069",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.01356",
+    "title": "Learned Surrogates of Three-Dimensional Magnetohydrodynamic Turbulence",
+    "abstract": "Three-dimensional magnetohydrodynamic (MHD) turbulence, the flow of astrophysical and fusion plasmas, is costly to simulate. We present, to our knowledge, the first learned surrogates of three-dimensional resistive MHD turbulence, and compare three standard backbones in that role: a convolutional UNet, a shifted-window transformer and a Fourier neural operator. They are trained as autoregressive emulators of decaying MHD turbulence at a resolution of $128^3$ and Reynolds numbers of 1000, 3000 and 6000, on 500 simulations per Reynolds number, each with one two-stage procedure, single steps and then short rollouts, and stopped by one rule. Over a window of about one large-eddy turnover time, the UNet and the transformer reach relative velocity errors of 0.018 to 0.053 and keep the current sheets, the enstrophy, the current density and the energy spectra of the simulation; which of the two is the more accurate depends on the Reynolds number, the UNet leading at 3000 and 6000 and the transformer at 1000. Applied with the same backbones and training procedure to two public benchmarks, the models reach the lowest error reported to date on the isotropic turbulence set of FactFormer, 39% below the best published model. On the compressible MHD set of The Well, their rollout errors are a third to a half below those of the best of The Well's baselines. They also match a 1.3 B-parameter pretrained foundation model in its rollout windows, with 20-62 times fewer parameters. The code, the configuration of every model, the evaluation scripts and the data generator with the seed of every simulation will be released upon publication.",
+    "authors": [
+      "Semih Kacmaz",
+      "E. A. Huerta"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-31",
+    "preprint_updated_date": "2026-10-31",
+    "arxiv_id": "2611.01356",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator",
+      "fourier neural operator",
+      "foundation model"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.LG",
+      "astro-ph.IM",
+      "physics.flu-dyn",
+      "physics.plasm-ph"
+    ],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "OR: neural operator | operator learning | PDE-driven world model | learning PDE dynamics | adaptive spectral method | neural spectral method | PDE-constrained optimal control | optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.01356"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.01356",
+    "open_access_url": "https://arxiv.org/pdf/2611.01356",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1029/2026jh001400",
     "title": "HiResCastNet: A 3D Deep Learning Model for Probabilistic Regional High‐Resolution Subseasonal Forecasting Through Downscaling",
     "abstract": "Abstract High‐resolution subseasonal forecasts, spanning two to 6 weeks, play a vital role in bridging the gap between short‐range forecasts and seasonal predictions. They provide crucial information for decision‐making in disaster and hazard preparedness, early warning systems, water resource management, and renewable energy. However, generating subseasonal forecasts at high spatial and temporal resolutions remains a significant challenge. Global subseasonal forecasting systems such as European Center for Medium‐Range Weather Forecasts (ECMWF) typically provide outputs at a coarse spatial resolution of about 31 km and a temporal resolution of 12 hr, which limits their usefulness for regional‐scale planning and impact assessments. Our three‐dimensional (3D) high‐resolution regional subseasonal forecasts are generated by dynamically downscaling the ECMWF subseasonal forecasts using the Weather Research and Forecasting (WRF) model, producing outputs at a spatial resolution of 4 km and a temporal resolution of 3 hr. Yet, the dynamical downscaling model is computationally very demanding, especially when using multiple ensemble members. To address this limitation, we introduce HiResCastNet, a data‐driven, probabilistic downscaling framework combining Swin‐transformer and a diffusion model, which serves as an efficient surrogate for the traditional downscaling system. HiResCastNet takes spatio‐temporal coarse resolution forecasts from ECMWF subseasonal system as inputs, and generates 3D high‐resolution forecasts at 4 km spatial resolution and 3‐hourly intervals. Our results suggest that HiResCastNet significantly reduces computational cost while maintaining strong agreement with WRF physical model. It reproduces the dynamical behavior across variables such as wind and temperature and handles the downscaling of multiple ensemble members efficiently, which highlights its potential for operational use.",
@@ -14930,6 +17382,282 @@
       }
     ],
     "first_seen": "2026-11-02",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1016/j.cma.2026.119535",
+    "title": "Energy-based physics-informed neural networks with stochastic minibatching for phase-field modeling of fracture",
+    "abstract": "This work presents an efficient energy-based physics-informed neural network (PINN) framework for phase-field modeling of fracture, in which the potential energy is estimated from stochastic minibatches of the integration points to reduce training cost. Building on the deep energy method (DEM), the network is trained by directly minimizing the regularized potential energy of the body rather than the residual of the governing equations. At each optimization step, the energy integral is evaluated on a randomly drawn subset of the integration points and rescaled so that the estimate is unbiased with respect to the full-grid quadrature energy. The framework is verified on a set of established fracture benchmarks, reproducing the expected crack development, including interacting and curved crack paths. Benchmarking reveals minibatching reduces the total training time by up to 50% relative to full-batch training, while preserving the crack trajectory. Furthermore, we extend the proposed model to hydrogen-assisted fracture, and it captures the coupled stress-hydrogen interaction where the drop in fracture toughness caused by hydrogen promotes earlier crack initiation and reduced load-carrying capacity. The results indicate that energy-based PINNs, combined with minibatch estimation of the discretized energy, offer an efficient route to phase-field fracture simulation and its multiphysics extensions.",
+    "authors": [
+      "Erfan Azinpour",
+      "Roya Darabi",
+      "Shiyuan Yang",
+      "Abílio M.P. De Jesus"
+    ],
+    "institutions": [
+      {
+        "name": "Universidade do Porto",
+        "country_code": "PT",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Imperial College London",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Erfan Azinpour",
+        "institution": "Universidade do Porto",
+        "country_code": "PT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Roya Darabi",
+        "institution": "Imperial College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Shiyuan Yang",
+        "institution": "Universidade do Porto",
+        "country_code": "PT",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Abílio M.P. De Jesus",
+        "institution": "Universidade do Porto",
+        "country_code": "PT",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "GB",
+      "PT"
+    ],
+    "home_scope": "国外",
+    "venue": "Computer Methods in Applied Mechanics and Engineering",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Computer Methods in Applied Mechanics and Engineering；日期 2026-10-31"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-31",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1016/j.cma.2026.119535",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1016/j.cma.2026.119535"
+    ],
+    "paper_url": "https://doi.org/10.1016/j.cma.2026.119535",
+    "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0045782526008066/pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Computer Methods in Applied Mechanics and Engineering",
+        "venue_type": "journal",
+        "date": "2026-10-31",
+        "doi": "10.1016/j.cma.2026.119535"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "arxiv:2611.00522",
+    "title": "Behavioral Steering of Vision-Language-Action Models in the Low-Parameter Regime",
+    "abstract": "Reinforcement learning (RL) is increasingly used to adapt pretrained vision-language-action models (VLAs). We investigate the problem of behavioral steering: adapting a VLA's execution style to preferences such as carrying objects higher. To investigate how little trainable capacity such steering requires and how much pretrained capability can be retained, we freeze an OpenVLA-OFT 7B policy and optimize TinyLoRA adapters with 8 to 384 trainable parameters using either policy-gradient RL (GRPO) or evolutionary search (CMA-ES). With just 256 trainable parameters, we raise carry height by 120 mm on trained tasks at 92% success and by 74 mm on a held-out task at 80% success. By rescaling the learned update, we can tune the trade-off between style gains and capability retention without retraining. Increasing adapter capacity generally improves this trade-off, retaining more pretrained capability at comparable style gains. The choice of optimizer also depends on capacity, with CMA-ES being competitive at low parameter counts, while GRPO offers better trade-offs as capacity grows. These findings show that extremely low-dimensional updates can steer pretrained VLA behavior, with adapter capacity, optimizer choice, and update scaling offering practical control over adaptation and retention.",
+    "authors": [
+      "James Tcheng",
+      "Feiyu Gavin Zhu"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "",
+    "preprint_date": "2026-10-31",
+    "preprint_updated_date": "2026-10-31",
+    "arxiv_id": "2611.00522",
+    "doi": "",
+    "work_type": "preprint",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "OR: transformer world model | transformer dynamics model | transformer for planning | vision transformer world model | vision-language action model | vision-language model planning | language model for planning | language model for control | language model combinatorial optimization | transformer combinatorial optimization | diffusion model combinatorial optimization | graph neural network combinatorial optimization | transformer neural operator | foundation model for control | multimodal world model | planning with learned dynamics | planning in world models | model-based control with learned dynamics | action-conditioned predictive model | world models for optimization | dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2611.00522"
+    ],
+    "paper_url": "https://arxiv.org/abs/2611.00522",
+    "open_access_url": "https://arxiv.org/pdf/2611.00522",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.31432/1994-2443.2026.31",
+    "title": "World model: Transformer of cosmic intelligence",
+    "abstract": "Introduction . Humanity has entered an era of large-scale transformation, during which mechanisms for global governance and the coordination of interests are being formed, including through the creation of world models based on artificial intelligence. Aim . Identifying approaches to developing world models. Materials and methods . System dynamics and artificial intelligence based on UN data and decisions of international institutions. Results . A prototype of a platform-based solution for a world model, based on a space-intelligence transformer, has been developed. It is aimed at creating a monetary machine — the VITALITYSCOPE digital platform — a system for early warning of human beings about quantum-resonant phenomena in the environment, designed to predict the emergence of global crises and extend human longevity. Conclusion . The VITALITYSCOPE platform is a tool for reconciling interests in overcoming quantum-resonant phenomena on planet Earth and extending human life.",
+    "authors": [
+      "V. N. Saraev"
+    ],
+    "institutions": [
+      {
+        "name": "International Research Institute for Advanced Systems (IRIAS)",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "V. N. Saraev",
+        "institution": "International Research Institute for Advanced Systems (IRIAS)",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Information and Innovations",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：journal-article；Information and Innovations；日期 2026-10-30"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-30",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.31432/1994-2443.2026.31",
+    "work_type": "journal-article",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer world model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "vision transformer world model"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.31432/1994-2443.2026.31"
+    ],
+    "paper_url": "https://doi.org/10.31432/1994-2443.2026.31",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "Information and Innovations",
+        "venue_type": "",
+        "date": "2026-10-30",
+        "doi": "10.31432/1994-2443.2026.31"
+      }
+    ],
+    "first_seen": "2026-11-03",
     "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
@@ -15723,7 +18451,327 @@
       }
     ],
     "first_seen": "2026-11-02",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3861015",
+    "title": "Learning Improvement Heuristic via Spatio-Temporal Encoder for Pickup and Delivery Problem with Time Windows",
+    "abstract": "The Pickup-and-Delivery Problem with Time Windows (PDPTW) underpins emerging logistics applications such as ride-hailing and meal-delivery services. Hard time-window constraints make the PDPTW substantially more challenging than routing variants without temporal feasibility requirements. We propose an improvement heuristic, termed “Attention Model with Spatio-Temporal Encoder” (AMSTE). Starting from an initial feasible solution, AMSTE repeatedly applies a learned remove-and-reinsert move. Its encoder processes spatial and temporal information through separate pathways and concatenates the resulting embeddings for the removal and reinsertion decoders. The decoder mask rejects moves that violate precedence, capacity, same-vehicle, or time-window constraints. We evaluate AMSTE on synthetic instances of multiple scales and conduct a zero-shot distribution-shift evaluation on the R1, C1, and RC1 benchmark subsets. The transferred policy remains feasible on all tested instances, while the larger distance gap on C1 indicates that clustered geometry constitutes a stronger shift from the R1 training distribution. On the reported synthetic PDPTW-101 setting, AMSTE obtains an objective value 4.17% below LKH3 (10k) with substantially lower measured inference-time computation; the runtime comparison is qualified because AMSTE uses GPU batch inference whereas LKH3 runs on CPU.",
+    "authors": [
+      "Zhanhong Fang",
+      "Jinbiao Chen",
+      "Jiahai Wang",
+      "Zizhen Zhang"
+    ],
+    "institutions": [
+      {
+        "name": "Sun Yat-sen University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "National University of Singapore",
+        "country_code": "SG",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Zhanhong Fang",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jinbiao Chen",
+        "institution": "National University of Singapore",
+        "country_code": "SG",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jiahai Wang",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Zizhen Zhang",
+        "institution": "Sun Yat-sen University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN",
+      "SG"
+    ],
+    "home_scope": "国内+国外合作",
+    "venue": "ACM Transactions on Intelligent Systems and Technology",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 ACM Transactions on Intelligent Systems and Technology；日期 2026-10-30"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-30",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3861015",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "pickup and delivery problem"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "autoregressive combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3861015"
+    ],
+    "paper_url": "https://doi.org/10.1145/3861015",
+    "open_access_url": "https://dl.acm.org/doi/pdf/10.1145/3861015?download=true",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "ACM Transactions on Intelligent Systems and Technology",
+        "venue_type": "journal",
+        "date": "2026-10-30",
+        "doi": "10.1145/3861015"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1021/acs.jcim.6c02558",
+    "title": "Instance-Wise Contrastive Graph Neural Network Enables the Discovery of Novel Aedes aegypti Larvicidal Compounds",
+    "abstract": "Abstract Aedes aegypti remains a major arboviral vector, making larval control a critical strategy to reduce mosquito populations. However, resistance to commercial larvicides has reduced the long-term effectiveness of current interventions, reinforcing the need for new compounds with improved potency and selectivity. Here, we present an instance-wise contrastive graph neural network (GNN) framework to accelerate the discovery of novel larvicidal compounds. The model was trained on a curated dataset of 556 organic compounds organized into LC 50 -derived multitask classification thresholds and integrated Transformer-inspired graph learning with whole-molecule and fragment-level contrastive regularization. This model achieved strong held-out performance, with global AUC = 0.95 ± 0.01, PR-AUC = 0.93 ± 0.01, and MCC = 0.77 ± 0.03, outperforming conventional machine learning and graph-based baselines. Predictive uncertainty analysis and counterfactual maps further supported the interpretation of threshold-sensitive predictions and substructural contribution patterns. The model was applied to screen 1.3 million compounds, resulting in 10 candidates for experimental validation. Three compounds showed measurable larvicidal activity against A. aegypti larvae. Among them, LC-79 emerged as the most promising hit, with 2-day and 5-day LC 50 values of 0.24 µg/mL (0.66 µM) and 0.05 µg/mL (0.13 µM), respectively, an IE 50 of 0.06 µg/mL (0.16 µM), and rapid larval mortality (LT 50 = 1.10 days at 1 µg/mL). LC-79 also showed no measurable acute toxicity to Daphnia magna at the highest tested concentration [EC 50-48h >43 µg/mL (>119 µM)], resulting in selectivity indices >180 and >860 relative to its 2-day and 5-day LC 50 values. Overall, this study demonstrates that contrastive graph learning can move beyond retrospective larvicide modeling to experimentally validated hit discovery, identifying LC-79 as a potent and preliminarily selective acylthiourea larvicide candidate for further mechanism-of-action, resistance, and semi-field evaluation.",
+    "authors": [
+      "Karine Santana Lúcio da Costa",
+      "Gustavo Henrique Garcia Caldeira",
+      "Vinícius Alexandre Fiaia Costa",
+      "Amanda Santana Silva",
+      "Carolina da Silva Pereira",
+      "Bruna Cassimiro Batista",
+      "Luana Bafutto Manchein",
+      "Holli‐Joi Martin",
+      "Jamal Rafique",
+      "Rodolpho de Campos Braga",
+      "Muratov Eugene",
+      "Sumbal Saba",
+      "Gisele Augusto Rodrigues de Oliveira",
+      "Christian Luz",
+      "Juscelino Rodrigues",
+      "Bruno Junior Neves"
+    ],
+    "institutions": [
+      {
+        "name": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of North Carolina at Chapel Hill",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Universidade Federal da Paraíba",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Karine Santana Lúcio da Costa",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gustavo Henrique Garcia Caldeira",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Vinícius Alexandre Fiaia Costa",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Amanda Santana Silva",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Carolina da Silva Pereira",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bruna Cassimiro Batista",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Luana Bafutto Manchein",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Holli‐Joi Martin",
+        "institution": "University of North Carolina at Chapel Hill",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jamal Rafique",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Muratov Eugene",
+        "institution": "University of North Carolina at Chapel Hill",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Muratov Eugene",
+        "institution": "Universidade Federal da Paraíba",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sumbal Saba",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gisele Augusto Rodrigues de Oliveira",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Christian Luz",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Juscelino Rodrigues",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bruno Junior Neves",
+        "institution": "Universidade Federal de Goiás",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "BR",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Journal of Chemical Information and Modeling",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Journal of Chemical Information and Modeling；日期 2026-10-30"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-30",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1021/acs.jcim.6c02558",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "graph neural network",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1021/acs.jcim.6c02558"
+    ],
+    "paper_url": "https://doi.org/10.1021/acs.jcim.6c02558",
+    "open_access_url": "https://pubs.acs.org/jcisd8/article-pdf/doi/10.1021/acs.jcim.6c02558/69034191/acs.jcim.6c02558.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Journal of Chemical Information and Modeling",
+        "venue_type": "journal",
+        "date": "2026-10-30",
+        "doi": "10.1021/acs.jcim.6c02558"
+      }
+    ],
+    "first_seen": "2026-11-03",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15949,7 +18997,7 @@
       }
     ],
     "first_seen": "2026-11-02",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16218,7 +19266,7 @@
       }
     ],
     "first_seen": "2026-11-02",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -17219,7 +20267,7 @@
       }
     ],
     "first_seen": "2026-10-30",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -33221,7 +36269,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -36205,7 +39253,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -41084,7 +44132,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -53815,7 +56863,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -74391,7 +77439,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -76061,7 +79109,8 @@
     "venue": "Aerospace Science and Technology",
     "publication_status": "已发表/有期刊或会议记录（建议核验）",
     "status_evidence": [
-      "Crossref：journal-article；Aerospace Science and Technology；日期 2026-10-01"
+      "Crossref：journal-article；Aerospace Science and Technology；日期 2026-10-01",
+      "Crossref：journal-article；Aerospace Science and Technology；日期 2027-01-01"
     ],
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
     "publication_date": "2026-10-01",
@@ -76108,6 +79157,14 @@
         "venue": "Aerospace Science and Technology",
         "venue_type": "",
         "date": "2026-10-01",
+        "doi": "10.1016/j.ast.2026.113993"
+      },
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "Aerospace Science and Technology",
+        "venue_type": "",
+        "date": "2027-01-01",
         "doi": "10.1016/j.ast.2026.113993"
       }
     ],
@@ -76619,7 +79676,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -77105,6 +80162,12 @@
         "role": "adjacent",
         "weight": 0.8,
         "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
       }
     ],
     "source_names": [
@@ -77131,7 +80194,8 @@
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
-      "邻接方法：PDE、Neural Operators、谱方法与最优控制"
+      "邻接方法：PDE、Neural Operators、谱方法与最优控制",
+      "PDE、Neural Operators、谱方法与最优控制"
     ],
     "relevance_anchors": [
       "PDE"
@@ -77381,7 +80445,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -84365,7 +87429,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-02",
+    "last_status_checked": "2026-11-03",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
