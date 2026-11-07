@@ -8967,6 +8967,77 @@
     "relevance_exclusion_reasons": []
   },
   {
+    "uid": "doi:10.1145/3829340.3842300",
+    "title": "Neural Field Processing on Surfaces",
+    "abstract": "We introduce a unified framework for neural field processing on surfaces that combines implicit neural representations with the Closest Point Method (CPM), enabling intrinsic surface computation to be carried out in ambient Cartesian coordinates in a narrow band around the surface -with no explicit parameterization and no topology-dependent discretization. The framework rests on three technical contributions. First, we adapt CPM to the neural field setting: by extending field values constantly along surface normals, intrinsic differential operators reduce to their Cartesian counterparts and can be evaluated directly via a coordinate-based network. Second, we leverage the Hodge decomposition to encode surface vector fields entirely through neural scalar potentials, so that a single architecture handles scalar and vector surface fields alike, without frame-field choices or per-element discretization. Third, for near-degenerate geometries such as thin structures with closely spaced parallel faces, we lift the network input to the normal bundle to suppress leakage between sheets that are close in space but far apart along the surface. Under this formulation, a broad range of geometry processing tasks including surface PDE solving, Laplacian eigenfunction computation, reduced fluid simulation, and cross-field design for quad remeshing all reduce to variational problems solved by neural field optimization. Allowing boundary conditions or shape parameters as additional network inputs extends the benefit further: one network generalizes across an entire family of problem instances, replacing costly per-instance recomputation with fast feed-forward queries. Experimentally, we demonstrate accuracy competitive with FEM, a 30× speedup over neural competitors in eigenfunction computation, and superior cross-field quality compared to NeurCross.",
+    "authors": [
+      "Weizhou Liu",
+      "Xingyu Ni",
+      "Mathieu Desbrun",
+      "Jiong Chen"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "HAL",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-12-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3829340.3842300",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3829340.3842300"
+    ],
+    "paper_url": "https://doi.org/10.1145/3829340.3842300",
+    "open_access_url": "https://hal.science/hal-05786331",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "HAL",
+        "venue_type": "repository",
+        "date": "2026-12-01",
+        "doi": "10.1145/3829340.3842300"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1016/j.wds.2026.100331",
     "title": "Nature-based tourism: Perceptions of sustainability and innovation in business models",
     "abstract": "",
@@ -10585,6 +10656,148 @@
     ]
   },
   {
+    "uid": "doi:10.1145/3767308.3835720",
+    "title": "Generative 3D Gaussian World Models for Look-Ahead Planning in Vision-Language Navigation",
+    "abstract": "",
+    "authors": [
+      "Dongming Zhou",
+      "Jinsheng Deng",
+      "Qiumei Li",
+      "Zhengbin Pang",
+      "Xuezhuan Zhao",
+      "Shiyu Zhang"
+    ],
+    "institutions": [
+      {
+        "name": "School of Computer Science, Zhengzhou University of Aeronautics, Zhengzhou, Henan, China",
+        "country_code": "CN",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Intelligent Game and Decision Lab, Academy of Military Sciences, Beijing, China",
+        "country_code": "CN",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "School of Computer Science, National University of Defense Technology, Changsha, Hunan, China",
+        "country_code": "CN",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "School of Chemistry and Chemical Engineering, Hunan University, Hunan, Changsha, China",
+        "country_code": "CN",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Dongming Zhou",
+        "institution": "School of Computer Science, Zhengzhou University of Aeronautics, Zhengzhou, Henan, China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Jinsheng Deng",
+        "institution": "Intelligent Game and Decision Lab, Academy of Military Sciences, Beijing, China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Qiumei Li",
+        "institution": "School of Computer Science, Zhengzhou University of Aeronautics, Zhengzhou, Henan, China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Zhengbin Pang",
+        "institution": "School of Computer Science, National University of Defense Technology, Changsha, Hunan, China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Xuezhuan Zhao",
+        "institution": "School of Computer Science, Zhengzhou University of Aeronautics, Zhengzhou, Henan, China",
+        "country_code": "CN",
+        "source": "Crossref"
+      },
+      {
+        "author": "Shiyu Zhang",
+        "institution": "School of Chemistry and Chemical Engineering, Hunan University, Hunan, Changsha, China",
+        "country_code": "CN",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；Proceedings of the 34th ACM International Conference on Multimedia；日期 2026-11-09"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-09",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3767308.3835720",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning in world models"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3767308.3835720"
+    ],
+    "paper_url": "https://doi.org/10.1145/3767308.3835720",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
+        "venue_type": "",
+        "date": "2026-11-09",
+        "doi": "10.1145/3767308.3835720"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "title:dd6448440643ff",
     "title": "AI-gestuurde creatie en beoordeling van 3D-content",
     "abstract": "The demand for 3D content keeps rising across games, movies, online retail, industrial digital twins, and eXtended Reality (XR). The supply, however, depends on a complex manual process. A hand-built model passes through modeling, sculpting, unwrapping, texturing, rigging, and animation. Every stage requires a different specialist, and completing one specific model can take weeks. On the other hand, capture based alternatives, such as multi-view camera setups, require hardware and expertise that most users do not have. Artificial Intelligence (AI), and in particular Generative AI (GenAI), offers a path towards reducing these costs, since it can learn to generate new content from data rather than relying on manual effort or dedicated capture equipment. Therefore, there is a need for AI-assisted methods that operate on an input already available to everyone. Deep Generative Networks have reached impressive quality in 2D image generation. Tools such as DALL-E and Stable Diffusion can produce a photorealistic image from a short text prompt. Moreover, their ease of use has allowed for a general adoption by society as non-experts can employ these tools without dedicated training. However, extending them to 3D content raises two difficulties related to their generation and evaluation. First, a 3D model must remain consistent from every viewing direction, which typically requires many input views. Therefore, a Neural Radiance Field (NeRF), for instance, needs dozens of images of a scene to reconstruct it photorealistically. Second, the web-scale image collections that enabled 2D generation have no counterpart in 3D. Moreover, generated 3D content is difficult to evaluate. Quality is usually measured either through subjective studies or through Full-Reference (FR) metrics that compare the content against a pristine original. Neither is applicable here, since generated content is never captured and therefore has no pristine counterpart to compare against. This thesis addresses generation and quality assessment as two parts of the same problem. Therefore, this thesis hypothesizes that photorealistic 3D content can be generated from a single RGB image. Furthermore, its visual quality can be assessed without a reference. Towards this dual objective, the RGB image is first extended into a panorama. Second, it is converted into 3D and textures are added. Third, dynamic human avatars must be included in a photorealistic manner to enable interaction. The work in this thesis is organized around these three research topics, and for each one, challenges related to generation and assessment are tackled. The first topic extends a narrow Field-of-View (nFoV) image into a panoramic image. The extrapolated region must remain coherent with the observed input, and the result must respect the spherical geometry of a 360-degree image. Three contributions are presented, two on generation and one on assessment. First, 360-GAN addresses both requirements, spherical consistency and visual fidelity, by combining a cycle consistent adversarial framework with a structural similarity loss, and reaches a Fréchet Inception Distance (FID) of 46.59, nearly 6 points better than the state-of-the-art. Second, PanoLoRA builds the guidance into the architecture instead. Circular padding removes the discontinuity where the panorama wraps, and Low-Rank Adaptation (LoRA) adapts a pretrained diffusion model to the panoramic domain by tuning just 0.8% of its parameters, improving FID by 20 points over the state-of-the-art method. Third, on the topic of assessment, QAPIC-VR introduces a framework for performing subjective evaluation of generated RGBD panoramic indoor scenes in Virtual Reality (VR). To validate it, thirty participants evaluated the visual quality and realism of indoor scenes generated using state-of-the-art models, including PanoLoRA. A Friedman test confirmed significant differences between the generators, and PanoLoRA showed the smallest gap to ground truth on every measure. The second topic reconstructs 3D content from a single 2D image, where the geometry and the appearance are recovered separately. Three contributions are presented, two on generation, 3D-Scene-Former and GGD-Tex, and one on assessment, MHyNet-PC. First, 3D-Scene-Former estimates the geometry, refining its initial 3D predictions with a transformer, and outperforms the state-of-the-art in 3D object detection and 3D pose estimation by 11.37%. Second, GGD-Tex synthesizes the texture. It maps the image onto the recovered geometry through predicted masks and depth, and drives a diffusion model conditioned jointly on geometric and visual cues through multi-modal cross-attention, so that the appearance remains consistent with the shape. It improves the FID score by 9.38 points over the leading method. Third, MHyNet-PC introduces a No-Reference (NR) quality assessment framework for point clouds and meshes. Statistical descriptors of the raw geometry are combined with learned features of its rendered projections, raising prediction accuracy by 10% over the state-of-the-art while cutting inference time by 40%. The third topic sets the content in motion and narrows the target to the human. Two contributions are presented, one on generation, PhysAvatar3D, and one on assessment, GAMQ. First, PhysAvatar3D addresses a limitation of pixel-level supervision. Such supervision does not constrain what the input image does not show, so an avatar can satisfy the loss while remaining physically implausible from other viewpoints. PhysAvatar3D overcomes this by consulting a frozen Vision Language Model (VLM) during training. The model inspects the current rendering for physically impossible body regions, and its verdicts become a penalty that removes the offending geometry. The resulting avatar, built as 3D Gaussian splats, outperforms the state-of-the-art methods HumanLift, IDOL, and LHM by 4.090, 5.579, and 2.343 dB in Peak Signal-to-Noise Ratio (PSNR), respectively. Second, GAMQ introduces an NR quality assessment model for dynamic 3D human avatars. It extracts geometry, appearance, and motion features with dedicated encoders, fuses them through cross-attention, and achieves a Pearson Linear Correlation Coefficient (PLCC) of 0.8399 on the DDH-QA dataset, outperforming both FR and NR state-of-the-art methods. Beyond these technical contributions, the methods developed in this thesis have practical value across several application domains. In cultural heritage, a museum can build an immersive XR experience of a room or an artwork from 2D image, rather than from a costly multi-view capture system. In retail, a single 2D image of a product can be turned into a 3D model for an online store. In real estate and interior planning, a room can be reconstructed from one image for virtual staging and redesign. In telepresence, a person can be represented by a dynamic 3D avatar built from a single 2D image. In each of these domains, 3D content is needed, but the equipment and expertise to capture it are not available, which is precisely the gap that a single-image approach fills. In conclusion, this thesis shows that photorealistic 3D content can be generated from a single RGB image, provided that the model is guided towards a plausible completion of what the image does not show, and that its visual quality can be assessed without a reference, provided that the assessment combines several modalities and it is aligned with human judgment. Thus, a single photograph becomes a sufficient starting point for assisting 3D content creation. This lowers the barrier for small teams and individual creators, and it serves applications such as XR, digital twins, and telepresence.",
@@ -10595,7 +10808,7 @@
     "affiliations": [],
     "institution_countries": [],
     "home_scope": "未知",
-    "venue": "Lirias (KU Leuven)",
+    "venue": "Lirias",
     "publication_status": "未知（元数据不足）",
     "status_evidence": [
       "当前来源没有提供足以判断发表状态的信息。"
@@ -10654,9 +10867,104 @@
         "venue_type": "repository",
         "date": "2026-11-09",
         "doi": ""
+      },
+      {
+        "source": "OpenAlex",
+        "work_type": "dissertation",
+        "venue": "Lirias",
+        "venue_type": "repository",
+        "date": "2026-11-09",
+        "doi": ""
       }
     ],
     "first_seen": "2026-10-29",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/s40314-026-03926-8",
+    "title": "Policy iteration for Hamilton–Jacobi–Isaacs equations with control constraints and comparison with Hamilton–Jacobi–Bellman equations",
+    "abstract": "",
+    "authors": [
+      "Sudeep Kundu",
+      "Karl K. Kunisch"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Computational and Applied Mathematics",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Computational and Applied Mathematics；日期 2026-11-06"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-06",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/s40314-026-03926-8",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "Hamilton-Jacobi-Bellman"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/s40314-026-03926-8"
+    ],
+    "paper_url": "https://doi.org/10.1007/s40314-026-03926-8",
+    "open_access_url": "https://arxiv.org/pdf/2609.29368",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Computational and Applied Mathematics",
+        "venue_type": "journal",
+        "date": "2026-11-06",
+        "doi": "10.1007/s40314-026-03926-8"
+      }
+    ],
+    "first_seen": "2026-11-07",
     "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
@@ -10738,6 +11046,147 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1145/3767308.3836232",
+    "title": "When Helpful Text Hurts: Option-Redirecting Bias in Vision–Language Models",
+    "abstract": "In tri-modal visual question answering (VQA), auxiliary text is commonly used to complement visual and textual inputs, yet its reliability is often uncontrolled. While prior work studies modality conflicts in general, it remains unclear how different types of unreliable auxiliary text affect answer selection under fixed image-question-option contexts. In this work, we show that the most harmful auxiliary text is not necessarily the most factually incorrect, but the one that aligns with the question while contradicting the image and favoring a specific distractor, leading to systematic redirection of model predictions. To isolate this effect, we introduce the Textual Reliability Ladder, a controlled diagnostic protocol that decomposes auxiliary text along three axes: image consistency, question relevance, and option support. Across multiple datasets (ScienceQA, VCR, A-OKVQA, Causal-VidQA) and recent VLMs, we find that such distractor-supporting text induces the largest accuracy drops (up to 53.1%) and concentrates errors on specific incorrect options. To mitigate this failure mode, we propose a training-free inference-time intervention that explicitly counteracts this redirection effect via noise-stability steering and dynamic grounding, reducing redirected errors while largely preserving performance under faithful text. Our results highlight that auxiliary-text reliability must be understood at the decision level, rather than solely through factual correctness, and provide a practical pathway toward more robust tri-modal reasoning.",
+    "authors": [
+      "Tam Le Thi Thanh",
+      "Hoang Tran Van",
+      "Hong-Hanh Nguyen-Le",
+      "Thanh Duc Ngo"
+    ],
+    "institutions": [
+      {
+        "name": "Vietnam National University Ho Chi Minh City",
+        "country_code": "VN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Information Technology",
+        "country_code": "VN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University College Dublin",
+        "country_code": "IE",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Tam Le Thi Thanh",
+        "institution": "Vietnam National University Ho Chi Minh City",
+        "country_code": "VN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Tam Le Thi Thanh",
+        "institution": "University of Information Technology",
+        "country_code": "VN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Hoang Tran Van",
+        "institution": "Vietnam National University Ho Chi Minh City",
+        "country_code": "VN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Hoang Tran Van",
+        "institution": "University of Information Technology",
+        "country_code": "VN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Hong-Hanh Nguyen-Le",
+        "institution": "University College Dublin",
+        "country_code": "IE",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Thanh Duc Ngo",
+        "institution": "Vietnam National University Ho Chi Minh City",
+        "country_code": "VN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Thanh Duc Ngo",
+        "institution": "University of Information Technology",
+        "country_code": "VN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "IE",
+      "VN"
+    ],
+    "home_scope": "国外",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on Multimedia (ACM MM)；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3767308.3836232",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "vision-language model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "autoregressive combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3767308.3836232"
+    ],
+    "paper_url": "https://doi.org/10.1145/3767308.3836232",
+    "open_access_url": "https://doi.org/10.1145/3767308.3836232",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on Multimedia (ACM MM)",
+        "venue_type": "conference",
+        "date": "2026-11-05",
+        "doi": "10.1145/3767308.3836232"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2611.07646",
     "title": "WaSP: Wasserstein Data Synthesis Pipeline for Solver-Free Operator Learning",
     "abstract": "Neural operators offer fast surrogates for solving PDEs, but training them typically requires expensive input-solution pairs. Two solver-free alternatives include physics-informed learning and training on manufactured data. Physics-informed learning approximates solutions by minimizing PDE residuals. While the residual norm must be strong enough to control solution error, stronger norms increase mini-batch variance and hinder optimization. Manufactured data constructs input-solution pairs for learning by applying the PDE operator to artificial solutions. However, the resulting training distribution can be mutually singular with the target distribution, yielding poor accuracy on the target distribution. We introduce the Wasserstein Data Synthesis Pipeline (WaSP), which trains on manufactured input-solution pairs while gradually mitigating the distribution shift. WaSP synthesizes new pairs by applying the learned operator to a path of intermediate distributions converging to the target input distribution. Training proceeds in stages along this path. At each stage, the previous surrogate generates solutions, and the exact PDE operator derives corresponding inputs, yielding training pairs for the next surrogate. Theoretically, we prove a stepwise error-propagation bound for the distribution shift introduced during synthesis. Empirically, WaSP reduces solution error by $3.9\\times$ to $9.5\\times$ compared to existing solver-free methods on PDEs such as Allen-Cahn, Kuramoto-Sivashinsky, and Ginzburg-Landau, and better reproduces the two chaotic systems' statistical observables.",
@@ -10809,7 +11258,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -10887,7 +11336,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -10964,6 +11413,128 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1103/ydpy-by46",
+    "title": "Quantum alternating operator ansatz beyond low depth with gradually changing unitaries",
+    "abstract": "The Quantum Approximate Optimization Algorithm and its generalization to Quantum Alternating Operator Ansatz (QAOA) is a promising approach for applying quantum computers to challenging problems such as combinatorial optimization and computational chemistry. In this paper, we study the underlying mechanisms governing the behavior of QAOA circuits beyond shallow depth in the practically relevant setting of gradually varying unitaries. We use the discrete adiabatic theorem, which complements and generalizes the insights obtained from the continuous-time adiabatic theorem primarily considered in prior work. Our analysis explains some general properties that are conspicuously depicted in the recently introduced QAOA performance diagrams. For parameter sequences derived from continuous schedules (e.g. linear ramps), these diagrams capture the algorithm's performance over different parameter sizes and circuit depths. Surprisingly, they have been observed to be qualitatively similar across different performance metrics and application domains. Our analysis explains this behavior as well as entails some unexpected results, such as connections between the eigenstates of the cost and mixer QAOA Hamiltonians changing based on parameter size and the possibility of reducing circuit depth without sacrificing performance.",
+    "authors": [
+      "Vladimir Kremenetski",
+      "Anuj Apte",
+      "Tad Hogg",
+      "Stuart Hadfield",
+      "Norm M. Tubman"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Physical Review A",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Physical Review A；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1103/ydpy-by46",
+    "work_type": "article",
+    "citation_count": 11,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "neural combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "diffusion combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      },
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduction-based combinatorial optimization"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural spectral method"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "diffusion model combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "graph neural network combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1103/ydpy-by46"
+    ],
+    "paper_url": "https://doi.org/10.1103/ydpy-by46",
+    "open_access_url": "https://arxiv.org/pdf/2305.04455",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Physical Review A",
+        "venue_type": "journal",
+        "date": "2026-11-05",
+        "doi": "10.1103/ydpy-by46"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2611.07867",
     "title": "PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State",
     "abstract": "Building a playable world requires more than generating plausible video: it demands responsive control, persistent spatial structure, and coherent interactions with dynamic entities. Using generated frames as the sole recurrent world representation ties these requirements to view-dependent appearance synthesis, making it difficult to maintain long-term spatial and temporal consistency in generation and interaction. We present PlayGen2, a real-time interactive world model that separates learned 3D state evolution from neural rendering. PlayGen2 maintains a persistent world memory comprising static geometry represented by a volumetric occupancy grid and identity-indexed 3D states for the player and other entities. Within a fixed-size local region, its world-state model jointly learns action-conditioned entity dynamics, geometry completion, and entity discovery, committing updates to a persistent world memory. A separate neural renderer synthesizes first-person observations from depth and semantic projections of the world state, without feeding generated images back into state prediction. Using Doom as a testbed, we demonstrate that the model successfully learns world dynamics including geometry-aware player motion and player--NPC interactions. The framework is computationally efficient, enabling the complete simulation and rendering pipeline to achieve approximately 160ms backend latency on a MacBook Pro with an M4 Pro chip. Beyond single-player interaction, we demonstrate zero-shot deployment on unseen Doom maps, multiplayer interaction through the composition of single-player models, and programmable gameplay through rule-based state interventions. These capabilities demonstrate the transferability and extensibility of the learned game-world model. Code and pretrained model weights are publicly available.",
@@ -11035,7 +11606,235 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3767308.3836500",
+    "title": "MASCOT: Model-Aware Submodular Coverage for Composite-Attribute Text-to-Image Retrieval",
+    "abstract": "Vision-Language Models (VLMs) are highly effective in retrieving semantically relevant images. However, in practice, relevance alone is often insufficient. Systems must also achieve Result Diversification (RD) across composite attributes such as geography and time, a task for which precise control remains challenging. Current re-ranking methods, such as Multi-Source Determinantal Point Processes (MS-DPP), address this using manifold-based repulsion over similarity representations. Although this strategy is effective for broad exploration, it exposes a key limitation in manifold-based models: when subjected to diversity-decrease tasks on discrete metadata, they suffer substantial degradation in early-rank recall. To bridge this gap, we introduce MASCOT (Model-Aware Submodular Coverage for Composite-Attribute Text-to-Image Retrieval). Instead of relying on manifold repulsion, MASCOT formulates multi-attribute diversity as a resource allocation problem, projecting attributes into a soft-binning space weighted by query-driven importance. Averaged across the three PixelProse diversity-decrease tasks, MASCOT preserves an early-rank recall (R@10) of 88.58%, while MS-DPP retains 67.63%. The margin widens under composite constraints: on PP_geo_hour, where temporal and geographic diversity must be suppressed simultaneously, MS-DPP's recall collapses from 0.9737 to 0.4931 and its top-ranked result degrades to R@1 = 0.23, while MASCOT holds R@10 = 0.9410 and R@1 = 0.7202 at a diversity metric above the unconstrained baseline. We do not claim uniform superiority: on aggregate diversity-relevance scores our own simpler ablations attain higher harmonic means on all three decrease tasks, and MASCOT's advantage is specific to recall beyond rank 1 under composite constraints.",
+    "authors": [
+      "Aaryan Sharma",
+      "Vishak Prasad C",
+      "Virendra Singh",
+      "Ganesh Ramakrishnan"
+    ],
+    "institutions": [
+      {
+        "name": "Indian Institute of Technology Bombay",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Aaryan Sharma",
+        "institution": "Indian Institute of Technology Bombay",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Vishak Prasad C",
+        "institution": "Indian Institute of Technology Bombay",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Virendra Singh",
+        "institution": "Indian Institute of Technology Bombay",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Ganesh Ramakrishnan",
+        "institution": "Indian Institute of Technology Bombay",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "IN"
+    ],
+    "home_scope": "国外",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on Multimedia (ACM MM)；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3767308.3836500",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "vision-language model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3767308.3836500"
+    ],
+    "paper_url": "https://doi.org/10.1145/3767308.3836500",
+    "open_access_url": "https://doi.org/10.1145/3767308.3836500",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on Multimedia (ACM MM)",
+        "venue_type": "conference",
+        "date": "2026-11-05",
+        "doi": "10.1145/3767308.3836500"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1088/2058-9565/aebe5e",
+    "title": "Locally acting Grover mixers for constraint-preserving QAOA",
+    "abstract": "Abstract The Grover mixer quantum alternating operator ansatz (GM-QAOA) employs the Grover mixer to confine the quantum evolution to the feasible subspace defined by the problem. Its mixing unitary, however, requires a global multi-controlled phase-shift gate acting on all qubits, resulting in substantial circuit overhead on near-term quantum devices. In this work, we propose locally acting Grover mixers with independent variational parameters, tailored to initial states that admit a product structure over disjoint qubit subsystems, which may be obtained by encoding only a subset of problem constraints into the initial state preparation. The proposed method preserves the search space defined by the initial state while reducing the mixing-circuit gate count and depth relative to the global Grover mixer, as the global multi-controlled phase-shift gate is replaced with local operations on disjoint subsystems. Numerical simulations on the exact-cover problem and the traveling salesman problem (TSP) demonstrate that the proposed method achieves solution probabilities comparable to those of the original GM-QAOA, while using shallower circuits with fewer gates. Comparisons with shared-angle local Grover and partitioned XY-ring mixers characterize the trade-offs between solution quality, circuit complexity, and optimization overhead. We further compare two constraint encoding strategies for the TSP, encoding only a subset of constraints versus all constraints into the initial state preparation, and show that the former combined with the proposed mixer can yield markedly more compact circuits at the point where comparable solution quality is achieved.",
+    "authors": [
+      "Minjin Choi",
+      "Dongkeun Lee",
+      "Junghee Ryu"
+    ],
+    "institutions": [
+      {
+        "name": "Korea Institute of Science & Technology Information",
+        "country_code": "KR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Minjin Choi",
+        "institution": "Korea Institute of Science & Technology Information",
+        "country_code": "KR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Dongkeun Lee",
+        "institution": "Korea Institute of Science & Technology Information",
+        "country_code": "KR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Junghee Ryu",
+        "institution": "Korea Institute of Science & Technology Information",
+        "country_code": "KR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "KR"
+    ],
+    "home_scope": "国外",
+    "venue": "Quantum Science and Technology",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Quantum Science and Technology；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1088/2058-9565/aebe5e",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "traveling salesman",
+      "TSP"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "diffusion combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "diffusion model combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1088/2058-9565/aebe5e"
+    ],
+    "paper_url": "https://doi.org/10.1088/2058-9565/aebe5e",
+    "open_access_url": "https://doi.org/10.1088/2058-9565/aebe5e",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Quantum Science and Technology",
+        "venue_type": "journal",
+        "date": "2026-11-05",
+        "doi": "10.1088/2058-9565/aebe5e"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11108,7 +11907,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11180,7 +11979,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11261,7 +12060,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11350,7 +12149,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11426,7 +12225,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11501,7 +12300,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11656,7 +12455,266 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1103/rv6r-hm7k",
+    "title": "Fully quantum algorithmic framework for partial differential equation-constrained optimization",
+    "abstract": "Partial differential equation (PDE)-constrained optimization, where an optimization problem is subject to PDE constraints, arises in various applications such as design, control, and inference. Solving such problems is computationally demanding because it requires repeatedly solving a PDE and using its solution within an optimization process. In this paper, we first propose a fully coherent quantum algorithm for solving PDE-constrained optimization problems. The proposed method combines a quantum PDE solver that prepares the solution vector as a quantum state, and a quantum optimizer that assumes oracle access to a quantized objective function. The central idea is the explicit construction of the oracle in a form of block-encoding for the objective function, which coherently uses the output of a quantum PDE solver. This enables us to avoid classical access to the full solution that requires quantum state tomography canceling out the potential quantum speedups. We also derive the overall computational complexity of the proposed method with respect to parameters for optimization and PDE simulation, where quantum speedup is inherited from the underlying quantum PDE solver. We numerically demonstrate the validity of the proposed method by applications, including a parameter calibration problem in the Black-Scholes equation and a material parameter design problem in the wave equation. This work presents the concept of composing quantum subroutines so that the weakness of one (i.e., prohibitive readout overhead) is neutralized by the strength of another (i.e., coherent oracle access), toward a bottleneck-free quantum algorithm.",
+    "authors": [
+      "Yuki Sato",
+      "Jumpei Kato",
+      "Hiroshi Yano",
+      "Kosuke Ito",
+      "Naoki Yamamoto"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Physical Review Applied",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Physical Review Applied；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1103/rv6r-hm7k",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "partial differential equation",
+      "PDE",
+      "PDE-constrained"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "reduce-then-solve combinatorial optimization"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1103/rv6r-hm7k"
+    ],
+    "paper_url": "https://doi.org/10.1103/rv6r-hm7k",
+    "open_access_url": "https://arxiv.org/pdf/2511.14420",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Physical Review Applied",
+        "venue_type": "journal",
+        "date": "2026-11-05",
+        "doi": "10.1103/rv6r-hm7k"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/s10444-026-10376-7",
+    "title": "Finite basis Kolmogorov-Arnold networks: Domain decomposition for data-driven and physics-informed problems",
+    "abstract": "Abstract Kolmogorov-Arnold networks (KANs) have attracted attention recently as an alternative to multilayer perceptrons (MLPs) for scientific machine learning. However, KANs can be expensive to train, even for relatively small networks. Inspired by finite basis physics-informed neural networks (FBPINNs), in this work, we develop a domain decomposition-based architecture for KANs that allows for several small KANs to be trained in parallel to give accurate solutions for multiscale problems. We denote this new approach as finite basis KANs (FBKANs) and show that it yields accurate results for noisy data as well as physics-informed training. We extend to multilevel FBKANs, which train KANs across multiple levels of subdomains simultaneously. We show that FBKANs outperform KANs for multiscale problems, even when the KANs are adapted with grid extension.",
+    "authors": [
+      "Amanda A. Howard",
+      "Bruno Jacob",
+      "Sarah Helfert",
+      "Alexander Heinlein",
+      "Panos Stinis"
+    ],
+    "institutions": [
+      {
+        "name": "Pacific Northwest National Laboratory",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of North Carolina at Charlotte",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Delft University of Technology",
+        "country_code": "NL",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Washington",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Brown University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Amanda A. Howard",
+        "institution": "Pacific Northwest National Laboratory",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bruno Jacob",
+        "institution": "Pacific Northwest National Laboratory",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sarah Helfert",
+        "institution": "University of North Carolina at Charlotte",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sarah Helfert",
+        "institution": "Pacific Northwest National Laboratory",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Alexander Heinlein",
+        "institution": "Delft University of Technology",
+        "country_code": "NL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Panos Stinis",
+        "institution": "Pacific Northwest National Laboratory",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Panos Stinis",
+        "institution": "University of Washington",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Panos Stinis",
+        "institution": "Brown University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "NL",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Advances in Computational Mathematics",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Advances in Computational Mathematics；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/s10444-026-10376-7",
+    "work_type": "article",
+    "citation_count": 31,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "adaptive spectral method"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural spectral method"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/s10444-026-10376-7"
+    ],
+    "paper_url": "https://doi.org/10.1007/s10444-026-10376-7",
+    "open_access_url": "https://doi.org/10.1007/s10444-026-10376-7",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Advances in Computational Mathematics",
+        "venue_type": "journal",
+        "date": "2026-11-05",
+        "doi": "10.1007/s10444-026-10376-7"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11733,7 +12791,230 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/978-981-92-7744-5_26",
+    "title": "Decision-Oriented Uncertainty Quantification for Risk Control in Earth System Spatiotemporal Foundation Models",
+    "abstract": "",
+    "authors": [
+      "Ji LU",
+      "Hao-yu Duan",
+      "Bo Zhao",
+      "Xianglong Wang",
+      "Yiru Fang",
+      "Kuo Yang",
+      "Xiaoqin Feng",
+      "Jianping Gou"
+    ],
+    "institutions": [
+      {
+        "name": "Vanderbilt University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "City University of New York",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Yale University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Merck Canada Inc. (Canada)",
+        "country_code": "CA",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Northeastern University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Southern California",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Southwest University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Ji LU",
+        "institution": "Vanderbilt University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Hao-yu Duan",
+        "institution": "City University of New York",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bo Zhao",
+        "institution": "Yale University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xianglong Wang",
+        "institution": "Merck Canada Inc. (Canada)",
+        "country_code": "CA",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Yiru Fang",
+        "institution": "Merck Canada Inc. (Canada)",
+        "country_code": "CA",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kuo Yang",
+        "institution": "Northeastern University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xiaoqin Feng",
+        "institution": "University of Southern California",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jianping Gou",
+        "institution": "Southwest University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CA",
+      "CN",
+      "US"
+    ],
+    "home_scope": "国内+国外合作",
+    "venue": "Lecture notes in computer science",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/978-981-92-7744-5_26",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "foundation model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "diffusion combinatorial optimization"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "diffusion model combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "graph neural network combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/978-981-92-7744-5_26"
+    ],
+    "paper_url": "https://doi.org/10.1007/978-981-92-7744-5_26",
+    "open_access_url": "https://arxiv.org/pdf/2609.14821",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Lecture notes in computer science",
+        "venue_type": "book series",
+        "date": "2026-11-05",
+        "doi": "10.1007/978-981-92-7744-5_26"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11811,6 +13092,165 @@
     ]
   },
   {
+    "uid": "doi:10.1145/3767308.3836126",
+    "title": "CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies",
+    "abstract": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-stage formulation that restructures action generation into a coarse initialization step that constructs an action-aware starting point, followed by a single-step local refinement that corrects residual errors. Concretely, the coarse stage learns a conditional posterior over endpoint velocity to transform Gaussian noise into a structured initialization, while the fine stage performs a fixed-time refinement from this initialization. To stabilize training, we introduce a stepwise strategy that first learns a controlled coarse predictor and then performs joint optimization. Experiments on CALVIN and LIBERO show that our method establishes a strong efficiency-performance frontier under low-NFE (Number of Function Evaluations) regimes: it consistently outperforms existing NFE=2 methods, matches or surpasses the NFE=10 $π_{0.5}$ baseline on several metrics, reduces action sampling latency by 75.4%, and achieves the best average real-robot success rate of 83.0%, outperforming MIP by 19.5 points and $π_{0.5}$ by 4.0 points. These results suggest that structured, coarse-to-fine generation enables both strong performance and efficient inference. Our code is available at https://github.com/EmbodiedAI-RoboTron/CF-VLA.",
+    "authors": [
+      "Fan Du",
+      "Feng Yan",
+      "Jianxiong Wu",
+      "Xinrun Xu",
+      "Weiye Zhang",
+      "Weinong Wang",
+      "Yu Guo",
+      "Bin Qian",
+      "Zhihai He",
+      "Fei Wang",
+      "Heng Yang"
+    ],
+    "institutions": [
+      {
+        "name": "Southern University of Science and Technology",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Xi'an Jiaotong University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Chinese Academy of Sciences",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Tsinghua University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Fan Du",
+        "institution": "Southern University of Science and Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Feng Yan",
+        "institution": "Xi'an Jiaotong University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xinrun Xu",
+        "institution": "University of Chinese Academy of Sciences",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Weinong Wang",
+        "institution": "Xi'an Jiaotong University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Yu Guo",
+        "institution": "Xi'an Jiaotong University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bin Qian",
+        "institution": "Tsinghua University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Zhihai He",
+        "institution": "Southern University of Science and Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Fei Wang",
+        "institution": "Xi'an Jiaotong University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on Multimedia (ACM MM)；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3767308.3836126",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "vision-language action",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3767308.3836126"
+    ],
+    "paper_url": "https://doi.org/10.1145/3767308.3836126",
+    "open_access_url": "https://doi.org/10.1145/3767308.3836126",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on Multimedia (ACM MM)",
+        "venue_type": "conference",
+        "date": "2026-11-05",
+        "doi": "10.1145/3767308.3836126"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1007/978-3-032-43170-7_25",
     "title": "Applying Neural Combinatorial Optimization for the Generalized Regenerator Location Problem",
     "abstract": "",
@@ -11820,10 +13260,45 @@
       "Abraham Duarte",
       "Jose Manuel Colmenar"
     ],
-    "institutions": [],
-    "affiliations": [],
-    "institution_countries": [],
-    "home_scope": "未知",
+    "institutions": [
+      {
+        "name": "Universidad Rey Juan Carlos",
+        "country_code": "ES",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Lucas Martín-García",
+        "institution": "Universidad Rey Juan Carlos",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Isaac Lozano-Osorio",
+        "institution": "Universidad Rey Juan Carlos",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Abraham Duarte",
+        "institution": "Universidad Rey Juan Carlos",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jose Manuel Colmenar",
+        "institution": "Universidad Rey Juan Carlos",
+        "country_code": "ES",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "ES"
+    ],
+    "home_scope": "国外",
     "venue": "Lecture notes in computer science",
     "publication_status": "未知（元数据不足）",
     "status_evidence": [
@@ -11841,7 +13316,8 @@
       "Neural Combinatorial Optimization 与神经搜索"
     ],
     "search_topics": [
-      "Neural Combinatorial Optimization 与神经搜索"
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
     ],
     "relevance_status": "in_scope",
     "relevance_anchors": [
@@ -11856,6 +13332,12 @@
         "role": "core",
         "weight": 1.0,
         "query_term": "neural combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "graph neural network combinatorial optimization"
       }
     ],
     "source_names": [
@@ -11878,6 +13360,120 @@
       }
     ],
     "first_seen": "2026-11-06",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3767308.3835961",
+    "title": "ALIEN: Analytic Latent Watermarking for Controllable Generation",
+    "abstract": "Watermarking is a technical alternative to safeguarding intellectual property and reducing misuse. Existing methods focus on optimizing watermarked latent variables to balance watermark robustness and fidelity, as Latent diffusion models (LDMs) are considered a powerful tool for generative tasks. However, reliance on computationally intensive heuristic optimization for iterative signal refinement results in high training overhead and local optima entrapment.To address these issues, we propose an \\underline{A}na\\underline{l}ytical Watermark\\underline{i}ng Framework for Controllabl\\underline{e} Generatio\\underline{n} (ALIEN). We develop the first analytical derivation of the time-dependent modulation coefficient that guides the diffusion of watermark residuals to achieve controllable watermark embedding pattern.Experimental results show that ALIEN-Q outperforms the state-of-the-art by 33.1\\% across 5 quality metrics, and ALIEN-R demonstrates 14.0\\% improved robustness against generative variant and stability threats compared to the state-of-the-art across 15 distinct conditions. Code can be available at https://anonymous.4open.science/r/ALIEN/.",
+    "authors": [
+      "Liangqi Lei",
+      "Jing Yu",
+      "Keke Gai",
+      "Liehuang Zhu"
+    ],
+    "institutions": [
+      {
+        "name": "Beijing Institute of Technology",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Minzu University of China",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Liangqi Lei",
+        "institution": "Beijing Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jing Yu",
+        "institution": "Minzu University of China",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Keke Gai",
+        "institution": "Beijing Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Liehuang Zhu",
+        "institution": "Beijing Institute of Technology",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on Multimedia (ACM MM)；日期 2026-11-05"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-05",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3767308.3835961",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "diffusion model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3767308.3835961"
+    ],
+    "paper_url": "https://doi.org/10.1145/3767308.3835961",
+    "open_access_url": "https://doi.org/10.1145/3767308.3835961",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on Multimedia (ACM MM)",
+        "venue_type": "conference",
+        "date": "2026-11-05",
+        "doi": "10.1145/3767308.3835961"
+      }
+    ],
+    "first_seen": "2026-11-07",
     "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
@@ -12044,7 +13640,7 @@
       }
     ],
     "first_seen": "2026-11-05",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12556,7 +14152,7 @@
       }
     ],
     "first_seen": "2026-11-05",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12627,7 +14223,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12913,7 +14509,7 @@
       }
     ],
     "first_seen": "2026-11-05",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13411,6 +15007,120 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1088/1361-6420/aebdbf",
+    "title": "A variable-separation ensemble transport method for Bayesian inference of parametric PDEs",
+    "abstract": "Abstract This paper presents a variable-separation ensemble transport method (VSET) for inferring parameters in large-scale parametric partial differential equations (PDEs). Traditional Bayesian or ensemble-based approaches are often computationally prohibitive, as accurate inference typically requires many expensive partial differential equation (PDE) solves. To this end, we develop a coupled input--output reduction framework that constructs a low-rank approximation of the parameter-to-observable (PtO) map. The proposed method employs a shared stochastic basis, derived from the original system, to simultaneously span reduced subspaces for both the parameter field and the corresponding observables. The {variable-separation (VS)} expansion is precomputed offline using prior information, providing a finite-dimensional representation of the unknown parameters. Within a Kalman filtering framework, the forecast step employs the reduced VS model to approximate the forward PDE solution, while the analysis step updates the coefficient ensemble by assimilating observational data. Furthermore, to enhance the reusability and generalization of the stochastic basis functions, the VS representation, constructed from a single steady-state model, is subsequently applied to a family of steady-state and time-dependent models with varying boundary conditions, source terms, or diffusion coefficients. We also establish a Hellinger error estimate for the VS-truncated posterior measure. Finally, numerical experiments demonstrate that the proposed VSET method achieves a reliable and computationally tractable approximation of the estimated parameters for complex parametric PDEs.",
+    "authors": [
+      "Yuming Ba",
+      "Qiuqi Li",
+      "Pingwen Zhang"
+    ],
+    "institutions": [
+      {
+        "name": "Guangdong Polytechnic Normal University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Hunan University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Wuhan University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Yuming Ba",
+        "institution": "Guangdong Polytechnic Normal University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Qiuqi Li",
+        "institution": "Hunan University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Pingwen Zhang",
+        "institution": "Wuhan University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Inverse Problems",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Inverse Problems；日期 2026-11-04"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-04",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1088/1361-6420/aebdbf",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "partial differential equation",
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1088/1361-6420/aebdbf"
+    ],
+    "paper_url": "https://doi.org/10.1088/1361-6420/aebdbf",
+    "open_access_url": "https://iopscience.iop.org/article/10.1088/1361-6420/aebdbf/pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Inverse Problems",
+        "venue_type": "journal",
+        "date": "2026-11-04",
+        "doi": "10.1088/1361-6420/aebdbf"
+      }
+    ],
+    "first_seen": "2026-11-07",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2611.06597",
     "title": "A trust layer for fast pedestal-stability surrogates: calibrated error bars, out-of-distribution alarms and few-shot recalibration",
     "abstract": "Machine-learning surrogates of linear peeling-ballooning stability now run in milliseconds, but they are mostly deployed as point estimators: they do not say how wrong they may be, or when a query lies outside what they were trained on. For a fusion company designing a new device, every equilibrium of interest is outside the training data of existing surrogates, so this is the case that matters. We describe a model-agnostic trust layer for stability surrogates, made of conformal error bars, out-of-distribution alarms that route doubtful cases to the physics code, and recalibration from a few simulations of a new design, and we test it with pre-registered hypotheses. On a large public dataset of JET-like equilibria with ideal-MHD growth rates, the error bars hold their nominal coverage in distribution and fall short under a shift in plasma shape; a few dozen simulations of the new shape, or routing the cases the alarms flag, restore it. On resistive BOUT++ surrogates, the bars stay calibrated on held-out runs, the alarm flags tokamaks absent from training, and a scenario scan is screened in seconds instead of hours. Across equilibria from the SPARC library and the DIII-D coil set, a surrogate trained on our own graded BOUT++ labels beats the baseline on unseen equilibria, while a surrogate trained elsewhere ranks the same cases backwards and its alarm declines them. Building our own neural-operator surrogate, the harness exposed two input defects whose fix closed its gap to a simple network. For every surrogate tested, the trust layer keeps coverage near target, with a bar width set by that surrogate's own error. Not every pre-registered hypothesis held, and we report those results and the limits of all of them.",
@@ -13476,7 +15186,7 @@
       }
     ],
     "first_seen": "2026-11-05",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13654,7 +15364,7 @@
       }
     ],
     "first_seen": "2026-11-06",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14269,7 +15979,7 @@
       }
     ],
     "first_seen": "2026-11-05",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14344,7 +16054,7 @@
       }
     ],
     "first_seen": "2026-11-04",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14694,7 +16404,7 @@
       }
     ],
     "first_seen": "2026-11-04",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15104,7 +16814,7 @@
       }
     ],
     "first_seen": "2026-11-05",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15513,7 +17223,7 @@
       }
     ],
     "first_seen": "2026-11-04",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15918,7 +17628,7 @@
       }
     ],
     "first_seen": "2026-11-04",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16308,7 +18018,7 @@
       }
     ],
     "first_seen": "2026-11-04",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18376,7 +20086,7 @@
       }
     ],
     "first_seen": "2026-11-04",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -23948,7 +25658,7 @@
       }
     ],
     "first_seen": "2026-11-03",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -43018,7 +44728,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -46002,7 +47712,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -50881,7 +52591,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -63612,7 +65322,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -78790,14 +80500,42 @@
       "Yanping Chen",
       "Fangfang Qin"
     ],
-    "institutions": [],
-    "affiliations": [],
+    "institutions": [
+      {
+        "name": "College of Science, Nanjing University of Posts and Telecommunications",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Bingchi Liu",
+        "institution": "College of Science, Nanjing University of Posts and Telecommunications",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yanping Chen",
+        "institution": "College of Science, Nanjing University of Posts and Telecommunications",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Fangfang Qin",
+        "institution": "College of Science, Nanjing University of Posts and Telecommunications",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
     "institution_countries": [],
     "home_scope": "未知",
     "venue": "ESAIM: Mathematical Modelling and Numerical Analysis",
     "publication_status": "已发表/有期刊或会议记录（建议核验）",
     "status_evidence": [
-      "Crossref：journal-article；ESAIM: Mathematical Modelling and Numerical Analysis；日期 2026-10-08"
+      "Crossref：journal-article；ESAIM: Mathematical Modelling and Numerical Analysis；日期 2026-10-08",
+      "Crossref：journal-article；ESAIM: Mathematical Modelling and Numerical Analysis；日期 2026-11-06"
     ],
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
     "publication_date": "2026-10-08",
@@ -78839,6 +80577,14 @@
         "venue": "ESAIM: Mathematical Modelling and Numerical Analysis",
         "venue_type": "",
         "date": "2026-10-08",
+        "doi": "10.1051/m2an/2026083"
+      },
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "ESAIM: Mathematical Modelling and Numerical Analysis",
+        "venue_type": "",
+        "date": "2026-11-06",
         "doi": "10.1051/m2an/2026083"
       }
     ],
@@ -84188,7 +85934,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -86425,7 +88171,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -87194,7 +88940,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -94178,7 +95924,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-06",
+    "last_status_checked": "2026-11-07",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -103563,7 +105309,7 @@
       "https://doi.org/10.31234/osf.io/98ktg_v3",
       "https://doi.org/10.31234/osf.io/98ktg_v1"
     ],
-    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v1",
+    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v3",
     "open_access_url": "",
     "is_open_access": null,
     "status_signals": [
