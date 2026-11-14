@@ -11302,7 +11302,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11374,7 +11374,120 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1137/25m1782856",
+    "title": "Reconciling Discrete-Time Mixed Policies and Continuous-Time Relaxed Controls in Reinforcement Learning and Stochastic Control",
+    "abstract": "Abstract. Reinforcement learning (RL) is currently one of the most prominent methods for optimizing dynamical systems, with breakthrough results across various fields. The framework is based on the concept of a Markov decision process (MDP), leading to a discrete-time optimal control problem. In the RL literature, such problems are typically formulated and solved using mixed policies, from which random actions are sampled at each time step. Recently, part of the optimal control community has begun investigating continuous-time versions of RL algorithms, replacing MDPs with continuous-time stochastic processes governed by relaxed controls and asserting a full analogy between the two formulations. In this work, we examine the limitations of this analogy and rigorously establish a connection between the two problems in the case where only the drift term of the continuous-time model is controlled. We prove strong convergence of the RL implementation of mixed strategies as the time discretization mesh tends to zero. We also discuss the technical challenges posed by the possible presence of control in the diffusion component of the state.",
+    "authors": [
+      "Rene A. Carmona",
+      "Mathieu Laurière"
+    ],
+    "institutions": [
+      {
+        "name": "Princeton University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "New York University Shanghai",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "East China Normal University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Rene A. Carmona",
+        "institution": "Princeton University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mathieu Laurière",
+        "institution": "New York University Shanghai",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mathieu Laurière",
+        "institution": "East China Normal University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN",
+      "US"
+    ],
+    "home_scope": "国内+国外合作",
+    "venue": "SIAM Review",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 SIAM Review；日期 2026-11-12"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-12",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1137/25m1782856",
+    "work_type": "article",
+    "citation_count": 5,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1137/25m1782856"
+    ],
+    "paper_url": "https://doi.org/10.1137/25m1782856",
+    "open_access_url": "https://arxiv.org/pdf/2504.21793",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "SIAM Review",
+        "venue_type": "journal",
+        "date": "2026-11-12",
+        "doi": "10.1137/25m1782856"
+      }
+    ],
+    "first_seen": "2026-11-14",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11458,7 +11571,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11539,7 +11652,108 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/978-3-032-39161-2_7",
+    "title": "Deep Reinforcement Learning for Combinatorial Optimization",
+    "abstract": "",
+    "authors": [
+      "Yaoxin Wu",
+      "Zaharah Allah Bukhsh",
+      "Yingqian Zhang"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Springer eBooks",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-12",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/978-3-032-39161-2_7",
+    "work_type": "book-chapter",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "graph neural network combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "dynamics-aware combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/978-3-032-39161-2_7"
+    ],
+    "paper_url": "https://doi.org/10.1007/978-3-032-39161-2_7",
+    "open_access_url": "https://research.tue.nl/files/374055575/final_DRL_book_chapter_2025_Copy_1_.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "book-chapter",
+        "venue": "Springer eBooks",
+        "venue_type": "ebook platform",
+        "date": "2026-11-12",
+        "doi": "10.1007/978-3-032-39161-2_7"
+      }
+    ],
+    "first_seen": "2026-11-14",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11617,7 +11831,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11687,7 +11901,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11759,7 +11973,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11830,7 +12044,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12481,7 +12695,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12551,7 +12765,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12940,7 +13154,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13024,7 +13238,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13249,7 +13463,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14003,7 +14217,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14253,7 +14467,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15830,7 +16044,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15959,7 +16173,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16111,7 +16325,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16397,7 +16611,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -17649,7 +17863,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -17899,7 +18113,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -17973,7 +18187,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18328,7 +18542,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18399,7 +18613,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18474,7 +18688,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18808,7 +19022,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18960,7 +19174,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -35995,7 +36209,7 @@
       }
     ],
     "first_seen": "2026-11-03",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -55065,7 +55279,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -58049,7 +58263,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -62928,7 +63142,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67160,7 +67374,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67235,7 +67449,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67331,7 +67545,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67411,7 +67625,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67491,7 +67705,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67652,7 +67866,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67735,7 +67949,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67805,7 +68019,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -68326,7 +68540,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -68404,7 +68618,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -68478,7 +68692,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -69306,7 +69520,7 @@
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
     "publication_date": "",
     "preprint_date": "2026-10-14",
-    "preprint_updated_date": "2026-10-14",
+    "preprint_updated_date": "2026-10-17",
     "arxiv_id": "2610.19831",
     "doi": "",
     "work_type": "preprint",
@@ -69352,7 +69566,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -69534,7 +69748,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -69561,7 +69775,7 @@
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
     "publication_date": "",
     "preprint_date": "2026-10-14",
-    "preprint_updated_date": "2026-10-14",
+    "preprint_updated_date": "2026-11-04",
     "arxiv_id": "2610.20331",
     "doi": "",
     "work_type": "preprint",
@@ -69607,7 +69821,7 @@
       }
     ],
     "first_seen": "2026-10-15",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -71681,7 +71895,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -73026,7 +73240,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -74150,7 +74364,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-10-15",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -75659,7 +75873,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -96271,7 +96485,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -98508,7 +98722,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -99277,7 +99491,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-13",
+    "last_status_checked": "2026-11-14",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -115773,7 +115987,7 @@
       "https://doi.org/10.31234/osf.io/98ktg_v3",
       "https://doi.org/10.31234/osf.io/98ktg_v1"
     ],
-    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v1",
+    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v3",
     "open_access_url": "",
     "is_open_access": null,
     "status_signals": [
@@ -124759,7 +124973,7 @@
       "https://doi.org/10.21203/rs.3.rs-9749304/v1",
       "https://doi.org/10.21203/rs.3.rs-9749304/v2"
     ],
-    "paper_url": "https://doi.org/10.21203/rs.3.rs-9749304/v1",
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-9749304/v2",
     "open_access_url": "",
     "is_open_access": null,
     "status_signals": [

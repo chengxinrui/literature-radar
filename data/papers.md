@@ -1,7 +1,7 @@
 # Awesome 文献雷达｜2026-05 至 2026-11
 
-更新日期：2026-11-13（Asia/Shanghai）。滚动窗口：最近 183 天。
-共收录精选论文/预印本 493 篇；其中正式 venue 精选 32 篇，预印本观察 461 篇。
+更新日期：2026-11-14（Asia/Shanghai）。滚动窗口：最近 183 天。
+共收录精选论文/预印本 494 篇；其中正式 venue 精选 33 篇，预印本观察 461 篇。
 滚动窗口内另有 317 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
 > 主题类别还需命中 `relevance_policy` 中的标题/摘要锚点；单独命中宽泛检索词不够。偏高精度规则可能漏掉措辞不同的相关论文，可在配置中补充锚点。
@@ -76,7 +76,22 @@
 
 #### 高质量正式 venue
 
-#### 1. [Weighted Proper Orthogonal Decomposition for High-Dimensional Optimization](https://doi.org/10.1137/25m1779243)
+#### 1. [Reconciling Discrete-Time Mixed Policies and Continuous-Time Relaxed Controls in Reinforcement Learning and Stochastic Control](https://doi.org/10.1137/25m1782856)
+- **质量/状态：**领域强 venue：SIAM Review；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**OpenAlex：journal 来源 SIAM Review；日期 2026-11-12
+- **日期：**发表 2026-11-12；预印本首发 —；收录月份 2026-11
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**optimal control
+- **引用：**5（约 5.0/月，OpenAlex）；优先机构信号：Princeton University
+- **venue：**SIAM Review　**作者：**Rene A. Carmona、Mathieu Laurière
+- **机构：**Princeton University (美国 (US))；New York University Shanghai (中国 (CN))；East China Normal University (中国 (CN))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Reconciling%20Discrete-Time%20Mixed%20Policies%20and%20Continuous-Time%20Relaxed%20Controls%20in%20Reinforcement%20Learning%20and%20Stochastic%20Control&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1137/25m1782856](https://doi.org/10.1137/25m1782856)
+- **开放获取：**[查看链接](https://arxiv.org/pdf/2504.21793)
+- **摘要：**Abstract. Reinforcement learning (RL) is currently one of the most prominent methods for optimizing dynamical systems, with breakthrough results across various fields. The framework is based on the concept of a Markov decision process (MDP), leading to a discrete-time optimal control problem. In the RL literature, such problems are typically formulated and solved using mixed policies, from which random actions are sa…
+
+#### 2. [Weighted Proper Orthogonal Decomposition for High-Dimensional Optimization](https://doi.org/10.1137/25m1779243)
 - **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-11-02
 - **日期：**发表 2026-11-02；预印本首发 —；收录月份 2026-11
@@ -91,7 +106,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2508.09084)
 - **摘要：**Abstract. While proper orthogonal decomposition (POD) is widely used for model reduction, its standard form does not take into account any parametric model structure. Extensions to POD have been proposed to address this, but these either require large amounts of solution data, lack online adaptivity, or have limited approximation accuracy. We circumvent these limitations by instead assigning weights to the snapshot m…
 
-#### 2. [A Hybrid Chebyshev–Tucker Tensor Format for Approximation of Multivariate Functions](https://doi.org/10.1137/25m1812713)
+#### 3. [A Hybrid Chebyshev–Tucker Tensor Format for Approximation of Multivariate Functions](https://doi.org/10.1137/25m1812713)
 - **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-11-03
 - **日期：**发表 2026-11-03；预印本首发 —；收录月份 2026-11
@@ -106,7 +121,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2503.01696)
 - **摘要：**Abstract. We introduce and analyze a mesh-free two-level hybrid Chebyshev–Tucker tensor representation for approximating multivariate functions, which combines tensor-product Chebyshev interpolation with the low-rank Tucker decomposition of the tensor of Chebyshev coefficients. This construction allows us to avoid the expensive rank-structured grid-based approximation of function-related tensors on large spatial grid…
 
-#### 3. [Bifurcations in Interior Transmission Eigenvalues: Theory and Computation](https://doi.org/10.1137/25m1830699)
+#### 4. [Bifurcations in Interior Transmission Eigenvalues: Theory and Computation](https://doi.org/10.1137/25m1830699)
 - **质量/状态：**领域强 venue：SIAM Journal on Numerical Analysis；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Numerical Analysis；日期 2026-11-11
 - **日期：**发表 2026-11-11；预印本首发 —；收录月份 2026-11
@@ -121,7 +136,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2511.11016)
 - **摘要：**Abstract. The interior transmission eigenvalue problem (ITP) plays a central role in inverse scattering theory and in the spectral analysis of inhomogeneous media. Despite its smooth dependence on the refractive index at the PDE level, the corresponding spectral map from material parameters to eigenpairs may exhibit nonsmooth or bifurcating behavior. In this work, we develop a theoretical framework identifying suffic…
 
-#### 4. [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](https://doi.org/10.1016/j.cma.2026.119228)
+#### 5. [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](https://doi.org/10.1016/j.cma.2026.119228)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Computer Methods in Applied Mechanics and Engineering；日期 2026-11-01
 - **日期：**发表 2026-11-01；预印本首发 —；收录月份 2026-11
@@ -134,7 +149,7 @@
 - **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Variationally%20correct%20operator%20learning%3A%20Reduced%20basis%20neural%20operator%20with%20a%20posteriori%20error%20estimation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
 - **DOI：**[10.1016/j.cma.2026.119228](https://doi.org/10.1016/j.cma.2026.119228)
 
-#### 5. [Safe output-feedback adaptive optimal control of input-constrained control-affine nonlinear systems](https://doi.org/10.1016/j.automatica.2026.113209)
+#### 6. [Safe output-feedback adaptive optimal control of input-constrained control-affine nonlinear systems](https://doi.org/10.1016/j.automatica.2026.113209)
 - **质量/状态：**领域强 venue：Automatica；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Automatica；日期 2026-11-01
 - **日期：**发表 2026-11-01；预印本首发 —；收录月份 2026-11
@@ -6828,7 +6843,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2607.14169)　[PDF](https://arxiv.org/pdf/2607.14169)
 - **摘要：**Large language models can synthesize a game's rules as executable code - a Code World Model (CWM) - which a classical planner then searches over. Such models are typically accepted when they reach high transition accuracy on sampled trajectories. We argue this is the wrong notion of adequacy for planning. We show four things. (1) An LLM-synthesized CWM can pass a sampling gate at 100% transition accuracy and be $\geq…
 
-#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v1)
+#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v3)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-07-10；预印本首发 —；收录月份 2026-07
@@ -7053,7 +7068,7 @@
 
 #### 前沿预印本｜未经过正式 venue 验证
 
-#### 1. [Platonic Projection Structures: Operator-Induced Observability in Representation Learning](https://doi.org/10.21203/rs.3.rs-9749304/v1)
+#### 1. [Platonic Projection Structures: Operator-Induced Observability in Representation Learning](https://doi.org/10.21203/rs.3.rs-9749304/v2)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-05-19；预印本首发 —；收录月份 2026-05
