@@ -11127,6 +11127,497 @@
     ]
   },
   {
+    "uid": "doi:10.1007/s13278-026-01656-7",
+    "title": "Political stance detection on X during the 2024 U.S. election: a comparative study of classical, neural, and transformer models",
+    "abstract": "Abstract As online social networks (OSNs) play an increasingly influential role in political communication, accurately detecting political stance from noisy, short-form content remains a significant challenge in computational social science (CSS). This paper presents a controlled comparison of text classification models for political stance detection during the 2024 U.S. presidential election, focusing on candidate affiliation toward Donald Trump and Joe Biden–Kamala Harris. Using nearly 100,000 posts from X, we define candidate affiliation as a three-class target variable (Trump, Biden–Kamala, or Neutral) and use topic modeling to support keyword development and thematic characterization. Under a unified preprocessing, labeling, and evaluation pipeline, we compare classical machine learning models, sentence-embedding-based neural architectures, and a domain-adapted transformer. Results suggest that task-aligned text representation accounts for most of the predictive signal in this setting. While fine-tuned BERTweet achieves the strongest in-domain performance, carefully engineered classical models, particularly linear support vector machines, remain highly competitive. Multi-feature and ablation analyses further indicate that expanded metadata did not yield reliable gains beyond strong text representations. Overall, this work provides a controlled comparison of text models for candidate affiliation on a heuristically labeled corpus.",
+    "authors": [
+      "Qile Wang",
+      "Sahar Ostadrahimi",
+      "Safoura Faghri",
+      "Mohammad Baksh",
+      "Matthew Louis Mauriello",
+      "Kenneth E. Barner"
+    ],
+    "institutions": [
+      {
+        "name": "University of Delaware",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Qile Wang",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sahar Ostadrahimi",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Safoura Faghri",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Mohammad Baksh",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Matthew Louis Mauriello",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kenneth E. Barner",
+        "institution": "University of Delaware",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "Social Network Analysis and Mining",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Social Network Analysis and Mining；日期 2026-11-14"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-14",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/s13278-026-01656-7",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "temporal frequency principle in world models"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer world model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer dynamics model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/s13278-026-01656-7"
+    ],
+    "paper_url": "https://doi.org/10.1007/s13278-026-01656-7",
+    "open_access_url": "https://doi.org/10.1007/s13278-026-01656-7",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Social Network Analysis and Mining",
+        "venue_type": "journal",
+        "date": "2026-11-14",
+        "doi": "10.1007/s13278-026-01656-7"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3858063.3858876",
+    "title": "Ordinal Gates, Cardinal Bets: Matching LLM Confidence to the Financial Decision Operator",
+    "abstract": "LLM confidence scores are not independently deployable objects: their decision value depends on the downstream operator and exposure controller that consume them. Monotone recalibration cannot change a coverage-matched rank-based gate, whereas position sizing consumes score magnitude, so changing a confidence map can invalidate a scale fitted to the previous score distribution. We test this on FactSet news for Nasdaq-100 equities, fitting maps and scales on 2021 and evaluating nine open-weight LLMs out-of-sample on 2022--2023. Cross-applying raw and correctness maps with independently fitted scales shows that the two components are not portable alone: scale transfer reduces certainty-equivalent return (CER) in $8/9$ models and produces large risk-target errors. Matching each map with its fitted scale improves ensemble CER by $9.2$ percentage points per year under frozen-scale control ($p<0.001$), and the effect remains significant when the single largest-contributing model is excluded ($+5.5$pp/yr), so it is not driven by one case. Under an identical adaptive-volatility controller, however, the incremental effect falls to $+1.6$pp/yr, with a significant controller interaction. Annual walk-forward effects are smaller, although map--scale interaction remains positive in every fold. Confidence transformations should therefore be evaluated jointly with the downstream controllers that consume them.",
+    "authors": [
+      "Rayansh Singh",
+      "Sara Rezaeimanesh"
+    ],
+    "institutions": [
+      {
+        "name": "Michigan State University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Rayansh Singh",
+        "institution": "Michigan State University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sara Rezaeimanesh",
+        "institution": "Michigan State University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on AI in Finance (ICAIF)；日期 2026-11-14"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-14",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3858063.3858876",
+    "work_type": "conference-paper",
+    "citation_count": 1,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "LLM",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3858063.3858876"
+    ],
+    "paper_url": "https://doi.org/10.1145/3858063.3858876",
+    "open_access_url": "https://doi.org/10.1145/3858063.3858876",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on AI in Finance (ICAIF)",
+        "venue_type": "conference",
+        "date": "2026-11-14",
+        "doi": "10.1145/3858063.3858876"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3858063.3858825",
+    "title": "FlowLOB: Efficient and Controllable Limit Order Book Generation with Flow Matching",
+    "abstract": "Limit order book (LOB) simulators are most useful to practitioners when they combine realistic market dynamics, computationally efficient sampling, controllable scenario generation, and the ability to generalize beyond the instruments seen during training---properties that existing agent-based and deep generative simulators provide only partially. We present \\textbf{FlowLOB}, a conditional \\textbf{flow}-matching generator of \\textbf{LOB} trajectories, trained on multiple Hong Kong Exchange (HKEX) symbols at three sampling frequencies ($0.1$s, $1$s, $10$s) in tick-relative representation that transfers to unseen instruments. Because flow and diffusion models admit a common formulation, we train both with identical data, architecture, and budget, and sample both through the same fixed-step ODE solvers, yielding a controlled comparison of sampling efficiency and fidelity. Flow matching attains its best quality with only $10$ ODE-solver steps, whereas diffusion needs many more function evaluations to approach the same fidelity. At this efficient operating point, FlowLOB improves realism over baselines, two learned and two agent-based models, in most distributional metrics at the two finer sampling frequencies. We evaluate counterfactual controllability with a distributional test that asks whether changing a scenario condition moves the generated statistic toward the corresponding real tail regime; FlowLOB satisfies this criterion in most tested settings. Both realism and control effects transfer zero-shot on a held-out symbol. We additionally conduct ablation studies on the network architecture and the learning rate.",
+    "authors": [
+      "Zhuohan Wang",
+      "Andreea Bacalum",
+      "Ollie Olby",
+      "Carmine Ventre",
+      "Namid Stillman"
+    ],
+    "institutions": [
+      {
+        "name": "King's College London",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Zhuohan Wang",
+        "institution": "King's College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Carmine Ventre",
+        "institution": "King's College London",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "GB"
+    ],
+    "home_scope": "国外",
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on AI in Finance (ICAIF)；日期 2026-11-14"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-14",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3858063.3858825",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "diffusion model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "ODE world model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer world model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer dynamics model"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "vision transformer world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3858063.3858825"
+    ],
+    "paper_url": "https://doi.org/10.1145/3858063.3858825",
+    "open_access_url": "https://doi.org/10.1145/3858063.3858825",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on AI in Finance (ICAIF)",
+        "venue_type": "conference",
+        "date": "2026-11-14",
+        "doi": "10.1145/3858063.3858825"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3858063.3858908",
+    "title": "Adversarial Post-Training of Foundation Models for High-Frequency Trading",
+    "abstract": "While autoregressive foundation models trained on limit order book (LOB) data show state-of-the-art performance for market simulation, pre-training with cross-entropy neither penalizes the compounding of sampling errors over free-running rollouts nor targets desired market properties. We introduce a post-training method for LOB foundation models using a Wasserstein generative adversarial network (GAN) objective. A critic, trained online on rollouts through the true, non-differentiable matching engine, guides updates from evolution strategies over rank-4 LoRA perturbations of the pre-trained generator, under a KL trust region. For efficiency, we use EGGROLL (Evolution Guided GeneRal Optimisation via Low-rank Learning), a memory-efficient variant of evolution strategies. On a held-out panel, adversarial post-training improves LOB-Bench realism by 17.6% (WS-21) and 17.0% (Mean-$L_1$), while selection-matched random-perturbation and compute-matched continued-pre-training controls yield no improvement. Post-training is thus a necessary stage that more pre-training does not replace. Per-position divergence measurements show that it slows error accumulation over 500-message rollouts from $3.1\\times$ to $2.3\\times$. Adversarial post-training is also inexpensive, requiring under 50M training tokens and 12 GPU-hours per seed, three orders of magnitude below the 48B-token pre-training budget. Ablations over critic inputs, optimizers, and the population-rollout trade-off, together with an analysis of reward hacking, yield practical design guidelines for adversarial post-training.",
+    "authors": [
+      "Alexandre Bismuth",
+      "Kang Li",
+      "Aramis Marti-Shahandeh",
+      "Valentin Mohl",
+      "Jakob Foerster",
+      "Anisoara Calinescu"
+    ],
+    "institutions": [
+      {
+        "name": "Harvard University",
+        "country_code": "US",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "University of Oxford",
+        "country_code": "GB",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Alexandre Bismuth",
+        "institution": "Harvard University",
+        "country_code": "US",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Alexandre Bismuth",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Aramis Marti-Shahandeh",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Valentin Mohl",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jakob Foerster",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Anisoara Calinescu",
+        "institution": "University of Oxford",
+        "country_code": "GB",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "GB",
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on AI in Finance (ICAIF)；日期 2026-11-14"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-14",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3858063.3858908",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学",
+      "PDE、Neural Operators、谱方法与最优控制",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "foundation model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "temporal frequency principle in world models"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "adaptive spectral method"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural spectral method"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer dynamics model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3858063.3858908"
+    ],
+    "paper_url": "https://doi.org/10.1145/3858063.3858908",
+    "open_access_url": "https://doi.org/10.1145/3858063.3858908",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on AI in Finance (ICAIF)",
+        "venue_type": "conference",
+        "date": "2026-11-14",
+        "doi": "10.1145/3858063.3858908"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.21203/rs.3.rs-11713020/v1",
     "title": "The Dynamics of Spectral Bias in Operator Learning",
     "abstract": "Abstract Spectral bias is the phenomenon where neural networks learn the low-wavenumber content of a target before its high-wavenumber content. We analyze the training dynamics of neural operators on the discrete Poisson problem and find that the bias is a property of the eigenbasis of the kernel that governs the training update, not of the wavenumber basis in which it is usually reported. A model learning a discretized operator retains its error in the eigendirections of this kernel with small eigenvalues, which are the rates at which training contracts the error along those directions. Under smooth forcing, low variance is placed at high wavenumbers, and any model, linear or nonlinear, has small eigenvalues along the eigenvectors with high-wavenumber content. Under white forcing, the linear models learn the operator, while the nonlinear models retain error in slow directions that depend on the coupling between training samples in the kernel; for the GELU dense network they disappear entirely when that coupling is removed. Modes that a model cannot represent at all contribute zero eigenvalues. The slow eigenvectors decide which wavenumbers carry this error, through their projection onto the sine modes. For the spectral operator and the linear Fourier neural operator these eigenvectors are close to sine modes, so each wavenumber has its own rate and the error collects at high wavenumbers. Delocalized models, such as the dense networks under either forcing, have error of nearly the same magnitude at every wavenumber. The spectrum of the true solution decays with $k$ and falls below this floor at some wavenumber, past which the relative error grows. No mode is learned more slowly than another in this case; the growth comes from the decay of the target spectrum. Spectral bias is usually reported by looking at this retained error in the sine basis, and we use its projection onto the kernel's eigendirections to explain the shape it has there.",
@@ -11233,6 +11724,813 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1007/978-981-92-7198-6_7",
+    "title": "Temperature Field Reconstruction of Tungsten Monoblock Divertor on EAST Using Physics-Aware Neural Operator Transformer",
+    "abstract": "",
+    "authors": [
+      "Zikang Yan",
+      "Xiao Wang",
+      "Qingquan Yang",
+      "Zhendong Yang",
+      "Gaoting Chen",
+      "Zehua Chen",
+      "Bo Jiang",
+      "Jin Tang",
+      "Guosheng Xu"
+    ],
+    "institutions": [
+      {
+        "name": "Anhui University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Chinese Academy of Sciences",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Institute of Plasma Physics",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Tongling University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Donghua University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Tsinghua University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Zikang Yan",
+        "institution": "Anhui University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Xiao Wang",
+        "institution": "Anhui University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Qingquan Yang",
+        "institution": "Chinese Academy of Sciences",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Qingquan Yang",
+        "institution": "Institute of Plasma Physics",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Zhendong Yang",
+        "institution": "Tongling University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gaoting Chen",
+        "institution": "Donghua University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gaoting Chen",
+        "institution": "Chinese Academy of Sciences",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gaoting Chen",
+        "institution": "Institute of Plasma Physics",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Zehua Chen",
+        "institution": "Tsinghua University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bo Jiang",
+        "institution": "Anhui University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jin Tang",
+        "institution": "Anhui University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Guosheng Xu",
+        "institution": "Chinese Academy of Sciences",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Guosheng Xu",
+        "institution": "Institute of Plasma Physics",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Lecture notes in computer science",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-13",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/978-981-92-7198-6_7",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "neural operator"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/978-981-92-7198-6_7"
+    ],
+    "paper_url": "https://doi.org/10.1007/978-981-92-7198-6_7",
+    "open_access_url": "https://arxiv.org/pdf/2606.31574",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "Lecture notes in computer science",
+        "venue_type": "book series",
+        "date": "2026-11-13",
+        "doi": "10.1007/978-981-92-7198-6_7"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1007/s11263-026-03112-7",
+    "title": "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models",
+    "abstract": "Abstract Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work has incorporated some 3D tasks (such as depth estimation) into VFM training. However, VFM performance remains inconsistent across other spatial tasks, raising the question of whether these models truly possess spatial awareness or overfit to specific 3D objectives. To address this question, we introduce the Spatial Relation Recognition Task (SpaRRTa) benchmark, which evaluates the ability of VFMs to identify static directional relations between visible objects. Unlike traditional 3D objectives that focus on precise metric prediction (e.g., surface normal estimation), SpaRRTa probes a fundamental capability underpinning more advanced forms of human-like spatial understanding. SpaRRTa generates an arbitrary number of photorealistic images with diverse scenes and fully controllable object arrangements, along with freely accessible spatial annotations. Evaluating a range of state-of-the-art VFMs, we reveal significant disparities in their ability to encode directional spatial relations. Through our analysis, we provide insights into the mechanisms that support or hinder this form of spatial awareness in modern VFMs. We hope that SpaRRTa will serve as a useful tool for guiding the development of future spatially aware visual models. Our project page can be found at https://sparrta.gmum.net/ .",
+    "authors": [
+      "Turhan Can Kargin",
+      "Wojciech Jasiński",
+      "Adam Pardyl",
+      "Bartosz Zieliński",
+      "Marcin Przewięźlikowski"
+    ],
+    "institutions": [
+      {
+        "name": "Jagiellonian University",
+        "country_code": "PL",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "AGH University of Krakow",
+        "country_code": "PL",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "IDEAS Research Institute",
+        "country_code": "PL",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "NASK National Research Institute",
+        "country_code": "PL",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Turhan Can Kargin",
+        "institution": "Jagiellonian University",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Wojciech Jasiński",
+        "institution": "Jagiellonian University",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Wojciech Jasiński",
+        "institution": "AGH University of Krakow",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Adam Pardyl",
+        "institution": "Jagiellonian University",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Adam Pardyl",
+        "institution": "IDEAS Research Institute",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Bartosz Zieliński",
+        "institution": "Jagiellonian University",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marcin Przewięźlikowski",
+        "institution": "Jagiellonian University",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marcin Przewięźlikowski",
+        "institution": "NASK National Research Institute",
+        "country_code": "PL",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "PL"
+    ],
+    "home_scope": "国外",
+    "venue": "International Journal of Computer Vision",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 International Journal of Computer Vision；日期 2026-11-13"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-13",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1007/s11263-026-03112-7",
+    "work_type": "article",
+    "citation_count": 2,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "foundation model",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer neural operator"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1007/s11263-026-03112-7"
+    ],
+    "paper_url": "https://doi.org/10.1007/s11263-026-03112-7",
+    "open_access_url": "https://doi.org/10.1007/s11263-026-03112-7",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "International Journal of Computer Vision",
+        "venue_type": "journal",
+        "date": "2026-11-13",
+        "doi": "10.1007/s11263-026-03112-7"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1145/3858063.3858872",
+    "title": "L0 Feature Selection via Monte Carlo Tree Search in High-Dimensional Financial Regression",
+    "abstract": "Feature selection is a central problem in high-dimensional financial regression, where large numbers of engineered variables and strong correlations among predictors reduce model stability and interpretability. $L_1$ regularization (Lasso) is widely used for sparse regression, but its shrinkage can be restrictive when informative signals are spread across correlated variables. Exact sparse regression avoids this shrinkage but requires solving a combinatorial optimization problem that is computationally difficult and is typically fit to minimize in-sample rather than out-of-sample error. This paper presents a feature selection framework based on Monte Carlo Tree Search with Generalized Nested Rollout Policy Adaptation (GNRPA). Feature selection is formulated as a sequential decision process, and candidate subsets are scored by their out-of-sample validation performance rather than training error. The method also supports a lexicographic objective accounting for subset size and multicollinearity. We study this approach on a contemporaneous explanatory regression task: explaining the weekly return of the NASDAQ-100 index from 1,072 engineered features spanning market, macroeconomic, and factor data. This isolates the value of subset selection under multicollinearity from the separate problem of predictive forecasting. On this task, the proposed method identifies sparse feature subsets with higher out-of-sample explanatory power than an optimized Lasso baseline, reaching an out-of-sample $R^2$ of 0.6961 versus 0.6313 for Lasso. These results suggest that Monte Carlo Tree Search is a practical alternative to convex regularization for sparse explanatory feature selection in financial regression, with potential value for factor attribution and risk decomposition where transparency matters as much as out-of-sample fit.",
+    "authors": [
+      "Cameron Mouangue",
+      "Tristan Cazenave"
+    ],
+    "institutions": [
+      {
+        "name": "Centre National de la Recherche Scientifique",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Lamsade",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Université Paris Dauphine-PSL",
+        "country_code": "FR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Cameron Mouangue",
+        "institution": "Centre National de la Recherche Scientifique",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Cameron Mouangue",
+        "institution": "Lamsade",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Cameron Mouangue",
+        "institution": "Université Paris Dauphine-PSL",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Tristan Cazenave",
+        "institution": "Centre National de la Recherche Scientifique",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Tristan Cazenave",
+        "institution": "Lamsade",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Tristan Cazenave",
+        "institution": "Université Paris Dauphine-PSL",
+        "country_code": "FR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "FR"
+    ],
+    "home_scope": "国外",
+    "venue": "ACM International Conference on AI in Finance (ICAIF)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：conference 来源 ACM International Conference on AI in Finance (ICAIF)；日期 2026-11-13"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-13",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1145/3858063.3858872",
+    "work_type": "conference-paper",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1145/3858063.3858872"
+    ],
+    "paper_url": "https://doi.org/10.1145/3858063.3858872",
+    "open_access_url": "https://doi.org/10.1145/3858063.3858872",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "conference-paper",
+        "venue": "ACM International Conference on AI in Finance (ICAIF)",
+        "venue_type": "conference",
+        "date": "2026-11-13",
+        "doi": "10.1145/3858063.3858872"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1038/s41598-026-80684-x",
+    "title": "HierWoodNet: HierStyle multi-scale semantic style transfer method for Chinese woodblock painting",
+    "abstract": "Abstract Woodblock painting, a traditional Chinese intangible cultural heritage, is known for its vivid colors and distinctive textures. However, modern lifestyles and declining cultural inheritance have led to risks of style loss and discontinuity. AI-based image style transfer offers a promising avenue for preserving and creating woodblock art. However, existing methods struggle with semantic feature extraction, style consistency, and color modeling in this domain. To address these challenges, we propose a hierarchical woodblock style transfer network. Our approach introduces a Content-Aware Positional Encoder based on the Transformer architecture, which enhances multi-scale feature representation and global structural perception. This helps preserve content during style transfer. We further present a HierStyle Encoder that learns rich, hierarchical style features from data, enabling fine-grained control over the transfer process and improving semantic and textural coherence. A progressive decoder integrates multi-stage upsampling with cross-layer connections to preserve semantic structure while injecting detailed style features. Finally, the ChromaNova Color Decoder dynamically optimizes color representation through a multi-dimensional color loss function that considers both color contrast and distribution differences. Quantitative experiments show that our method achieves the best PSNR, FID, LPIPS, and NIMA scores among the evaluated methods, supported by qualitative comparisons on multi-color woodblock style transfer. The source code and trained models will be released after acceptance at https://github.com/LPDLG/HierWoodNet .",
+    "authors": [
+      "Jie Qiao",
+      "Fangqing Fan"
+    ],
+    "institutions": [
+      {
+        "name": "Northwest University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Jie Qiao",
+        "institution": "Northwest University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Fangqing Fan",
+        "institution": "Northwest University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Scientific Reports",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 Scientific Reports；日期 2026-11-13"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-13",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s41598-026-80684-x",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "transformer architecture",
+      "control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s41598-026-80684-x"
+    ],
+    "paper_url": "https://doi.org/10.1038/s41598-026-80684-x",
+    "open_access_url": "https://doi.org/10.1038/s41598-026-80684-x",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "Scientific Reports",
+        "venue_type": "journal",
+        "date": "2026-11-13",
+        "doi": "10.1038/s41598-026-80684-x"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.21203/rs.3.rs-11707296/v1",
+    "title": "Echo-QAOA: Constructive Spin-Echo Response Design and Per-Qubit Marginal Distillation for Variational Quantum Optimization",
+    "abstract": "Abstract Solving constrained combinatorial optimization problems such as Maximum Weight Independent Set (MWIS) via the Quantum Approximate Optimization Algorithm (QAOA) requires navigating rugged 2p-dimensional landscapes shaped by competing couplings J and heterogeneous local fields h. Homogeneous annealing schedules lack site-specific phase resolution and require costly online circuit selection, whereas direct neural angle regression collapses under cross-branch jumping and an implicit-function curvature conflict between peak flatness and coordinate stability. We propose Echo-QAOA, exploiting global spin-flip parity conjugation to cancel quadratic couplings H_J exactly within the unmodified QAOA ansatz, factorizing target probabilities into O(kn) single-qubit responses and enabling a zero-measurement overlap decoder that transforms ill-conditioned angle regression into permutation-equivariant marginal distillation (Echo-Prior). Using Daubechies spectral factorization, we prove that arbitrary-order Flat-Top Echo responses are realizable with real angles, achieve O(delta^(2k)) peak error tolerance, and remain strictly convex on zero-free intervals. Across 2,750 five-family benchmark and 5,120 cross-scale MWIS instances, Echo-Prior-Flat outperforms annealing initialization and 36 angle-regression models, expanding P_gs >= 50% coverage by 4.9x with zero Stage-1 quantum measurements.",
+    "authors": [
+      "Jianxuan Yao"
+    ],
+    "institutions": [
+      {
+        "name": "ShanghaiTech University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Jianxuan Yao",
+        "institution": "ShanghaiTech University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Research Square",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-13",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.21203/rs.3.rs-11707296/v1",
+    "work_type": "preprint",
+    "citation_count": 0,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "diffusion combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "diffusion model combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.21203/rs.3.rs-11707296/v1"
+    ],
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-11707296/v1",
+    "open_access_url": "https://www.researchsquare.com/article/rs-11707296/latest.pdf",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "Research Square",
+        "venue_type": "repository",
+        "date": "2026-11-13",
+        "doi": "10.21203/rs.3.rs-11707296/v1"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1137/25m1817601",
+    "title": "A Decomposition-Based Robust Training of Physics-Informed Neural Networks for Nearly Incompressible Linear Elasticity",
+    "abstract": "Abstract. Due to divergence instability, the accuracy of low-order conforming finite element methods for nearly incompressible elasticity deteriorates as the Lamé coefficient [Formula: see text], or equivalently as the Poisson ratio [Formula: see text]. While this locking phenomenon is well known in classical numerical methods, its impact on physics-informed neural networks (PINNs) has not been systematically studied. We show that standard PINNs also suffer from a form of locking (PINN locking) in the nearly incompressible regime, leading to severe degradation in approximation quality and optimization performance. Our main contribution is a decomposition-based PINN formulation that rewrites the elasticity equations into balanced subsystems, yielding a PINN locking-robust training framework whose performance does not deteriorate with large [Formula: see text]. The framework applies to both forward and inverse problems and accommodates constant, variable, and parametric Lamé coefficients. We further perform a priori error analysis for the proposed formulation. Numerical experiments demonstrate consistent and substantial improvements over standard PINNs in both solution accuracy and parameter recovery across a wide range of nearly incompressible settings. Reproducibility of computational results. This paper has been awarded the “SIAM Reproducibility Badge: Code and data available” as a recognition that the authors have followed reproducibility principles valued by SISC and the scientific computing community. Code and data that allow readers to reproduce the results in this paper are available at https://github.com/Sanghyeon-Park99/decomposition and in the supplementary materials ( decomposition-main.zip [733KB]). [Formula: see text]",
+    "authors": [
+      "Josef Dick",
+      "Seungchan Ko",
+      "Quôc Thông Lê Gia",
+      "Kassem Mustapha",
+      "Sanghyeon Park"
+    ],
+    "institutions": [
+      {
+        "name": "UNSW Sydney",
+        "country_code": "AU",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Korea Advanced Institute of Science and Technology",
+        "country_code": "KR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Josef Dick",
+        "institution": "UNSW Sydney",
+        "country_code": "AU",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Seungchan Ko",
+        "institution": "Korea Advanced Institute of Science and Technology",
+        "country_code": "KR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Quôc Thông Lê Gia",
+        "institution": "UNSW Sydney",
+        "country_code": "AU",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Kassem Mustapha",
+        "institution": "UNSW Sydney",
+        "country_code": "AU",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Sanghyeon Park",
+        "institution": "Korea Advanced Institute of Science and Technology",
+        "country_code": "KR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "AU",
+      "KR"
+    ],
+    "home_scope": "国外",
+    "venue": "SIAM Journal on Scientific Computing",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-11-13"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-13",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1137/25m1817601",
+    "work_type": "article",
+    "citation_count": 1,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1137/25m1817601"
+    ],
+    "paper_url": "https://doi.org/10.1137/25m1817601",
+    "open_access_url": "https://arxiv.org/pdf/2505.21994",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "SIAM Journal on Scientific Computing",
+        "venue_type": "journal",
+        "date": "2026-11-13",
+        "doi": "10.1137/25m1817601"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "arxiv:2611.16645",
     "title": "Rethinking Actions: Continuity-Aware Priors for World-Model Planning",
     "abstract": "Actions in expert demonstrations exhibit temporal structure. An ordered-versus-shuffled analysis across five environments confirms this dependence. We ask whether action proposals that better reflect expert continuity can improve visual world-model planning. Rather than imposing generic smoothness, we learn continuations from the temporal structure of demonstrated actions. Our locality-gated deep-kernel Gaussian-process prior, LG-DKGP, combines recent and longer-range executed action history, predicts a neural continuation, and learns a temporal Gaussian-process (GP) residual. A training-derived exploration scale initializes search around the corrected mean; a frozen world model evaluates progress toward the goal. Training first fits the neural mean, then jointly optimizes the prior with the GP residual using expert future actions. The resulting planner achieves 87.07\\% macro success across five simulated tasks spanning native and fragment-level goal attainment, compared with 71.03\\% for INTACT, 61.66\\% for PRISM, and 58.66\\% for LeWM. Component interventions and expert-relative action-structure comparisons support demonstration-informed continuations and reveal task-dependent effects of visual conditioning, history length, and planning horizon.",
@@ -11302,7 +12600,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11374,7 +12672,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11571,7 +12869,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11652,7 +12950,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11665,10 +12963,39 @@
       "Zaharah Allah Bukhsh",
       "Yingqian Zhang"
     ],
-    "institutions": [],
-    "affiliations": [],
-    "institution_countries": [],
-    "home_scope": "未知",
+    "institutions": [
+      {
+        "name": "Eindhoven University of Technology",
+        "country_code": "NL",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Yaoxin Wu",
+        "institution": "Eindhoven University of Technology",
+        "country_code": "NL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Zaharah Allah Bukhsh",
+        "institution": "Eindhoven University of Technology",
+        "country_code": "NL",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Yingqian Zhang",
+        "institution": "Eindhoven University of Technology",
+        "country_code": "NL",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "NL"
+    ],
+    "home_scope": "国外",
     "venue": "Springer eBooks",
     "publication_status": "未知（元数据不足）",
     "status_evidence": [
@@ -11831,7 +13158,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11901,7 +13228,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -11973,7 +13300,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12044,7 +13371,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12695,7 +14022,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12765,7 +14092,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13154,7 +14481,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13238,7 +14565,7 @@
       }
     ],
     "first_seen": "2026-11-13",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13463,7 +14790,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14217,7 +15544,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14467,7 +15794,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16044,7 +17371,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16173,7 +17500,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16325,7 +17652,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -16611,7 +17938,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -17863,7 +19190,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18113,7 +19440,7 @@
       }
     ],
     "first_seen": "2026-11-12",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18187,7 +19514,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18542,7 +19869,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18613,7 +19940,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18688,7 +20015,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19022,7 +20349,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19174,7 +20501,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -36209,7 +37536,7 @@
       }
     ],
     "first_seen": "2026-11-03",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -40413,6 +41740,76 @@
     ],
     "first_seen": "2026-10-30",
     "last_status_checked": "2026-11-01",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.1038/s41598-026-77444-2",
+    "title": "Action-conditioned latent Kalman filtering for robust spatio-temporal state estimation of deformable object",
+    "abstract": "Abstract Robust spatio-temporal state estimation from noisy observations is a critical challenge in robotic manipulation. Current latent space representations derived from dynamic point clouds often suffer from severe perceptual noise and occlusions, leading to discontinuous trajectories and pronounced temporal jitter. To mitigate these artifacts, we propose an Action-Conditioned Latent Kalman Filter (AC-LKF) framework. Leveraging a hybrid architecture of PointNet++ and Gated Recurrent Units (GRU), our method models non-linear temporal dynamics within a low-dimensional latent manifold. Instead of claiming to fully model the physical causality of deformable-object dynamics, AC-LKF incorporates the robot end-effector displacement as a low-dimensional, observable, and task-relevant kinematic prior to condition the latent state transition. Furthermore, a heteroscedastic latent filtering module adaptively estimates process and measurement uncertainties, balancing the action-conditioned prior with degraded visual inputs under noise and occlusion. Evaluations using quantitative temporal metrics and reconstruction errors, supplemented by principal component analysis (PCA) and t-distributed stochastic neighbor embedding (t-SNE) visualizations, show that AC-LKF improves latent trajectory smoothness, information retention, and dynamic robustness by reducing abrupt observation-induced state transitions. These results indicate that kinematic action conditioning can improve the temporal consistency and robustness of learned geometric state representations for interactive deformable-object manipulation.",
+    "authors": [
+      "Duan Gao",
+      "Majed Melibary",
+      "Junlei Hu"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Scientific Reports",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：journal-article；Scientific Reports；日期 2026-10-29"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-29",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1038/s41598-026-77444-2",
+    "work_type": "journal-article",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "action-conditioned"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "action-conditioned world model"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1038/s41598-026-77444-2"
+    ],
+    "paper_url": "https://doi.org/10.1038/s41598-026-77444-2",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "Scientific Reports",
+        "venue_type": "",
+        "date": "2026-10-29",
+        "doi": "10.1038/s41598-026-77444-2"
+      }
+    ],
+    "first_seen": "2026-11-15",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -55279,7 +56676,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -58263,7 +59660,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -63142,7 +64539,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -75873,7 +77270,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -96485,7 +97882,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -98722,7 +100119,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -99491,7 +100888,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-14",
+    "last_status_checked": "2026-11-15",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -115987,7 +117384,7 @@
       "https://doi.org/10.31234/osf.io/98ktg_v3",
       "https://doi.org/10.31234/osf.io/98ktg_v1"
     ],
-    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v3",
+    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v1",
     "open_access_url": "",
     "is_open_access": null,
     "status_signals": [

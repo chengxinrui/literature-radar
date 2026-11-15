@@ -1,8 +1,8 @@
 # Awesome 文献雷达｜2026-05 至 2026-11
 
-更新日期：2026-11-14（Asia/Shanghai）。滚动窗口：最近 183 天。
-共收录精选论文/预印本 494 篇；其中正式 venue 精选 33 篇，预印本观察 461 篇。
-滚动窗口内另有 317 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
+更新日期：2026-11-15（Asia/Shanghai）。滚动窗口：最近 183 天。
+共收录精选论文/预印本 496 篇；其中正式 venue 精选 35 篇，预印本观察 461 篇。
+滚动窗口内另有 315 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
 > 主题类别还需命中 `relevance_policy` 中的标题/摘要锚点；单独命中宽泛检索词不够。偏高精度规则可能漏掉措辞不同的相关论文，可在配置中补充锚点。
 > 同一月份/类别内按引用量优先，并显示按论文年龄折算的月均引用；预印本优先展示机构信号，再参考引用与日期。引用量会滞后，不能单独代表质量。
@@ -29,7 +29,22 @@
 
 #### 前沿预印本｜未经过正式 venue 验证
 
-#### 1. [MixRoute: Rethinking Single-Distribution Training for Generalizable Neural Routing](https://arxiv.org/abs/2611.11977)
+#### 1. [Echo-QAOA: Constructive Spin-Echo Response Design and Per-Qubit Marginal Distillation for Variational Quantum Optimization](https://doi.org/10.21203/rs.3.rs-11707296/v1)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 2026-11-13；预印本首发 —；收录月份 2026-11
+- **类别：**Neural Combinatorial Optimization 与神经搜索
+- **主题锚点：**combinatorial optimization
+- **引用：**0（约 0.0/月，OpenAlex）
+- **venue：**Research Square　**作者：**Jianxuan Yao
+- **机构：**ShanghaiTech University (中国 (CN))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Echo-QAOA%3A%20Constructive%20Spin-Echo%20Response%20Design%20and%20Per-Qubit%20Marginal%20Distillation%20for%20Variational%20Quantum%20Optimization&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.21203/rs.3.rs-11707296/v1](https://doi.org/10.21203/rs.3.rs-11707296/v1)
+- **开放获取：**[查看链接](https://www.researchsquare.com/article/rs-11707296/latest.pdf)
+- **摘要：**Abstract Solving constrained combinatorial optimization problems such as Maximum Weight Independent Set (MWIS) via the Quantum Approximate Optimization Algorithm (QAOA) requires navigating rugged 2p-dimensional landscapes shaped by competing couplings J and heterogeneous local fields h. Homogeneous annealing schedules lack site-specific phase resolution and require costly online circuit selection, whereas direct neur…
+
+#### 2. [MixRoute: Rethinking Single-Distribution Training for Generalizable Neural Routing](https://arxiv.org/abs/2611.11977)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-11-09；收录月份 2026-11
@@ -43,7 +58,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2611.11977)　[PDF](https://arxiv.org/pdf/2611.11977)
 - **摘要：**Neural Combinatorial Optimization (NCO) is a promising paradigm for solving routing problems, yet its generalization across diverse data distributions remains a critical bottleneck. Existing methods typically tackle cross-distribution generalization through complex multi-distribution training or intricate meta-learning schemes, implicitly presuming that single-distribution training yields a weak zero-shot baseline. I…
 
-#### 2. [APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization](https://arxiv.org/abs/2611.11792)
+#### 3. [APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization](https://arxiv.org/abs/2611.11792)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-11-09；收录月份 2026-11
@@ -57,7 +72,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2611.11792)　[PDF](https://arxiv.org/pdf/2611.11792)
 - **摘要：**Preference optimization has emerged as a promising alternative to reward-based training for neural combinatorial optimization. However, existing methods typically rely on binary pairwise labels, which discard the magnitude of solution-quality differences and provide supervision only at the complete-solution level. We propose Advantage-aware Preference Optimization for Two-level Constructive Search (APO2CS), a prefere…
 
-#### 3. [Benchmarking Modular Optimization Strategies for Parameterized Quantum Circuits](https://doi.org/10.21203/rs.3.rs-11277929/v1)
+#### 4. [Benchmarking Modular Optimization Strategies for Parameterized Quantum Circuits](https://doi.org/10.21203/rs.3.rs-11277929/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-11-02；预印本首发 —；收录月份 2026-11
@@ -91,7 +106,22 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2504.21793)
 - **摘要：**Abstract. Reinforcement learning (RL) is currently one of the most prominent methods for optimizing dynamical systems, with breakthrough results across various fields. The framework is based on the concept of a Markov decision process (MDP), leading to a discrete-time optimal control problem. In the RL literature, such problems are typically formulated and solved using mixed policies, from which random actions are sa…
 
-#### 2. [Weighted Proper Orthogonal Decomposition for High-Dimensional Optimization](https://doi.org/10.1137/25m1779243)
+#### 2. [A Decomposition-Based Robust Training of Physics-Informed Neural Networks for Nearly Incompressible Linear Elasticity](https://doi.org/10.1137/25m1817601)
+- **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-11-13
+- **日期：**发表 2026-11-13；预印本首发 —；收录月份 2026-11
+- **类别：**PDE、Neural Operators、谱方法与最优控制
+- **主题锚点：**physics-informed neural
+- **引用：**1（约 1.0/月，OpenAlex）
+- **venue：**SIAM Journal on Scientific Computing　**作者：**Josef Dick、Seungchan Ko、Quôc Thông Lê Gia、Kassem Mustapha、Sanghyeon Park
+- **机构：**UNSW Sydney (澳大利亚 (AU))；Korea Advanced Institute of Science and Technology (韩国 (KR))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20Decomposition-Based%20Robust%20Training%20of%20Physics-Informed%20Neural%20Networks%20for%20Nearly%20Incompressible%20Linear%20Elasticity&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1137/25m1817601](https://doi.org/10.1137/25m1817601)
+- **开放获取：**[查看链接](https://arxiv.org/pdf/2505.21994)
+- **摘要：**Abstract. Due to divergence instability, the accuracy of low-order conforming finite element methods for nearly incompressible elasticity deteriorates as the Lamé coefficient [Formula: see text], or equivalently as the Poisson ratio [Formula: see text]. While this locking phenomenon is well known in classical numerical methods, its impact on physics-informed neural networks (PINNs) has not been systematically studied…
+
+#### 3. [Weighted Proper Orthogonal Decomposition for High-Dimensional Optimization](https://doi.org/10.1137/25m1779243)
 - **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-11-02
 - **日期：**发表 2026-11-02；预印本首发 —；收录月份 2026-11
@@ -106,7 +136,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2508.09084)
 - **摘要：**Abstract. While proper orthogonal decomposition (POD) is widely used for model reduction, its standard form does not take into account any parametric model structure. Extensions to POD have been proposed to address this, but these either require large amounts of solution data, lack online adaptivity, or have limited approximation accuracy. We circumvent these limitations by instead assigning weights to the snapshot m…
 
-#### 3. [A Hybrid Chebyshev–Tucker Tensor Format for Approximation of Multivariate Functions](https://doi.org/10.1137/25m1812713)
+#### 4. [A Hybrid Chebyshev–Tucker Tensor Format for Approximation of Multivariate Functions](https://doi.org/10.1137/25m1812713)
 - **质量/状态：**领域强 venue：SIAM Journal on Scientific Computing；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Scientific Computing；日期 2026-11-03
 - **日期：**发表 2026-11-03；预印本首发 —；收录月份 2026-11
@@ -121,7 +151,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2503.01696)
 - **摘要：**Abstract. We introduce and analyze a mesh-free two-level hybrid Chebyshev–Tucker tensor representation for approximating multivariate functions, which combines tensor-product Chebyshev interpolation with the low-rank Tucker decomposition of the tensor of Chebyshev coefficients. This construction allows us to avoid the expensive rank-structured grid-based approximation of function-related tensors on large spatial grid…
 
-#### 4. [Bifurcations in Interior Transmission Eigenvalues: Theory and Computation](https://doi.org/10.1137/25m1830699)
+#### 5. [Bifurcations in Interior Transmission Eigenvalues: Theory and Computation](https://doi.org/10.1137/25m1830699)
 - **质量/状态：**领域强 venue：SIAM Journal on Numerical Analysis；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**OpenAlex：journal 来源 SIAM Journal on Numerical Analysis；日期 2026-11-11
 - **日期：**发表 2026-11-11；预印本首发 —；收录月份 2026-11
@@ -136,7 +166,7 @@
 - **开放获取：**[查看链接](https://arxiv.org/pdf/2511.11016)
 - **摘要：**Abstract. The interior transmission eigenvalue problem (ITP) plays a central role in inverse scattering theory and in the spectral analysis of inhomogeneous media. Despite its smooth dependence on the refractive index at the PDE level, the corresponding spectral map from material parameters to eigenpairs may exhibit nonsmooth or bifurcating behavior. In this work, we develop a theoretical framework identifying suffic…
 
-#### 5. [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](https://doi.org/10.1016/j.cma.2026.119228)
+#### 6. [Variationally correct operator learning: Reduced basis neural operator with a posteriori error estimation](https://doi.org/10.1016/j.cma.2026.119228)
 - **质量/状态：**领域强 venue：Computer Methods in Applied Mechanics and Engineering；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Computer Methods in Applied Mechanics and Engineering；日期 2026-11-01
 - **日期：**发表 2026-11-01；预印本首发 —；收录月份 2026-11
@@ -149,7 +179,7 @@
 - **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Variationally%20correct%20operator%20learning%3A%20Reduced%20basis%20neural%20operator%20with%20a%20posteriori%20error%20estimation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
 - **DOI：**[10.1016/j.cma.2026.119228](https://doi.org/10.1016/j.cma.2026.119228)
 
-#### 6. [Safe output-feedback adaptive optimal control of input-constrained control-affine nonlinear systems](https://doi.org/10.1016/j.automatica.2026.113209)
+#### 7. [Safe output-feedback adaptive optimal control of input-constrained control-affine nonlinear systems](https://doi.org/10.1016/j.automatica.2026.113209)
 - **质量/状态：**领域强 venue：Automatica；已发表/有期刊或会议记录（建议核验）
 - **状态依据：**Crossref：journal-article；Automatica；日期 2026-11-01
 - **日期：**发表 2026-11-01；预印本首发 —；收录月份 2026-11
@@ -1688,6 +1718,23 @@
 - **摘要：**Recent interactive video world models generate visually compelling videos from a single image, following user-provided camera motion and text prompts. However, such low-level control demands substantial user effort to realize a high-level intent, and the generated world struggles to remain persistent as the exploration proceeds. In this work, we present AgiWorld, an agentic video world model that explores and builds…
 
 ### 交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+
+#### 高质量正式 venue
+
+#### 1. [SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models](https://doi.org/10.1007/s11263-026-03112-7)
+- **质量/状态：**CCF-A：IJCV；已发表/有期刊或会议记录（建议核验）
+- **状态依据：**OpenAlex：journal 来源 International Journal of Computer Vision；日期 2026-11-13
+- **日期：**发表 2026-11-13；预印本首发 —；收录月份 2026-11
+- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**foundation model、control
+- **引用：**2（约 2.0/月，OpenAlex）
+- **venue：**International Journal of Computer Vision　**作者：**Turhan Can Kargin、Wojciech Jasiński、Adam Pardyl、Bartosz Zieliński、Marcin Przewięźlikowski
+- **机构：**Jagiellonian University (PL (PL))；AGH University of Krakow (PL (PL))；IDEAS Research Institute (PL (PL))；NASK National Research Institute (PL (PL))
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=SpaRRTa%3A%20A%20Synthetic%20Benchmark%20for%20Evaluating%20Spatial%20Intelligence%20in%20Visual%20Foundation%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.1007/s11263-026-03112-7](https://doi.org/10.1007/s11263-026-03112-7)
+- **开放获取：**[查看链接](https://doi.org/10.1007/s11263-026-03112-7)
+- **摘要：**Abstract Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work has incorporated some 3D tasks (such as depth estimation) into VFM training. However, VFM performance remains inconsistent across other spatial tasks, raising the question of whether…
 
 #### 前沿预印本｜未经过正式 venue 验证
 
@@ -6843,7 +6890,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2607.14169)　[PDF](https://arxiv.org/pdf/2607.14169)
 - **摘要：**Large language models can synthesize a game's rules as executable code - a Code World Model (CWM) - which a classical planner then searches over. Such models are typically accepted when they reach high transition accuracy on sampled trajectories. We argue this is the wrong notion of adequacy for planning. We show four things. (1) An LLM-synthesized CWM can pass a sampling gate at 100% transition accuracy and be $\geq…
 
-#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v3)
+#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-07-10；预印本首发 —；收录月份 2026-07
@@ -7081,17 +7128,3 @@
 - **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Platonic%20Projection%20Structures%3A%20Operator-Induced%20Observability%20in%20Representation%20Learning&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
 - **DOI：**[10.21203/rs.3.rs-9749304/v1](https://doi.org/10.21203/rs.3.rs-9749304/v1)
 - **摘要：**Abstract We introduce Platonic Projection Structures (PPS), an operator-theoretic framework for analyzing observability in representation learning systems. Rather than treating observable outputs as direct reflections of latent representations, PPS models observation as a geometry induced by a self-adjoint positive semidefinite operator acting on a latent Hilbert space. Within PPS, a system is represented as a triple…
-
-#### 2. [Thoughts-as-Planning: Latent World Models for Chain-of-Thoughts Optimization via Reinforcement Planning](https://doi.org/10.64898/2026.05.10.724161)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 2026-05-15；预印本首发 —；收录月份 2026-05
-- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、world models、language model、large language model
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Dong Liu、Yanxuan Yu、Ying Nian Wu
-- **机构：**University of California, Los Angeles, Los Angeles, CA, USA (美国 (US))；Columbia University, New York, NY, USA (美国 (US))
-- **元数据来源：**Crossref
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Thoughts-as-Planning%3A%20Latent%20World%20Models%20for%20Chain-of-Thoughts%20Optimization%20via%20Reinforcement%20Planning&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **DOI：**[10.64898/2026.05.10.724161](https://doi.org/10.64898/2026.05.10.724161)
-- **摘要：**Abstract The success of large language models (LLMs) across diverse NLP tasks has elevated the importance of reasoning chain optimization as a critical step in aligning model behavior with task objectives. Existing reasoning chain tuning methods often rely on black-box heuristics or gradient-free search, which lack interpretability, generalization, and sample efficiency. In this work, we introduce Thoughts-as-Plannin…
