@@ -1,228 +1,187 @@
-# 2026-11-19｜本轮首次收录的精选文献 16 篇
+# 2026-11-20｜本轮首次收录的精选文献 13 篇
 
-查询窗口起点：2026-05-20。
+查询窗口起点：2026-05-21。
 > 本文件按本轮首次入库日期汇总；首次六个月回溯可能集中录入历史论文，请按论文发表/预印本日期理解，不代表它们都在今天发表。
 
-#### 1. [WorldRuler: Interactive World Modeling under Configurable Rules](https://arxiv.org/abs/2611.24869)
+#### 1. [World Models Favor Learned Priors over Visual Evidence](https://arxiv.org/abs/2611.26366)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
 - **类别：**World Models 与连续时间/潜变量动力学
 - **主题锚点：**world model、world models
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Mingliang Zhai、Chuanhao Li、Jiaming Tan、Zhen Li、Yuwei Wu、Yunde Jia、Zian Meng、Yuanyang Yin 等
+- **venue：**—　**作者：**Han Xiao、Zhiyong Bao、Xiaotong Liu、Yanhao Chen、Qingqiang Wu
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=WorldRuler%3A%20Interactive%20World%20Modeling%20under%20Configurable%20Rules&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24869)　[PDF](https://arxiv.org/pdf/2611.24869)
-- **摘要：**Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule de…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=World%20Models%20Favor%20Learned%20Priors%20over%20Visual%20Evidence&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.26366)　[PDF](https://arxiv.org/pdf/2611.26366)
+- **摘要：**World models are increasingly used to simulate physical interactions, but training a separate model for each environment limits scalability. Cross-environment prediction requires identifying the current physical rule, which appearance alone may not reveal. We therefore study visual calibration: using object motion and interactions in a short video as direct evidence to infer the current rule and predict motion under…
 
-#### 2. [When to Refine: Selective Search for Frozen Visual World Models](https://arxiv.org/abs/2611.24470)
+#### 2. [What One Sample Cannot See: Why Fewer Denoising Steps Can Score Higher on Physics Benchmarks](https://arxiv.org/abs/2611.25632)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
 - **类别：**World Models 与连续时间/潜变量动力学
 - **主题锚点：**world model、world models
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Jingni Huang
+- **venue：**—　**作者：**Yutao Li、Chen Wang
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=When%20to%20Refine%3A%20Selective%20Search%20for%20Frozen%20Visual%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24470)　[PDF](https://arxiv.org/pdf/2611.24470)
-- **摘要：**Planning with a visual world model requires deciding both which actions to execute and how long to search for them. We introduce Selective CEM Refinement (SCR), a learned rule for deciding whether to continue cross-entropy method (CEM) search with a frozen LeWorldModel. After five it- erations, the gate measures how far the mean first action chunk has moved, how much the mean terminal cost of elite plans has fallen,…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=What%20One%20Sample%20Cannot%20See%3A%20Why%20Fewer%20Denoising%20Steps%20Can%20Score%20Higher%20on%20Physics%20Benchmarks&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.25632)　[PDF](https://arxiv.org/pdf/2611.25632)
+- **摘要：**When a storm can head north or south, a forecast down the middle may score better under squared error than either plausible path. The same paradox appears when video generators are tested as world models: fewer denoising steps can raise physics scores even as videos blur or stop moving early. Why? Physics-IQ compares each generated video with one recording, although a scene can have multiple valid futures. An exact d…
 
-#### 3. [TangentPDE: Learning Local Operator Responses with Sparse Finite-Difference Supervision](https://arxiv.org/abs/2611.24873)
+#### 3. [Physical Laws without Physics Loss? Probing Learned Dynamics in Video World Models through Forced Response](https://arxiv.org/abs/2611.25626)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**PDE、Neural Operators、谱方法与最优控制
-- **主题锚点：**neural operator、PDE
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models、learned dynamics
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Xinjian Xie、Ruxuan Chen、Jiashu Li、Tianyu Gao、Ye Wei
+- **venue：**—　**作者：**Yutao Li、Chen Wang、Wangmeng Zuo、Hui Li
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=TangentPDE%3A%20Learning%20Local%20Operator%20Responses%20with%20Sparse%20Finite-Difference%20Supervision&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24873)　[PDF](https://arxiv.org/pdf/2611.24873)
-- **摘要：**Neural PDE operators are often optimized through state reconstruction, which largely constrains operator values at observed inputs but does not fully characterize their sensitivity to local perturbations. A more faithful approximation of operator behavior requires not only accurate state predictions, but also correct variations along local perturbation directions. We present TangentPDE, which uses finite differences…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Physical%20Laws%20without%20Physics%20Loss%3F%20Probing%20Learned%20Dynamics%20in%20Video%20World%20Models%20through%20Forced%20Response&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.25626)　[PDF](https://arxiv.org/pdf/2611.25626)
+- **摘要：**Do video world models learn physical laws without a physics loss, or merely imitate motion? Overall motion and appearance scores cannot settle it. We investigate this through nonlinear forced response: an excitation shakes the support of a suspended object. We introduce dual visual-numeric conditioning and adapt six image-to-video backbones to predict this motion using only the flow-matching loss. Wan predicts motion…
 
-#### 4. [Stable admissible neural classes and convergent physics-informed neural networks](https://arxiv.org/abs/2611.24355)
+#### 4. [Monte Carlo Pass Search for Setpieces](https://arxiv.org/abs/2611.26464)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**PDE、Neural Operators、谱方法与最优控制
-- **主题锚点：**neural operator、PDE、physics-informed neural
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Leevan Ling、Shu Ma、Yizhong Sun
+- **venue：**—　**作者：**Andrew Kang
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Stable%20admissible%20neural%20classes%20and%20convergent%20physics-informed%20neural%20networks&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24355)　[PDF](https://arxiv.org/pdf/2611.24355)
-- **摘要：**Residual-based methods, including physics-informed neural networks (PINNs), physics-informed Kolmogorov--Arnold networks, and some physics-informed neural operator architectures, approximate PDE solutions by minimizing a discrete least-squares loss formed from the PDE and boundary residuals over a prescribed trial class. This structure is shared by classical least-squares Kansa collocation, whose kernel trial spaces…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Monte%20Carlo%20Pass%20Search%20for%20Setpieces&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.26464)　[PDF](https://arxiv.org/pdf/2611.26464)
+- **摘要：**Set pieces produce about a third of non-penalty expected goals (xG), yet they are usually evaluated by what happened next. We present Monte Carlo Pass Search (MCPS) for set pieces, which treats a corner or a lofted free kick as a distribution over plausible executions and plausible futures instead of a single realised event. From the pre-kick state, MCPS proposes counterfactual deliveries and counterfactual set-ups (…
 
-#### 5. [Risk-Triggered Search: Behavior-Preserving Safe Control](https://arxiv.org/abs/2611.24409)
+#### 5. [Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models](https://arxiv.org/abs/2611.25980)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model、world models
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**John Won、Yonghoon Dong、Jinwoo Shin
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Learning%20What%20Actions%20Change%3A%20Action%20Effect%20Matching%20for%20Dynamics-Faithful%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.25980)　[PDF](https://arxiv.org/pdf/2611.25980)
+- **摘要：**World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations. This limits their use in tasks such as robotic policy evaluation and model-based planning, where nearly identical acti…
+
+#### 6. [LATER: Learning Action-Conditioned Temporal Evidence Retrieval for Predictive World Models](https://arxiv.org/abs/2611.25671)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
 - **类别：**World Models 与连续时间/潜变量动力学
 - **主题锚点：**world model、world models、action-conditioned
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Xinyu Deng、Bohao Lan、Kunpeng Li、Mingkai Yuan、Weihang Pan、Binbin Lin
+- **venue：**—　**作者：**Zihan Zhou、Wenxi Xu、Qilin Wang、Hao Tang
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Risk-Triggered%20Search%3A%20Behavior-Preserving%20Safe%20Control&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24409)　[PDF](https://arxiv.org/pdf/2611.24409)
-- **摘要：**Pre-trained visual world models generate multi-step action plans from current and goal observations, yet terminal-proximity objectives fail to prevent forbidden-zone traversal or rigid-body collision sliding. Purely visual interfaces may lack analytical dynamics, structured states, or explicit collision geometry, requiring internal prediction of action-conditioned process risk. We propose Risk-Triggered Search (RTS)…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=LATER%3A%20Learning%20Action-Conditioned%20Temporal%20Evidence%20Retrieval%20for%20Predictive%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.25671)　[PDF](https://arxiv.org/pdf/2611.25671)
+- **摘要：**Early interactions can reveal physical properties that later observations no longer show. These properties can still gov- ern the effects of future actions. Inspired by the distinction between retention and selective readout in working mem- ory and cognitive science, we introduce LATER, an action- conditioned world model built on CF-JEPA. LATER stores completed real transitions in partitioned memories that remain fix…
 
-#### 6. [Render the Robot, Generate the World: One Video World Model Across Embodiments](https://arxiv.org/abs/2611.24925)
+#### 7. [Hierarchical Spatiotemporal World Modeling with Content-Adaptive Spatial Addressing](https://arxiv.org/abs/2611.25610)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
+- **类别：**World Models 与连续时间/潜变量动力学
+- **主题锚点：**world model
+- **引用：**暂无数据（OpenAlex 未提供/未查询）
+- **venue：**—　**作者：**Tiantian Li、Junfeng Lu、Yifei Wang、Zhaoyang Zhang、Lei Wang、Tianyi Qian
+- **机构：**未提供/未识别
+- **元数据来源：**arXiv
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Hierarchical%20Spatiotemporal%20World%20Modeling%20with%20Content-Adaptive%20Spatial%20Addressing&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.25610)　[PDF](https://arxiv.org/pdf/2611.25610)
+- **摘要：**Long-horizon world modeling in partially observable environments requires compact memories that preserve spatial structure despite accumulated localization drift. Inspired by hippocampal episodic and spatial memory and the multi-periodic coding of entorhinal grid cells, we propose HiSTFormer, a hierarchical spatiotemporal world model, which adopts a layer-wise organization of local temporal RoPE and multi-periodic sp…
+
+#### 8. [Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models](https://arxiv.org/abs/2611.25927)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
 - **类别：**World Models 与连续时间/潜变量动力学
 - **主题锚点：**world model、world models
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Yash Jangir、Karan Mirakhor、Renos Zabounidis、Muhammad Zubair Irshad、Sergey Zakharov、Yonatan Bisk、Homanga Bharadhwaj
+- **venue：**—　**作者：**Yao Zhang、Bin Yu、Shijie Lian、Haishan Liu、Changti Wu、Yu Wu、Kai Chen
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Render%20the%20Robot%2C%20Generate%20the%20World%3A%20One%20Video%20World%20Model%20Across%20Embodiments&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24925)　[PDF](https://arxiv.org/pdf/2611.24925)
-- **摘要：**Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment-agnostic video world model conditioned on camera-aligned renderings of future body configurations and numerical action…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Fast-JEPA%3A%20Advancing%20the%20Success-Latency%20Frontier%20for%20Latent%20World%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.25927)　[PDF](https://arxiv.org/pdf/2611.25927)
+- **摘要：**Latent world models predict the outcomes of action sequences, but comparing candidate plans through recursive rollout remains expensive at test time. We introduce Fast-JEPA, a latent world model planning framework that advances the success-latency Pareto frontier of predictive search. Fast-JEPA reorganizes predictive computation to support effective action-sequence search at low planning cost. It constructs a goal-di…
 
-#### 7. [RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models](https://arxiv.org/abs/2611.23843)
+#### 9. [FEA solver integration of a composite World Model with a Spiking Neural Network memory Block for computationally efficient modelling of defects and variabilities](https://arxiv.org/abs/2611.26419)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**vision-language action、planning
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Apoorva Vashisth、Manav Kulshrestha、Damon Conover、Zachary Kingston、Aniket Bera
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=RePlan-VLA%3A%20Progress-Aware%20Replanning%20for%20Long-Horizon%20Vision-Language-Action%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.23843)　[PDF](https://arxiv.org/pdf/2611.23843)
-- **摘要：**Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation, yet their performance often degrades on long-horizon tasks that require multiple interdependent manipulations. Instead of burdening the VLA policies with long-horizon reasoning, memory, action generation, progress tracking, and error recovery, we argue for leveraging their short-horizon manipulation capa…
-
-#### 8. [ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2611.23714)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**vision-language action、control
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Keke Tang、Guolin Qiu、Tianyu Hao、Daizong Liu、Yikai Zhang、Peican Zhu、Zhihong Tian
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=ExecGap%3A%20Exploiting%20Command-Execution%20Gap%20for%20Patch%20Attacks%20on%20Vision-Language-Action%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.23714)　[PDF](https://arxiv.org/pdf/2611.23714)
-- **摘要：**Vision-Language-Action (VLA) models have become a powerful paradigm for robotic manipulation and show strong promise for real-world deployment, making adversarial robustness critical for reliable robot operation. Existing adversarial attacks on VLA-controlled robots mainly optimize prediction-level discrepancies or rollout-level deviations to disrupt manipulation. However, they rarely account for the fact that VLA-pr…
-
-#### 9. [Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models](https://arxiv.org/abs/2611.24384)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
 - **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、foundation model
+- **主题锚点：**world model、transformer architecture
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Mohammad Mirzaee、Mehrshad Fallah Estalkhzir、Mohammad Reza Mohammadi
+- **venue：**—　**作者：**Bassam El Said、Adam Sobey
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Enhancing%20Active%20Learning%20Performance%20with%20Initial%20Data%20Selection%20Based%20on%20Foundation%20Models&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24384)　[PDF](https://arxiv.org/pdf/2611.24384)
-- **摘要：**In active object detection, selecting the initial labeled pool is essential, especially in complex datasets with expensive labeling and low resource budget. This study presents an active learning framework designed to optimize the initial training cycle of active learning for the object detection task. Our approach diverges from traditional methods by utilizing feature-based clustering from the YOLO-World model and r…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=FEA%20solver%20integration%20of%20a%20composite%20World%20Model%20with%20a%20Spiking%20Neural%20Network%20memory%20Block%20for%20computationally%20efficient%20modelling%20of%20defects%20and%20variabilities&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.26419)　[PDF](https://arxiv.org/pdf/2611.26419)
+- **摘要：**Each fibre-reinforced composite structure has a unique material architecture. The manufacturing methods used and the presence of defects lead to local variations which require material-scale models that can resolve the response in real time at every location in the structure. Concurrent multi-scale schemes provide this capability, but at a prohibitive computational cost for large structures as the number of integrati…
 
-#### 10. [Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving](https://arxiv.org/abs/2611.24840)
+#### 10. [CauSyncVLA: Causal Latent World Modeling for Asynchronous Robot Control](https://arxiv.org/abs/2611.25667)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**World Models 与连续时间/潜变量动力学
-- **主题锚点：**world model、world models、action-conditioned
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Binay Kumar Singh、Niels Da Vitoria Lobo
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Does%20the%20Action%20Matter%3F%20Probing%20Action-Conditioned%20Semantic%20Forecasting%20as%20a%20World%20Model%20for%20Autonomous%20Driving&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24840)　[PDF](https://arxiv.org/pdf/2611.24840)
-- **摘要：**World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. In this paper, we study action dependence in action-conditioned semantic forec…
-
-#### 11. [DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play](https://arxiv.org/abs/2611.24836)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
+- **日期：**发表 —；预印本首发 2026-11-19；收录月份 2026-11
 - **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、world models、dynamics model、diffusion policy
+- **主题锚点：**world model、vision-language action、control
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Akshay L Chandra、Iman Nematollahi、Lingyue Zhao、Daria Kulikova、Angela P. Schoellig、Fabien Despinoy、Abhinav Valada
+- **venue：**—　**作者：**Xu Pan、Chubin Zhang、Xingrui Yu、Runmin Lan、Zihao Wang、Wenkai Guo、Bofang Jia、Bo An 等
 - **机构：**未提供/未识别
 - **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=DiWALI%3A%20Diffusion%20Policy%20Learning%20in%20World%20Models%20via%20Latent%20Action%20Inference%20from%20Human%20and%20Robot%20Play&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24836)　[PDF](https://arxiv.org/pdf/2611.24836)
-- **摘要：**Learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. Humans can demonstrate skills in seconds, but their demonstrations lack the required robot actions. We introduce DiWALI, a framework that learns and improves diffusion policies within a world model trained on human and robot play. DiWALI infers latent actions from consecutive frames using…
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=CauSyncVLA%3A%20Causal%20Latent%20World%20Modeling%20for%20Asynchronous%20Robot%20Control&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **arXiv：**[摘要页](https://arxiv.org/abs/2611.25667)　[PDF](https://arxiv.org/pdf/2611.25667)
+- **摘要：**Vision-Language-Action (VLA) policies must react while visual inference is still running. Overlapping computation and execution reduces waiting, yet leaves perceptual memory stale and successive action chunks disconnected. We present CauSyncVLA, an asynchronous dual-system controller that aligns perceptual-memory prediction and trajectory correction with actual robot execution. Rather than forecasting pixels or physi…
 
-#### 12. [Counterfactual World Models: JEPAs That Reason About "What If"](https://arxiv.org/abs/2611.24778)
+#### 11. [A Sharp Turn Is Not a Phase Transition: What Training-Time Transitions in Small Language Models Establish, Why Threshold Readouts, Fast Crossovers, Developmental Stages and Critical Behaviour Are Reported Under One Name, and the Controls That Would Tell Them Apart](https://doi.org/10.5281/zenodo.24355740)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**World Models 与连续时间/潜变量动力学
-- **主题锚点：**world model、world models
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Randall Balestriero、Yann LeCun、Kerda Varaku
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Counterfactual%20World%20Models%3A%20JEPAs%20That%20Reason%20About%20%22What%20If%22&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24778)　[PDF](https://arxiv.org/pdf/2611.24778)
-- **摘要：**World models operate in a world they cannot fully observe. When a hidden disturbance, such as a current pushing a boat, changes the outcome of an action, a counterfactual question follows: what would have happened under a different action, subject to the same disturbance? Its answer separates bad decisions from bad luck. We prove that world models trained on factual transitions cannot answer it on their own, whatever…
-
-#### 13. [CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning](https://arxiv.org/abs/2611.24244)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**World Models 与连续时间/潜变量动力学
-- **主题锚点：**world model、world models、state-space model、state space model
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Yuqi Ping、Tianhao Liang、Tingting Zhang
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=CommDreamer%3A%20Radio-Geometric%20World%20Models%20for%20Mapless%20Cellular-Connected%20UAV%20Trajectory%20Planning&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24244)　[PDF](https://arxiv.org/pdf/2611.24244)
-- **摘要：**Reliable cellular connectivity and collision-free flight are essential for unmanned aerial vehicle (UAV) operations in low-altitude urban canyons, where dense 3D buildings obstruct flight clearance, shadow serving base stations, and create strong co-channel interference at street intersections. Existing planners either require prior 3D city meshes and channel knowledge maps unavailable onboard, or rely on model-free…
-
-#### 14. [Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation](https://arxiv.org/abs/2611.24247)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
+- **日期：**发表 2026-11-19；预印本首发 —；收录月份 2026-11
 - **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**vision-language action、control
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Haotian Xu、Yue Hu、Zhengqiu Zhu、Tuo Feng、Wenguan Wang、Quanjun Yin
+- **主题锚点：**language model、control
+- **引用：**0（约 0.0/月，OpenAlex）
+- **venue：**Zenodo (CERN European Organization for Nuclear Research)　**作者：**Pranay M. Mahendrakar
 - **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Allocentric%20Memory%2C%20Egocentric%20Acting%3A%20A%20Dual-Frame%20VLA%20for%20Urban%20Aerial%20Navigation&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24247)　[PDF](https://arxiv.org/pdf/2611.24247)
-- **摘要：**Language-goal aerial navigation requires a UAV to reach a destination specified in natural language using observations collected during flight. A key challenge is linking changing egocentric perception with spatial evidence anchored to stable locations for long-range navigation. We propose CityNav-VLA, a dual-frame vision-language-action model for urban navigation integrating dynamic egocentric context with persisten…
+- **元数据来源：**OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20Sharp%20Turn%20Is%20Not%20a%20Phase%20Transition%3A%20What%20Training-Time%20Transitions%20in%20Small%20Language%20Models%20Establish%2C%20Why%20Threshold%20Readouts%2C%20Fast%20Crossovers%2C%20Developmental%20Stages%20and%20Critical%20Behaviour%20Are%20Reported%20Under%20One%20Name%2C%20and%20the%20Controls%20That%20Would%20Tell%20Them%20Apart&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.5281/zenodo.24355740](https://doi.org/10.5281/zenodo.24355740)
+- **开放获取：**[查看链接](https://doi.org/10.5281/zenodo.24355740)
+- **摘要：**(c) 2026 Pranay Mahendrakar. Licensed under CC BY 4.0. Life of Research A 2025 study trains a 3.6-million-parameter character-level transformer on Tiny Shakespeare and reports a phase transition in the middle of training: around epochs 230 to 250, the dispersion indices of correct and incorrect word counts exchange which one sits near the Poisson value, divergence from a Poisson fit peaks, the unique misspellings ris…
 
-#### 15. [$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940)
+#### 12. [Large Language Model-Assisted Zoning for Heterogeneous Automatic Voltage Control in Renewable-Rich Regional Power Grids](https://doi.org/10.21203/rs.3.rs-11301328/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
-- **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
-- **主题锚点：**world model、vision-language action、foundation model、control
+- **日期：**发表 2026-11-04；预印本首发 —；收录月份 2026-11
+- **类别：**交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**language model、large language model、LLM、control
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Junjie Ye、Yiqi Zhao、Muchen Xu、Celina Shiyu Wang、Hao Dong、Ruohai Ge、Rong Xue、Benjamin J Kolligs 等
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=%24Z%24-sight%3A%20Unifying%20Vision-Language-Action%20and%20Latent%20World%20Modeling&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.24940)　[PDF](https://arxiv.org/pdf/2611.24940)
-- **摘要：**We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent latent-space policies avoid pixel generation, yet typically align intermediate features or rely on frozen target encoders,…
+- **venue：**—　**作者：**Jun Zhao、Xiaoqiang Nan、Shifeng Zhang
+- **机构：**State Grid Shanxi Electric Power Company Electric Power Research Institute；State Grid Shanxi Electric Power Company (China) (中国 (CN))
+- **元数据来源：**Crossref
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Large%20Language%20Model-Assisted%20Zoning%20for%20Heterogeneous%20Automatic%20Voltage%20Control%20in%20Renewable-Rich%20Regional%20Power%20Grids&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.21203/rs.3.rs-11301328/v1](https://doi.org/10.21203/rs.3.rs-11301328/v1)
+- **摘要：**Abstract High penetration of wind and photovoltaic generation complicates reactive power and voltage regulation in regional power grids. A uniform automatic voltage control (AVC) mode may not meet differing regional requirements, while independent control by electrically coupled renewable energy stations can produce poorly coordinated reactive power responses. This paper proposes a heterogeneous AVC framework assiste…
 
-#### 16. [Conformally Calibrated Adaptive Computation in Neural Operators](https://arxiv.org/abs/2611.23440)
+#### 13. [Learnable Graph Network Model (LGNM): A Physics Constrained Graph Neural Network with Quantum Hamiltonian Learning](https://doi.org/10.64898/2026.07.14.738428)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-11-17；收录月份 2026-11
-- **类别：**PDE、Neural Operators、谱方法与最优控制
-- **主题锚点：**neural operator
+- **日期：**发表 2026-07-20；预印本首发 —；收录月份 2026-07
+- **类别：**PDE、Neural Operators、谱方法与最优控制、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
+- **主题锚点：**PDE、graph neural network
 - **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Abdul Qadir Ibrahim、Martin Burger、Abel Maviano Jonathan
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Conformally%20Calibrated%20Adaptive%20Computation%20in%20Neural%20Operators&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2611.23440)　[PDF](https://arxiv.org/pdf/2611.23440)
-- **摘要：**Selecting less computation in a neural operator need not reduce inference time. We study this gap using conformal calibration to choose Fourier modes or channel width per input subject to a fixed error budget. A triangle-inequality envelope bounds all candidates simultaneously; a direct-score rule handles non-monotone candidate errors and, with an input-independent score, calibrates a static baseline under the same m…
+- **venue：**—　**作者：**Bhuwan Sharma、Chiranjib Sarkar
+- **机构：**Computational and Systems Biology Lab, Department of Bioinformatics, University of North Bengal
+- **元数据来源：**Crossref
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=Learnable%20Graph%20Network%20Model%20%28LGNM%29%3A%20A%20Physics%20Constrained%20Graph%20Neural%20Network%20with%20Quantum%20Hamiltonian%20Learning&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.64898/2026.07.14.738428](https://doi.org/10.64898/2026.07.14.738428)
+- **摘要：**Abstract Elastic Network Models (ENMs), particularly the Gaussian Network Model (GNM) and its distance-weighted variant (mENM), predict per-residue protein flexibility from C α contact graphs at low computational cost. Their central limitation is the assumption of uniform spring constants, which ignores the chemical identity, burial depth, and evolutionary conservation of individual residue contacts. We introduce the…
