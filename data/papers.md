@@ -1,6 +1,6 @@
 # Awesome 文献雷达｜2026-05 至 2026-11
 
-更新日期：2026-11-21（Asia/Shanghai）。滚动窗口：最近 183 天。
+更新日期：2026-11-22（Asia/Shanghai）。滚动窗口：最近 183 天。
 共收录精选论文/预印本 585 篇；其中正式 venue 精选 35 篇，预印本观察 550 篇。
 滚动窗口内另有 313 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
@@ -4869,7 +4869,7 @@
 - **日期：**发表 2026-10-16；预印本首发 —；收录月份 2026-10
 - **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
 - **主题锚点：**world model、language model
-- **引用：**2（约 1.7/月，OpenAlex）
+- **引用：**2（约 1.6/月，OpenAlex）
 - **venue：**Zenodo (CERN European Organization for Nuclear Research)　**作者：**Muhammet Ali Güz
 - **机构：**未提供/未识别
 - **元数据来源：**OpenAlex
@@ -8152,7 +8152,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2607.14169)　[PDF](https://arxiv.org/pdf/2607.14169)
 - **摘要：**Large language models can synthesize a game's rules as executable code - a Code World Model (CWM) - which a classical planner then searches over. Such models are typically accepted when they reach high transition accuracy on sampled trajectories. We argue this is the wrong notion of adequacy for planning. We show four things. (1) An LLM-synthesized CWM can pass a sampling gate at 100% transition accuracy and be $\geq…
 
-#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v1)
+#### 3. [From task models to world models: A person-specific computational psychology of anxiety](https://doi.org/10.31234/osf.io/98ktg_v3)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-07-10；预印本首发 —；收录月份 2026-07
