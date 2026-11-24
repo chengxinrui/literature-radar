@@ -11942,6 +11942,156 @@
     ]
   },
   {
+    "uid": "arxiv:2609.00489",
+    "title": "A hybrid quantum-classical neural network for learning to route",
+    "abstract": "We study hybrid quantum-classical neural networks for learning routing heuris-tics. Specifically, we ask whether small quantum neural networks can replace parameter-heavy modules inside a well-established attention-based routing model while maintaining solution quality. We consider the capacitated vehicle routing problem (CVRP) and its variant with time windows (CVRPTW), evaluating instances with 10 to 100 customers. We investigate four-qubit quantum neu-ral networks (QNNs) as replacements for encoder feed-forward modules and attention output projections, comparing them against width-matched classical bottlenecks. For these problems, encoder feed-forward replacement emerges as the most promising design, reducing the number of model parameters by 56.6% relative to the original classical architecture. Across matched comparisons, the QNN bottlenecks retain solution quality close to their classical counterparts, with differences in mean route length of approximately 0.5% or less under feed-forward replacement. Replacing the attention output projections as well increases parameter reduction to 63.2%, but leads to larger performance gaps for larger instances. The QNNs do not systematically outperform the classical controls. These results 1 identify encoder feed-forward replacement as a viable hybrid-module compression strategy for neural combinatorial optimization, without demonstrating a quantum-specific advantage.",
+    "authors": [
+      "Marcus Rolf Peter Ritt",
+      "Alexsandro Santos da Rosa Júnior",
+      "Marcos Vinicius Reballo",
+      "Cesar Augusto do Amaral",
+      "Fernando Augusto Caletti de Barros",
+      "Marcus Ritt"
+    ],
+    "institutions": [
+      {
+        "name": "Universidade Federal do Rio Grande do Sul",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Instituto de Pesquisas Eldorado",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Universidade Federal de Santa Catarina",
+        "country_code": "BR",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Marcus Ritt",
+        "institution": "Universidade Federal do Rio Grande do Sul",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Alexsandro Santos da Rosa Júnior",
+        "institution": "Instituto de Pesquisas Eldorado",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Marcos Vinicius Reballo",
+        "institution": "Instituto de Pesquisas Eldorado",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Cesar Augusto do Amaral",
+        "institution": "Universidade Federal de Santa Catarina",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Fernando Augusto Caletti de Barros",
+        "institution": "Instituto de Pesquisas Eldorado",
+        "country_code": "BR",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "BR"
+    ],
+    "home_scope": "国外",
+    "venue": "Research Square",
+    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
+    "status_evidence": [
+      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-23",
+    "preprint_date": "2026-08-31",
+    "preprint_updated_date": "2026-08-31",
+    "arxiv_id": "2609.00489",
+    "doi": "10.21203/rs.3.rs-11538593/v1",
+    "work_type": "preprint",
+    "citation_count": 1,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "categories": [
+      "cs.LG",
+      "quant-ph"
+    ],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "OR: neural combinatorial optimization | neural routing | autoregressive combinatorial optimization | diffusion combinatorial optimization | iterative search combinatorial optimization | reduce-then-solve combinatorial optimization | reduction-based combinatorial optimization | learning to optimize routing"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "arXiv",
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://arxiv.org/abs/2609.00489",
+      "https://doi.org/10.21203/rs.3.rs-11538593/v1"
+    ],
+    "paper_url": "https://doi.org/10.21203/rs.3.rs-11538593/v1",
+    "open_access_url": "https://arxiv.org/pdf/2609.00489",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "arXiv",
+        "work_type": "preprint",
+        "venue": "arXiv",
+        "journal_ref": "",
+        "doi": ""
+      },
+      {
+        "source": "OpenAlex",
+        "work_type": "preprint",
+        "venue": "Research Square",
+        "venue_type": "repository",
+        "date": "2026-11-23",
+        "doi": "10.21203/rs.3.rs-11538593/v1"
+      }
+    ],
+    "first_seen": "2026-10-11",
+    "last_status_checked": "2026-11-02",
+    "reading_status": "未读",
+    "my_notes": "",
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索",
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_anchors": [
+      "neural combinatorial",
+      "combinatorial optimization",
+      "vehicle routing",
+      "routing problem"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_exclusion_reasons": []
+  },
+  {
     "uid": "doi:10.5281/zenodo.22733711",
     "title": "The Enactment Gap: A Comparative Diagnosis of Institutional Health in Pharmaceutical Governance",
     "abstract": "Comparative work on pharmaceutical governance is dominated by two questions: how much a country regulates, and how well its system performs. Both leave a prior question unasked — whether the institutions doing the regulating are themselves in sound condition. This article develops the enactment gap, the measurable distance between what a governance rule promises and what stakeholders actually experience, as a diagnostic of institutional health at system level. Five countries with sharply different regulatory architectures are compared: Denmark, Germany, Malaysia, Brazil and Türkiye, with Iran as a reference case drawn from the author’s earlier firm-level study. The design is a structured focused comparison built on a purposive corpus of thirty-one regulatory, agency and evaluative documents published between 2010 and 2026. Each country is assessed twice on the five dimensions of the Institutional Health Profile — functional integrity, burden parsimony, responsiveness to suffering, trustworthiness and regenerative capacity — once against its formal rules and once against documented outcomes, with the divergence between the two readings coded on an ordinal three-band scale. The central finding is that the width of the enactment gap tracks neither regulatory density nor national income. Denmark and Germany occupy opposite extremes of rule density yet both keep narrow gaps, while Türkiye and Brazil are comparably dense and diverge sharply. What separates them is the presence of a corrective channel: a routine, low-cost, institutionally protected route through which the gap is surfaced and made costly to the rule-maker. Where such a channel exists, gaps close without reform; where it is absent, formal rule quality does not prevent hollowing. A four-cell typology is derived, and the implication for Iran is that investment in gap-surfacing infrastructure is likely to yield more than further rule-making.",
@@ -12305,6 +12455,114 @@
     ],
     "first_seen": "2026-11-23",
     "last_status_checked": "2026-11-23",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
+    "uid": "doi:10.37528/ftte/9788673955254/symopis.2026.en.06",
+    "title": "PHYSICS-INFORMED NEURAL NETWORKS FOR OPTIMAL CONTROL OF THE HEAT EQUATION: DISTRIBUTED AND BOUNDARY CONTROL",
+    "abstract": "Many operational-research problems reduce to steering a physical system, governed by a partial differential equation (PDE), toward a desired state at minimum cost. Classical PDE-constrained optimization solves such problems with adjoint methods that require a dedicated forward and backward solver and a separate optimization loop. We study a single-stage alternative based on physics-informed neural networks (PINNs), in which the state and the control are represented by two neural networks and trained jointly so that the PDE residual, the initial and boundary conditions, and the control cost functional are minimized at once. We formulate the optimal control of the one-dimensional unsteady heat equation under two control modalities: a distributed source acting over the whole domain, and a boundary heat flux acting only on the edge. A small, reproducible experiment shows that both controllers drive the temperature field to the prescribed target with a relative error of a few percent, while the same code, loss function, and training procedure handle both modalities by changing only the control representation. The approach is mesh-free, needs no adjoint derivation, and extends naturally to inverse and parametric problems, making it an attractive tool for real-time, control-oriented digital twins.",
+    "authors": [
+      "Miloš Milićević",
+      "Ana Poledica",
+      "Andrija Petrović",
+      "Boris Delibašić"
+    ],
+    "institutions": [
+      {
+        "name": "University of Belgrade, Faculty of Organizational Sciences, Belgrade, Serbia",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Miloš Milićević",
+        "institution": "University of Belgrade, Faculty of Organizational Sciences, Belgrade, Serbia",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Ana Poledica",
+        "institution": "University of Belgrade, Faculty of Organizational Sciences, Belgrade, Serbia",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Andrija Petrović",
+        "institution": "University of Belgrade, Faculty of Organizational Sciences, Belgrade, Serbia",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Boris Delibašić",
+        "institution": "University of Belgrade, Faculty of Organizational Sciences, Belgrade, Serbia",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "SYM-OP-IS 2026, SYMPOSIUM PROCEEDINGS",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；SYM-OP-IS 2026, SYMPOSIUM PROCEEDINGS；日期 2026-11-20"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-20",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.37528/ftte/9788673955254/symopis.2026.en.06",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "partial differential equation",
+      "PDE",
+      "PDE-constrained",
+      "optimal control",
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.37528/ftte/9788673955254/symopis.2026.en.06"
+    ],
+    "paper_url": "https://doi.org/10.37528/ftte/9788673955254/symopis.2026.en.06",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "SYM-OP-IS 2026, SYMPOSIUM PROCEEDINGS",
+        "venue_type": "",
+        "date": "2026-11-20",
+        "doi": "10.37528/ftte/9788673955254/symopis.2026.en.06"
+      }
+    ],
+    "first_seen": "2026-11-24",
+    "last_status_checked": "",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -113103,6 +113361,104 @@
     ]
   },
   {
+    "uid": "doi:10.1109/isstc72143.2026.11789952",
+    "title": "Computational Evaluation of Continually Adapted Latent World Models for Planning: From Predictive Fidelity to Decision Utility",
+    "abstract": "",
+    "authors": [
+      "Shiyu Cai",
+      "Bei Wang",
+      "Tingyu Zhang"
+    ],
+    "institutions": [
+      {
+        "name": "Rocket Force University of Engineering",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Shiyu Cai",
+        "institution": "Rocket Force University of Engineering",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Bei Wang",
+        "institution": "Rocket Force University of Engineering",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Tingyu Zhang",
+        "institution": "Rocket Force University of Engineering",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "2026 5th International Symposium on Sensor Technology and Control (ISSTC)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；2026 5th International Symposium on Sensor Technology and Control (ISSTC)；日期 2026-10-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-10-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/isstc72143.2026.11789952",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "world models"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "planning in world models"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/isstc72143.2026.11789952"
+    ],
+    "paper_url": "https://doi.org/10.1109/isstc72143.2026.11789952",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "2026 5th International Symposium on Sensor Technology and Control (ISSTC)",
+        "venue_type": "",
+        "date": "2026-10-01",
+        "doi": "10.1109/isstc72143.2026.11789952"
+      }
+    ],
+    "first_seen": "2026-11-24",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1016/j.dam.2026.05.034",
     "title": "Combinatorial Optimization ISCO 2024",
     "abstract": "",
@@ -123127,6 +123483,170 @@
     "my_notes": ""
   },
   {
+    "uid": "doi:10.1109/iros61738.2026.11777132",
+    "title": "NavThinker: Action-Conditioned World Model for Coupled Prediction and Planning in Social Navigation",
+    "abstract": "",
+    "authors": [
+      "Tianshuai Hu",
+      "Zeying Gong",
+      "Lingdong Kong",
+      "XiaoDong Mei",
+      "Yiyi Ding",
+      "Qi Zeng",
+      "Ao Liang",
+      "Rong Li",
+      "Yangyi Zhong",
+      "Junwei Liang"
+    ],
+    "institutions": [
+      {
+        "name": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "National University of Singapore",
+        "country_code": "SG",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "University of Chinese Academy of Sciences",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Tianshuai Hu",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      },
+      {
+        "author": "Zeying Gong",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      },
+      {
+        "author": "Lingdong Kong",
+        "institution": "National University of Singapore",
+        "country_code": "SG",
+        "source": "Crossref"
+      },
+      {
+        "author": "XiaoDong Mei",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yiyi Ding",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      },
+      {
+        "author": "Qi Zeng",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      },
+      {
+        "author": "Ao Liang",
+        "institution": "University of Chinese Academy of Sciences",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Rong Li",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yangyi Zhong",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      },
+      {
+        "author": "Junwei Liang",
+        "institution": "The Hong Kong University of Science and Technology",
+        "country_code": "HK",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [
+      "HK",
+      "SG"
+    ],
+    "home_scope": "国外",
+    "venue": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)；日期 2026-09-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-09-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/iros61738.2026.11777132",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "search_topics": [
+      "World Models 与连续时间/潜变量动力学"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "world model",
+      "action-conditioned"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "World Models 与连续时间/潜变量动力学",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "action-conditioned world model"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/iros61738.2026.11777132"
+    ],
+    "paper_url": "https://doi.org/10.1109/iros61738.2026.11777132",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "venue_type": "",
+        "date": "2026-09-01",
+        "doi": "10.1109/iros61738.2026.11777132"
+      }
+    ],
+    "first_seen": "2026-11-24",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1016/j.segan.2026.102473",
     "title": "Meteorological pattern-conditioned generative machine learning in model predictive control optimization for wind power dispatch",
     "abstract": "",
@@ -123502,6 +124022,111 @@
     "relevance_exclusion_reasons": []
   },
   {
+    "uid": "doi:10.1109/iros61738.2026.11776342",
+    "title": "FAST: Action-aware Feasibility in Assembly Sequence Planning using Graph Transformer",
+    "abstract": "",
+    "authors": [
+      "Xiaomei Xu",
+      "Jaykumar Bhagiya",
+      "Marco Schneider",
+      "Rainer Müller"
+    ],
+    "institutions": [
+      {
+        "name": "Centre for Mechatronics and Automation Technology gGmbH (ZeMA)",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Xiaomei Xu",
+        "institution": "Centre for Mechatronics and Automation Technology gGmbH (ZeMA)",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Jaykumar Bhagiya",
+        "institution": "Centre for Mechatronics and Automation Technology gGmbH (ZeMA)",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Marco Schneider",
+        "institution": "Centre for Mechatronics and Automation Technology gGmbH (ZeMA)",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Rainer Müller",
+        "institution": "Centre for Mechatronics and Automation Technology gGmbH (ZeMA)",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)；日期 2026-09-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-09-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/iros61738.2026.11776342",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "graph transformer",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "transformer for planning"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/iros61738.2026.11776342"
+    ],
+    "paper_url": "https://doi.org/10.1109/iros61738.2026.11776342",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "venue_type": "",
+        "date": "2026-09-01",
+        "doi": "10.1109/iros61738.2026.11776342"
+      }
+    ],
+    "first_seen": "2026-11-24",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1109/icip61757.2026.11630388",
     "title": "F2-Owod: Frequency-Domain Feature Decoupling with Foundation Models for Open-World Object Detection",
     "abstract": "",
@@ -123588,6 +124213,140 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.1109/iros61738.2026.11776523",
+    "title": "Event-Adaptive Motion Planning with Distilled Vision-Language Model in Safety-Critical Situations",
+    "abstract": "",
+    "authors": [
+      "Zhenwei Huang",
+      "Changsheng You",
+      "Shuai Wang",
+      "Chao Zhou",
+      "Wei Xu",
+      "Yi Gong"
+    ],
+    "institutions": [
+      {
+        "name": "Southern University of Science and Technology",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Shenzhen Institute of Advanced Technology",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Manifold Tech Limited",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Zhenwei Huang",
+        "institution": "Southern University of Science and Technology",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Changsheng You",
+        "institution": "Southern University of Science and Technology",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Shuai Wang",
+        "institution": "Shenzhen Institute of Advanced Technology",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Chao Zhou",
+        "institution": "Southern University of Science and Technology",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Wei Xu",
+        "institution": "Manifold Tech Limited",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yi Gong",
+        "institution": "Southern University of Science and Technology",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)；日期 2026-09-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-09-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/iros61738.2026.11776523",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "search_topics": [
+      "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "language model",
+      "vision-language model",
+      "planning"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "vision-language model planning"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/iros61738.2026.11776523"
+    ],
+    "paper_url": "https://doi.org/10.1109/iros61738.2026.11776523",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "venue_type": "",
+        "date": "2026-09-01",
+        "doi": "10.1109/iros61738.2026.11776523"
+      }
+    ],
+    "first_seen": "2026-11-24",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1109/icosics70095.2026.11746705",
@@ -124057,83 +124816,6 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
-  },
-  {
-    "uid": "arxiv:2609.00489",
-    "title": "A hybrid quantum-classical neural network for learning to route",
-    "abstract": "This work studies hybrid quantum-classical neural networks for learning routing heuristics. Specifically, this paper asks whether small quantum neural networks can replace parameter-heavy modules inside a competitive attention-based routing model while maintaining solution quality. For the capacitated vehicle routing problem, encoder feed-forward replacement emerges as the most promising design: it reduces the number of model parameters by 56.6% while keeping the hybrid model close to the classical neural baseline at small and medium instance sizes, although the gap grows for larger instances. This work also compares to classical routing algorithms, which remain highly competitive and often superior on the fixed Euclidean test sets. Our results therefore do not indicate quantum advantage or solver dominance, but identify encoder feed-forward replacement as a viable hybrid-module compression strategy for neural combinatorial optimization.",
-    "authors": [
-      "Marcus Rolf Peter Ritt",
-      "Alexsandro Santos da Rosa Júnior",
-      "Marcos Vinicius Reballo",
-      "Cesar Augusto do Amaral",
-      "Fernando Augusto Caletti de Barros"
-    ],
-    "institutions": [],
-    "affiliations": [],
-    "institution_countries": [],
-    "home_scope": "未知",
-    "venue": "",
-    "publication_status": "arXiv/预印本（暂未检出正式出版记录）",
-    "status_evidence": [
-      "发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。"
-    ],
-    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
-    "publication_date": "",
-    "preprint_date": "2026-08-31",
-    "preprint_updated_date": "2026-08-31",
-    "arxiv_id": "2609.00489",
-    "doi": "",
-    "work_type": "preprint",
-    "citation_count": null,
-    "topics": [
-      "Neural Combinatorial Optimization 与神经搜索"
-    ],
-    "categories": [
-      "cs.LG",
-      "quant-ph"
-    ],
-    "topic_matches": [
-      {
-        "topic": "Neural Combinatorial Optimization 与神经搜索",
-        "role": "core",
-        "weight": 1.0,
-        "query_term": "OR: neural combinatorial optimization | neural routing | autoregressive combinatorial optimization | diffusion combinatorial optimization | iterative search combinatorial optimization | reduce-then-solve combinatorial optimization | reduction-based combinatorial optimization | learning to optimize routing"
-      }
-    ],
-    "source_names": [
-      "arXiv"
-    ],
-    "source_urls": [
-      "https://arxiv.org/abs/2609.00489"
-    ],
-    "paper_url": "https://arxiv.org/abs/2609.00489",
-    "open_access_url": "https://arxiv.org/pdf/2609.00489",
-    "is_open_access": true,
-    "status_signals": [
-      {
-        "source": "arXiv",
-        "work_type": "preprint",
-        "venue": "arXiv",
-        "journal_ref": "",
-        "doi": ""
-      }
-    ],
-    "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-02",
-    "reading_status": "未读",
-    "my_notes": "",
-    "search_topics": [
-      "Neural Combinatorial Optimization 与神经搜索"
-    ],
-    "relevance_anchors": [
-      "neural combinatorial",
-      "combinatorial optimization",
-      "vehicle routing",
-      "routing problem"
-    ],
-    "relevance_status": "in_scope",
-    "relevance_exclusion_reasons": []
   },
   {
     "uid": "doi:10.1515/9781501526152-006",

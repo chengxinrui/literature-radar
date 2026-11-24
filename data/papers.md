@@ -1,8 +1,8 @@
 # Awesome 文献雷达｜2026-05 至 2026-11
 
-更新日期：2026-11-23（Asia/Shanghai）。滚动窗口：最近 183 天。
+更新日期：2026-11-24（Asia/Shanghai）。滚动窗口：最近 183 天。
 共收录精选论文/预印本 599 篇；其中正式 venue 精选 35 篇，预印本观察 564 篇。
-滚动窗口内另有 313 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
+滚动窗口内另有 311 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
 > 主题类别还需命中 `relevance_policy` 中的标题/摘要锚点；单独命中宽泛检索词不够。偏高精度规则可能漏掉措辞不同的相关论文，可在配置中补充锚点。
 > 同一月份/类别内按引用量优先，并显示按论文年龄折算的月均引用；预印本优先展示机构信号，再参考引用与日期。引用量会滞后，不能单独代表质量。
@@ -29,7 +29,22 @@
 
 #### 前沿预印本｜未经过正式 venue 验证
 
-#### 1. [Scone: Symmetry-aware Neural Combinatorial Optimization for Graph Coloring](https://arxiv.org/abs/2611.25273)
+#### 1. [A hybrid quantum-classical neural network for learning to route](https://doi.org/10.21203/rs.3.rs-11538593/v1)
+- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
+- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
+- **日期：**发表 2026-11-23；预印本首发 2026-08-31；收录月份 2026-11
+- **类别：**Neural Combinatorial Optimization 与神经搜索
+- **主题锚点：**neural combinatorial、combinatorial optimization、vehicle routing、routing problem
+- **引用：**1（约 0.4/月，OpenAlex）
+- **venue：**Research Square　**作者：**Marcus Rolf Peter Ritt、Alexsandro Santos da Rosa Júnior、Marcos Vinicius Reballo、Cesar Augusto do Amaral、Fernando Augusto Caletti de Barros、Marcus Ritt
+- **机构：**Universidade Federal do Rio Grande do Sul (巴西 (BR))；Instituto de Pesquisas Eldorado (巴西 (BR))；Universidade Federal de Santa Catarina (巴西 (BR))
+- **元数据来源：**arXiv、OpenAlex
+- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20hybrid%20quantum-classical%20neural%20network%20for%20learning%20to%20route&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
+- **DOI：**[10.21203/rs.3.rs-11538593/v1](https://doi.org/10.21203/rs.3.rs-11538593/v1)
+- **arXiv：**[摘要页](https://arxiv.org/abs/2609.00489)　[PDF](https://arxiv.org/pdf/2609.00489)
+- **摘要：**We study hybrid quantum-classical neural networks for learning routing heuris-tics. Specifically, we ask whether small quantum neural networks can replace parameter-heavy modules inside a well-established attention-based routing model while maintaining solution quality. We consider the capacitated vehicle routing problem (CVRP) and its variant with time windows (CVRPTW), evaluating instances with 10 to 100 customers.…
+
+#### 2. [Scone: Symmetry-aware Neural Combinatorial Optimization for Graph Coloring](https://arxiv.org/abs/2611.25273)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-11-18；收录月份 2026-11
@@ -43,7 +58,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2611.25273)　[PDF](https://arxiv.org/pdf/2611.25273)
 - **摘要：**Graph coloring, which entails assigning colors to nodes such that no adjacent nodes have the same color, is a fundamental combinatorial optimization problem. In general, however, finding a node coloring with no monochromatic edges given a fixed palette is NP-hard. This motivates learning-based methods that can learn to exploit recurring structure across instances to efficiently produce high-quality colorings. Crucial…
 
-#### 2. [PISG: Constraint-Aligned Signal Amplification for Diffusion-Based Combinatorial Optimization](https://arxiv.org/abs/2611.19768)
+#### 3. [PISG: Constraint-Aligned Signal Amplification for Diffusion-Based Combinatorial Optimization](https://arxiv.org/abs/2611.19768)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-11-15；收录月份 2026-11
@@ -57,7 +72,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2611.19768)　[PDF](https://arxiv.org/pdf/2611.19768)
 - **摘要：**Diffusion-based solvers have become a prominent approach to neural combinatorial optimization. At inference time, they assign each decision variable a prediction score. A greedy decoder ranks candidates by these scores and checks hard constraints to ensure feasibility. Top-ranked candidates should be both promising and jointly feasible, making prediction-constraint alignment critical. When this alignment is weak, gre…
 
-#### 3. [Echo-QAOA: Constructive Spin-Echo Response Design and Per-Qubit Marginal Distillation for Variational Quantum Optimization](https://doi.org/10.21203/rs.3.rs-11707296/v1)
+#### 4. [Echo-QAOA: Constructive Spin-Echo Response Design and Per-Qubit Marginal Distillation for Variational Quantum Optimization](https://doi.org/10.21203/rs.3.rs-11707296/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-11-13；预印本首发 —；收录月份 2026-11
@@ -72,7 +87,7 @@
 - **开放获取：**[查看链接](https://www.researchsquare.com/article/rs-11707296/latest.pdf)
 - **摘要：**Abstract Solving constrained combinatorial optimization problems such as Maximum Weight Independent Set (MWIS) via the Quantum Approximate Optimization Algorithm (QAOA) requires navigating rugged 2p-dimensional landscapes shaped by competing couplings J and heterogeneous local fields h. Homogeneous annealing schedules lack site-specific phase resolution and require costly online circuit selection, whereas direct neur…
 
-#### 4. [MixRoute: Rethinking Single-Distribution Training for Generalizable Neural Routing](https://arxiv.org/abs/2611.11977)
+#### 5. [MixRoute: Rethinking Single-Distribution Training for Generalizable Neural Routing](https://arxiv.org/abs/2611.11977)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-11-09；收录月份 2026-11
@@ -86,7 +101,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2611.11977)　[PDF](https://arxiv.org/pdf/2611.11977)
 - **摘要：**Neural Combinatorial Optimization (NCO) is a promising paradigm for solving routing problems, yet its generalization across diverse data distributions remains a critical bottleneck. Existing methods typically tackle cross-distribution generalization through complex multi-distribution training or intricate meta-learning schemes, implicitly presuming that single-distribution training yields a weak zero-shot baseline. I…
 
-#### 5. [APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization](https://arxiv.org/abs/2611.11792)
+#### 6. [APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization](https://arxiv.org/abs/2611.11792)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-11-09；收录月份 2026-11
@@ -100,7 +115,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2611.11792)　[PDF](https://arxiv.org/pdf/2611.11792)
 - **摘要：**Preference optimization has emerged as a promising alternative to reward-based training for neural combinatorial optimization. However, existing methods typically rely on binary pairwise labels, which discard the magnitude of solution-quality differences and provide supervision only at the complete-solution level. We propose Advantage-aware Preference Optimization for Two-level Constructive Search (APO2CS), a prefere…
 
-#### 6. [Benchmarking Modular Optimization Strategies for Parameterized Quantum Circuits](https://doi.org/10.21203/rs.3.rs-11277929/v1)
+#### 7. [Benchmarking Modular Optimization Strategies for Parameterized Quantum Circuits](https://doi.org/10.21203/rs.3.rs-11277929/v1)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 2026-11-02；预印本首发 —；收录月份 2026-11
@@ -8191,21 +8206,7 @@
 
 #### 前沿预印本｜未经过正式 venue 验证
 
-#### 1. [A hybrid quantum-classical neural network for learning to route](https://arxiv.org/abs/2609.00489)
-- **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
-- **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
-- **日期：**发表 —；预印本首发 2026-08-31；收录月份 2026-08
-- **类别：**Neural Combinatorial Optimization 与神经搜索
-- **主题锚点：**neural combinatorial、combinatorial optimization、vehicle routing、routing problem
-- **引用：**暂无数据（OpenAlex 未提供/未查询）
-- **venue：**—　**作者：**Marcus Rolf Peter Ritt、Alexsandro Santos da Rosa Júnior、Marcos Vinicius Reballo、Cesar Augusto do Amaral、Fernando Augusto Caletti de Barros
-- **机构：**未提供/未识别
-- **元数据来源：**arXiv
-- **代码线索：**[在 GitHub 搜索项目名](https://github.com/search?q=A%20hybrid%20quantum-classical%20neural%20network%20for%20learning%20to%20route&type=repositories)（搜索结果需自行核对，非已确认官方仓库）
-- **arXiv：**[摘要页](https://arxiv.org/abs/2609.00489)　[PDF](https://arxiv.org/pdf/2609.00489)
-- **摘要：**This work studies hybrid quantum-classical neural networks for learning routing heuristics. Specifically, this paper asks whether small quantum neural networks can replace parameter-heavy modules inside a competitive attention-based routing model while maintaining solution quality. For the capacitated vehicle routing problem, encoder feed-forward replacement emerges as the most promising design: it reduces the number…
-
-#### 2. [Spread and Scale: What Determines Whether Test-Time Budget Allocation Pays](https://arxiv.org/abs/2609.27917)
+#### 1. [Spread and Scale: What Determines Whether Test-Time Budget Allocation Pays](https://arxiv.org/abs/2609.27917)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-08-21；收录月份 2026-08
@@ -8219,7 +8220,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2609.27917)　[PDF](https://arxiv.org/pdf/2609.27917)
 - **摘要：**Neural combinatorial optimization solvers generate many candidate solutions per instance and report the best one found, using the same sample budget for every instance regardless of difficulty. A companion study showed that reallocating a fixed budget toward harder instances can improve solution quality, but that the standard way of measuring this improvement is biased: deciding an allocation and evaluating it on the…
 
-#### 3. [Sampling Luck Masquerades as Allocation Gain: Auditing Test-Time Budget Allocation for Neural Combinatorial Optimization](https://arxiv.org/abs/2608.13087)
+#### 2. [Sampling Luck Masquerades as Allocation Gain: Auditing Test-Time Budget Allocation for Neural Combinatorial Optimization](https://arxiv.org/abs/2608.13087)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-08-13；收录月份 2026-08
@@ -8233,7 +8234,7 @@
 - **arXiv：**[摘要页](https://arxiv.org/abs/2608.13087)　[PDF](https://arxiv.org/pdf/2608.13087)
 - **摘要：**Neural combinatorial optimization (NCO) solvers report the best of many sampled solutions per instance, and the sample count is, by convention, identical for every instance. Whether a non-uniform allocation of a fixed total budget would buy anything has not been measured. We measure it, and we audit the measurement itself. First, on in-distribution workloads the allocation headroom is not detectable. Across three pre…
 
-#### 4. [SSPO: Structure-Aware Similarity-Weighted Preference Optimization for Neural Combinatorial Optimization](https://arxiv.org/abs/2608.12443)
+#### 3. [SSPO: Structure-Aware Similarity-Weighted Preference Optimization for Neural Combinatorial Optimization](https://arxiv.org/abs/2608.12443)
 - **质量/状态：**预印本候选（尚未由正式 venue 验证）；arXiv/预印本（暂未检出正式出版记录）
 - **状态依据：**发现预印本记录；未从当前来源检出正式出版信息，这不等于确定未发表。
 - **日期：**发表 —；预印本首发 2026-08-12；收录月份 2026-08
