@@ -1090,6 +1090,12 @@
         "role": "exploratory",
         "weight": 0.5,
         "query_term": "multimodal world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "neural operator"
       }
     ],
     "source_names": [
@@ -1386,6 +1392,12 @@
         "role": "exploratory",
         "weight": 0.5,
         "query_term": "action-conditioned predictive model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "operator learning"
       }
     ],
     "source_names": [
@@ -10797,6 +10809,152 @@
     ]
   },
   {
+    "uid": "doi:10.1109/tetci.2025.3592961",
+    "title": "Meta-Heuristics Graph Neural Architecture Search for Combinatorial Optimization",
+    "abstract": "",
+    "authors": [
+      "Yang Liu",
+      "Chuan Zhou",
+      "Peng Zhang",
+      "Yang Gao",
+      "Zhao Li",
+      "Hongyang Chen"
+    ],
+    "institutions": [
+      {
+        "name": "Chinese Academy of Sciences",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Guangzhou University",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Zhejiang University",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Hangzhou Yugu Technology Company Ltd. and Zhejiang Lab",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Zhejiang Lab",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Yang Liu",
+        "institution": "Chinese Academy of Sciences",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Chuan Zhou",
+        "institution": "Chinese Academy of Sciences",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Peng Zhang",
+        "institution": "Guangzhou University",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Yang Gao",
+        "institution": "Zhejiang University",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Zhao Li",
+        "institution": "Hangzhou Yugu Technology Company Ltd. and Zhejiang Lab",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Hongyang Chen",
+        "institution": "Zhejiang Lab",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：journal-article；IEEE Transactions on Emerging Topics in Computational Intelligence；日期 2026-12-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-12-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1109/tetci.2025.3592961",
+    "work_type": "journal-article",
+    "citation_count": null,
+    "topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "combinatorial optimization"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "iterative search combinatorial optimization"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1109/tetci.2025.3592961"
+    ],
+    "paper_url": "https://doi.org/10.1109/tetci.2025.3592961",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+        "venue_type": "",
+        "date": "2026-12-01",
+        "doi": "10.1109/tetci.2025.3592961"
+      }
+    ],
+    "first_seen": "2026-11-27",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1016/j.neunet.2026.109247",
     "title": "Mechanism-preserved adaptive daubechies wavelet neural operator",
     "abstract": "",
@@ -12497,6 +12655,91 @@
     ]
   },
   {
+    "uid": "doi:10.20319/ictel.2026.400401",
+    "title": "DEVELOPING A MATHEMATICAL PHYSICS MODEL TO OPTIMIZE EDUCATIONAL OUTCOMES",
+    "abstract": "The proposed presentation stems from a novel research approach under development that aims to address the issue of retention and success of students in gateway mathematics courses. To accomplish this goal, a never-before applied systems-based approach using techniques from advanced mathematical physics coupled with CRP pedagogy is presented. This approach involves an educational analogy of inverse problems from mathematical physics: considering a course and its course components as a physical system in which knowledge accumulation, learning, or skill development and improvement propagates like a mathematical field that can be modeled by a partial differential equation. The development of this research model has a two-fold goal: i) First, it is an attempt to understand the impact of integrating mathematics problems that resonate with the student lived experiences and cultural norms on students' mathematical skills as well as their critical consciousness while viewing mathematics as a means to achieve social justice or related goals in their intended career fields. ii) Second, it also aims to address the capture and treatment of learning data via a unique mathematical methodology more commonly found in engineering or related science applications rather than in educational research, comprised of an examination of whether student learning approximates a linear time-invariant system over short time horizons as well as an assessment of the feasibility of predictive and feedback-based CRP instructional control models. The ultimate goal of this novel approach is to optimize student learning gains based on targeted instructional interventions and in turn maximize learning gains and overall success rates in STEM disciplines, and more specifically mathematics.",
+    "authors": [
+      "Pascal Roubides"
+    ],
+    "institutions": [
+      {
+        "name": "Mathematics, Fisk University, Miami, Florida, USA",
+        "country_code": "US",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Pascal Roubides",
+        "institution": "Mathematics, Fisk University, Miami, Florida, USA",
+        "country_code": "US",
+        "source": "Crossref"
+      }
+    ],
+    "institution_countries": [
+      "US"
+    ],
+    "home_scope": "国外",
+    "venue": "PUPIL: International Journal of Teaching, Education and Learning",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：proceedings-article；PUPIL: International Journal of Teaching, Education and Learning；日期 2026-11-27"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-11-27",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.20319/ictel.2026.400401",
+    "work_type": "proceedings-article",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "Neural Combinatorial Optimization 与神经搜索"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "partial differential equation"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "Neural Combinatorial Optimization 与神经搜索",
+        "role": "core",
+        "weight": 1.0,
+        "query_term": "learning to optimize routing"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.20319/ictel.2026.400401"
+    ],
+    "paper_url": "https://doi.org/10.20319/ictel.2026.400401",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "proceedings-article",
+        "venue": "PUPIL: International Journal of Teaching, Education and Learning",
+        "venue_type": "",
+        "date": "2026-11-27",
+        "doi": "10.20319/ictel.2026.400401"
+      }
+    ],
+    "first_seen": "2026-11-27",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.3389/fcteg.2026.1988350",
     "title": "Optimal chaotic desynchronization of neural populations with charge-balance and magnitude constraints",
     "abstract": "We develop an optimal control approach for designing charge-balanced stimuli to desynchronize neural oscillators subject to a constraint on stimulus magnitude. Using a phase-reduced description of the neural dynamics, the control waveform is chosen to balance stimulus energy against the exponential separation of nearby neural phases, as quantified by a Lyapunov exponent. We apply the approach to a reduced Hodgkin–Huxley model and determine optimal stimuli over a range of magnitude constraints. To quantify the cost of imposing charge balance, we compare charge-balanced and non-charge-balanced optimal stimuli at matched Lyapunov exponents. For the cases considered, charge balance increases the required stimulus energy by less than 5 % , indicating that zero-net-charge stimulation can be achieved with only a modest energetic penalty. Repeated event-triggered application of the charge-balanced stimuli produces approximately exponential separation of initially nearby phases, with observed growth rates in good agreement with those predicted by the optimization. Finally, simulations of coupled, noisy neural populations with varying sizes, heterogeneous neuronal parameters and connectivity, and different coupling mechanisms demonstrate that the resulting stimuli can counteract synchronization across several network configurations. These results demonstrate that charge balance and magnitude constraints can be incorporated directly into optimal chaotic desynchronization while retaining effective control of neural synchrony.",
@@ -12677,7 +12920,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12752,7 +12995,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12834,7 +13077,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12917,7 +13160,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12996,7 +13239,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13075,7 +13318,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13156,7 +13399,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13246,7 +13489,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13321,7 +13564,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13398,7 +13641,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13474,7 +13717,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13547,7 +13790,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13624,7 +13867,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13699,7 +13942,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13774,7 +14017,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13924,7 +14167,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14612,7 +14855,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15009,7 +15252,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15085,7 +15328,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15162,7 +15405,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15236,7 +15479,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15308,7 +15551,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15382,7 +15625,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15456,7 +15699,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15528,7 +15771,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15603,7 +15846,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -18977,7 +19220,7 @@
       }
     ],
     "first_seen": "2026-11-21",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -26095,7 +26338,7 @@
       }
     ],
     "first_seen": "2026-11-17",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -35258,7 +35501,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -36868,7 +37111,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -55292,7 +55535,7 @@
       }
     ],
     "first_seen": "2026-11-03",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -74518,7 +74761,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -77502,7 +77745,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -82382,7 +82625,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -95132,7 +95375,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -115936,7 +116179,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-26",
+    "last_status_checked": "2026-11-27",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -129192,7 +129435,7 @@
       "https://doi.org/10.1088/2632-2153/aeb34b/v1/decision1",
       "https://doi.org/10.1088/2632-2153/aeb34b/v2/decision1"
     ],
-    "paper_url": "https://doi.org/10.1088/2632-2153/aeb34b/v2/decision1",
+    "paper_url": "https://doi.org/10.1088/2632-2153/aeb34b/v1/decision1",
     "open_access_url": "",
     "is_open_access": null,
     "status_signals": [

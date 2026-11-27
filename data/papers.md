@@ -1,6 +1,6 @@
 # Awesome 文献雷达｜2026-05 至 2026-11
 
-更新日期：2026-11-26（Asia/Shanghai）。滚动窗口：最近 183 天。
+更新日期：2026-11-27（Asia/Shanghai）。滚动窗口：最近 183 天。
 共收录精选论文/预印本 638 篇；其中正式 venue 精选 35 篇，预印本观察 603 篇。
 滚动窗口内另有 309 条已归档候选未命中主题锚点：仅保留在 `papers.json` 供审计，不进入精选页或 CSV。
 > 正式发表区仅显示 CCF-A 或配置中的跨领域强 venue；已知 CCF-B/C 和未进入白名单的正式 venue 不进入本 Markdown。预印本单列且不等于质量已验证。
@@ -5626,7 +5626,7 @@
 - **日期：**发表 2026-10-16；预印本首发 —；收录月份 2026-10
 - **类别：**World Models 与连续时间/潜变量动力学、交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）
 - **主题锚点：**world model、language model
-- **引用：**2（约 1.5/月，OpenAlex）
+- **引用：**2（约 1.4/月，OpenAlex）
 - **venue：**Zenodo (CERN European Organization for Nuclear Research)　**作者：**Muhammet Ali Güz
 - **机构：**未提供/未识别
 - **元数据来源：**OpenAlex
