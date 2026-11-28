@@ -1833,6 +1833,75 @@
     "relevance_exclusion_reasons": []
   },
   {
+    "uid": "doi:10.1016/j.sysconle.2026.106660",
+    "title": "Time optimal control results for neutral stochastic integrodifferential systems with impulsive effects and history-dependent operators: A resolvent operator approach",
+    "abstract": "",
+    "authors": [
+      "J. Pradeesh",
+      "V. Vijayakumar"
+    ],
+    "institutions": [],
+    "affiliations": [],
+    "institution_countries": [],
+    "home_scope": "未知",
+    "venue": "Systems & Control Letters",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "Crossref：journal-article；Systems & Control Letters；日期 2027-02-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2027-02-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.1016/j.sysconle.2026.106660",
+    "work_type": "journal-article",
+    "citation_count": null,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "optimal control"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "optimal control with neural operators"
+      }
+    ],
+    "source_names": [
+      "Crossref"
+    ],
+    "source_urls": [
+      "https://doi.org/10.1016/j.sysconle.2026.106660"
+    ],
+    "paper_url": "https://doi.org/10.1016/j.sysconle.2026.106660",
+    "open_access_url": "",
+    "is_open_access": null,
+    "status_signals": [
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "Systems & Control Letters",
+        "venue_type": "",
+        "date": "2027-02-01",
+        "doi": "10.1016/j.sysconle.2026.106660"
+      }
+    ],
+    "first_seen": "2026-11-28",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1016/j.matcom.2026.09.028",
     "title": "Tensor neural networks for stochastic elliptic PDE-constrained optimal control",
     "abstract": "",
@@ -9883,6 +9952,118 @@
     ]
   },
   {
+    "uid": "doi:10.11591/ijpeds.v17.i4.pp2301-2313",
+    "title": "Stacked Bi-LSTM architecture for precise SOC prediction and power control in electric vehicle BMS",
+    "abstract": "Accurate state of charge (SOC) estimation and effective power management are essential functions of battery management systems (BMS) for electric vehicles (EVs). This study proposes an integrated BMS framework that combines a stacked bidirectional long short-term memory (Bi-LSTM) network for SOC estimation with a prediction-informed rule-based strategy for dynamic power distribution. Battery voltage, current, temperature, and SOC data are processed using normalization, noise filtering, and a sliding-window technique before being provided to the stacked Bi-LSTM network. The predicted SOC is subsequently used to support dynamic power balancing among battery cells or modules. The reported results show that the proposed model achieves an SOC estimation root mean square error (RMSE) of 0.98%, mean absolute error (MAE) of 0.75%, and R² of 0.985, while the associated power distribution strategy achieves a reported power distribution efficiency (PDE) of 96.82%. The electrical performance analysis also reports reduced voltage ripple and peak cell temperature, together with improved charge/discharge efficiency. These results demonstrate the potential of integrating deep temporal SOC prediction with prediction-informed power distribution for intelligent EV BMS applications. Further validation using fully characterized datasets and operating conditions is required to establish broader applicability.",
+    "authors": [
+      "Yagnasri Archana",
+      "Gondlala Narsaiah Srinivas",
+      "Rajeshkhanna Bhuthkuri",
+      "Bodapati Venkata Rajanna"
+    ],
+    "institutions": [
+      {
+        "name": "Jawaharlal Nehru Technological University, Hyderabad",
+        "country_code": "IN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Yagnasri Archana",
+        "institution": "Jawaharlal Nehru Technological University, Hyderabad",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Gondlala Narsaiah Srinivas",
+        "institution": "Jawaharlal Nehru Technological University, Hyderabad",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Rajeshkhanna Bhuthkuri",
+        "institution": "Jawaharlal Nehru Technological University, Hyderabad",
+        "country_code": "IN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "IN"
+    ],
+    "home_scope": "国外",
+    "venue": "International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering",
+    "publication_status": "已发表/有期刊或会议记录（建议核验）",
+    "status_evidence": [
+      "OpenAlex：journal 来源 International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering；日期 2026-12-01"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-12-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.11591/ijpeds.v17.i4.pp2301-2313",
+    "work_type": "article",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-constrained optimal control"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.11591/ijpeds.v17.i4.pp2301-2313"
+    ],
+    "paper_url": "https://doi.org/10.11591/ijpeds.v17.i4.pp2301-2313",
+    "open_access_url": "https://ijpeds.iaescore.com/index.php/IJPEDS/article/download/24851/15367",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "article",
+        "venue": "International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering",
+        "venue_type": "journal",
+        "date": "2026-12-01",
+        "doi": "10.11591/ijpeds.v17.i4.pp2301-2313"
+      }
+    ],
+    "first_seen": "2026-11-28",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
+  },
+  {
     "uid": "doi:10.1016/j.neunet.2026.109250",
     "title": "Routing distilled knowledge via mixture of LoRA experts for large language model based bundle generation",
     "abstract": "",
@@ -10270,6 +10451,118 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.17877/tudobooks-11.186",
+    "title": "Quantification of modeling uncertainty in physics-informed neural networks by interval arithmetic",
+    "abstract": "The seemingly unrestrained advancements in machine learning technologies drive engineers to increasingly often rely on data-driven approaches in the design of complex systems. This not only requires extensive data to capture the underlying behavior, but it effectively ascribes complete trustworthiness to data. However, real-world scenarios frequently provide only sparse, noisy, or otherwise corrupted measurements. Compounding this challenge is the need to balance resource utilization and performance. To alleviate some of the burden related to the models exclusively relying on data, the class of physics-informed machine learning emerged, which integrates knowledge about the governing physical laws, with data from the system. The majority of physics-based machine learning models, however, remain black boxes and the epistemic uncertainty stemming from the model itself remains unquantified or quantified in a biased way. This work explores the extension of physics-informed neural networks with an interval description of the epistemic uncertainty, integral to the model, thereby avoiding subjective assignments of prior beliefs to components of the model. In the proposed implementation, data processing is done through numerical weights and two separate fully connected layers are used to estimate the center and interval uncertainty of the prediction, to alleviate the problem of interval repeated variables. In addition, the architecture leverages a physics-informed loss function considering whether the output of the model satisfies the underlying partial differential equation and boundary conditions. We validate the performance of the architecture on simplified synthetic data, representing a structural dynamics problem, in particular a noisy dataset generated using an analytical solution to the Euler-Lagrange equation. The interval PINN, proposed in this paper, provides a way for evaluating a cantilever beam's free oscillations in a way that considers both the underlying structural mechanics knowledge and the available measurement data. The architecture is more explainable than purely data-based models, while avoiding applying prior bias on the quantification epistemic uncertainty.",
+    "authors": [
+      "Zlatan Dimitrov",
+      "Petar O. Hristov"
+    ],
+    "institutions": [
+      {
+        "name": "Big Data for Smart Society (GATE) Institute",
+        "country_code": "BG",
+        "sources": [
+          "OpenAlex"
+        ]
+      },
+      {
+        "name": "Sofia University \"St. Kliment Ohridski\"",
+        "country_code": "BG",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Zlatan Dimitrov",
+        "institution": "Big Data for Smart Society (GATE) Institute",
+        "country_code": "BG",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Petar O. Hristov",
+        "institution": "Big Data for Smart Society (GATE) Institute",
+        "country_code": "BG",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Petar O. Hristov",
+        "institution": "Sofia University \"St. Kliment Ohridski\"",
+        "country_code": "BG",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "BG"
+    ],
+    "home_scope": "国外",
+    "venue": "Technische Universität Dortmund Eldorado (Technische Universität Dortmund)",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-12-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.17877/tudobooks-11.186",
+    "work_type": "book-chapter",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "partial differential equation",
+      "physics-informed neural"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "PDE-driven world model"
+      },
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.17877/tudobooks-11.186"
+    ],
+    "paper_url": "https://doi.org/10.17877/tudobooks-11.186",
+    "open_access_url": "https://books.tu-dortmund.de/oa/catalog/download/11/150/283",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "book-chapter",
+        "venue": "Technische Universität Dortmund Eldorado (Technische Universität Dortmund)",
+        "venue_type": "repository",
+        "date": "2026-12-01",
+        "doi": "10.17877/tudobooks-11.186"
+      }
+    ],
+    "first_seen": "2026-11-28",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1016/j.robot.2026.105744",
@@ -11184,6 +11477,99 @@
     "relevance_exclusion_reasons": [
       "标题/摘要未命中当前主题锚点"
     ]
+  },
+  {
+    "uid": "doi:10.17877/tudobooks-11.173",
+    "title": "Efficient probabilistic response analysis of large-scale engineering structures under stochastic excitation via the DR-PDEE incorporating an auxiliary diffusion process",
+    "abstract": "Probabilistic response analysis of engineering structures under stochastic excitation remains a critical and long-standing challenge. The main difficulties arise from the high dimensionality of structural systems, nonlinear material behavior, and uncertainties in both system parameters and external excitations. To address these challenges, an efficient framework is developed based on the dimension-reduced probability density evolution equation (DR-PDEE) incorporating an auxiliary diffusion process. The DR-PDEE is a low-dimensional partial differential equation (PDE) governing the instantaneous probability density function (PDF) of a path-continuous response of interest in a high-dimensional dynamical system. However, under non-white stochastic excitation, the intrinsic diffusion function of the response generally vanishes. This zero-diffusion issue complicates the numerical solution of the DR-PDEE. To overcome this difficulty, white noise statistically correlated with the original non-white excitation is constructed and applied to a simple stochastic system. The system output is then selected as the auxiliary diffusion process. Consequently, a two-dimensional DR-PDEE with nonzero diffusion is formulated for the joint process of the response of interest and the auxiliary variable. This formulation avoids the construction of an equivalent linear filter and provides high flexibility for complex non-white excitations. The proposed method is applied to a high-rise reinforced concrete (RC) frame-core tube structure subjected to stochastic near-field seismic excitation. Nonlinear constitutive behavior of both reinforcing steel and concrete is considered, together with uncertainties in the concrete material properties. The proposed method accurately captures the pronounced nonstationary and non-Gaussian features of the response PDFs. The results demonstrate its applicability and efficiency for probabilistic response analysis of large-scale nonlinear structures under complex non-white stochastic excitations.",
+    "authors": [
+      "Ting-Ting Sun",
+      "Jianbing Chen"
+    ],
+    "institutions": [
+      {
+        "name": "Tongji University",
+        "country_code": "CN",
+        "sources": [
+          "OpenAlex"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Ting-Ting Sun",
+        "institution": "Tongji University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      },
+      {
+        "author": "Jianbing Chen",
+        "institution": "Tongji University",
+        "country_code": "CN",
+        "source": "OpenAlex"
+      }
+    ],
+    "institution_countries": [
+      "CN"
+    ],
+    "home_scope": "国内",
+    "venue": "Technische Universität Dortmund Eldorado (Technische Universität Dortmund)",
+    "publication_status": "未知（元数据不足）",
+    "status_evidence": [
+      "当前来源没有提供足以判断发表状态的信息。"
+    ],
+    "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
+    "publication_date": "2026-12-01",
+    "preprint_date": "",
+    "preprint_updated_date": "",
+    "arxiv_id": "",
+    "doi": "10.17877/tudobooks-11.173",
+    "work_type": "book-chapter",
+    "citation_count": 0,
+    "topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "search_topics": [
+      "PDE、Neural Operators、谱方法与最优控制"
+    ],
+    "relevance_status": "in_scope",
+    "relevance_anchors": [
+      "partial differential equation",
+      "PDE"
+    ],
+    "relevance_exclusion_reasons": [],
+    "categories": [],
+    "topic_matches": [
+      {
+        "topic": "PDE、Neural Operators、谱方法与最优控制",
+        "role": "adjacent",
+        "weight": 0.8,
+        "query_term": "learning PDE dynamics"
+      }
+    ],
+    "source_names": [
+      "OpenAlex"
+    ],
+    "source_urls": [
+      "https://doi.org/10.17877/tudobooks-11.173"
+    ],
+    "paper_url": "https://doi.org/10.17877/tudobooks-11.173",
+    "open_access_url": "https://books.tu-dortmund.de/oa/catalog/download/11/170/303",
+    "is_open_access": true,
+    "status_signals": [
+      {
+        "source": "OpenAlex",
+        "work_type": "book-chapter",
+        "venue": "Technische Universität Dortmund Eldorado (Technische Universität Dortmund)",
+        "venue_type": "repository",
+        "date": "2026-12-01",
+        "doi": "10.17877/tudobooks-11.173"
+      }
+    ],
+    "first_seen": "2026-11-28",
+    "last_status_checked": "",
+    "reading_status": "未读",
+    "my_notes": ""
   },
   {
     "uid": "doi:10.1016/j.eswa.2026.133234",
@@ -12920,7 +13306,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -12995,7 +13381,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13077,7 +13463,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13160,7 +13546,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13239,7 +13625,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13318,7 +13704,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13399,7 +13785,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13489,7 +13875,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13564,7 +13950,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13641,7 +14027,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13717,7 +14103,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13790,7 +14176,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13867,7 +14253,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -13942,7 +14328,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14017,7 +14403,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14167,7 +14553,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -14855,7 +15241,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15252,7 +15638,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15328,7 +15714,7 @@
       }
     ],
     "first_seen": "2026-11-26",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15405,7 +15791,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15479,7 +15865,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15551,7 +15937,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15625,7 +16011,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15699,7 +16085,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15771,7 +16157,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -15846,7 +16232,7 @@
       }
     ],
     "first_seen": "2026-11-25",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -19220,7 +19606,7 @@
       }
     ],
     "first_seen": "2026-11-21",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -20970,7 +21356,7 @@
     "arxiv_id": "",
     "doi": "10.1145/3829340.3842257",
     "work_type": "conference-paper",
-    "citation_count": 4,
+    "citation_count": 5,
     "topics": [
       "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）"
     ],
@@ -26338,7 +26724,7 @@
       }
     ],
     "first_seen": "2026-11-17",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -35501,7 +35887,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -37111,7 +37497,7 @@
       }
     ],
     "first_seen": "2026-11-10",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -50032,14 +50418,49 @@
       "Sihong Shao",
       "Shuai Wu"
     ],
-    "institutions": [],
-    "affiliations": [],
+    "institutions": [
+      {
+        "name": "Beijing Normal University",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      },
+      {
+        "name": "Peking University",
+        "country_code": "",
+        "sources": [
+          "Crossref"
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "author": "Sheng Chen",
+        "institution": "Beijing Normal University",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Sihong Shao",
+        "institution": "Peking University",
+        "country_code": "",
+        "source": "Crossref"
+      },
+      {
+        "author": "Shuai Wu",
+        "institution": "Beijing Normal University",
+        "country_code": "",
+        "source": "Crossref"
+      }
+    ],
     "institution_countries": [],
     "home_scope": "未知",
     "venue": "Physical Review E",
     "publication_status": "已发表/有期刊或会议记录（建议核验）",
     "status_evidence": [
-      "Crossref：journal-article；Physical Review E；日期 2026-11-02"
+      "Crossref：journal-article；Physical Review E；日期 2026-11-02",
+      "Crossref：journal-article；Physical Review E；日期 2026-11-18"
     ],
     "peer_review_status": "需人工核验；数据库出版记录不等同于审稿结论",
     "publication_date": "2026-11-02",
@@ -50085,6 +50506,14 @@
         "venue": "Physical Review E",
         "venue_type": "",
         "date": "2026-11-02",
+        "doi": "10.1103/68lw-r9rq"
+      },
+      {
+        "source": "Crossref",
+        "work_type": "journal-article",
+        "venue": "Physical Review E",
+        "venue_type": "",
+        "date": "2026-11-18",
         "doi": "10.1103/68lw-r9rq"
       }
     ],
@@ -55535,7 +55964,7 @@
       }
     ],
     "first_seen": "2026-11-03",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -61655,7 +62084,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -61807,7 +62236,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -62155,7 +62584,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -62237,7 +62666,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -62313,7 +62742,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -62822,7 +63251,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -62899,7 +63328,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -63080,7 +63509,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -64069,7 +64498,7 @@
       }
     ],
     "first_seen": "2026-10-27",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -64157,7 +64586,7 @@
       }
     ],
     "first_seen": "2026-10-28",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -65770,7 +66199,7 @@
       }
     ],
     "first_seen": "2026-10-27",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -66674,7 +67103,7 @@
       }
     ],
     "first_seen": "2026-10-27",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67070,7 +67499,7 @@
       }
     ],
     "first_seen": "2026-10-27",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67146,7 +67575,7 @@
       }
     ],
     "first_seen": "2026-10-27",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67327,7 +67756,7 @@
       }
     ],
     "first_seen": "2026-10-27",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -67789,7 +68218,7 @@
       }
     ],
     "first_seen": "2026-10-26",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -69629,7 +70058,7 @@
       }
     ],
     "first_seen": "2026-10-26",
-    "last_status_checked": "2026-10-29",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -74761,7 +75190,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -77745,7 +78174,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -82625,7 +83054,7 @@
       }
     ],
     "first_seen": "2026-10-20",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -95375,7 +95804,7 @@
       }
     ],
     "first_seen": "2026-10-14",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": ""
   },
@@ -116179,7 +116608,7 @@
       }
     ],
     "first_seen": "2026-10-11",
-    "last_status_checked": "2026-11-27",
+    "last_status_checked": "2026-11-28",
     "reading_status": "未读",
     "my_notes": "",
     "search_topics": [
@@ -130123,6 +130552,12 @@
         "role": "exploratory",
         "weight": 0.5,
         "query_term": "transformer combinatorial optimization"
+      },
+      {
+        "topic": "交叉探索：计算机方法迁移（CV/NLP/Transformer × 动力学、规划、控制与优化）",
+        "role": "exploratory",
+        "weight": 0.5,
+        "query_term": "language model combinatorial optimization"
       }
     ],
     "source_names": [
@@ -136422,7 +136857,7 @@
       "https://doi.org/10.31234/osf.io/98ktg_v3",
       "https://doi.org/10.31234/osf.io/98ktg_v1"
     ],
-    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v3",
+    "paper_url": "https://doi.org/10.31234/osf.io/98ktg_v1",
     "open_access_url": "",
     "is_open_access": null,
     "status_signals": [
